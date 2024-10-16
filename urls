@@ -1,0 +1,39 @@
+http://feeds.bbci.co.uk/news/world/rss.xml "~BBC International"
+https://feeds.npr.org/1001/rss.xml 
+https://www.theguardian.com/world/rss     "~The Guardian World News"
+http://rss.cnn.com/rss/edition.rss        "~CNN"
+		# https://www.gulf-times.com/Rss/Index
+http://www.gulf-times.com/rssFeed/8 me qatar "~Gulf Times Qatar"
+http://www.gulf-times.com/rssFeed/11   me "~Gulf Times Spotlight"
+http://www.gulf-times.com/rssFeed/13   me "~Gulf Times My News"
+http://www.gulf-times.com/rssFeed/2    me "~Gulf Times Business"
+http://www.gulf-times.com/rssFeed/14   me "~Gulf Times Events"
+http://www.gulf-times.com/rssFeed/5/25 me "~Gulf Times Community-Culture"
+http://www.gulf-times.com/rssFeed/5/28 me "~Gulf Times Community-Technology"
+http://www.gulf-times.com/rssFeed/5/20 me "~Gulf Times Community-Travel"
+https://feeds.feedburner.com/dubaichronicle/Finance
+https://thepointsguy.com/rss.xml ~TPGuy
+#https://stable.perso.pw/rss.xml OpenBSD "~obsd Packages"
+		#Source https://daemonforums.org/cv_rss_feeds.php
+https://daemonforums.org/external.php?forumids=12 OpenBSD "~obsd General
+https://daemonforums.org/external.php?forumids=13 OpenBSD "~obsd Packages and Ports
+https://daemonforums.org/external.php?forumids=14 OpenBSD "~obsd Install Upgrade" 
+https://daemonforums.org/external.php?forumids=15 OpenBSD "~obsd Security"
+
+https://rss.weather.gov.hk/rss/WeatherWarningSummaryv2.xml "~hko Warning"
+https://rss.weather.gov.hk/rss/LocalWeatherForecast.xml "~hko Forecast"
+https://rss.weather.gov.hk/rss/SeveralDaysWeatherForecast.xml "~hko 9day Forecast"
+
+https://www.taipeitimes.com/xml/index.rss taiwan
+https://api.taiwantoday.tw/en/rss.php?unit=2,6,10,15,18 taiwan
+https://www.ctee.com.tw/feed taiwan
+
+https://www.sfc.hk/en/RSS-Feeds/Press-releases
+https://www.sfc.hk/en/RSS-Feeds/Circulars
+https://www.sfc.hk/en/RSS-Feeds/Consultations-and-Conclusions
+https://www.hkma.gov.hk/eng/other-information/rss/rss_press-release.xml
+https://www.hkma.gov.hk/eng/other-information/rss/rss_speeches.xml
+https://www.hkma.gov.hk/eng/other-information/rss/rss_monthly-statistical-bulletin.xml
+https://www.hkma.gov.hk/eng/other-information/rss/rss_publications.xml
+   
+https://www.smartraveller.gov.au/countries/documents/index.rss
