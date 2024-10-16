@@ -1,25 +1,23 @@
 
-# 🇨​​​​​🇴​🇳​​🇫​​​​​🇮​🇬​​​​'s
+# 🇨​🇴​🇳​🇫​🇮​🇬​'s
+
 ### Philosophy 
 - Start with OpenBSD standard install which includes CWM and include X and xenodm X launcher 
 and CWM window manager. 
-- Add only enough complexity to easily run the windows tui's cli's 
+- Add only enough aps and complexity to easily run the windows tui's cli's 
 you need.
-- Religiously avoid anything possible that runs a background process.
-- You do need to run modern browsers, Automatically switch to new 
-Wifi's, use social media apps . 
-You must compromise but make the least compromises you can and if 
-posible find how to kill thee bloat when you finish.
-- When OpenBSD won't run on the hardware, or for the software (which 
+- Avoid anything possible that runs a background process.
+- Compromise, you do need to run modern browsers, Socil media, switch to new 
+Wifi's anf etc. 
+When you compromise but make the least possible compromises and find how to kill thee bloat when you finish.
+- When OpenBSD won't run on your hardware, or your software (which 
 is most of the time) use Freebsd or Linux, you lose only some security.
 - OpenBSD will run well on QEMU VM or your old low spec PC/Laptop
-- My whole idea is to still use the same configs across at least 
-all the ****BSD's and Linux distributions.
-- This constrains some choices in order to have the same apps and 
-configurations across all server and local machines.
+- My ambition is to use the same configs across all the *BSD's and Linux disto's.
+- This constrains choices in order to have the same apps and configs across all server and local machines.
 
 My previous "Ubuntu everywhere" setup was less secure, slower starting, 
-more distractions, less secure on servers, had a smaller usable "desktop" and about 150% of 
+more distractions, had a smaller usable "desktop" and about 150% of 
 the battery consumption of the configuration below.
 
 ### Unresolved issues are:
