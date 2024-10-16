@@ -82,6 +82,9 @@ look at time, network, etc. other I prefer the extra realestate.
 ### ~/.tint2/tint2rc
 Have also installed this panel but will probably drop it, see 
 below about installing entire DM below CWM
+
+### .newsboat/urls
+For those servers with CLI newsreader installed
  
 ### xfce4 gnome 
 Disk space is usually surplus to requirements I sometimes install 
