@@ -2,6 +2,9 @@
  * ROFI Color theme
  * User: Qball
  * Copyright: Dave Davenport
+
+Edit 17 font to 9 for hp micro
+Line 28 was 14% try 25%
  */
 
 configuration{
