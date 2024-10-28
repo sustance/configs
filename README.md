@@ -1,5 +1,5 @@
 
-# 🇨​🇴​🇳​🇫​🇮​🇬​'s
+# 🇨​🇴​🇳​🇫​🇮​🇬​
 
 ### Philosophy 
 - Start with OpenBSD standard install which includes CWM and include X and xenodm X launcher 
