@@ -1,0 +1,96 @@
+
+\documentclass[twoside]{book} %12pt,
+\usepackage{geometry}  %A6 10.5 x 14.8 cm,
+\geometry{paperwidth=10.5cm,paperheight=14.8cm,
+	inner=0.86cm,   outer=0.7cm,
+	top=-0.8cm,     bottom=2cm,
+	headsep=-0.3mm, footskip=5mm, showframe=false}
+{\usepackage{fancyvrb}
+	\usepackage{fancyhdr}
+	\pagestyle{fancy}
+	\fancyhf{} % clear all head foot
+	\fancyfoot[C]{\thepage}
+	\usepackage{afterpage}
+	\usepackage{lmodern}
+	\usepackage{graphicx}
+	\graphicspath{{/home/aaa/store/tickeTrip/},
+		{/home/aaa/store/secure/life_info/},
+		{/home/aaa/store/secure/life_info/AU-RRV+CitizenshipSM/},
+		{/home/aaa/store/secure/life_info/Marriage},
+		{/home/aaa/store/ill-ai}}
+	%\usepackage{fontspec}
+	%\setmainfont{Noto Serif CJK}
+	
+	\def\mydate{\leavevmode\hbox{\the\year:\twodigits\month:\twodigits\day}}
+	\def\twodigits#1{\ifnum#1<10 0\fi\the#1}
+		
+	\usepackage{xstring}
+	\usepackage{etoolbox}
+	
+	\newbool{addtolof}
+	\booltrue{addtolof}
+	
+	\newcommand{\incpdf}[2]{
+		\IfSubStr{#1}{20241113z-Supplement.pdf}
+		{\boolfalse{addtolof}}
+		{\booltrue{addtolof}}
+		\begin{figure}
+			\includegraphics[page={#2}, trim=0 14.65cm 0 2cm, 
+			clip,angle=90, width=\textwidth]{#1}
+			\ifbool{addtolof}
+			{\caption{{#1}: . p.{#2}}}
+			{}
+		\end{figure}%
+		\begin{figure}
+			\includegraphics[page={#2},trim=0 2cm 0 14.65cm,
+			clip,angle=90, width=\textwidth]{#1}
+		\end{figure}
+	}
+	
+%	\newcommand{\incpdf}[2]{
+%		\begin{figure}
+%			\includegraphics[page={#2}, trim=0 14.65cm 0 2cm, 
+%			clip,angle=90, width=\textwidth]{#1}
+%			\caption{{#1}: . p.{#2} }
+%		\end{figure}%
+%		\begin{figure}
+%			\includegraphics[page={#2},trim=0 2cm 0 14.65cm,
+%			clip,angle=90, width=\textwidth]{#1}
+%		\end{figure}
+%	}
+	
+	
+	
+	\newcommand{\onepg}[1]{
+		\begin{figure}
+			\includegraphics[width=\textwidth]{#1}
+		\end{figure}
+	}
+	
+	\usepackage{luacode}
+	
+	\newcommand{\runpdfscript}[1]{%
+		\directlua{process_pdf("#1")}%
+	}
+
+%\usepackage{luacode}
+%
+%% Add this Lua code
+%\begin{luacode*}
+%	function count_and_truncate_pages()
+%	local total_pages = tex.count.abspage
+%	local truncated_pages = math.floor(total_pages / 8) * 8
+%	return truncated_pages
+%	end
+%	
+%	function process_pdf(filename)
+%	-- Your existing process_pdf function here
+%	end
+%\end{luacode*}
+%
+%% New command to get the truncated page count
+%\newcommand{\getTruncatedPages}{%
+%	\directlua{tex.sprint(count_and_truncate_pages())}%
+%}
+
+\begin{document}
