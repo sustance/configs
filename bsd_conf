@@ -1,4 +1,14 @@
 BSD
-In Freebsd
+Freebsd install on HP Micro
+Install from .img  .iso does not work
+Use MBR partition and UFS
+ - UFS is supposed to be better on small low memory system
+Install and use ports, try to avoid pkg
+
+Put in driver rtw88 wifi RTL8821CE see if anything loads
+Install 
+# cd /usr/ports/www/opera # make install clean
+
+
 # To set up my RTW88 WIfi
 https://forums.freebsd.org/threads/driver-rtw88-wifi-rtl8821ce.93184/
