@@ -1,19 +1,15 @@
 BSD
 Freebsd install on HP Micro
 Install from .img  .iso does not work
-Use MBR partition and UFS
- - UFS is supposed to be better on small low memory system
-Install and use ports, try to avoid pkg
+Use MBR partition and UFS UFS is supposed to be better on small low memory system
+Put in usb rtw88 wifi RTL8821CE see if anything loads
 
-Put in driver rtw88 wifi RTL8821CE see if anything loads
-Realtek
-rtw_8821cu
-rtw_8821cu 1-2.4.4:1.0: Firmware version 24.11.0, H2C version 12
-firmware version 24.11.0, H2C version 12
-registered new interface driver rtw_8821cu
-
-security/doas
-security/sudo
+cd /usr/ports/x11/xorg/       && make install clean
+cd /usr/ports/security/doas/  && make install clean
+cd /usr/ports/security/sudo/  && make install clean
+cd /usr/ports/editors/micro/  && make install clean
+cd /usr/ports/x11-wm/cwm/     && make install clean
+cd /usr/ports/www/opera/      && make install clean
 
     DO WITHOUT
     x11-wm/xfce4-desktop/ && make install clean
@@ -21,12 +17,9 @@ security/sudo
     /etc/rc.conf
     # sysrc dbus_enable="YES"
 
-x11-wm/cwm/ && make install clean
-
-editors/micro/ && make install clean
-
-www/opera && make install clean
-
-
+Realtek
+rtw_8821cu 1-2.4.4:1.0: Firmware version 24.11.0, H2C version 12
+firmware version 24.11.0, H2C version 12
+registered new interface driver rtw_8821cu
 # To set up my RTW88 WIfi
 https://forums.freebsd.org/threads/driver-rtw88-wifi-rtl8821ce.93184/
