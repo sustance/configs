@@ -6,7 +6,26 @@ Use MBR partition and UFS
 Install and use ports, try to avoid pkg
 
 Put in driver rtw88 wifi RTL8821CE see if anything loads
+Realtek
+rtw_8821cu
+rtw_8821cu 1-2.4.4:1.0: Firmware version 24.11.0, H2C version 12
+firmware version 24.11.0, H2C version 12
+registered new interface driver rtw_8821cu
+
+
 Install 
+Install xfce
+cd /usr/ports/x11-wm/xfce4-desktop/ && make install clean
+Needs:
+/etc/rc.conf
+# sysrc dbus_enable="YES"
+
+
+and cwm first and see what gets pulled in as software
+cd /usr/ports/editors/micro/ && make install clean
+
+
+
 # cd /usr/ports/www/opera # make install clean
 
 
