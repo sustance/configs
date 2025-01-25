@@ -15,19 +15,15 @@ registered new interface driver rtw_8821cu
 
 Install 
 Install xfce
-cd /usr/ports/x11-wm/xfce4-desktop/ && make install clean
+TRY  WITHOUT cd /usr/ports/x11-wm/xfce4-desktop/ && make install clean
 Needs:
 /etc/rc.conf
 # sysrc dbus_enable="YES"
 
-
 and cwm first and see what gets pulled in as software
 cd /usr/ports/editors/micro/ && make install clean
 
-
-
 # cd /usr/ports/www/opera # make install clean
-
 
 # To set up my RTW88 WIfi
 https://forums.freebsd.org/threads/driver-rtw88-wifi-rtl8821ce.93184/
