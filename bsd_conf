@@ -12,18 +12,21 @@ rtw_8821cu 1-2.4.4:1.0: Firmware version 24.11.0, H2C version 12
 firmware version 24.11.0, H2C version 12
 registered new interface driver rtw_8821cu
 
+security/doas
+security/sudo
 
-Install 
-Install xfce
-TRY  WITHOUT cd /usr/ports/x11-wm/xfce4-desktop/ && make install clean
-Needs:
-/etc/rc.conf
-# sysrc dbus_enable="YES"
+    DO WITHOUT
+    x11-wm/xfce4-desktop/ && make install clean
+    Needs:
+    /etc/rc.conf
+    # sysrc dbus_enable="YES"
 
-and cwm first and see what gets pulled in as software
-cd /usr/ports/editors/micro/ && make install clean
+x11-wm/cwm/ && make install clean
 
-# cd /usr/ports/www/opera # make install clean
+editors/micro/ && make install clean
+
+www/opera && make install clean
+
 
 # To set up my RTW88 WIfi
 https://forums.freebsd.org/threads/driver-rtw88-wifi-rtl8821ce.93184/
