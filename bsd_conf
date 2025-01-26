@@ -4,6 +4,7 @@ Install from .img  .iso does not work
 Use MBR partition and UFS UFS is supposed to be better on small low memory system
 Put in usb rtw88 wifi RTL8821CE see if anything loads
 
+TRY x11/xorg-minimal
 cd /usr/ports/x11/xorg/       && make install clean
 cd /usr/ports/security/doas/  && make install clean
 cd /usr/ports/security/sudo/  && make install clean
