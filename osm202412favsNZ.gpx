@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="OsmAnd 4.9.10" xmlns="http://www.topografix.com/GPX/1/1" xmlns:osmand="https://osmand.net" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>favorites</name>
+  </metadata>
+  <wpt lat="-37.004836" lon="174.7848233">
+    <ele>8.2</ele>
+    <time>2024-12-06T05:19:28Z</time>
+    <name>Airport, Auck</name>
+    <extensions>
+      <osmand:address>Transport Hub, Auckland</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-44.940616" lon="168.8352208">
+    <time>2024-12-17T20:23:54Z</time>
+    <name>Arrowtown</name>
+    <extensions>
+      <osmand:address>Cardigan Street 22, Arrowtown</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-44.6971037" lon="169.1314556">
+    <time>2024-12-18T00:09:39Z</time>
+    <name>car</name>
+    <extensions>
+      <osmand:address>Ardmore Street, Wānaka</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-45.0363607" lon="168.6640389">
+    <time>2024-12-20T23:22:34Z</time>
+    <name>car2</name>
+    <extensions>
+      <osmand:address>Park Street 42, Queenstown</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-44.8538041" lon="168.3873377">
+    <ele>319</ele>
+    <time>2024-12-17T19:51:17Z</time>
+    <name>Glenorchy</name>
+    <extensions>
+      <osmand:address>Birchdale Place 4, Glenorchy</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-37.8153596" lon="144.9697434">
+    <time>2024-12-06T05:00:26Z</time>
+    <name>Grand Hyatt Melb</name>
+    <extensions>
+      <osmand:address>Collins Street 123, Melbourne</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-36.8082535" lon="175.0270881">
+    <time>2024-12-06T07:42:19Z</time>
+    <name>Half Moon Bay Waiheke</name>
+    <extensions>
+      <osmand:address>Half Moon Bay - Waiheke (Kennedy Point) Vehicular Ferry</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-36.8486408" lon="174.7612161">
+    <ele>42.2</ele>
+    <time>2024-12-06T05:05:37Z</time>
+    <name>Horizon H 85-93 Hobson Tc</name>
+    <extensions>
+      <osmand:address>Hobson Terrace, Auckland</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-36.8448471" lon="174.7687714">
+    <ele>21.5</ele>
+    <time>2024-12-06T05:15:56Z</time>
+    <name>Hotel Britomart Auck</name>
+    <extensions>
+      <osmand:address>Galway Street (Britomart) 31, Auckland</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-45.3344854" lon="168.7207435">
+    <time>2024-12-19T08:41:28Z</time>
+    <name>Kingston</name>
+    <extensions>
+      <osmand:address>Churchill Street 9, Kingston</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-44.9392487" lon="168.8348995">
+    <ele>410</ele>
+    <time>2024-12-22T00:45:14Z</time>
+    <name>Merioneth Street, Arrowtown</name>
+    <extensions>
+      <osmand:address>Merioneth Street, Arrowtown</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-44.6727132" lon="167.925893">
+    <ele>12</ele>
+    <time>2024-12-06T07:38:24Z</time>
+    <name>Milford Sound</name>
+    <extensions>
+      <osmand:address>Milford Sound Highway 94, Milford Sound</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-44.9831813" lon="168.6763925">
+    <ele>435.2</ele>
+    <time>2024-12-09T01:57:34Z</time>
+    <name>Morepork Way, Queenstown abnb</name>
+    <extensions>
+      <osmand:address>Morepork Way, Queenstown</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-44.2326083" lon="169.2321065">
+    <time>2024-12-06T07:51:13Z</time>
+    <name>Mt Aspiring Nat Pk</name>
+    <extensions>
+      <osmand:address>Rata Road, Makarora</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-45.0363035" lon="168.6640382">
+    <ele>321.5</ele>
+    <time>2024-12-20T22:52:35Z</time>
+    <name>Park</name>
+    <extensions>
+      <osmand:address>Park Street 42, Queenstown</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-45.033135" lon="168.6615915">
+    <time>2024-12-06T07:36:32Z</time>
+    <name>Queenstown</name>
+    <extensions>
+      <osmand:address>Church Street 16, Queenstown</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-45.0264753" lon="168.660485">
+    <time>2024-12-18T22:30:05Z</time>
+    <name>Robins rd</name>
+    <extensions>
+      <osmand:address>Robins Road, Boydtown</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-45.0215225" lon="168.7370137">
+    <time>2024-12-21T04:41:28Z</time>
+    <name>Sir Henry Wigley Drive, Frankton</name>
+    <extensions>
+      <osmand:address>Sir Henry Wigley Drive, Frankton</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-45.0247925" lon="168.6616058">
+    <time>2024-12-20T20:55:04Z</time>
+    <name>smarket</name>
+    <extensions>
+      <osmand:address>Gorge Road (Boydtown) 64, Queenstown</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-44.6957809" lon="169.1390269">
+    <ele>298.5</ele>
+    <time>2024-12-06T07:39:27Z</time>
+    <name>Wānaka</name>
+    <extensions>
+      <osmand:address>Chalmers Street 5, Wānaka</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-45.0222027" lon="168.7391409">
+    <time>2024-12-09T04:16:32Z</time>
+    <name>ZQU airport</name>
+    <extensions>
+      <osmand:address>Sir Henry Wigley Drive, Frankton</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <wpt lat="-45.0215503" lon="168.7371246">
+    <ele>351.5</ele>
+    <time>2024-12-21T02:41:26Z</time>
+    <name>ZQU rental cars</name>
+    <extensions>
+      <osmand:address>Sir Henry Wigley Drive, Frankton</osmand:address>
+      <osmand:color>#EECC22</osmand:color>
+      <osmand:background>circle</osmand:background>
+      <osmand:icon>special_star</osmand:icon>
+    </extensions>
+  </wpt>
+  <extensions>
+    <osmand:points_groups>
+      <group name="" color="#EECC22" icon="special_star" background="circle" />
+    </osmand:points_groups>
+  </extensions>
+</gpx>
