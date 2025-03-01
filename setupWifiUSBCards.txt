@@ -1,7 +1,32 @@
 
-Small BLACK label "COMFAST"
+__________Small BLACK usb with label "COMFAST"__________
 View from Win Device Manager after autoinstall
 Realtek 8811CU Wireless LAN 802.11ac USB NIC
 Win Drivers:
 rtwlanu.sys
 vwifibus.sys
+
+AT 14.2 THIS DRIVER if_rtw88 IS SUPPOSED TO BE INCLUDED AND WORK.
+MY i386 INSTALLS HAVE if_rtwn88 but not this
+
+firmware is included in the base system, no need to install a firmware package.
+/boot/kernel/rtw8822c_fw.bin.ko
+/boot/kernel/rtw8822b_fw.bin.ko
+/boot/kernel/if_rtw88.ko
+/boot/kernel/rtw8821c_fw.bin.ko
+/boot/kernel/rtw8822c_wow_fw.bin.ko
+
+/boot/loader.conf
+Try
+compat.linuxkpi.skb.mem_limit=1
+Ekse
+kldload if_rtw88.
+
+
+
+From Realtek RTW88 FreeBSD wiki "Currently known issue":
+Does not work on machines with more than 4GB of physical memory. Likely busdma+LinuxKPI problem to be investigated. D34715 has a change to gather data (which is in freebsd/main by now).
+
+
+
+__________________________________________________
