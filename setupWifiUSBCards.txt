@@ -1,0 +1,7 @@
+
+Small BLACK label "COMFAST"
+View from Win Device Manager after autoinstall
+Realtek 8811CU Wireless LAN 802.11ac USB NIC
+Win Drivers:
+rtwlanu.sys
+vwifibus.sys
