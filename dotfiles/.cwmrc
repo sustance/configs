@@ -1,0 +1,171 @@
+# cwm -n check this file for valiity
+     # Set default Xft(3) font
+#   FONTS monospace with unicode 
+# ✅ are on system debian
+# not on debian Fira Mono, Courier New, Consolas, Inconsolata,  
+#     Lucida Console, Monaco, Menlo,
+# ✅ Source Code Pro, Bitstream Vera Mono, DejeVu Mono 
+
+# ✅ Noto Sans Mono, ✅DejaVu Sans Mono 
+fontname "Source Code Pro:pixelsize=26"
+
+# CWM supports a minimal status bar. You can customize it with external scripts:
+statusbar "%m %d %H:%M"
+
+#Or use a dynamic script (e.g., for battery, network, etc.):
+#statusbar "$(sh ~/.config/cwm/status.sh)"
+
+# Volume control (example)
+bind CM-F2 "mixerctl -q outputs.master=+10"
+bind CM-F3 "mixerctl -q outputs.master=-10"
+
+exec --no-startup-id fcitx
+
+#SET terminal font in ~/.xinit  via xrandr --dpi 168
+#SET GTK title bar decorations by creating and editing...
+#       ~/.config/gtk-[2,3,4].0/settings.ini (following or similar)
+#gtk-font-name = DejaVu Sans 16
+#gtk-xft-dpi = 96
+
+#GET Chrom to obey this as well by creating and editing...
+#       ~/.config/chrome-flags.conf 
+#--gtk-version=4
+
+#feh  is run from .xinitrc for background
+
+borderwidth 4
+color activeborder blue
+# https://www.rapidtables.com/web/color/RGB_Color.html
+color menubg rgb:99/cc/ff
+color inactiveborder darkblue
+#gap 0 0 0 180
+gap 0 0 0 0
+     sticky yes
+     #syntax error         cursor.size.ratio=4.0
+	 # command xterm  xterm             CM-Return     
+
+     # Launch from exec    M-?
+#     xbacklight -set 5%" 
+#     sndctl output.level=0.
+
+#sudo nano /etc/default/grub.d/custom.cfg. 
+#GRUB_CMDLINE_LINUX_DEFAULT="console=tty0 font=<desired-font-size>"
+
+# Override built-in term command
+   #xrdb -merge ~/.Xresources
+
+#ommand ". Terminal     " "xfce4-terminal "
+command "  Bash commands" "xfce4-terminal --hold \
+							--tab -T TTT -e /home/aaa/ttt \
+						    --tab -T MMM -e /home/aaa/mmm "
+command "  Tmux monitor " "xterm --hold -e '/home/aaa/t2.sh'"
+command ". Blueman-MANAG" "/usr/bin/blueman-manager"
+command ". W3m bookmark " "xfce4-terminal -e 'w3m file:///home/aaa/.w3m/bookmark.html'"R
+command "  Ping | Speed " "xfce4-terminal --hold \
+						   --tab -T PING -e /home/aaa/ttyplotter.sh \
+					       --tab -T SPEED -e /home/aaa/ttyplotSpeed.sh "
+command "  Nnn  fm    " "xfce4-terminal -e nnn"
+					       
+command "  | Xfwrite    " "xfwrite"
+command "  | Simplenote " "/snap/bin/simplenote --no-sandbox"
+#menu:&#x2630;[Toolbox > Scratchpad]
+##xU+2193; 
+command "  | Font Manager" "font-manager"
+command ". | Thunar fm  " "thunar"
+command "  Google Chrome" "google-chrome"
+command ". Firefox      " "firefox"
+command ". proxychains Firefox" "proxychains firefox"
+command "  Dillo NIX    " "dillo https://tilde.pink/~id2/nix.html"
+command "  Dillo Brutal " "dillo https://identity2.envs.net/brutal.html"
+command ". Telegram     " "/home/aaa/store/Applications/Telegram/Telegram"
+command ". Zoom         " "zoom"
+command ". Linphone     " "linphone"
+command ". Zoiper5      " "zoiper5"
+command ". Signal       " "signal-desktop"
+command ". | Upscayl    " "/home/aaa/store/Applications/upscayl-2.15.0-linux.AppImage"
+command ". | Gimp       " "gimp"
+command ". | Inkscape   " "inkscape"
+command "  | Scanner    " "simple-scan"
+command ". | Kdenlive   " "kdenlive"
+command ". | Handbrake  " "handbrake"
+command ". | Gyroflow   " "/home/aaa/store/Applications/Gyroflow-linux64.AppImage"
+command "  | Scrot Clip " "scrot -s -e 'xclip \
+						   -selection clipboard -t image/png -i $f'"
+command ". Settings Xfce" "xfce4-settings-manager"
+command ". Settings Gnom" "gnome-control-center"
+command "  Virt manager " "virt-manager"
+command "  | TeXstudio  " "texstudio"
+command ". | PDF Arrang " "pdfarranger"
+command ". | LibreOffice" "libreoffice"
+command "  | Network Manager" "nm-connection-editor"
+command ", | Wifimgr BSD" "wifimgr"
+command ". Panel        " "xfce4-panel"
+# mmand " Bsd acpiconf -s 3 " "xfce4-terminal -e '/usr/local/bin/bash -c \"read -p \"Press enter to run 'sudo acpiconf  -s 3'\"; sudo echo acpiconf -s 3;exec bash\" ""
+
+# mmand " sudo acpiconf -s 3" " "
+command "    ,YBsd_:NBsd_.Skip" " "
+# mmand "⓪ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ " " "
+# dpkg  -i  --force-all  (lpr-drivername)
+command display           displayselect 
+# rclone  networking dmenunet webcam  xfreerdp
+
+   #autogroup <group> [<windowname>,]<windowclass>
+     # Autogroup definitions
+     autogroup 1        "xfe.Xfe"
+     autogroup 1        "google-chrome,Google-chrome"
+     autogroup 1        "telegram-desktop,TelegramDesktop"
+     autogroup 1        "firefox,Firefox"
+     autogroup 1        "xterm,XTerm"
+    #autogroup 4       "gimp","Gimp"
+    #autogroup 4       "org.inkscape.Inkscape","Inkscape"
+
+	# https://www.rapidtables.com/web/color/RGB_Color.html
+    #dont use h,j,k,l
+    #bind-key 4-a      "rofi -show drun"
+    #bind-key 4-a       "xfce4-terminal -e /home/aaa/.csc.sh"
+     bind-key 4-a       "menu-exec-wm"
+     bind-key 4-b       "hsetroot -cover /home/aaa/desktop.webp"
+     bind-key 4-c       "hsetroot -cover /home/aaa/background.webp"
+     bind-key 4-s       "rofi -show ssh" 
+     bind-key 4-w       "rofi -show window"
+     bind-key 4-o       "xfce4-terminal -e nmtui"
+     bind-key 4-t       "xfce4-terminal"
+     bind-key 4-r       "restart"
+     bind-key 4-q       "quit"
+     bind-key 4-n       "xfwrite /home/aaa/cwm.txt"
+    
+   # Key bindings
+     bind-key CM-r       window-menu-label
+     bind-key CS-Return  "xterm -e top"
+     bind-key C4-equal   window-vmaximize
+     bind-key C4S-equal  window-hmaximize
+     bind-key M-1        group-only-1
+     bind-key M-2        group-only-2
+     bind-key M-3        group-only-3
+     bind-key MS-1       window-movetogroup-1
+     bind-key MS-2       window-movetogroup-2
+     bind-key MS-3       window-movetogroup-3
+     unbind-key 4-o
+     unbind-key CM-equal
+     unbind-key CMS-equal
+
+   # Mouse bindings
+     bind-mouse M-2      window-lower
+     bind-mouse M-3      window-resize
+     
+	#apt install xdotool, script cwm-w.mv in path
+     bind-key 4-h       cwm-w-mv left   # Move window to side of the screen.
+     bind-key 4-j       cwm-w-mv bottom
+     bind-key 4-k       cwm-w-mv top
+     bind-key 4-l       cwm-w-mv right
+     bind-key 4-Left    cwm-w-mv left
+     bind-key 4-Down    cwm-w-mv bottom
+     bind-key 4-Up      cwm-w-mv top
+     bind-key 4-Right   cwm-w-mv right
+
+#edit the file /etc/default/console-setup and enter:
+#FONTFACE="Terminus"
+#FONTSIZE="16x32"
+
+#sudo update-initramfs -u
+fontname 'sans-serif:pixelsize=26:bold'
