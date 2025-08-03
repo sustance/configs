@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+<menu id="root-menu" label="Openbox 3">
+
+  <item label="Terminal emulator">
+    <action name="Execute"><execute>x-terminal-emulator</execute></action>
+  </item>
+  
+  <item label="Web browser">
+<action name="Execute"><execute>x-www-browser</execute></action>
+  </item>
+
+  <item label="turboprint">
+<action name="Execute"><execute>turboprint</execute></action>
+  </item>
+
+    <item label="simplenote">
+<action name="Execute"><execute>simplenote</execute></action>
+  </item>
+
+  <item label="upscayl">
+<action name="Execute"><execute>/home/aaa/store/Applications/upscayl-2.15.0-linux.AppImage</execute></action>
+  </item>
+
+  <item label="Gimp 3.04">
+<action name="Execute"><execute>/home/aaa/store/Applications/GIMP-3.0.4-x86_64.AppImage</execute></action>
+  </item>
+
+  <item label="Scrot clip">
+<action name="Execute"><execute>scrot -s -e 'xclip -selection clipboard -t image/png -i $f'</execute></action>
+  </item>
+
+  <item label="Blueman-Man">
+<action name="Execute"><execute>/usr/bin/blueman-manager</execute></action>
+  </item>
+
+  <item label="TTT MMM">
+<action name="Execute"><execute>xfce4-terminal --hold --tab -T TTT -e /home/aaa/ttt --tab -T MMM -e /home/aaa/mmm</execute></action>
+  </item>
+
+  <item label="Telegram">
+<action name="Execute"><execute>/home/aaa/store/Applications/Telegram/Telegram</execute></action>
+  </item>
+  
+  <!-- This requires the presence of the 'obamenu' package to work -->
+  <menu id="/Debian" />
+  <separator />
+  <menu id="applications-menu" label="Applications" execute="/usr/bin/obamenu"/>
+  <separator />
+  <item label="ObConf">
+    <action name="Execute"><execute>obconf</execute></action>
+  </item>
+  <item label="Reconfigure">
+    <action name="Reconfigure" />
+  </item>
+  <item label="Restart">
+    <action name="Restart" />
+  </item>
+  <separator />
+  <item label="Exit">
+    <action name="Exit" />
+  </item>
+</menu>
+
+</openbox_menu>
