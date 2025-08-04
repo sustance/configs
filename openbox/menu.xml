@@ -5,6 +5,12 @@
                 file:///usr/share/openbox/menu.xsd">
 <menu id="root-menu" label="Openbox 3">
 
+<menu id="/Debian" />
+  <separator />
+  <menu id="applications-menu" label="Applications" execute="/usr/bin/obamenu"/>
+  <separator />
+</menu>        
+
   <item label="Terminal emulator">
     <action name="Execute"><execute>x-terminal-emulator</execute></action>
   </item>
@@ -46,9 +52,10 @@
   </item>
   
   <!-- This requires the presence of the 'obamenu' package to work -->
-  <menu id="/Debian" />
+  <!--<menu id="/Debian2" />
   <separator />
   <menu id="applications-menu" label="Applications" execute="/usr/bin/obamenu"/>
+        -->
   <separator />
   <item label="ObConf">
     <action name="Execute"><execute>obconf</execute></action>
