@@ -12,10 +12,20 @@
   <item label="Terminal -> Socks">
     <action name="Execute">xfce4-terminal -e 'bash -c "read -p \"Hostname c,D,g,H,S,T ? : \" host && ssh -D 9999 $host"'</execute></action>
   </item>
+        
 
-<item label="Socks -> Firefox">
-    <action name="Execute">firefox -profile ~/.mozilla/firefox/wwag6l90.socks-profile"'</execute></action>
+  <item label="Socks -> Firefox">
+<action name="Execute">firefox -profile ~/.mozilla/firefox/wwag6l90.socks-profile"'</execute></action>
   </item>
+        
+  <item label="Default-esr -> Firefox">
+<action name="Execute">firefox -profile ~/.mozilla/firefox/cosnlops.default-esr"'</execute></action>
+  </item>
+        
+  <item label="Default -> Firefox">
+<action name="Execute">firefox -profile ~/.mozilla/firefox/0zdckpe2.default"'</execute></action>
+  </item>
+        
    
   <item label="Web browser">
 <action name="Execute"><execute>x-www-browser</execute></action>
