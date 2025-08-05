@@ -8,7 +8,11 @@
   <item label="Terminal emulator">
     <action name="Execute"><execute>x-terminal-emulator</execute></action>
   </item>
-  
+
+  <item label="Terminal -> Socks">
+    <action name="Execute">xfce4-terminal -e 'bash -c "read -p Hostname: host && ssh -D 9999 $host"'</execute></action>
+  </item>
+   
   <item label="Web browser">
 <action name="Execute"><execute>x-www-browser</execute></action>
   </item>
