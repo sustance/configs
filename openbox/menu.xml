@@ -10,7 +10,7 @@
   </item>
 
   <item label="Terminal -> Socks">
-    <action name="Execute">xfce4-terminal -e 'bash -c "read -p Hostname: host && ssh -D 9999 $host"'</execute></action>
+    <action name="Execute">xfce4-terminal -e 'bash -c "read -p \"Hostname c,D,g,H,S,T ? : \" host && ssh -D 9999 $host"'</execute></action>
   </item>
    
   <item label="Web browser">
