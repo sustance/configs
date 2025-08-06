@@ -9,20 +9,22 @@
     <action name="Execute"><execute>x-terminal-emulator</execute></action>
   </item>
 
+
+
   <item label="Terminal -> Socks">
-    <action name="Execute"><execute>xfce4-terminal -e 'bash -c "read -p \"Hostname c,D,g,H,S,T ?: \" host && ssh -D 9999 \"\$host\" ;exec bash" '</execute></action>
+   <action name="Execute"><execute>xfce4-terminal -e ~/.config/openbox/menu_ssh.sh</execute></action>
   </item>      
 
-  <item label="Socks -> Firefox">
-<action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/wwag6l90.socks-profile"'</execute></action>
+  <item label="Socks -> Firefox - socks">
+<action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/wwag6l90.socks-profile</execute></action>
   </item>
         
-  <item label="Default-esr -> Firefox">
-<action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/cosnlops.default-esr"'</execute></action>
+  <item label="Default-esr -> Firefox-esr - default">
+<action name="Execute"><execute>firefox-esr -profile ~/.mozilla/firefox/cosnlops.default-esr</execute></action>
   </item>
         
-  <item label="Default -> Firefox">
-<action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/0zdckpe2.default"'</execute></action>
+  <item label="Default -> Firefox -">
+<action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/0zdckpe2.default</execute></action>
   </item>
         
    
