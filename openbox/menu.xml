@@ -14,19 +14,31 @@
   <item label="Terminal -> Socks">
    <action name="Execute"><execute>xfce4-terminal -e ~/.config/openbox/menu_ssh.sh</execute></action>
   </item>      
+<separator />
 
-  <item label="Socks -> Firefox - socks">
-<action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/wwag6l90.socks-profile</execute></action>
-  </item>
         
-  <item label="Default-esr -> Firefox-esr - default">
+<separator />  
+        
+  <item label="Firefox ESR ⌂">
 <action name="Execute"><execute>firefox-esr -profile ~/.mozilla/firefox/cosnlops.default-esr</execute></action>
   </item>
+
+  <item label="Firefox ESR ⌂- Socks">
+<action name="Execute"><execute>firefox-esr -profile ~/.mozilla/firefox/wwag6l90.socks-profile</execute></action>
+  </item>
+
+<separator />
         
-  <item label="Default -> Firefox -">
+  <item label="Firefox -">
 <action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/0zdckpe2.default</execute></action>
   </item>
+
+  <item label="Firefox - Socks">
+<action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/wwag6l90.socks-profile</execute></action>
+  </item>
+
         
+ <separator />       
    
   <item label="Web browser">
 <action name="Execute"><execute>x-www-browser</execute></action>
@@ -46,6 +58,10 @@
 
   <item label="Gimp 3.04">
 <action name="Execute"><execute>/home/aaa/store/Applications/GIMP-3.0.4-x86_64.AppImage</execute></action>
+  </item>
+
+  <item label="Inkscape 1.4.2">
+<action name="Execute"><execute>/snap/bin/inkscape</execute></action>
   </item>
 
   <item label="Scrot clip">
