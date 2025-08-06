@@ -10,7 +10,7 @@
   </item>
 
   <item label="Terminal -> Socks">
-    <action name="Execute"><execute>xfce4-terminal -e 'bash -c "read -p \"Hostname c,D,g,H,S,T ? : \" host && ssh -D 9999 $host"'</execute></action>
+    <action name="Execute"><execute>xfce4-terminal -e 'bash -c "read -p \"Hostname c,D,g,H,S,T ?: \" host && ssh -D 9999 \"\$host\" ;exec bash" '</execute></action>
   </item>
    <item label="Terminal -> Socks KeepOpen">
     <action name="Execute"><execute>xfce4-terminal -e 'bash -c "read -p \"Hostname c,D,g,H,S,T ? : \" host && ssh -D 9999 $host &"'</execute></action>
