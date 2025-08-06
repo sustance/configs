@@ -10,20 +10,22 @@
   </item>
 
   <item label="Terminal -> Socks">
-    <action name="Execute">xfce4-terminal -e 'bash -c "read -p \"Hostname c,D,g,H,S,T ? : \" host && ssh -D 9999 $host"'</execute></action>
+    <action name="Execute"><execute>xfce4-terminal -e 'bash -c "read -p \"Hostname c,D,g,H,S,T ? : \" host && ssh -D 9999 $host"'</execute></action>
   </item>
-        
+   <item label="Terminal -> Socks KeepOpen">
+    <action name="Execute"><execute>xfce4-terminal -e 'bash -c "read -p \"Hostname c,D,g,H,S,T ? : \" host && ssh -D 9999 $host &"'</execute></action>
+  </item>       
 
   <item label="Socks -> Firefox">
-<action name="Execute">firefox -profile ~/.mozilla/firefox/wwag6l90.socks-profile"'</execute></action>
+<action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/wwag6l90.socks-profile"'</execute></action>
   </item>
         
   <item label="Default-esr -> Firefox">
-<action name="Execute">firefox -profile ~/.mozilla/firefox/cosnlops.default-esr"'</execute></action>
+<action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/cosnlops.default-esr"'</execute></action>
   </item>
         
   <item label="Default -> Firefox">
-<action name="Execute">firefox -profile ~/.mozilla/firefox/0zdckpe2.default"'</execute></action>
+<action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/0zdckpe2.default"'</execute></action>
   </item>
         
    
