@@ -5,10 +5,10 @@
                 file:///usr/share/openbox/menu.xsd">
 <menu id="root-menu" label="Openbox 3">
 
-  <item label="Terminal emulator">
+  <item label="Term emul">
     <action name="Execute"><execute>x-terminal-emulator</execute></action>
   </item>
-  <item label="Term + TTT,MMM">
+  <item label="Term +ttt÷mmm">
 <action name="Execute"><execute>xfce4-terminal --hold --tab -T TTT -e /home/aaa/ttt --tab -T MMM -e /home/aaa/mmm</execute></action>
   </item>
   <item label="Term + Socks">
@@ -16,11 +16,12 @@
   </item> 
 
 <separator />
+<separator />
         
   <item label="Firefox">
 <action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/0zdckpe2.default</execute></action>
   </item>
-  <item label="Firefox + Socks">
+  <item label="Firefox+Socks">
 <action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/wwag6l90.socks-profile</execute></action>
   </item>     
   <item label="Web browser">
@@ -29,10 +30,10 @@
         
  <separator />  
         
-  <item label="turboprint">
+  <item label="Turboprint">
 <action name="Execute"><execute>turboprint</execute></action>
   </item>
-    <item label="simplenote">
+    <item label="Simplenote">
 <action name="Execute"><execute>simplenote</execute></action>
   </item>
 
@@ -41,7 +42,7 @@
   <item label="Gimp 3.04">
 <action name="Execute"><execute>/home/aaa/store/Applications/GIMP-3.0.4-x86_64.AppImage</execute></action>
   </item>
-  <item label="upscayl">
+  <item label="Upscayl">
 <action name="Execute"><execute>/home/aaa/store/Applications/upscayl-2.15.0-linux.AppImage</execute></action>
   </item>
   <item label="Inkscape 1.4.2">
@@ -62,7 +63,6 @@
   
   <!-- This requires the presence of the 'obamenu' package to work -->
   <menu id="/Debian" />
-  <separator />
   <menu id="applications-menu" label="Applications" execute="/usr/bin/obamenu"/>
 
   <separator />
