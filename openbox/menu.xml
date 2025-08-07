@@ -9,23 +9,9 @@
     <action name="Execute"><execute>x-terminal-emulator</execute></action>
   </item>
 
-
-
   <item label="Terminal -> Socks">
    <action name="Execute"><execute>xfce4-terminal -e ~/.config/openbox/menu_ssh.sh</execute></action>
-  </item>      
-<separator />
-
-        
-<separator />  
-        
-  <item label="Firefox ESR ⌂">
-<action name="Execute"><execute>firefox-esr -profile ~/.mozilla/firefox/cosnlops.default-esr</execute></action>
-  </item>
-
-  <item label="Firefox ESR ⌂- Socks">
-<action name="Execute"><execute>firefox-esr -profile ~/.mozilla/firefox/wwag6l90.socks-profile</execute></action>
-  </item>
+  </item> 
 
 <separator />
         
@@ -37,7 +23,6 @@
 <action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/wwag6l90.socks-profile</execute></action>
   </item>
 
-        
  <separator />       
    
   <item label="Web browser">
@@ -52,6 +37,8 @@
 <action name="Execute"><execute>simplenote</execute></action>
   </item>
 
+<separator />  
+        
   <item label="upscayl">
 <action name="Execute"><execute>/home/aaa/store/Applications/upscayl-2.15.0-linux.AppImage</execute></action>
   </item>
@@ -71,6 +58,8 @@
   <item label="Blueman-Man">
 <action name="Execute"><execute>/usr/bin/blueman-manager</execute></action>
   </item>
+
+<separator />  
 
   <item label="TTT MMM">
 <action name="Execute"><execute>xfce4-terminal --hold --tab -T TTT -e /home/aaa/ttt --tab -T MMM -e /home/aaa/mmm</execute></action>
