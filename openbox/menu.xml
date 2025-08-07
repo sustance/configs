@@ -8,66 +8,57 @@
   <item label="Terminal emulator">
     <action name="Execute"><execute>x-terminal-emulator</execute></action>
   </item>
-
-  <item label="Terminal -> Socks">
+  <item label="Term + TTT,MMM">
+<action name="Execute"><execute>xfce4-terminal --hold --tab -T TTT -e /home/aaa/ttt --tab -T MMM -e /home/aaa/mmm</execute></action>
+  </item>
+  <item label="Term + Socks">
    <action name="Execute"><execute>xfce4-terminal -e ~/.config/openbox/menu_ssh.sh</execute></action>
   </item> 
 
 <separator />
         
-  <item label="Firefox -">
+  <item label="Firefox">
 <action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/0zdckpe2.default</execute></action>
   </item>
-
-  <item label="Firefox - Socks">
+  <item label="Firefox + Socks">
 <action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/wwag6l90.socks-profile</execute></action>
-  </item>
-
- <separator />       
-   
+  </item>     
   <item label="Web browser">
 <action name="Execute"><execute>x-www-browser</execute></action>
   </item>
-
+        
+ <separator />  
+        
   <item label="turboprint">
 <action name="Execute"><execute>turboprint</execute></action>
   </item>
-
     <item label="simplenote">
 <action name="Execute"><execute>simplenote</execute></action>
   </item>
 
 <separator />  
         
-  <item label="upscayl">
-<action name="Execute"><execute>/home/aaa/store/Applications/upscayl-2.15.0-linux.AppImage</execute></action>
-  </item>
-
   <item label="Gimp 3.04">
 <action name="Execute"><execute>/home/aaa/store/Applications/GIMP-3.0.4-x86_64.AppImage</execute></action>
   </item>
-
+  <item label="upscayl">
+<action name="Execute"><execute>/home/aaa/store/Applications/upscayl-2.15.0-linux.AppImage</execute></action>
+  </item>
   <item label="Inkscape 1.4.2">
 <action name="Execute"><execute>/snap/bin/inkscape</execute></action>
   </item>
-
   <item label="Scrot clip">
 <action name="Execute"><execute>scrot -s -e 'xclip -selection clipboard -t image/png -i $f'</execute></action>
   </item>
+
+ <separator />  
 
   <item label="Blueman-Man">
 <action name="Execute"><execute>/usr/bin/blueman-manager</execute></action>
   </item>
 
 <separator />  
-
-  <item label="TTT MMM">
-<action name="Execute"><execute>xfce4-terminal --hold --tab -T TTT -e /home/aaa/ttt --tab -T MMM -e /home/aaa/mmm</execute></action>
-  </item>
-
-  <item label="Telegram">
-<action name="Execute"><execute>/home/aaa/store/Applications/Telegram/Telegram</execute></action>
-  </item>
+<separator />  
   
   <!-- This requires the presence of the 'obamenu' package to work -->
   <menu id="/Debian" />
