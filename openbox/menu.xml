@@ -17,10 +17,15 @@
 
 <separator />
 <separator />
-        
+            
+  <item label="Falkon">
+<action name="Execute"><execute>falkon</execute></action>
+  </item>
+
   <item label="Firefox">
 <action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/0zdckpe2.default</execute></action>
   </item>
+
   <item label="Firefox+Socks">
 <action name="Execute"><execute>firefox -profile ~/.mozilla/firefox/wwag6l90.socks-profile</execute></action>
   </item>     
