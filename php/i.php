@@ -33,8 +33,8 @@ echo $head;
 
 <i>DE.</i> <b>f</b>reeshell.de <span class="sml">116.202.128.144</span> 
 <a href="https://freeshell.de/">f.d</a> 
-<a href="https://freeshell.de/~identity">f.d/~i6y</a> 
-<a href="https://freeshell.de/~identity/lineage/">f.d/~i6y/lineage</a> ssh.freeshell.de -p 443/32768
+<a href="https://freeshell.de/~identity">/~i6y</a> 
+<a href="https://freeshell.de/~identity/lineage/">/lineage</a>
 <br>
 
 <i>CA.</i>  tilde.<b>g</b>uru <span class="sml">95.179.178.246</span> 
@@ -44,7 +44,7 @@ echo $head;
 
 <i>CA.</i>  t<b>h</b>unix.net <span class="sml">142.44.150.185</span> 
 <a href="https://thunix.net">t.n</a>  
-<a href="https://thunix.net/~id">t.n/~id</a> <a href="https://tilde.tel">t.tel</a> u:2043108, p;;tel, connect.tilde.tel, P;5060, UDP
+<a href="https://thunix.net/~id">/~id</a> <a href="https://tilde.tel">t.tel</a>
 <br>
 
 <i>DE.</i> tilde.<b>i</b>nstitute. <span class="sml">opt-svr</span>
