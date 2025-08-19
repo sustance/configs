@@ -1,10 +1,9 @@
-<?php 
+<!--$head = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/head-land.html');-->
 
+<?php 
 $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
 echo $head;
 ?>
-
-<!--$head = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/head-land.html');-->
 
 <div class="bsd">
 <p>
@@ -13,10 +12,11 @@ echo $head;
 <a href="https://bsd.tilde.team/~identity2">b.t.t/~i52</a> 
 <br>
 
-<i>US.</i> <b>c</b>trl-c.club <span class="tin">165.227.127.54</span> <i>NewsB</i> 
+<i>US.</i> <b>c</b>trl-c.club <span class="tin">165.227.127.54</span> 
 <a href="https://ctrl-c.club/">c.c</a>
 <a href="https://ctrl-c.club/~i52">c.c/~i72</a>
 <a href="https://ctrl-c.club/~identity2/lineage/">c.c/~i72/lineage</a>   
+<i>NewsB</i> 
 <br>
 
 <i>GB.</i> <b>d</b>imesion.sh <span class="sml">209.97.187.90</span> 
@@ -24,11 +24,12 @@ echo $head;
 <a href="https://dimension.sh/~identity2">d.s/~i72</a>  
 <br> 
 
-<i>DE.</i> <b>e</b>nvs.net <span class="sml">89.163.145.170</span> <i>remi</i> 
+<i>DE.</i> <b>e</b>nvs.net <span class="sml">89.163.145.170</span> 
 <a href="https://mail.envs.net/webmail/#?action=listmailbox">i72@e.n</a>
 <a href="https://envs.net/">e.n</a>  
-<a href="https://envs.net/~identity2">e.n/~i72</a>  
-<a href="https://envs.net/~identity2/lineage/">e.n/~i72/lineage</a> 
+<a href="https://envs.net/~identity2">/~i72</a>  
+<a href="https://envs.net/~identity2/lineage/">/lineage</a> 
+<i>remi</i> 
 <br>
 
 <i>DE.</i> <b>f</b>reeshell.de <span class="sml">116.202.128.144</span> 
@@ -69,9 +70,10 @@ echo $head;
 <a href="https://tilde.pink/~id2">t.p/~id2</a> 
 <br>
 
-<i>CA.</i> tilde.<b>t</b>eam <span class="sml">198.50.210.248</span> <i>Newsb</i> <a href="https://tilde.team/">t.t</a> 
+<i>CA.</i> tilde.<b>t</b>eam <span class="sml">198.50.210.248</span>  <a href="https://tilde.team/">t.t</a> 
 <a href="https://tilde.team/~identity2">t.t/~i72</a> 
 <a href="https://tilde.team/~identity2/lineage">t.t/~i72/lineage</a> 
+<i>Newsb</i>
 <br>
 
 <i>US.</i> <b>v</b>ern.cc <span class="sml">5.161.108.85</span> 
