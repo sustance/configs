@@ -44,7 +44,8 @@ echo $head;
 
 <i>CA.</i>  t<b>h</b>unix.net <span class="sml">142.44.150.185</span> 
 <a href="https://thunix.net">t.n</a>  
-<a href="https://thunix.net/~id">/~id</a> <a href="https://tilde.tel">t.tel</a>
+<a href="https://thunix.net/~id">/~id</a> 
+<a href="https://tilde.tel">t.tel</a>
 <br>
 
 <i>DE.</i> tilde.<b>i</b>nstitute. <span class="sml">opt-svr</span>
