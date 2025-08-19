@@ -71,8 +71,8 @@ echo $head;
 <br>
 
 <i>CA.</i> tilde.<b>t</b>eam <span class="sml">198.50.210.248</span>  <a href="https://tilde.team/">t.t</a> 
-<a href="https://tilde.team/~identity2">t.t/~i72</a> 
-<a href="https://tilde.team/~identity2/lineage">t.t/~i72/lineage</a> 
+<a href="https://tilde.team/~identity2">/~i72</a> 
+<a href="https://tilde.team/~identity2/lineage">/lineage</a> 
 <i>Newsb</i>
 <br>
 
