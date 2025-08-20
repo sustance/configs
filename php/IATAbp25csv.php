@@ -3,32 +3,25 @@
 // Set the year for Julian date conversion
 $THIS_YEAR = 2025;
 
-// Function to convert Julian day to Gregorian date in YYMMDD format
+// Convert Julian day to Gregorian date in YYMMDD format
 function julianToGregorian($julianDay, $year) {
-    // Create a DateTime object for January 1st of the given year
     $date = new DateTime("$year-01-01");
-    
-    // Add the Julian day minus 1 (since Jan 1 is day 1, not day 0)
     $date->add(new DateInterval('P' . ($julianDay - 1) . 'D'));
-    
-    // Return in YYMMDD format
     return $date->format('ymd');
 }
 
-// Function to abbreviate names
+// Abbreviate names (CHUN -> C, KYM -> K, else first letter)
 function abbreviateName($name) {
     $name = strtoupper($name);
-    if (strpos($name, 'CHUN') !== false) {
-        return 'C';
-    } elseif (strpos($name, 'KYM') !== false) {
-        return 'K';
-    }
-    // For other names, return first letter
+    if (strpos($name, 'CHUN') !== false) return 'C';
+    if (strpos($name, 'KYM') !== false) return 'K';
     return substr($name, 0, 1);
 }
 
-// Sample data (in real usage, you would read from file or database)
+// Sample data (replace with your actual data)
 $data = '
+
+
 
 M1MICHAEL/KYM ECY7P9W PVGHKGCX 0377 226Y072K0220 34B>6180 O5226BCX 2A16072783421340 CX CX 1078165297 N8AM
 M1JI/CHUN ECY7P9W PVGHKGCX 0377 226Y072H0221 34B>6180 O5226BCX 2A16072783421350 CX CX 1022433862 N8AM
@@ -130,112 +123,69 @@ M1MICHAEL/KYM E5FEUVY HKGSINSQ 0893 013Y057D0214 37E>8320 O5013BSQ 0618158917001
 __JI/CHUN xxxxxxx HKGSINSQ 0893 013z 000 000
 
 M1MICHAEL/KYM E6IPVLI PVGHKGCX 0377 008Y073D0177 34B>6180 O5008BCX 2A16035702022100 CX CX 1078165297 N8AM
-__JI/CHUN xxxxxxx PVGHKGCX 0377 008z 000 000
+__JI/CHUN xxxxxxx PVGHKGCX 0377 008z 000 000 008 000 00
 
 M1MICHAEL/KYM E2ZR5MV HKGPVGCX 0380 002Y059C0068 34B>6180 K5002BCX 2A16071679720010 CX CX 1078165297 N8AM
-__JI/CHUN xxxxxxx HKGPVGCX 0380 002z 000 000
+__JI/CHUN xxxxxxx HKGPVGCX 0380 002Z 000
+
 ';
 
-// Process the data
+// Split data into lines
 $lines = explode("\n", $data);
-$output = array();
+$output = [];
 
+// Process each line
 foreach ($lines as $line) {
     $line = trim($line);
     
-    // Skip empty lines and header lines
-    if (empty($line) || strpos($line, 'IATA') !== false) {
-        continue;
-    }
+    // Skip empty lines
+    if (empty($line)) continue;
+    
+    // Default output is the original line
+    $outputLine = $line;
     
     // Process lines starting with M1, M2, or __
-    if (preg_match('/^(M1|M2|__)/', $line)) {
-        // Split by spaces, but be careful with the parsing
-        $parts = preg_split('/\s+/', $line);
-
-		//DEBUG
-		//echo "Line: $line\n";
-		//echo "Parts: " . count($parts) . "\n";
-		//print_r($parts);
-		//DEBUG
+    if (preg_match('/^(M1|M2|__)([A-Z\/]+)\s+([A-Z0-9]+)\s+([A-Z]{6,8})\s+([0-9]+)\s+(\d{3}[A-Z0-9]+)/', $line, $matches)) {
+        $name = $matches[2]; // e.g., MICHAEL/KYM
+        $route = $matches[4]; // e.g., PVGHKGCX
+        $flight = $matches[5]; // e.g., 0377
+        $julianData = $matches[6]; // e.g., 226Y072K0220
         
-        if (count($parts) >= 6) {
-            // Extract the first 10 columns
-            $c1 = $parts[0];  // M1, M2, or __
-            $c2 = $parts[1];  // Name (e.g., MICHAEL/KYM, JI/CHUN)
-            $c3 = $parts[2];  // Record locator
-            $c4 = $parts[3];  // Route (e.g., PVGHKGCX)
-            $c5 = $parts[4];  // Flight number
-            $c6 = $parts[5];  // Julian day + other data
-            $c7 = isset($parts[6]) ? $parts[6] : '';
-            $c8 = isset($parts[7]) ? $parts[7] : '';
-            $c9 = isset($parts[8]) ? $parts[8] : '';
-            $c10 = isset($parts[9]) ? $parts[9] : '';
-            
-            // Parse route (C4) to extract origin and destination
-            if (strlen($c4) >= 6) {
-                $origin = substr($c4, 0, 3);
-                $destination = substr($c4, 3, 3);
-            } else {
-                $origin = '';
-                $destination = '';
-            }
-            
-            // Extract airline code (last 2 characters of route)
-            $airline = '';
-            if (strlen($c4) > 6) {
-                $airline = substr($c4, 6, 2);
-            }
-            
-            // Extract Julian day from C6 (first 3 digits)
-            $julianDay = '';
-            if (preg_match('/^(\d{3})/', $c6, $matches)) {
-                $julianDay = $matches[1];
-            }
-            
-            // Convert Julian day to Gregorian date
-            $gregorianDate = '';
-            if ($julianDay) {
-                $gregorianDate = julianToGregorian((int)$julianDay, $THIS_YEAR);
-            }
-            
-            // Abbreviate name from C2
-            $abbreviatedName = '';
-            if (strpos($c2, '/') !== false) {
-                $nameParts = explode('/', $c2);
-                $lastName = end($nameParts);
-                $abbreviatedName = abbreviateName($lastName);
-            }
-            
-            // Create output line: CA, CB, CC, CD, CE, CF, CG
-            $outputLine = array(
-                $gregorianDate,     // CA: Gregorian date from Julian day
-                $abbreviatedName,   // CB: Abbreviated name
-                $origin,           // CC: Origin airport
-                $destination,      // CD: Destination airport  
-                $airline,          // CE: Airline code
-                $c5,              // CF: Flight number
-                $julianDay        // CG: Original Julian day
-            );
-            
-            // Only add if we have meaningful data
-            if ($gregorianDate && $abbreviatedName && $origin && $destination) {
-                $output[] = implode(', ', $outputLine);
-			//$output[] = implode(', ', $outputLine);
-                
-            }
-        }
+        // Extract Julian day (first 3 digits)
+        $julianDay = substr($julianData, 0, 3);
+        $gregorianDate = julianToGregorian((int)$julianDay, $THIS_YEAR);
+        
+        // Extract origin, destination, and airline from route
+        $origin = substr($route, 0, 3);
+        $destination = substr($route, 3, 3);
+        $airline = (strlen($route) > 6) ? substr($route, 6, 2) : '';
+        
+        // Abbreviate name
+        $nameParts = explode('/', $name);
+        $lastName = end($nameParts);
+        $abbreviatedName = abbreviateName($lastName);
+        
+        // Build output line: CA, CB, CC, CD, CE, CF, CG
+        $outputLine = implode(', ', [
+            $gregorianDate,    // CA: Gregorian date
+            $abbreviatedName,  // CB: Abbreviated name
+            $origin,           // CC: Origin airport
+            $destination,      // CD: Destination airport
+            $airline,          // CE: Airline code
+            $flight,           // CF: Flight number
+            $julianDay         // CG: Julian day
+        ]);
     }
+    
+    // Add to output (processed or original line)
+    $output[] = $outputLine;
 }
 
-// Output the results
+// Output results
 echo "Processed flight data:\n\n";
 foreach ($output as $line) {
-    echo $line . "\n";
+    echo "$line\n";
 }
 
-echo "\n\nTotal records processed: " . count($output) . "\n";
-
+echo "\nTotal records processed: " . count($output) . "\n";
 ?>
-
-
