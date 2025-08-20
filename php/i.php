@@ -9,14 +9,14 @@ echo $head;
 <p>
 <i>DE.</i> <b>b</b>sd.tilde.team <span class="sml">157.90.196.52</span> 
 <a href="https://bsd.tilde.team/">b.t.t</a> 
-<a href="https://bsd.tilde.team/~identity2">b.t.t/~i52</a> 
+<a href="https://bsd.tilde.team/~identity2">/~i52</a> 
 <br>
 
 <i>US.</i> <b>c</b>trl-c.club <span class="tin">165.227.127.54</span> 
 <a href="https://ctrl-c.club/">c.c</a>
-<a href="https://ctrl-c.club/~i52">c.c/~i72</a>
-<a href="https://ctrl-c.club/~identity2/lineage/">c.c/~i72/lineage</a>   
-<i>NewsB</i> 
+<a href="https://ctrl-c.club/~i52">/~i72</a>
+<a href="https://ctrl-c.club/~identity2/lineage/">/lin</a>   
+<i>News</i> 
 <br>
 
 <i>GB.</i> <b>d</b>imesion.sh <span class="sml">209.97.187.90</span> 
@@ -34,12 +34,11 @@ echo $head;
 <i>DE.</i> <b>f</b>reeshell.de <span class="sml">116.202.128.144</span> 
 <a href="https://freeshell.de/">f.d</a> 
 <a href="https://freeshell.de/~identity">/~i6y</a> 
-<a href="https://freeshell.de/~identity/lineage/">/lineage</a>
 <br>
 
 <i>CA.</i>  tilde.<b>g</b>uru <span class="sml">95.179.178.246</span> 
 <a href="https://tilde.guru">t.g</a>  
-<a href="https://tilde.guru/~edi">t.g/~edi</a>
+<a href="https://tilde.guru/~edi">/~edi</a>
 <br>
 
 <i>CA.</i>  t<b>h</b>unix.net <span class="sml">142.44.150.185</span> 
@@ -71,8 +70,8 @@ echo $head;
 
 <i>CA.</i> tilde.<b>t</b>eam <span class="sml">198.50.210.248</span>  <a href="https://tilde.team/">t.t</a> 
 <a href="https://tilde.team/~identity2">/~i72</a> 
-<a href="https://tilde.team/~identity2/lineage">/lineage</a> 
-<i>Newsb</i>
+<a href="https://tilde.team/~identity2/lineage">/lin</a> 
+<i>News</i>
 <br>
 
 <i>US.</i> <b>v</b>ern.cc <span class="sml">5.161.108.85</span> 
