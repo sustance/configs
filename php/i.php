@@ -131,7 +131,7 @@ Server: sip.zoiper.com (port 5060)</p>
 </div>
   
 <?php
-$csv25 = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/IATAbp25csv.php');
+$csv25 = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/IATAbp25csv.php');
 echo $csv25;
 ?>
 
