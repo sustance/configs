@@ -129,12 +129,15 @@ Quick setup for basic SIP testing<br>
 Use username: test, password: test1234<br>
 Server: sip.zoiper.com (port 5060)</p>
 </div>
-  
+
+<pre>
 <?php
 $csv25 = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/IATAbp25csv.php');
 echo $csv25;
 ?>
+</pre>
 
+  
 <?php
 $tail = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/tail-land.html');
 echo $tail;
