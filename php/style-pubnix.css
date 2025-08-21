@@ -44,15 +44,9 @@
             /*background-color: #555;*/
             background-color: #aaa;
         }
-        img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 1rem auto;
-        }
+
         pre.art {
         	font-stretch: ultra-condensed;
-        	background-image: url('bg.webp');
         	font-weight:bold;
         	text-shadow: 1.5px 1.5px 1.5px #000000;
         	display: block;
