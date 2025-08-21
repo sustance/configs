@@ -19,14 +19,14 @@ echo $head;
 
 <i>GB.</i> <b>d</b>imesion.sh <span class="sml">209.97.187.90</span> 
 <a href="https://dimension.sh/">d.s</a> 
-<a href="https://dimension.sh/~identity2">d.s/~i72</a>  
+<a href="https://dimension.sh/~identity2">d.s/~i72</a> d.identity2.com
 <br> 
 
 <i>DE.</i> <b>e</b>nvs.net <span class="sml">89.163.145.170</span> 
 <a href="https://mail.envs.net/webmail/#?action=listmailbox">i72@e.n</a>
 <a href="https://envs.net/">e.n</a>  
 <a href="https://envs.net/~identity2">/~i72</a>  
-<i>remi</i> 
+<i>remi</i> e.identity2.com
 <br>
 
 <i>DE.</i> <b>f</b>reeshell.de <span class="sml">116.202.128.144</span> 
@@ -42,7 +42,7 @@ echo $head;
 <i>CA.</i>  t<b>h</b>unix.net <span class="sml">142.44.150.185</span> 
 <a href="https://thunix.net">t.n</a>  
 <a href="https://thunix.net/~id">/~id</a> 
-<a href="https://tilde.tel">t.tel</a>
+<a href="https://tilde.tel">t.tel</a>  h.identity2.com/~id/
 <br>
 
 <i>DE.</i> tilde.<b>i</b>nstitute. <span class="sml">opt-svr</span>
@@ -69,7 +69,7 @@ echo $head;
 <i>CA.</i> tilde.<b>t</b>eam <span class="sml">198.50.210.248</span>  <a href="https://tilde.team/">t.t</a> 
 <a href="https://tilde.team/~identity2">/~i72</a> 
 <a href="https://tilde.team/~identity2/lineage">/lin</a> 
-<i>News</i>
+<i>News</i>  t.identity2.com
 <br>
 
 <i>US.</i> <b>v</b>ern.cc <span class="sml">5.161.108.85</span> 
@@ -82,6 +82,9 @@ echo $head;
 <a href="https://rawtext.club/~identity2">r.c/~i72</a> 
 <br>
 
+<i>US</i> <b>github.io</b> <span class="sml">45.33.66.185</span> sustancegithub.io
+<br>
+  
 <i>US.</i>    <b>s</b>fo     <span class="sml">104.245.33.223</span> 
 <a href="http://identity2.com">http i.c</a> 
 <a href="http://nix.identity2.com">http nix.i.c</a>
