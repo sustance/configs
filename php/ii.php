@@ -1,5 +1,5 @@
 <?php 
-$head = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/head-land.html');
+$head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php//head-land.html');
 echo $head;
 ?>
 
