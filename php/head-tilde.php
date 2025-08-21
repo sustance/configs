@@ -5,7 +5,5 @@
     <title>Simplified Responsive Page</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
  <link rel="stylesheet" href="https://sustance.github.io/head.css" />
-</head>
 
-<body>
 
