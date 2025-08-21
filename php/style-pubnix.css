@@ -1,1 +1,86 @@
+        body {
+            font-family: Arial, sans-serif;
+            /*font-family: 'Courier New', Courier, monospace;  */        
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+     
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        nav {
+            background-image: url('bg.webp');
+            background-size: cover;
+            background-position: center;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        nav ul li {
+            margin-right: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        nav ul li a {
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 0.5rem;
+            border-radius: 3px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            /*background-color: #555;*/
+            background-color: #aaa;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 1rem auto;
+        }
+        pre.art {
+        	font-stretch: ultra-condensed;
+        	background-image: url('bg.webp');
+        	font-weight:bold;
+        	text-shadow: 1.5px 1.5px 1.5px #000000;
+        	display: block;
+        	padding: 0rem -1rem 0.5rem 0rem;
+            margin: -1rem -1rem 0rem 0rem;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        /*.content {
+            background-color: white;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }*/
+        .content {
+            background-color: white;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+            }
+            nav ul li {
+                margin-right: 0;
+                margin-bottom: 0.5rem;
+            }
+        }
 
