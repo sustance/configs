@@ -1,10 +1,8 @@
-<!--$head = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/head-land.html');-->
-
 <?php 
 $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
 echo $head;
 ?>
-
+<p>PHP: b e f h i j o p t</p>
 <div class="bsd">
 <p>
 <i>DE.</i> <b>b</b>sd.tilde.team <span class="sml">157.90.196.52</span> 
