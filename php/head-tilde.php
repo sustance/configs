@@ -5,8 +5,5 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
+<body>
 
-        <div class="content">
-        
-            <img src="http://identity2.com/bg2.webp" alt="" height="60%" width="80%">
-<a href="http://identity2.com/bg2.webp">Image</a>
