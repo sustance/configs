@@ -189,10 +189,10 @@ if (preg_match('/^(M1|M2|__)([a-zA-Z\/]+)\s+([A-Za-z0-9]+)\s+([a-zA-Z]{6,8})\s+(
 }
 
 // Output results
-echo "Processed flight data:\n\n";
+echo "Processed flight data:\n<pre>\n";
 foreach ($output as $line) {
     echo "$line\n";
 }
 
-echo "\nTotal records processed: " . count($output) . "\n";
+echo "</pre>\nTotal records processed: " . count($output) . "\n";
 ?>
