@@ -21,7 +21,7 @@ function abbreviateName($name) {
 // Sample data (replace with your actual data)
 $data = '
 
-M1MICHAEL/KYMMR       Train__ GVANeu__ ____ 233x         __
+M1MICHAEL/KYMMR       Train__ GVANEUXX 0000 233x         00
 M1JI/CHUNMS           Train__ GVANeu__ ____ 233x         __
 
 M21MICHAEL/KYMMR      EMBNSVS DXBGVAEK 0089 234J005F0174 33F>60B1GO5233BEK 2A17623888216860    EK 766969313        40K ^1  
