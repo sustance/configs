@@ -37,24 +37,32 @@ function loadPointsData($filename) {
     fgetcsv($handle);
     
     while (($row = fgetcsv($handle)) !== FALSE) {
-        // Skip empty rows
-        if (empty($row) || count($row) < 6) {
+        // Skip empty rows or rows that don't have enough data
+        if (empty($row) || count($row) < 6 || trim($row[0]) === '') {
             continue;
         }
         
         $date = trim($row[0]);
-        $var = trim($row[1]);
         $who = trim($row[2]);
         $carrier = trim($row[3]);
         $flight = trim($row[4]);
         $points = trim($row[5]);
         
-        // Use the date from the "var" column if available, otherwise use the first date column
-        $effectiveDate = !empty($var) ? $var : $date;
+        // Skip header rows or invalid data
+        if ($date === 'date' || $who === 'who' || empty($who) || empty($carrier)) {
+            continue;
+        }
         
-        // Create a unique key for this points entry
-        $key = "$who|$carrier|$flight|$effectiveDate";
+        // Create a unique key for this points entry (using only the first date column)
+        $key = "$who|$carrier|$flight|$date";
         $pointsData[$key] = $points;
+        
+        // Also create a key with flight number without leading zeros
+        $flightTrimmed = ltrim($flight, '0');
+        if ($flightTrimmed !== $flight) {
+            $keyAlt = "$who|$carrier|$flightTrimmed|$date";
+            $pointsData[$keyAlt] = $points;
+        }
     }
     
     fclose($handle);
@@ -80,7 +88,7 @@ function loadFlightData($filename) {
     }
     
     while (($row = fgetcsv($handle)) !== FALSE) {
-        // Skip empty rows
+        // Skip empty rows or rows that don't have enough data
         if (empty($row) || count($row) < 7) {
             continue;
         }
@@ -100,18 +108,20 @@ function loadFlightData($filename) {
  */
 function findMatchingPoints($flightRow, $pointsData) {
     // Flight row format: [date, who, origin, destination, carrier, flight, julianDay]
-    $date = $flightRow[0]; // YYMMDD format
+    $date = $flightRow[0]; // YYMMDD format from flight data
     $who = $flightRow[1];  // K or C
     $carrier = $flightRow[4]; // Airline code
     $flight = $flightRow[5]; // Flight number
     
-    // Try to find exact match
+    // Try different key combinations to find a match
+    
+    // 1. Exact match with flight number as-is
     $key = "$who|$carrier|$flight|$date";
     if (isset($pointsData[$key])) {
         return $pointsData[$key];
     }
     
-    // If no exact match, try without leading zeros in flight number
+    // 2. Match with flight number without leading zeros
     $flightTrimmed = ltrim($flight, '0');
     if ($flightTrimmed !== $flight) {
         $key = "$who|$carrier|$flightTrimmed|$date";
@@ -120,7 +130,55 @@ function findMatchingPoints($flightRow, $pointsData) {
         }
     }
     
+    // 3. Try matching without date (if points data might have different date format)
+    $key = "$who|$carrier|$flight";
+    foreach ($pointsData as $pointsKey => $pointsValue) {
+        if (strpos($pointsKey, $key) === 0) {
+            return $pointsValue;
+        }
+    }
+    
+    // 4. Try matching with just carrier and flight (most basic match)
+    $key = "$carrier|$flight";
+    foreach ($pointsData as $pointsKey => $pointsValue) {
+        if (strpos($pointsKey, $key) !== false && strpos($pointsKey, $who) !== false) {
+            return $pointsValue;
+        }
+    }
+    
     return ''; // No match found
+}
+
+/**
+ * Debug function to output what matching is being attempted
+ */
+function debugMatching($flightRow, $pointsData) {
+    $date = $flightRow[0];
+    $who = $flightRow[1];
+    $carrier = $flightRow[4];
+    $flight = $flightRow[5];
+    
+    echo "Trying to match: Date=$date, Who=$who, Carrier=$carrier, Flight=$flight\n";
+    
+    $flightTrimmed = ltrim($flight, '0');
+    
+    echo "Looking for keys:\n";
+    echo "1. $who|$carrier|$flight|$date\n";
+    echo "2. $who|$carrier|$flightTrimmed|$date\n";
+    
+    $found = false;
+    foreach ($pointsData as $key => $value) {
+        if (strpos($key, $who) !== false && strpos($key, $carrier) !== false) {
+            echo "Potential match: $key => $value\n";
+            $found = true;
+        }
+    }
+    
+    if (!$found) {
+        echo "No potential matches found in points data\n";
+    }
+    
+    echo "-----------------\n";
 }
 
 /**
@@ -131,11 +189,21 @@ try {
     $pointsData = loadPointsData($POINTS_CSV_FILE);
     $flightData = loadFlightData($FLIGHT_CSV_FILE);
     
+    // For debugging: output what's in the points data
+    echo "Points data loaded:\n";
+    foreach ($pointsData as $key => $value) {
+        echo "$key => $value\n";
+    }
+    echo "-----------------\n";
+    
     // Output header
     echo "Date,Who,Origin,Destination,Carrier,Flight,JulianDay,Points\n";
     
     // Process each flight record
     foreach ($flightData as $flightRow) {
+        // For debugging: uncomment the next line to see matching attempts
+        // debugMatching($flightRow, $pointsData);
+        
         // Find matching points
         $points = findMatchingPoints($flightRow, $pointsData);
         
