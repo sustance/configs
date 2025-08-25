@@ -12,7 +12,7 @@
  */
 
 // Configuration
-$FLIGHT_CSV_FILE = 'processed_flight_data.csv'; // Output from previous script
+$FLIGHT_CSV_FILE = 'iata25out.csv'; // Output from previous script
 $POINTS_CSV_FILE = 'ppoints.csv';
 
 /**
