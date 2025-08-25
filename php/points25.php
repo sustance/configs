@@ -210,7 +210,11 @@ try {
         // Output the flight data with points column
         echo implode(',', $flightRow) . "," . $points . "\n";
     }
-    
+
+
+}
+
+            
 } catch (Exception $e) {
     die("Error: " . $e->getMessage() . "\n");
 }
