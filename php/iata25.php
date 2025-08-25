@@ -200,7 +200,7 @@ __JI/CHUN xxxxxxx HKGPVGCX 0380 002Z 000
 $output = processData($data, $THIS_YEAR);
 
 // Output results (unchanged from original)
-echo "<pre>Processed flight data:\n";
+echo "<pre> Date ,Who Frm, To , By, Flit, doy\n_______________________________";
 foreach ($output as $line) {
     echo "$line\n";
 }
