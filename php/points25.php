@@ -13,7 +13,7 @@
 
 // Configuration
 $FLIGHT_CSV_FILE = 'iata25out.csv'; // Output from previous script
-$POINTS_CSV_FILE = 'ppoints.csv';
+$POINTS_CSV_FILE = 'pts-paid.csv';
 
 /**
  * Load and parse points data from CSV file
