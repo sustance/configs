@@ -14,6 +14,7 @@
 $FLIGHT_CSV_FILE = 'iata25out.csv'; // Output from previous script
 $POINTS_CSV_FILE = 'pts-paid.csv';
 
+
 /**
  * Load and parse points data from CSV file
  * 
@@ -196,7 +197,7 @@ try {
     echo "-----------------\n";
     
     // Output header
-    echo "<pre>Date,Who,Origin,Destination,Carrier,Flight,JulianDay,Points\n";
+    echo "Date,Who,Origin,Destination,Carrier,Flight,JulianDay,Points\n";
     
     // Process each flight record
     foreach ($flightData as $flightRow) {
@@ -209,7 +210,7 @@ try {
         // Output the flight data with points column
         echo implode(',', $flightRow) . "," . $points . "\n";
     }
-    echo "</pre>"
+    
 } catch (Exception $e) {
     die("Error: " . $e->getMessage() . "\n");
 }
