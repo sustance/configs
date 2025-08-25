@@ -1,5 +1,4 @@
-
-<?php
+<php
 
 /**
  * Script to combine flight data with points information
@@ -197,7 +196,7 @@ try {
     echo "-----------------\n";
     
     // Output header
-    echo "Date,Who,Origin,Destination,Carrier,Flight,JulianDay,Points\n";
+    echo "<pre>Date,Who,Origin,Destination,Carrier,Flight,JulianDay,Points\n";
     
     // Process each flight record
     foreach ($flightData as $flightRow) {
@@ -210,7 +209,7 @@ try {
         // Output the flight data with points column
         echo implode(',', $flightRow) . "," . $points . "\n";
     }
-    
+    echo "</pre>"
 } catch (Exception $e) {
     die("Error: " . $e->getMessage() . "\n");
 }
