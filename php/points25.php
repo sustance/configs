@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Script to combine flight data with points information
  * 
@@ -15,7 +14,6 @@
 //POINTS_CSV_FILE = 'ppoints.csv';
 $FLIGHT_CSV_FILE = 'iata25out.csv'; // Output from previous script
 $POINTS_CSV_FILE = 'pts-paid.html'; // stored at origin as .csv
-
 
 /**
  * Load and parse points data from CSV file
