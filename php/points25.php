@@ -190,11 +190,11 @@ try {
     $flightData = loadFlightData($FLIGHT_CSV_FILE);
     
     // For debugging: output what's in the points data
-    echo "Points data loaded:\n";
+    echo "Points data loaded:<pre>";
     foreach ($pointsData as $key => $value) {
         echo "$key => $value\n";
     }
-    echo "-----------------\n";
+    echo "-----------------</pre>\n";
     
     // Output header
     echo "Date,Who,Origin,Destination,Carrier,Flight,JulianDay,Points\n";
