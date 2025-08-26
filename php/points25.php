@@ -1,4 +1,4 @@
-<php
+<?php
 
 /**
  * Script to combine flight data with points information
@@ -11,6 +11,8 @@
  */
 
 // Configuration
+//$FLIGHT_CSV_FILE = 'processed_flight_data.csv'; // Output from previous script
+//POINTS_CSV_FILE = 'ppoints.csv';
 $FLIGHT_CSV_FILE = 'iata25out.csv'; // Output from previous script
 $POINTS_CSV_FILE = 'pts-paid.csv';
 
@@ -210,11 +212,7 @@ try {
         // Output the flight data with points column
         echo implode(',', $flightRow) . "," . $points . "\n";
     }
-
-
-}
-
-            
+    
 } catch (Exception $e) {
     die("Error: " . $e->getMessage() . "\n");
 }
