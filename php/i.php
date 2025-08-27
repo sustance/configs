@@ -84,13 +84,13 @@ echo $head;
 <i>US.</i> <b>v</b>ern.cc <span class="sml">5.161.108.85</span> 
 <a href="https://vern.cc/">v.c</a> 
 <a href="https://id.vern.cc/">id.v.c/~id</a>
-  no web
+  no web/i.c
 <br>
 
 <i>US</i> rawte<b>x</b>t.club <span class="sml">45.33.66.185</span> 
 <a href="https://rawtext.club/">r.c</a> 
 <a href="https://rawtext.club/~identity2">r.c/~i72</a> 
-  no web
+  no web/i.c
 <br>
 
 <i>US</i> <b>github.io</b> <span class="sml">45.33.66.185</span> sustancegithub.io
