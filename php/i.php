@@ -2,13 +2,13 @@
 $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
 echo $head;
 ?>
-<p>PHP: b e f h i j o p t</p>
+
 <div class="bsd">
 <p>
 <i>DE.</i> <b>b</b>sd.tilde.team <span class="sml">157.90.196.52</span> 
 <a href="https://bsd.tilde.team/">b.t.t</a> 
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
-  b.i.c
+  b.i.c should work but does not
 <br>
 
 <i>US.</i> <b>c</b>trl-c.club <span class="tin">165.227.127.54</span> 
@@ -22,7 +22,7 @@ echo $head;
 <i>GB.</i> <b>d</b>imesion.sh <span class="sml">209.97.187.90</span> 
 <a href="https://dimension.sh/">d.s</a> 
 <a href="https://dimension.sh/~identity2">d.s/~i52</a> 
-  d.i.c
+  d.i.c is not working but should
 <br> 
 
 <i>DE.</i> <b>e</b>nvs.net <span class="sml">89.163.145.170</span> 
@@ -36,20 +36,20 @@ echo $head;
 <i>DE.</i> <b>f</b>reeshell.de <span class="sml">116.202.128.144</span> 
 <a href="https://freeshell.de/">f.d</a> 
 <a href="https://freeshell.de/~identity">/~i6y</a> 
-  [~]
+  [~] f.i.c works
 <br>
 
 <i>CA.</i>  tilde.<b>g</b>uru <span class="sml">95.179.178.246</span> 
 <a href="https://tilde.guru">t.g</a>  
 <a href="https://tilde.guru/~edi">/~edi</a>
-  [~]
+  [~] g.i.c works
 <br>
 
 <i>CA.</i>  t<b>h</b>unix.net <span class="sml">142.44.150.185</span> 
 <a href="https://thunix.net">t.n</a>  
 <a href="https://thunix.net/~id">/~id</a> 
 <a href="https://tilde.tel">t.tel</a>  
-  [~]
+  [~] no i.c set but not work
 <br>
 
 <i>DE.</i> tilde.<b>i</b>nstitute. <span class="sml">opt-svr</span>
@@ -67,6 +67,7 @@ echo $head;
 <i>DE.</i> pr<b>o</b>jectsegfau.lt <span class="sml">45.145.41.226</span>
 <a href="https://projectsegfau.lt/">p.l</a> 
 <a href="https://id.p.projectsegfau.lt/">i.p.p.l/~id</a>
+should but no has web and i.c                                                  
 <br>
 
 <i>CA.</i> tilde.<b>p</b>ink  
