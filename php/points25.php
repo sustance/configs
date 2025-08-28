@@ -194,10 +194,11 @@ try {
     //foreach ($pointsData as $key => $value) {
     //    echo "$key => $value\n";
     //}
-    echo "-----------------<pre>\n";
+    
+    echo "<pre>";
     
     // Output header
-    echo "Date,Who,Origin,Destination,Carrier,Flight,JulianDay,Points\n";
+    echo "Date Who,Fro,To ,  ,Flig,doy,Points\n";
     
     // Process each flight record
     foreach ($flightData as $flightRow) {
