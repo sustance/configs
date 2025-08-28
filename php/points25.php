@@ -37,7 +37,7 @@ function loadPointsData($filename) {
     fgetcsv($handle);
     
     while (($row = fgetcsv($handle)) !== FALSE) {
-        // Skip empty rows or rows that don't have enough data
+        // Skip empty rows or rows that dont have enough data
         if (empty($row) || count($row) < 6 || trim($row[0]) === '') {
             continue;
         }
@@ -190,11 +190,11 @@ try {
     $flightData = loadFlightData($FLIGHT_CSV_FILE);
     
     // For debugging: output what's in the points data
-    echo "Points data loaded:<pre>";
-    foreach ($pointsData as $key => $value) {
-        echo "$key => $value\n";
-    }
-    echo "-----------------</pre>\n";
+    //echo "Points data loaded:<pre>";
+    //foreach ($pointsData as $key => $value) {
+    //    echo "$key => $value\n";
+    //}
+    echo "-----------------<pre>\n";
     
     // Output header
     echo "Date,Who,Origin,Destination,Carrier,Flight,JulianDay,Points\n";
@@ -210,6 +210,7 @@ try {
         // Output the flight data with points column
         echo implode(',', $flightRow) . "," . $points . "\n";
     }
+    echo "</pre>\n";
     
 } catch (Exception $e) {
     die("Error: " . $e->getMessage() . "\n");
