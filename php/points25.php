@@ -1,3 +1,4 @@
+<?php
 // In the findMatchingPoints function, replace the entire function with this improved version:
 function findMatchingPoints($flightRow, $pointsData) {
     // Flight row format: [date, who, origin, destination, carrier, flight, julianDay]
@@ -42,3 +43,4 @@ function findMatchingPoints($flightRow, $pointsData) {
     
     return ''; // No match found
 }
+?>
