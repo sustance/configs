@@ -8,30 +8,30 @@ echo $head;
 <i>DE.</i> <b>b</b>sd.tilde.team <span class="sml">157.90.196.52</span> 
 <a href="https://bsd.tilde.team/">b.t.t</a> 
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
-<a href="httpsi.c</a>://b.identity2.com">
+<a href="https://b.identity2.com">b.i.c</a>
 <br>
 
 <i>US.</i> <b>c</b>trl-c.club <span class="tin">165.227.127.54</span> 
 <a href="https://ctrl-c.club/">c.c</a>
 <a href="https://ctrl-c.club/~i52">/~i52</a>
-<a href="https://ctrl-c.club/~identity2/lineage/">/lin</a>   
-  [~]
+<a href="https://ctrl-c.club/~identity2/lineage/">/lin</a> 
+<a href="https://c.identity2.com">c.i.c[~]</a>
 <i>News</i> 
 <br>
 
 <i>GB.</i> <b>d</b>imesion.sh <span class="sml">209.97.187.90</span> 
 <a href="https://dimension.sh/">d.s</a> 
 <a href="https://dimension.sh/~identity2">d.s/~i42</a> 
-  d.i.c is not working but should
+  <a href="https://d.identity2.com">d.i.c</a>
 <br> 
 
 <i>DE.</i> <b>e</b>nvs.net <span class="sml">89.163.145.170</span> 
 <a href="https://envs.net/">e.n</a>  
 <a href="https://envs.net/~identity2">/~i52</a>  
+  <a href="https://e.identity2.com">e.i.c</a>
 <i>remi</i> 
-  e.i.c
 <br>
-
+  
 <i>DE.</i> <b>f</b>reeshell.de <span class="sml">116.202.128.144</span> 
 <a href="https://freeshell.de/">f.d</a> 
 <a href="https://freeshell.de/~identity">/~i4y</a> 
