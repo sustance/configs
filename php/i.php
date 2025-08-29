@@ -8,7 +8,7 @@ echo $head;
 <i>DE.</i> <b>b</b>sd.tilde.team <span class="sml">157.90.196.52</span> 
 <a href="https://bsd.tilde.team/">b.t.t</a> 
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
-  b.i.c should work but does not
+<a href="httpsi.c</a>://b.identity2.com">
 <br>
 
 <i>US.</i> <b>c</b>trl-c.club <span class="tin">165.227.127.54</span> 
