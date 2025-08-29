@@ -79,7 +79,8 @@ echo $head;
 <i>CA.</i> tilde.<b>t</b>eam <span class="sml">198.50.210.248</span>  <a href="https://tilde.team/">t.t</a> 
 <a href="https://tilde.team/~identity2">/~i52</a> 
 <a href="https://tilde.team/~identity2/lineage">/lin</a> 
-<i>News</i>  t.identity2.com
+<a href="https://t.identity2.com">t.i.c~</a>
+<i>News</i>
 <br>
 
 <i>US.</i> <b>v</b>ern.cc <span class="sml">5.161.108.85</span> 
@@ -92,13 +93,22 @@ echo $head;
 <a href="https://rawtext.club/~identity2">r.c/~i52</a> 
 <br>
 
-<i>US</i> <b>github.io</b> <span class="sml">45.33.66.185</span> sustancegithub.io
+<i>US</i> <b>github.io</b> <span class="sml">45.33.66.185</span> 
 <br>
+<a href="https://sustance.github.io">s.g.io~</a>
+<a href="https://identity2.com">i.c</a>
+<a href="https://identity2.com">www.i.c</a>
+<br>
+  
 <i>HK.</i> <span class="sml">  Huawei</span> Hu<b>4</b>
-<span class="sml">sufbo.tplinkdns.com</span><br>
+<a href="https://sufbo.tplinkdns.com:8004">sufbo.tplinkdns.com:8004</a>
+<a href="https://4.identity2.com">4.i.c</a>
+<br>
 
+  
 <i>HK.</i> <span class="sml">    HP Mini 32bit</span> Mi<b>7</b>
-<span class="sml">sufbo.tplinkdns.com</span>
+<a href="https://sufbo.tplinkdns.com:8007">sufbo.tplinkdns.com:8007</a>
+<a href="https://7.identity2.com">7.i.c</a>
 </p> 
 </div>
 
