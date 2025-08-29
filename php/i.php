@@ -21,21 +21,20 @@ echo $head;
 
 <i>GB.</i> <b>d</b>imesion.sh <span class="sml">209.97.187.90</span> 
 <a href="https://dimension.sh/">d.s</a> 
-<a href="https://dimension.sh/~identity2">d.s/~i52</a> 
+<a href="https://dimension.sh/~identity2">d.s/~i42</a> 
   d.i.c is not working but should
 <br> 
 
 <i>DE.</i> <b>e</b>nvs.net <span class="sml">89.163.145.170</span> 
-<a href="https://mail.envs.net/webmail/#?action=listmailbox">i52@e.n</a>
 <a href="https://envs.net/">e.n</a>  
-<a href="https://envs.net/~identity2">/~i72</a>  
+<a href="https://envs.net/~identity2">/~i52</a>  
 <i>remi</i> 
   e.i.c
 <br>
 
 <i>DE.</i> <b>f</b>reeshell.de <span class="sml">116.202.128.144</span> 
 <a href="https://freeshell.de/">f.d</a> 
-<a href="https://freeshell.de/~identity">/~i6y</a> 
+<a href="https://freeshell.de/~identity">/~i4y</a> 
   [~] f.i.c works
 <br>
 
@@ -61,7 +60,7 @@ echo $head;
 
 <i>DE.</i> pro<b>j</b>ectsegfau.lt <span class="sml">45.145.41.226</span> 
 <a href="https://projectsegfau.lt/">p.l</a> 
-<a href="https://identity2.p.projectsegfau.lt/">i.p.p.l/~i72</a>  
+<a href="https://identity2.p.projectsegfau.lt/">i.p.p.l/~i52</a>  
 <br>
 
 <i>DE.</i> pr<b>o</b>jectsegfau.lt <span class="sml">45.145.41.226</span>
@@ -77,7 +76,7 @@ should but no has web and i.c
 <br>
 
 <i>CA.</i> tilde.<b>t</b>eam <span class="sml">198.50.210.248</span>  <a href="https://tilde.team/">t.t</a> 
-<a href="https://tilde.team/~identity2">/~i72</a> 
+<a href="https://tilde.team/~identity2">/~i52</a> 
 <a href="https://tilde.team/~identity2/lineage">/lin</a> 
 <i>News</i>  t.identity2.com
 <br>
@@ -90,7 +89,7 @@ should but no has web and i.c
 
 <i>US</i> rawte<b>x</b>t.club <span class="sml">45.33.66.185</span> 
 <a href="https://rawtext.club/">r.c</a> 
-<a href="https://rawtext.club/~identity2">r.c/~i72</a> 
+<a href="https://rawtext.club/~identity2">r.c/~i52</a> 
   no web/i.c
 <br>
 
