@@ -93,8 +93,7 @@ echo $head;
 <a href="https://rawtext.club/~identity2">r.c/~i52</a> 
 <br>
 
-<i>US</i> <b>github.io</b> <span class="sml">45.33.66.185</span> 
-<br>
+<i>US</i> gith<b>u</b>b.io <span class="sml">45.33.66.185</span> 
 <a href="https://sustance.github.io">s.g.io~</a>
 <a href="https://identity2.com">i.c</a>
 <a href="https://identity2.com">www.i.c</a>
