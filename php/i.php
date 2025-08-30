@@ -100,13 +100,13 @@ echo $head;
 <a href="https://identity2.com">www.i.c</a>
 <br>
   
-<i>HK.</i> <span class="sml">  Huawei</span> Hu<b>4</b>
+<i>HK.</i> <span class="sml">Huawei</span> Hu<b>4</b>
 <a href="https://sufbo.tplinkdns.com:8004">sufbo.tplinkdns.com:8004</a>
 <a href="https://4.identity2.com">4.i.c</a>
 <br>
 
   
-<i>HK.</i> <span class="sml">    HP Mini 32bit</span> Mi<b>7</b>
+<i>HK.</i> <span class="sml">HPMini 32b</span> Mi<b>7</b>
 <a href="https://sufbo.tplinkdns.com:8007">sufbo.tplinkdns.com:8007</a>
 <a href="https://7.identity2.com">7.i.c</a>
 </p> 
