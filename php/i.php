@@ -144,14 +144,6 @@ Use username: test, password: test1234<br>
 Server: sip.zoiper.com (port 5060)</p>
 </div>
   
-<div class="box"> 
-  <pre>
-Date__,__,From,_To_,_On,Flt_,____
-    <?php
-    include('/home/id/public_html/IATAbp25csv.php'); 
-    ?>
-  </pre>
-</div>
   
 <?php
 $tail = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/tail-land.html');
