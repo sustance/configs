@@ -145,7 +145,7 @@ Server: sip.zoiper.com (port 5060)</p>
 </div>
 
 <svg xmlns="http://www.w3.org/2000/svg">
-    <pattern id="pattern" width="8" height="8" patternUnits="userSpaceOnUse">
+    <pattern id="pattern" width="80" height="80" patternUnits="userSpaceOnUse">
       <path d="m0 0h1v1H0"/>
     </pattern>
     <filter id="filter">
@@ -166,7 +166,7 @@ Server: sip.zoiper.com (port 5060)</p>
         <feOffset dx="4"/>
         <feBlend in="SourceAlpha"/>
     </filter>
-    <rect width="100%" height="800" fill="#eff"/>
+    <rect width="100%" height="800" fill="#e6ffff"/>
     <rect width="100%" height="300" fill="url(#pattern)" filter="url(#filter)" transform="scale(3)"/>
 </svg>
 
