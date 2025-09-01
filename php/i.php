@@ -166,8 +166,8 @@ Server: sip.zoiper.com (port 5060)</p>
         <feOffset dx="4"/>
         <feBlend in="SourceAlpha"/>
     </filter>
-    <rect width="100%" height="100%" fill="#fe5"/>
-    <rect width="100%" height="100%" fill="url(#pattern)" filter="url(#filter)" transform="scale(3)"/>
+    <rect width="100%" height="800" fill="#333"/>
+    <rect width="100%" height="300" fill="url(#pattern)" filter="url(#filter)" transform="scale(3)"/>
 </svg>
 
   
