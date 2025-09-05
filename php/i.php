@@ -16,7 +16,6 @@ echo $head;
 <a href="https://ctrl-c.club/~identity2">/~i52</a>
 <a href="https://ctrl-c.club/~identity2/lineage/">/lin</a> 
 <a href="http://c.identity2.com">c.i.c~</a>
-<i>News</i> 
 <br>
 
 <i>GB.</i> <b>d</b>imesion.sh <span class="sml">209.97.187.90</span> 
@@ -80,7 +79,6 @@ echo $head;
 <a href="https://tilde.team/~identity2">/~i52</a> 
 <a href="https://tilde.team/~identity2/lineage">/lin</a> 
 <a href="http://t.identity2.com">t.i.c</a>
-<i>News</i>
 <br>
 
   
