@@ -157,11 +157,17 @@ Server: sip.zoiper.com (port 5060)</p>
     <rect width="100%" height="800" fill="#e6ffff"/>
     <rect width="100%" height="300" fill="url(#pattern)" filter="url(#filter)" transform="scale(3)"/>
 </svg>
-
-                  <div class="svg-container">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="350" id="preview-svg">
-                        <pattern id="pattern" width="8" height="8" patternUnits="userSpaceOnUse">
-                            <path d="m0 0h1v1H0" fill="#000000"/>
+<!-- rgba(93,173,226,.2)
+-->
+<div class="svg-container">
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="350" id="preview-svg">
+                        <pattern id="pattern" 
+                          width="8" height="8" 
+                          patternUnits="userSpaceOnUse">
+                            <path d="m0 0h1v1H0" 
+                              
+                              fill="#eeeeee"/>
+                          
                         </pattern>
                         <filter id="filter">
                             <feMorphology operator="dilate" radius="3 0" result="h"/>
@@ -185,12 +191,12 @@ Server: sip.zoiper.com (port 5060)</p>
                         <rect width="100%" height="150" fill="url(#pattern)" 
                               filter="url(#filter)" 
                               transform="scale(1)"/>
-                    </svg>
+    </svg>
                     <!--
                     The first rect element creates the solid background.
                     The second rect applies the pattern and filter effects. scale is useful
                     -->
-                </div>
+</div>
   
 <?php
 $tail = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/tail-land.html');
