@@ -133,7 +133,7 @@ Server: sip.zoiper.com (port 5060)</p>
 </div>
 
 <svg xmlns="http://www.w3.org/2000/svg">
-    <pattern id="pattern" width="80" height="80" patternUnits="userSpaceOnUse">
+    <pattern id="pattern" width="8" height="8" patternUnits="userSpaceOnUse">
       <path d="m0 0h1v1H0"/>
     </pattern>
     <filter id="filter">
