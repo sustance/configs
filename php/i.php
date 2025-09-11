@@ -131,7 +131,7 @@ Quick setup for basic SIP testing<br>
 Use username: test, password: test1234<br>
 Server: sip.zoiper.com (port 5060)</p>
 </div>
-
+<!--
 <svg xmlns="http://www.w3.org/2000/svg">
     <pattern id="pattern" width="8" height="8" patternUnits="userSpaceOnUse">
       <path d="m0 0h1v1H0"/>
@@ -157,18 +157,14 @@ Server: sip.zoiper.com (port 5060)</p>
     <rect width="100%" height="800" fill="#e6ffff"/>
     <rect width="100%" height="300" fill="url(#pattern)" filter="url(#filter)" transform="scale(3)"/>
 </svg>
-<!-- rgba(93,173,226,.2)
+ rgba(93,173,226,.2)
 -->
+  
 <div class="svg-container">
     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="350" id="preview-svg">
-                        <pattern id="pattern" 
-                          width="8" height="8" 
-                          patternUnits="userSpaceOnUse">
-                            <path d="m0 0h1v1H0" 
-                              
-                              fill="#eeeeee"/>
-                          
-                        </pattern>
+    <pattern id="pattern" width="8" height="8" patternUnits="userSpaceOnUse">
+    <path d="m0 0h1v1H0"       fill="#ffeeee"      />
+    </pattern>
                         <filter id="filter">
                             <feMorphology operator="dilate" radius="3 0" result="h"/>
                             <feOffset in="SourceAlpha" dx="4" dy="4" result="o"/>
@@ -187,8 +183,8 @@ Server: sip.zoiper.com (port 5060)</p>
                             <feOffset dx="4"/>
                             <feBlend in="SourceAlpha"/>
                         </filter>
-                        <rect width="100%" height="100" fill="#e6ffff"/>
-                        <rect width="100%" height="150" fill="url(#pattern)" 
+    <rect width="100%" height="100" fill="#e6ffff"/>
+    <rect width="100%" height="150" fill="url(#pattern)" 
                               filter="url(#filter)" 
                               transform="scale(1)"/>
     </svg>
