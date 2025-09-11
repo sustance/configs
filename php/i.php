@@ -181,9 +181,15 @@ Server: sip.zoiper.com (port 5060)</p>
                             <feOffset dx="4"/>
                             <feBlend in="SourceAlpha"/>
                         </filter>
-                        <rect width="100%" height="800" fill="#e6ffff"/>
-                        <rect width="100%" height="300" fill="url(#pattern)" filter="url(#filter)" transform="scale(3)"/>
+                        <rect width="100%" height="100" fill="#e6ffff"/>
+                        <rect width="100%" height="150" fill="url(#pattern)" 
+                              filter="url(#filter)" 
+                              transform="scale(1)"/>
                     </svg>
+                    <!--
+                    The first rect element creates the solid background.
+                    The second rect applies the pattern and filter effects. scale is useful
+                    -->
                 </div>
   
 <?php
