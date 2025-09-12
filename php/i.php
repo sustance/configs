@@ -9,7 +9,9 @@ echo $head;
 <img
   src="https://sustance.github.io/assets/globe.svg"
   alt="Home" height="32" width="32" />
+</div>
 
+<div class="bsd">
 <svg width="88%" height="100%">
   <rect width="88%" height="100%" fill="red" />
   <circle cx="100%" cy="100%" r="150" fill="blue" stroke="black" />
