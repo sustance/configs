@@ -23,7 +23,9 @@ $svg_icon_content = $sanitizer->sanitize($svg_icon_content);
 echo $svg_icon_content;
 ?>
 
-
+<img
+  src="https://github.com/sustance.github.io/assets/home.svg"
+  alt="Home" height="64" width="64" />
 
 
 <div class="bsd">
