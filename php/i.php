@@ -8,7 +8,7 @@ echo $head;
   alt="Home" height="64" width="64" />
 <img
   src="https://sustance.github.io/assets/globe.svg"
-  alt="Home" height="32" width="32" />
+  alt="Home" height="64" width="64" />
 </div>
 
 <div class="bsd">
