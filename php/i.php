@@ -3,9 +3,11 @@ $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/re
 echo $head;
 ?>
 <div class="bsd">
+  <p> Inline in 
 <img
-  src="https://sustance.github.io/assets/home.svg"
-  alt="Home" height="64" width="64" />
+  src="https://sustance.github.io/assets/globe.svg"
+  alt="Home" height="24" width="24" />
+    text</p> 
 <img
   src="https://sustance.github.io/assets/globe.svg"
   alt="Home" height="64" width="64" />
