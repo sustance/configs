@@ -4,10 +4,10 @@ echo $head;
 ?>
 
 <img
-  src="https://github.com/sustance.github.io/assets/home.svg"
+  src="https://sustance.github.io/assets/home.svg"
   alt="Home" height="64" width="64" />
 <img
-  src="https://github.com/sustance.github.io/assets/globe.svg"
+  src="https://sustance.github.io/assets/globe.svg"
   alt="Home" height="32" width="32" />
 
 <svg width="100%" height="100%">
