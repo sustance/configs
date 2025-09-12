@@ -26,7 +26,9 @@ echo $svg_icon_content;
 <img
   src="https://github.com/sustance.github.io/assets/home.svg"
   alt="Home" height="64" width="64" />
-
+<img
+  src="https://github.com/sustance.github.io/assets/globe.svg"
+  alt="Home" height="32" width="32" />
 
 <div class="bsd">
 <p>
