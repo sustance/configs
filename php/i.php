@@ -3,6 +3,29 @@ $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/re
 echo $head;
 ?>
 
+<?php
+
+//Store the svg icon URL in a variable
+$svg_icon_url = 'https://github.com/sustance/sustance.github.io/blob/main/assets/home.svg';
+
+//Use file_get_contents() to retrieve the content of the svg
+$svg_icon_content = file_get_contents( $svg_icon_url );
+
+//Modify the SVG content based on your needs
+
+//Sanitize the SVG content. In this example I will use https://packagist.org/packages/enshrined/svg-sanitize package
+require 'vendor/autoload.php';
+use enshrined\svgSanitize\Sanitizer;
+$sanitizer = new Sanitizer();
+$svg_icon_content = $sanitizer->sanitize($svg_icon_content);
+
+//Print the SVG HTML
+echo $svg_icon_content;
+?>
+
+
+
+
 <div class="bsd">
 <p>
 <i>DE.</i> <b>b</b>sd.tilde.team <span class="sml">157.90.196.52</span> 
