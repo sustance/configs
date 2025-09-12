@@ -31,6 +31,22 @@ echo $head;
 </svg>
 </div>
 
+<div class="bsd">
+<svg width="100%" height="100%">
+  <polygon points="120,0 240,225 0,225" fill="green" />
+  <text
+    x="50"
+    y="100"
+    font-family="Verdana"
+    font-size="120"
+    fill="white"
+    stroke="black"
+    stroke-width="1">
+    Identity2
+  </text>
+</svg>
+</div>
+
 
 <div class="bsd">
 <p>
