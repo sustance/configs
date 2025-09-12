@@ -2,7 +2,8 @@
 $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
 echo $head;
 ?>
-<div class="box">
+
+<!--<div class="box">
   <p> Inline in 
 <img
   src="https://sustance.github.io/assets/globe.svg"
@@ -12,7 +13,8 @@ echo $head;
   src="https://sustance.github.io/assets/globe.svg"
   alt="Home" height="64" width="64" />
 </div>
-
+-->
+  
 <div class="bsd">
 <p>
 <i>DE.</i> <b>b</b>sd.tilde.team <span class="sml">157.90.196.52</span> 
