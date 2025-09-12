@@ -6,7 +6,7 @@ echo $head;
 <?php
 
 //Store the svg icon URL in a variable
-$svg_icon_url = 'https://github.com/sustance/sustance.github.io/blob/main/assets/home.svg';
+$svg_icon_url = 'https://github.com/sustance.github.io/assets/home.svg';
 
 //Use file_get_contents() to retrieve the content of the svg
 $svg_icon_content = file_get_contents( $svg_icon_url );
