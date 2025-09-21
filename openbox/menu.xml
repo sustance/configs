@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id="root-menu" label="Openbox 3">
+
+  <item label="🗔 Terminal emulator(xfce)">
+    <action name="Execute"><execute>x-terminal-emulator</execute></action>
+  </item>
+  <item label=" 🌐 Web browser (Google)">
+    <action name="Execute"><execute>x-www-browser</execute></action>
+  </item>
+  <item label="🗁Thunar File Manager">
+    <action name="Execute"><execute>thunar</execute></action>
+  </item>
+
+
+
+
+<menu id="battery-menu"    label="     ⚡ Battery" execute="/home/aaa/.local/bin/pipe-menu-battery.sh" />
+<menu id="brightness-menu" label="     💡 Brightness" execute="/home/aaa/.local/bin/pipe-menu-brightness.sh" />
+<menu id="time-menu"       label="     ⏲ Time" execute="/home/aaa/.local/bin/pipe-menu-time.sh" />
+
+<!--<menu id="system-info-menu" label="System Info">-->
+<!--</menu>-->
+
+  
+<!-- ... the corrected menu content above ... 
+Ⓐ Ⓑ Ⓒ Ⓓ Ⓔ Ⓕ Ⓖ Ⓗ Ⓘ Ⓙ Ⓚ Ⓛ Ⓜ Ⓝ Ⓞ Ⓟ Ⓠ Ⓡ Ⓢ Ⓣ Ⓤ Ⓥ Ⓦ Ⓧ Ⓨ Ⓩ
+🅐 🅑 🅒 🅓 🅔 🅕 🅖 🅗 🅘 🅙 🅚 🅛 🅜 🅝 🅞 🅟 🅠 🅡 🅢 🅣 🅤 🅥 🅦 🅧 🅨 🅩
+🖧” ᚼᛒ  ⚙   
+🖧 ᚼ ᛒ ⚙ Ｆ Ａ 𐍈 ＃ ⚛ ⛭ ⚔ ✦ ✧ ⚡ ⌘ ☯ ✪     
+💻 🖥️ 🖱️ ⌨️ 🕹️ 📱 🛠️ ⚙️ 🗂️ 🗃️  🗔   🗁  🪶𓆄 𓆅 ⏱ 🖎 ✍ ✎ ✏ ✐ 👁
+-->
+
+
+<menu id="Special"  label="⚙ Special Settings">
+
+
+<item label="xfceSettings (dup)">
+	<action name="Execute">
+	<execute>xfce4-settings-manager </execute>
+	</action>
+</item>
+ 
+<separator label="♫ Audio" /><!--SOUND-->
+<item label=" ♫ AlsaMixer">
+  	<action name="Execute">
+  	<execute>xfce4-terminal -e alsamixer</execute>
+  	</action>
+</item>
+  
+<separator />
+ <!--BLUETOOTH-->
+<separator  label="ᚼᛒ Bluetooth"/>  
+  <item label="ᚼᛒ BluetoothCtl TUI">
+		<action name="Execute">
+		<execute>xfce4-terminal -e bluetoothctl</execute>
+		</action>
+  </item>
+
+  <item label="ᚼᛒ Blueman-manager GUI">
+		<action name="Execute">
+		<execute>blueman-manager</execute>
+		</action>
+  </item>
+  
+ <!--NETWORK
+   <menu id="network-tools" label="🖧 ᚼᛒ Network Tools">
+	<item label="🅝 NMtui">
+		<action name="Execute">
+		<execute>xfce4-terminal -e nmtui</execute>
+		</action>
+ 	</item>
+ 	<item label="🅝 NM-connection-editor">
+		<action name="Execute">
+		<execute>nm-connection-editor</execute>
+		</action>
+  	</item> 
+  </menu>-->
+
+<separator label="⚙ Settings" /><!--SETTINGS-->
+
+<item label=" ⚙ TTY font /e/d/console-setup">
+	<action name="Execute">
+	<execute>xfce4-terminal -e sudo dpkg-reconfigure console-setup </execute>
+	</action>
+</item>
+
+<item label="unicode explorer">
+	<action name="Execute">
+	<execute>google-chrome https://unicode-explorer.com/search/ </execute>
+	</action>
+</item>
+
+
+    <separator />
+    <separator />
+   
+</menu>
+
+
+<item label=" 🌐 Web browser (Firefox)">
+  <action name="Execute"><execute>firefox</execute></action>
+</item>
+
+
+  <!-- This requires the presence of the 'obamenu' package to work -->
+  <menu id="/Debian" />
+  <separator />
+  <menu id="applications-menu" label="Applications" execute="/usr/bin/obamenu"/>
+  <separator />
+  <item label="ObConf">
+    <action name="Execute"><execute>obconf</execute></action>
+  </item>
+  <item label="Reconfigure">
+    <action name="Reconfigure" />
+  </item>
+  <item label="Restart">
+    <action name="Restart" />
+  </item>
+  <separator />
+  <item label="Exit">
+    <action name="Exit" />
+  </item>
+</menu>
+
+</openbox_menu>
