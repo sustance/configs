@@ -62,7 +62,7 @@ echo $head;
 <a href="http://h.identity2.com">h.i.c</a>
 <br>
 
-<i>DE.</i> tilde.<b>i</b>nstitute. <span class="sml">opt-svr</span>
+<i>DE.</i> tilde.<b>i</b>nstitute
 <span class="sml">159.69.146.152</span>  
 <a href="https://tilde.institute">t.i</a>  
 <a href="https://id2.tilde.institute">id2.t.i</a> 
