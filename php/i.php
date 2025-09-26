@@ -30,7 +30,7 @@ echo $head;
 <a href="http://c.identity2.com">c.i.c~</a>
 <br>
 
-<i>GB.</i> <b>d</b>imesion.sh <span class="sml">209.97.187.90</span> 
+<i>GB.</i> <b>d</b>imension.sh <span class="sml">209.97.187.90</span> 
 <a href="https://dimension.sh/">d.s</a> 
 <a href="https://dimension.sh/~identity2">/~i42</a> 
 <a href="http://d.identity2.com">d.i.c</a>
