@@ -18,12 +18,12 @@ echo $head;
 <div class="bsd">
 <p>
 <i>DE.</i> <b>b</b>sd.tilde.team <span class="sml">157.90.196.52</span> 
-<a href="https://bsd.tilde.team/">b.t.t</a> 
+<a href="https://bsd.tilde.team/"> <b>b</b>sd.tilde.team </a> 
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
 <a href="http://b.identity2.com">b.i.c</a>
 <br>
 
-<i>US.</i> <b>c</b>trl-c.club <span class="tin">165.227.127.54</span> 
+<i>US.</i> <b>c</b>trl-c.club <span class="sml">165.227.127.54</span> 
 <a href="https://ctrl-c.club/">c.c</a>
 <a href="https://ctrl-c.club/~identity2">/~i52</a>
 <a href="https://ctrl-c.club/~identity2/lineage/">/lin</a> 
