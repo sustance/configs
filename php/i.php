@@ -60,7 +60,7 @@ CA.
 <a href="https://thunix.net/~id">/~id</a> 
 <a href="https://tilde.tel">t.tel</a>  
 <a href="http://h.identity2.com">h.i.c</a> 
-  <span class="sml">142.44.150.185</span
+  <span class="sml">142.44.150.185</span>
 <br>
 DE. 
 <a href="https://tilde.institute">tilde.<b>i</b>nstitute</a>  
@@ -97,7 +97,7 @@ US
 <a href="https://sustance.github.io">sustance.gith<b>u</b>b.io</a>
 <a href="https://identity2.com">i.c</a>
 <a href="http://identity2.com">www.i.c</a> 
-  <span class="sml">45.33.66.185</span
+  <span class="sml">45.33.66.185</span>
 <br>
 US. <b>v</b>ern.cc 
 <a href="https://vern.cc/">v.c</a> <span class="sml">5.161.108.85</span> 
