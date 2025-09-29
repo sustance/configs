@@ -17,97 +17,110 @@ echo $head;
   
 <div class="bsd">
 <p>
-<i>DE.</i> <b>b</b>sd.tilde.team <span class="sml">157.90.196.52</span> 
 <a href="https://bsd.tilde.team/"> <b>b</b>sd.tilde.team </a> 
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
 <a href="http://b.identity2.com">b.i.c</a>
+  <span class="sml">157.90.196.52</span> 
 <br>
-
-<i>US.</i> <b>c</b>trl-c.club <span class="sml">165.227.127.54</span> 
-<a href="https://ctrl-c.club/">c.c</a>
+US. 
+<a href="https://ctrl-c.club/"><b>c</b>trl-c.club</a>
 <a href="https://ctrl-c.club/~identity2">/~i52</a>
 <a href="https://ctrl-c.club/~identity2/lineage/">/lin</a> 
 <a href="http://c.identity2.com">c.i.c~</a>
+  <span class="sml">165.227.127.54</span> 
 <br>
 
-<i>GB.</i> <b>d</b>imension.sh <span class="sml">209.97.187.90</span> 
+<i>GB.</i> <b>d</b>imension.sh 
 <a href="https://dimension.sh/">d.s</a> 
 <a href="https://dimension.sh/~identity2">/~i42</a> 
 <a href="http://d.identity2.com">d.i.c</a>
+  <span class="sml">209.97.187.90</span> 
+
+  
 <br> 
 
-<i>DE.</i> <b>e</b>nvs.net <span class="sml">89.163.145.170</span> 
+<i>DE.</i> <b>e</b>nvs.net 
 <a href="https://envs.net/">e.n</a>  
 <a href="https://envs.net/~identity2">/~i52</a>  
-  <a href="https://e.identity2.com">e.i.c</a>
+  <a href="https://e.identity2.com">e.i.c</a> 
+  <span class="sml">89.163.145.170</span>
 <i>remi</i> 
 <br>
   
-<i>DE.</i> <b>f</b>reeshell.de <span class="sml">116.202.128.144</span> 
+<i>DE.</i> <b>f</b>reeshell.de
 <a href="https://freeshell.de/">f.d</a> 
 <a href="https://freeshell.de/~identity">/~i4y</a> 
-    <a href="http://f.identity2.com">f.i.c</a>
+    <a href="http://f.identity2.com">f.i.c</a> 
+  <span class="sml">116.202.128.144</span> 
 <br>
 
-<i>CA.</i>  tilde.<b>g</b>uru <span class="sml">95.179.178.246</span> 
+<i>CA.</i>  tilde.<b>g</b>uru 
 <a href="https://tilde.guru">t.g</a>  
 <a href="https://tilde.guru/~edi">/~edi</a>
-<a href="http://g.identity2.com">g.i.c</a>
+<a href="http://g.identity2.com">g.i.c</a> 
+  <span class="sml">95.179.178.246</span>
 <br>
 
-<i>CA.</i>  t<b>h</b>unix.net <span class="sml">142.44.150.185</span> 
+<i>CA.</i>  t<b>h</b>unix.net> 
 <a href="https://thunix.net">t.n</a>  
 <a href="https://thunix.net/~id">/~id</a> 
 <a href="https://tilde.tel">t.tel</a>  
-<a href="http://h.identity2.com">h.i.c</a>
+<a href="http://h.identity2.com">h.i.c</a> 
+  <span class="sml">142.44.150.185</span
 <br>
 
 <i>DE.</i> tilde.<b>i</b>nstitute
-<span class="sml">159.69.146.152</span>  
+ 
 <a href="https://tilde.institute">t.i</a>  
 <a href="https://id2.tilde.institute">id2.t.i</a> 
 <a href="http://i.identity2.com">i.i.c</a>
+  <span class="sml">159.69.146.152</span>  
 <br>
 
-<i>DE.</i> pro<b>j</b>ectsegfau.lt <span class="sml">45.145.41.226</span> 
+<i>DE.</i> pro<b>j</b>ectsegfau.lt 
 <a href="https://projectsegfau.lt/">p.l</a> 
 <a href="https://identity2.p.projectsegfau.lt/">i.p.p.l/~i52</a> 
-<a href="http://j.identity2.com">j.i.c</a>
+<a href="http://j.identity2.com">j.i.c</a> 
+  <span class="sml">45.145.41.226</span>
 <br>
 
-<i>DE.</i> pr<b>o</b>jectsegfau.lt <span class="sml">45.145.41.226</span>
+<i>DE.</i> pr<b>o</b>jectsegfau.lt
 <a href="https://projectsegfau.lt/">p.l</a> 
 <a href="https://id.p.projectsegfau.lt/">i.p.p.l/~id</a>
-<a href="http://o.identity2.com">o.i.c</a>                                              
+<a href="http://o.identity2.com">o.i.c</a> 
+  <span class="sml">45.145.41.226</span>                                              
 <br>
 
 <i>CA.</i> tilde.<b>p</b>ink  
-<span class="sml">198.50.210.248 </span> <a href="https://tilde.pink/">t.p</a>  
+<a href="https://tilde.pink/">t.p</a>  
 <a href="https://tilde.pink/~id2">t.p/~id2</a> 
   <a href="https://p.identity2.com">p.i.c</a>
+  <span class="sml">198.50.210.248 </span> 
 <br>
 
-<i>CA.</i> tilde.<b>t</b>eam <span class="sml">198.50.210.248</span>  <a href="https://tilde.team/">t.t</a> 
+<i>CA.</i> tilde.<b>t</b>eam <a href="https://tilde.team/">t.t</a> 
 <a href="https://tilde.team/~identity2">/~i52</a> 
 <a href="https://tilde.team/~identity2/lineage">/lin</a> 
-<a href="http://t.identity2.com">t.i.c</a>
+<a href="http://t.identity2.com">t.i.c</a> 
+  <span class="sml">198.50.210.248</span> 
 <br>
 
   
-<i>US</i> gith<b>u</b>b.io <span class="sml">45.33.66.185</span> 
+<i>US</i> gith<b>u</b>b.io> 
 <a href="https://sustance.github.io">s.g.io</a>
 <a href="https://identity2.com">i.c</a>
-<a href="http://identity2.com">www.i.c</a>
+<a href="http://identity2.com">www.i.c</a> 
+  <span class="sml">45.33.66.185</span
 <br>
   
 
-<i>US.</i> <b>v</b>ern.cc <span class="sml">5.161.108.85</span> 
-<a href="https://vern.cc/">v.c</a> 
+<i>US.</i> <b>v</b>ern.cc 
+<a href="https://vern.cc/">v.c</a> <span class="sml">5.161.108.85</span> 
 no web
 <br>
 
-<i>US</i> rawte<b>x</b>t.club <span class="sml">45.33.66.185</span> 
-<a href="https://rawtext.club/">r.c</a> 
+<i>US</i> rawte<b>x</b>t.club 
+<a href="https://rawtext.club/">r.c</a>  <span class="sml">45.33.66.185</span>
 no web
 <br>
 
