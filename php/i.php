@@ -30,11 +30,11 @@ US.
 <a href="http://c.identity2.com">c.i.c~</a>
   <span class="sml">165.227.127.54</span> 
 <br>
-GB.
+CA.
 <a href="https://dimension.sh/"><b>d</b>imension.sh </a> 
 <a href="https://dimension.sh/~identity2">/~i42</a> 
 <a href="http://d.identity2.com">d.i.c</a>
-  <span class="sml">209.97.187.90</span> 
+  <span class="sml">51.79.51.59</span> 
 <br> 
 DE.  
 <a href="https://envs.net/"><b>e</b>nvs.net</a>  
