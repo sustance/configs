@@ -34,6 +34,10 @@ echo "Hello, World!";
 
 Steps for DIY Refill (Advanced Users Only)
 
+https://www.youtube.com/watch?v=I_oeRxyXsPs
+
+https://www.youtube.com/watch?v=-Qsu8rEqrHE     <<< good
+
 Disassemble the Cartridge:
 
 Remove the end cap on the right side of the cartridge. 
