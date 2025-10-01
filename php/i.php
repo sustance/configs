@@ -17,7 +17,7 @@ echo $head;
   
 <div class="bsd">
 <p>
-CA.
+US.
 <a href="https://bsd.tilde.team/"> <b>b</b>sd.tilde.team </a> 
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
 <a href="http://b.identity2.com">b.i.c</a>
