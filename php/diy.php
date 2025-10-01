@@ -1,3 +1,32 @@
+<?php
+/**
+ * Markdown to HTML Converter
+ * 
+ * This script converts markdown text embedded in the PHP file to formatted HTML
+ */
+
+// Markdown text block - paste your markdown between the HEREDOC tags
+$markdown = <<<MARKDOWN
+# Welcome to Markdown Converter
+
+This is a **simple markdown** to HTML converter.
+
+## Features
+
+- Converts markdown syntax to HTML
+- Supports basic formatting
+- Easy to use
+
+### Code Example
+
+```php
+<?php
+echo "Hello, World!";
+?>
+
+
+
+
 # Refilling your HP LaserJet Pro M15w printer's 48A cartridge 
 
 
