@@ -120,7 +120,6 @@ Mi<b>7</b> 32b
 </p> 
 </div>
 
-
 <div class="box"> 
 <p>
 Mob <b>le</b><span class="sml">novo</p>
@@ -139,69 +138,7 @@ Preconfigured test account for Zoiper softphone<br>
 Quick setup for basic SIP testing<br>
 Use username: test, password: test1234<br>
 Server: sip.zoiper.com (port 5060)</p>
-</div>
-<!--
-<svg xmlns="http://www.w3.org/2000/svg">
-    <pattern id="pattern" width="8" height="8" patternUnits="userSpaceOnUse">
-      <path d="m0 0h1v1H0"/>
-    </pattern>
-    <filter id="filter">
-        <feMorphology operator="dilate" radius="3 0" result="h"/>
-        <feOffset in="SourceAlpha" dx="4" dy="4" result="o"/>
-        <feMorphology operator="dilate" radius="0 3"/>
-        <feBlend in="h" result="g"/>
-        <feBlend in="SourceAlpha" in2="o" result="l"/>
-        <feTurbulence baseFrequency=".3"/>
-        <feComposite operator="in" in="l"/>
-        <feMorphology operator="dilate" radius="1"/>
-        <feComposite operator="in" in="l"/>
-        <feComponentTransfer>
-            <feFuncA type="discrete" tableValues="0 1 1 1 1"/>
-        </feComponentTransfer>
-        <feMorphology operator="dilate" radius="3"/>
-        <feComposite operator="in" in="g"/>
-        <feOffset dx="4"/>
-        <feBlend in="SourceAlpha"/>
-    </filter>
-    <rect width="100%" height="800" fill="#e6ffff"/>
-    <rect width="100%" height="300" fill="url(#pattern)" filter="url(#filter)" transform="scale(3)"/>
-</svg>
- rgba(93,173,226,.2)
--->
-  
-<div class="svg-container">
-    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="75" id="preview-svg">
-    <pattern id="pattern" width="8" height="8" patternUnits="userSpaceOnUse">
-    <path d="m0 0h1v1H0"       fill="#dddddd"      />
-    </pattern>
-                        <filter id="filter">
-                            <feMorphology operator="dilate" radius="3 0" result="h"/>
-                            <feOffset in="SourceAlpha" dx="4" dy="4" result="o"/>
-                            <feMorphology operator="dilate" radius="0 3"/>
-                            <feBlend in="h" result="g"/>
-                            <feBlend in="SourceAlpha" in2="o" result="l"/>
-                            <feTurbulence baseFrequency=".3"/>
-                            <feComposite operator="in" in="l"/>
-                            <feMorphology operator="dilate" radius="1"/>
-                            <feComposite operator="in" in="l"/>
-                            <feComponentTransfer>
-                                <feFuncA type="discrete" tableValues="0 1 1 1 1"/>
-                            </feComponentTransfer>
-                            <feMorphology operator="dilate" radius="3"/>
-                            <feComposite operator="in" in="g"/>
-                            <feOffset dx="4"/>
-                            <feBlend in="SourceAlpha"/>
-                        </filter>
-    <rect width="100%" height="50" fill="#e6ffff"/>
-    <rect width="100%" height="75" fill="url(#pattern)" 
-                              filter="url(#filter)" 
-                              transform="scale(2)"/>
-    </svg>
-                    <!--
-                    The first rect element creates the solid background.
-                    The second rect applies the pattern and filter effects. scale is useful
-                    -->
-</div>
+</div
   
 <?php
 $tail = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/tail-land.html');
