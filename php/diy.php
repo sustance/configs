@@ -1,4 +1,7 @@
-Refilling your HP LaserJet Pro M15w printer's 48A cartridge yourself involves a complex process of disassembling the cartridge, cleaning internal components, replacing the toner powder using a special tool to melt a hole in the cartridge, and then reassembling it and replacing the chip. It is a challenging DIY task that requires specific tools and expertise, with the risk of damaging the printer or cartridge.  
+# Refilling your HP LaserJet Pro M15w printer's 48A cartridge 
+
+
+### disassembling the cartridge, cleaning internal components, replacing the toner powder using a special tool to melt a hole in the cartridge, and then reassembling it and replacing the chip. It is a challenging DIY task that requires specific tools and expertise, with the risk of damaging the printer or cartridge.  
 
 Steps for DIY Refill (Advanced Users Only)
 
