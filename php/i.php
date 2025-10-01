@@ -107,15 +107,17 @@ US. rawte<b>x</b>t.club
 <a href="https://rawtext.club/">r.c</a>  <span class="sml">45.33.66.185</span>
 no web
 <br>
-HK.
+HK. 
+Hu<b>4</b> 
 <a href="https://sufbo.tplinkdns.com:8004">sufbo.tplinkdns.com:8004</a>
 <a href="http://4.identity2.com">4.i.c</a>
-  <span class="sml">Huawei64</span> Hu<b>4</b>
+  <span class="sml">Huawei64</span> 
 <br>
 HK. 
+Mi<b>7</b> 
 <a href="https://sufbo.tplinkdns.com:8007">sufbo.tplinkdns.com:8007</a>
 <a href="http://7.identity2.com">7.i.c</a>
-  <span class="sml">HPMini32</span> Mi<b>7</b>
+  <span class="sml">HPMini32</span>
 
 </p> 
 </div>
