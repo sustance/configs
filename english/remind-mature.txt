@@ -1,3 +1,88 @@
+Create a script to be run every day at 10am HKT by cron on linux or freebsd
+
+The "Table of maturites" shown below is to be embedded in the file 
+and will be edited from time to time to update maturities
+
+all lines not 5 numberals in "Matur" to be ignored
+
+Matur,   YMMDD that the investment will mature
+Bookd,   YMMDD that the investment was originally placed
+$Mil,    Millions of currency units
+Cur,     The currency of th investment
+Detail   Before the dot - the country h=hongkong c=prchina l=liechtenstein s=singapore
+         After the dot - 
+
+"Table of maturities"
+
+Matur, Bookd, $Mil,Cur,  Detail 
+_________________________________
+50825, 00000, 0.41,hkd, h.Pay lgt 
+50908, 50807, 1.80,usd, l.2364951┃
+50925, 00000, 0.41,hkd, h.Pay lgt 
+51025, 00000, 0.41,hkd, h.Pay lgt 
+51028, 50728, 1.44,hkd, c.hangs  ￪
+51028, 50728, 0.34,usd, c.hangs  ￪
+51125, 00000, 0.41,hkd, h.Pay lgt 
+51208, 41206, 1.35,usd, l.2096070┃
+5122x, 00000, 0.41,hkd, h.Pay lgt 
+_________________________________
+60109, 50109, 0.55,usd, l.2135658┃
+60206, 50806, 0.05,usd, c.hangs  ￪
+60217, 50214, 1.64,usd, l.2168917┃
+60220, 50818, 0.03,aud, l.tba    ┊
+60430, 50729, 5.26,usd, l.2355326┃
+-dpst, 50108, 0.71,chf, l.135660 √
+-call, 50204, 0.51,usd, s.*8646  ￪
+-dpst, 00000, 0.40,aud, a.wpac   √
+
+
+
+
+hol-hong-kong
+
+Year,Date,Day,Holiday Name
+2025,01-01-2025,Wednesday,The first day of January
+2025,29-01-2025,Wednesday,Lunar New Year's Day
+2025,30-01-2025,Thursday,The second day of Lunar New Year
+2025,31-01-2025,Friday,The third day of Lunar New Year
+2025,04-04-2025,Friday,Ching Ming Festival
+2025,18-04-2025,Friday,Good Friday
+2025,19-04-2025,Saturday,The day following Good Friday
+2025,21-04-2025,Monday,Easter Monday
+2025,01-05-2025,Thursday,Labour Day
+2025,29-05-2025,Thursday,Buddha's Birthday
+2025,01-07-2025,Tuesday,HKSAR Establishment Day
+2025,02-10-2025,Thursday,The day following the Chinese Mid-Autumn Festival
+2025,01-10-2025,Wednesday,National Day
+2025,30-10-2025,Thursday,Chung Yeung Festival
+2025,25-12-2025,Thursday,Christmas Day
+2025,26-12-2025,Friday,The first weekday after Christmas Day
+2026,01-01-2026,Thursday,The first day of January
+2026,17-02-2026,Tuesday,Lunar New Year's Day
+2026,18-02-2026,Wednesday,The second day of Lunar New Year
+2026,19-02-2026,Thursday,The third day of Lunar New Year
+2026,03-04-2026,Friday,Ching Ming Festival
+2026,03-04-2026,Friday,Good Friday
+2026,04-04-2026,Saturday,The day following Good Friday
+2026,06-04-2026,Monday,Easter Monday
+2026,01-05-2026,Friday,Labour Day
+2026,17-05-2026,Sunday,Buddha's Birthday (Monday substitute observed on 18-05-2026)
+2026,01-07-2026,Wednesday,HKSAR Establishment Day
+2026,02-10-2026,Friday,The day following the Chinese Mid-Autumn Festival
+2026,01-10-2026,Thursday,National Day
+2026,19-10-2026,Monday,Chung Yeung Festival
+2026,25-12-2026,Friday,Christmas Day
+2026,28-12-2026,Monday,The first weekday after Christmas Day
+
+
+
+
+
+
+
+
+hol-liechtenstein
+
 Date,Day,Holiday Name,Local Name,Remarks
 2025-01-01,Wednesday,New Year's Day,Neujahr,
 2025-01-06,Monday,Epiphany,Heilige Drei Könige,
@@ -14,3 +99,88 @@ Date,Day,Holiday Name,Local Name,Remarks
 2025-12-08,Monday,Immaculate Conception,Mariä Empfängnis,
 2025-12-25,Thursday,Christmas Day,Weihnachten,
 2025-12-26,Friday,St. Stephen's Day,Stephanstag,
+2026-01-01,Thursday,New Year's Day,Neujahr
+2026-01-06,Tuesday,Epiphany,Heilige Drei Könige
+2026-03-19,Thursday,St. Joseph's Day,Josefstag
+2026-04-03,Friday,Good Friday,Karfreitag
+2026-04-06,Monday,Easter Monday,Ostermontag
+2026-05-01,Friday,Labour Day,Tag der Arbeit
+2026-05-14,Thursday,Ascension Day,Auffahrt
+2026-05-25,Monday,Whit Monday,Pfingstmontag
+2026-06-04,Thursday,Corpus Christi,Fronleichnam
+2026-08-15,Saturday,National Day,Staatsfeiertag
+2026-09-08,Tuesday,Nativity of Mary,Mariä Geburt
+2026-11-01,Sunday,All Saints' Day,Allerheiligen
+2026-12-08,Tuesday,Immaculate Conception,Mariä Empfängnis
+2026-12-25,Friday,Christmas Day,Weihnachten
+2026-12-26,Saturday,St. Stephen's Day,Stephanstag
+
+
+hol-pr-china
+Date,Day,Holiday Name
+2025-01-01,Wednesday,New Year's Day
+2025-01-28,Tuesday,Spring Festival Holiday
+2025-01-29,Wednesday,Spring Festival
+2025-01-30,Thursday,Spring Festival Holiday
+2025-01-31,Friday,Spring Festival Holiday
+2025-02-01,Saturday,Spring Festival Holiday
+2025-02-02,Sunday,Spring Festival Holiday
+2025-02-03,Monday,Spring Festival Holiday
+2025-04-04,Friday,Qingming Festival
+2025-05-01,Thursday,Labour Day
+2025-05-02,Friday,Labour Day Holiday
+2025-05-03,Saturday,Labour Day Holiday
+2025-06-02,Monday,Dragon Boat Festival (Observed)
+2025-10-01,Wednesday,National Day
+2025-10-02,Thursday,National Day Holiday
+2025-10-03,Friday,National Day Holiday
+2025-10-04,Saturday,National Day Holiday
+2025-10-05,Sunday,National Day Holiday
+2025-10-06,Monday,National Day Holiday
+2025-10-07,Tuesday,National Day Holiday
+2026-01-01,Thursday,New Year's Day
+2026-02-17,Tuesday,Spring Festival Holiday
+2026-02-18,Wednesday,Spring Festival
+2026-02-19,Thursday,Spring Festival Holiday
+2026-02-20,Friday,Spring Festival Holiday
+2026-02-21,Saturday,Spring Festival Holiday
+2026-02-22,Sunday,Spring Festival Holiday
+2026-02-23,Monday,Spring Festival Holiday
+2026-04-06,Monday,Qingming Festival (Observed)
+2026-05-01,Friday,Labour Day
+2026-06-19,Friday,Dragon Boat Festival
+2026-09-25,Friday,Mid-Autumn Festival
+2026-10-01,Thursday,National Day
+2026-10-02,Friday,National Day Holiday
+2026-10-03,Saturday,National Day Holiday
+2026-10-04,Sunday,National Day Holiday
+2026-10-05,Monday,National Day Holiday
+2026-10-06,Tuesday,National Day Holiday
+2026-10-07,Wednesday,National Day Holiday
+
+
+hol-singapore
+Date,Day,Holiday Name
+2025-01-01,Wednesday,New Year's Day
+2025-01-29,Wednesday,Chinese New Year
+2025-01-30,Thursday,Chinese New Year
+2025-04-18,Friday,Good Friday
+2025-05-01,Thursday,Labour Day
+2025-05-12,Monday,Vesak Day
+2025-06-02,Monday,Hari Raya Puasa
+2025-08-09,Saturday,National Day
+2025-09-06,Saturday,Hari Raya Haji
+2025-10-22,Wednesday,Deepavali
+2025-12-25,Thursday,Christmas Day
+2026-01-01,Thursday,New Year's Day
+2026-02-17,Tuesday,Chinese New Year
+2026-02-18,Wednesday,Chinese New Year
+2026-04-03,Friday,Good Friday
+2026-05-01,Friday,Labour Day
+2026-05-01,Friday,Hari Raya Puasa
+2026-05-31,Sunday,Vesak Day
+2026-08-09,Sunday,National Day
+2026-08-10,Monday,National Day Holiday
+2026-07-27,Monday,Hari Raya Haji
+2026-11-11,Wednesday,Deepavali
+2026-12-25,Friday,Christmas Day
