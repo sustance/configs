@@ -1,6 +1,31 @@
+As a first step I would like to have my "english " instruction below to be refined and clarified
+to identify and fix any miscommunication and add missing detail.
+
+please return an improve "english" program
+
+
 Create a script to be run every day at 10am HKT by cron on linux or freebsd
 
-The "Table of maturites" shown below is to be embedded in the file 
+Every day it table is scanned 
+ - for each maturity that is three working days in the future 
+   - message "ALERT maturity in 3 working days" and append that line from the table
+ - for each maturity today
+   - message "WARNING maturity TODAY" and append that line from the table
+
+IF today is monday (and only on monday) prepare themessage message
+- if there is any maturity in the next 14 days
+  - message "There or maturities in the coming fortnight on $date, $date,etc
+- if there is no maturity in the next 14 days
+  - message "There are NO maturities inthe next fortnight
+
+When there is a message to send it is to be sent to two Telegram accounts
+#K  PID="993903069"
+#S  PID="624323305"
+Code similar to 
+```curl -s -X POST https://api.telegram.org/bot${K}/sendMessage -d chat_id=${PID} -d text="${MSG}"```
+
+
+The "Table of maturites" shown below is to be embedded in the script file 
 and will be edited from time to time to update maturities
 
 all lines not 5 numberals in "Matur" to be ignored
@@ -10,7 +35,7 @@ Bookd,   YMMDD that the investment was originally placed
 $Mil,    Millions of currency units
 Cur,     The currency of th investment
 Detail   Before the dot - the country h=hongkong c=prchina l=liechtenstein s=singapore
-         After the dot - 
+         After the dot - a descriptive string
 
 "Table of maturities"
 
@@ -36,7 +61,7 @@ _________________________________
 -dpst, 00000, 0.40,aud, a.wpac   √
 
 
-
+"Tables of public holidays for each country"
 
 hol-hong-kong
 
