@@ -1,0 +1,16 @@
+Date,Day,Holiday Name,Local Name,Remarks
+2025-01-01,Wednesday,New Year's Day,Neujahr,
+2025-01-06,Monday,Epiphany,Heilige Drei Könige,
+2025-03-19,Wednesday,St. Joseph's Day,Josefstag,Patron saint of Liechtenstein
+2025-04-18,Friday,Good Friday,Karfreitag,Friday before Easter Sunday
+2025-04-21,Monday,Easter Monday,Ostermontag,Day after Easter Sunday
+2025-05-01,Thursday,Labour Day,Tag der Arbeit,
+2025-05-29,Thursday,Ascension Day,Auffahrt,39 days after Easter Sunday
+2025-06-09,Monday,Whit Monday,Pfingstmontag,50 days after Easter Sunday
+2025-06-19,Thursday,Corpus Christi,Fronleichnam,60 days after Easter Sunday
+2025-08-15,Friday,National Day,Staatsfeiertag,Main national holiday
+2025-09-08,Monday,Nativity of Mary,Mariä Geburt,
+2025-11-01,Saturday,All Saints' Day,Allerheiligen,
+2025-12-08,Monday,Immaculate Conception,Mariä Empfängnis,
+2025-12-25,Thursday,Christmas Day,Weihnachten,
+2025-12-26,Friday,St. Stephen's Day,Stephanstag,
