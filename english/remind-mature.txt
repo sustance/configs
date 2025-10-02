@@ -1,50 +1,82 @@
-As a first step I would like to have my "english " instruction below to be refined and clarified
-to identify and fix any miscommunication and add missing detail.
+Create a daily monitoring script that runs at 10:00 HKT to track investment maturities and send Telegram alerts.
 
-please return an improve "english" program
-break up the code to separate routines as little as possible
+Daily Processing:
 
-This script is for my personal use and want it a short and readable as possible
-no data validation
-no complicated structures
-break up the code to separate routines as little as possible
-one monolithic file where i can edit code and data in one place
-some commented out debug points ok
+Scan all maturity entries daily
 
+For maturities occurring 3 working days from today: send "ALERT maturity in 3 working days" with entry details
 
-Create a script to be run every day at 10am HKT by cron on linux or freebsd
+For maturities occurring today: send "WARNING maturity TODAY" with entry details
 
-Every day it table is scanned 
- - for each maturity that is three working days in the future 
-   - message "ALERT maturity in 3 working days" and append that line from the table
- - for each maturity today
-   - message "WARNING maturity TODAY" and append that line from the table
+Monday-Only Weekly Report:
 
-IF today is monday (and only on monday) prepare themessage message
-- if there is any maturity in the next 14 days
-  - message "There or maturities in the coming fortnight on $date, $date,etc 
-       and public holidays in $country on $date, $date,etc
-- if there is no maturity in the next 14 days
-  - message "There are NO maturities inthe next fortnight
+Only on Mondays, check for maturities in the next 14 days
 
-When there is a message to send it is to be sent to two Telegram accounts
-#K  PID="993903069"
-#S  PID="624323305"
-Code similar to 
-```curl -s -X POST https://api.telegram.org/bot${K}/sendMessage -d chat_id=${PID} -d text="${MSG}"```
+If maturities exist: "There are maturities in the coming fortnight on [dates] and public holidays in [country] on [dates]"
 
+If no maturities: "There are NO maturities in the next fortnight"
 
-The "Table of maturites" shown below is to be embedded in the script file 
-and will be edited from time to time to update maturities
+Notification System:
 
-all lines not 5 numberals in "Matur" to be ignored
+Send messages to two Telegram accounts:
 
-Matur,   YMMDD that the investment will mature
-Bookd,   YMMDD that the investment was originally placed
-$Mil,    Millions of currency units
-Cur,     The currency of th investment
-Detail   Before the dot - the country h=hongkong c=prchina l=liechtenstein s=singapore
-         After the dot - a descriptive string
+PID="993903069" (K)
+
+PID="624323305" (S)
+
+Use script code eqivalent to: curl -s -X POST https://api.telegram.org/bot${BOT_TOKEN}/sendMessage -d chat_id=${PID} -d text="${MSG}"
+
+Data Structure:
+Maturity Table Format:
+
+Store as embedded CSV data within script
+
+Ignore lines where "Matur" doesn't contain exactly 5 digits
+
+Columns:
+
+Matur: YMMDD maturity date (5 digits)
+
+Bookd: YMMDD booking date (5 digits)
+
+$Mil: Amount in millions
+
+Cur: Currency code
+
+Detail: Country.code (h=HK, c=PRC, l=Liechtenstein, s=Singapore) + description
+
+Public Holiday Data:
+
+Embed holiday tables for all four countries (HK, PRC, Liechtenstein, Singapore)
+
+Format: Date, Day, Holiday Name (additional columns optional)
+
+Technical Requirements:
+
+Single monolithic script file
+
+Minimal code separation into functions
+
+No data validation required
+
+No complex structures
+
+Commented debug points acceptable
+
+Editable data sections within the same file
+
+Key Clarifications:
+
+"Working days" exclude weekends and public holidays
+
+"3 working days in future" means exactly 3 business days from today
+
+"Next 14 days" means the 14 calendar days following today
+
+Country codes in Detail field determine which holiday calendar to use
+
+All data tables should be embedded and easily editable within the script
+
 
 "Table of maturities"
 
@@ -146,6 +178,7 @@ Date,Day,Holiday Name,Local Name,Remarks
 
 
 hol-pr-china
+
 Date,Day,Holiday Name
 2025-01-01,Wednesday,New Year's Day
 2025-01-28,Tuesday,Spring Festival Holiday
@@ -189,6 +222,7 @@ Date,Day,Holiday Name
 
 
 hol-singapore
+
 Date,Day,Holiday Name
 2025-01-01,Wednesday,New Year's Day
 2025-01-29,Wednesday,Chinese New Year
