@@ -2,6 +2,14 @@ As a first step I would like to have my "english " instruction below to be refin
 to identify and fix any miscommunication and add missing detail.
 
 please return an improve "english" program
+break up the code to separate routines as little as possible
+
+This script is for my personal use and want it a short and readable as possible
+no data validation
+no complicated structures
+break up the code to separate routines as little as possible
+one monolithic file where i can edit code and data in one place
+some commented out debug points ok
 
 
 Create a script to be run every day at 10am HKT by cron on linux or freebsd
@@ -14,7 +22,8 @@ Every day it table is scanned
 
 IF today is monday (and only on monday) prepare themessage message
 - if there is any maturity in the next 14 days
-  - message "There or maturities in the coming fortnight on $date, $date,etc
+  - message "There or maturities in the coming fortnight on $date, $date,etc 
+       and public holidays in $country on $date, $date,etc
 - if there is no maturity in the next 14 days
   - message "There are NO maturities inthe next fortnight
 
@@ -61,6 +70,7 @@ _________________________________
 -dpst, 00000, 0.40,aud, a.wpac   √
 
 
+
 "Tables of public holidays for each country"
 
 hol-hong-kong
@@ -98,12 +108,6 @@ Year,Date,Day,Holiday Name
 2026,19-10-2026,Monday,Chung Yeung Festival
 2026,25-12-2026,Friday,Christmas Day
 2026,28-12-2026,Monday,The first weekday after Christmas Day
-
-
-
-
-
-
 
 
 hol-liechtenstein
