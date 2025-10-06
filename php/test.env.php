@@ -1,6 +1,6 @@
 <?php
 // Load .env from home directory
-$env_path = '/home/yourusername/.env';
+$env_path = '/home/identity2/.env';
 
 if (!file_exists($env_path)) {
     die('.env file not found!');
