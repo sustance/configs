@@ -71,7 +71,7 @@ usort($holidaysNextMonth, function($a, $b) {
 });
 
 // Output in <pre> block
-echo "<pre>\nPublic holidays by country from " . $now->format('Y-m-d') . " to " . $end->format('Y-m-d') . ":\n\n";
+echo "<pre>\nPublic holidays by country from " . $now->format('Y-m-d') . " to " . $end->format('Y-m-d') . " via " . $C_ID . ":\n\n";
 
 foreach ($holidaysNextMonth as $holiday) {
     echo "{$holiday['date']} - {$holiday['country']}\n";
