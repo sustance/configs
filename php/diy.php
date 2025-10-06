@@ -25,8 +25,14 @@ echo "Hello, World!";
 ?>
 
 # Toner Cartridges on hand
+
  - Laser cartridges CRG-137, CRG 137, Canon 137 Toner Cartridge for 
-Canon imageCLASS MF249dw / MF247dw / MF236n -- CYMK
+   Canon imageCLASS MF249dw / MF247dw / MF236n -- CYMK
+
+ - NEW Refillable cartridge HP 80X CF280X Compatible Toner Cartridge 
+   possibly 80A
+   for HP Laserjet Pro 400, M401dn
+
 
 
 
