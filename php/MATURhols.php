@@ -10,6 +10,9 @@ if (!file_exists($env_path)) {
 
 $env_vars = parse_ini_file($env_path);
 $BOT_TOKEN = $env_vars['BOT_TOKEN'];
+$PIDK = $env_vars['PIDK'];
+$PIDS = $env_vars['PIDS'];
+$PIDM = $env_vars['PIDM'];
 
 // Use your token
 echo "Token loaded successfully!";
@@ -19,7 +22,7 @@ echo "Token loaded successfully!";
 // $BOT_TOKEN = getenv('tg');
 
 // PID variable
- $PID = "993903069"; //telWassup
+//$PID = "993903069"; //telWassup
 
 // --- 1. DEFINE YOUR HOLIDAY DATA ---
  $HOLIDAYS = [
@@ -113,5 +116,5 @@ function sendTelegramMessage($chatId, $message, $token) {
 }
 
 // Send the holidays list to Telegram PID
-sendTelegramMessage($PID, $messageText, $BOT_TOKEN);
+sendTelegramMessage($PIDK, $messageText, $BOT_TOKEN);
 ?>
