@@ -1,13 +1,9 @@
 <?php
 // Telegram bot token (replace with your bot token)
- $BOT_TOKEN = "1017229657:AAFWCB0Uvr3MpP19LSTVTx203bh9LvH_WnY";
+ $BOT_TOKEN = getenv('tg');
 
 // PID variable
  $PID = "993903069"; //telWassup
-
-$server = getenv('C_ID');
- 
-
 
 // --- 1. DEFINE YOUR HOLIDAY DATA ---
  $HOLIDAYS = [
