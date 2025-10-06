@@ -1,28 +1,15 @@
 <?php
 
-<?php
-// Load .env from home directory
-$env_path = '/home/identity2/.env';
-
-if (!file_exists($env_path)) {
-    die('.env file not found!');
-}
-
-$env_vars = parse_ini_file($env_path);
+$env_vars = parse_ini_file('/home/identity2/.env');
 $BOT_TOKEN = $env_vars['BOT_TOKEN'];
 $PIDK = $env_vars['PIDK'];
-$PIDS = $env_vars['PIDS'];
-$PIDM = $env_vars['PIDM'];
-
+$SERVER = $env_vars['SERVER'];
+ 
 // Use your token
 echo "Token loaded successfully!";
 
+ 
 
-// Telegram bot token (replace with your bot token)
-// $BOT_TOKEN = getenv('tg');
-
-// PID variable
-//$PID = "993903069"; //telWassup
 
 // --- 1. DEFINE YOUR HOLIDAY DATA ---
  $HOLIDAYS = [
@@ -77,7 +64,7 @@ usort($computedHolidays, function ($a, $b) {
 // --- 4. GENERATE THE OUTPUT USING THE COMPUTED DATA ---
 ob_start(); // Start output buffering
 
-echo "<pre>\nPublic holidays by country from " . $now->format('Y-m-d') . " to " . $end->format('Y-m-d') . " via " . $server . ":\n\n";
+echo "<pre>\nPublic holidays by country from " . $now->format('Y-m-d') . " to " . $end->format('Y-m-d') . " via " . $SERVER . ":\n\n";
 
 // FIX: Loop over the new $computedHolidays array, not the old placeholder.
 foreach ($computedHolidays as $holiday) {
