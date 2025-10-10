@@ -1,0 +1,179 @@
+\documentclass[twoside]{book} %12pt,
+\usepackage{geometry}  %A6 10.5 x 14.8 cm,
+\geometry{paperwidth=10.5cm,paperheight=14.8cm,
+	inner=0.86cm,   outer=0.7cm,
+	top=-0.8cm,     bottom=2cm,
+	headsep=-0.3mm, footskip=5mm, showframe=false}
+{\usepackage{fancyvrb}
+	\usepackage{fancyhdr}
+	\pagestyle{fancy}
+	\fancyhf{} % clear all head foot
+	\fancyfoot[C]{\thepage}
+	\usepackage{afterpage}
+	\usepackage{lmodern}
+	\usepackage{graphicx}
+	\graphicspath{{/home/aaa/store/tickeTrip/},
+		{/home/aaa/store/secure/life_info/},
+		{/home/aaa/store/secure/life_info/AU-RRV+CitizenshipSM/},
+		{/home/aaa/store/secure/life_info/Marriage},
+		{/home/aaa/store/ill-ai}}
+	%\usepackage{fontspec}
+	%\setmainfont{Noto Serif CJK}
+	\def\mydate{\leavevmode\hbox{\the\year:\twodigits\month:\twodigits\day}}
+	\def\twodigits#1{\ifnum#1<10 0\fi\the#1}
+ 
+	\date{\vspace{-22mm}{\fontsize{20}{16}   Printed \mydate}}
+	\usepackage{xstring}
+	\usepackage{etoolbox}
+	\newbool{addtolof}
+	\booltrue{addtolof}
+	
+	\newcommand{\incpdf}[2]{
+		\IfSubStr{#1}{20241113z-Supplement.pdf}
+		{\boolfalse{addtolof}}
+		{\booltrue{addtolof}}
+		\begin{figure}
+			\includegraphics[page={#2}, trim=0 14.65cm 0 2cm, 
+			clip,angle=90, width=\textwidth]{#1}
+			\ifbool{addtolof}
+			{\caption{{#1}: . p.{#2}}}
+			{}
+		\end{figure}%
+		\begin{figure}
+			\includegraphics[page={#2},trim=0 2cm 0 14.65cm,
+			clip,angle=90, width=\textwidth]{#1}
+		\end{figure}
+	}
+	
+%	\newcommand{\incpdf}[2]{
+%		\begin{figure}
+%			\includegraphics[page={#2}, trim=0 14.65cm 0 2cm, 
+%			clip,angle=90, width=\textwidth]{#1}
+%			\caption{{#1}: . p.{#2} }
+%		\end{figure}%
+%		\begin{figure}
+%			\includegraphics[page={#2},trim=0 2cm 0 14.65cm,
+%			clip,angle=90, width=\textwidth]{#1}
+%		\end{figure}
+%	}
+	
+	\newcommand{\onepg}[1]{
+		\begin{figure}
+			\includegraphics[width=\textwidth]{#1}
+		\end{figure}
+	}
+	
+	\usepackage{luacode}	
+	\newcommand{\runpdfscript}[1]{%
+		\directlua{process_pdf("#1")}%
+	}
+
+%\usepackage{luacode}
+%
+%% Add this Lua code
+%\begin{luacode*}
+%	function count_and_truncate_pages()
+%	local total_pages = tex.count.abspage
+%	local truncated_pages = math.floor(total_pages / 8) * 8
+%	return truncated_pages
+%	end
+%	
+%	function process_pdf(filename)
+%	-- Your existing process_pdf function here
+%	end
+%\end{luacode*}
+%
+%% New command to get the truncated page count
+%\newcommand{\getTruncatedPages}{%
+%	\directlua{tex.sprint(count_and_truncate_pages())}%
+%}
+
+\title{\vspace{-15mm}\fontsize{70}{57}  \huge{AUK\\MEL\\ZQN}\fontsize{70}{63}\\   \huge{Trip}}
+\begin{document}
+	\maketitle
+	\listoffigures
+	%\input{sig_set.tex}
+	
+\incpdf{20241104c-kmPEK.pdf}{1}
+
+\incpdf{20241210a-kmAKL-MEL-AKL.pdf}{1}
+
+\incpdf{20241210a-kmAKL-MEL-AKL.pdf}{2}
+
+\incpdf{20241210a-smAKL-MEL-AKL.pdf}{1}
+
+\incpdf{20241210a-smAKL-MEL-AKL.pdf}{2}
+
+\incpdf{20241210c-Uber.Mel.pdf}{1}
+
+\incpdf{20241210e-HyattMEL.pdf}{1}
+
+\incpdf{20241210e-HyattMEL.pdf}{2}
+
+\incpdf{20241210e-HyattMEL.pdf}{3}
+
+\incpdf{20241210e-HyattMEL.pdf}{4}
+
+\incpdf{20241210g-UberAuck.pdf}{1}
+
+\incpdf{20241210h-AuckHotel.pdf}{1}
+
+\incpdf{20241210h-AuckHotel.pdf}{2}
+
+\incpdf{20241210j-ksAUK-ZQN.pdf}{1}
+
+\incpdf{20241210j-ksAUK-ZQN.pdf}{2}
+
+\incpdf{20241210j-ksAUK-ZQN.pdf}{3}
+
+\incpdf{20241210j-ksAUK-ZQN.pdf}{4}
+
+\incpdf{20241210j-ksAUK-ZQN.pdf}{5}
+
+\incpdf{20241210q-AccArthersPt.pdf}{1}
+
+\incpdf{20241210q-AccArthersPt.pdf}{2}
+
+
+\incpdf{20241113z-Supplement.pdf}{1}
+
+\incpdf{20241113z-Supplement.pdf}{2}
+
+\incpdf{20241113z-Supplement.pdf}{3}
+
+%\incpdf{20241113z-Supplement.pdf}{4}
+
+%\incpdf{20241113z-Supplement.pdf}{5}
+
+%\incpdf{20241113z-Supplement.pdf}{6}
+
+%\incpdf{20241113z-Supplement.pdf}{7}
+
+%\incpdf{20241113z-Supplement.pdf}{8}
+
+
+	
+%	% Get the truncated page count
+%	\clearpage
+%	\getTruncatedPages
+%	% Now use Lua to include only the truncated number of pages
+%	\directlua{
+%	local truncated_pages = count_and_truncate_pages()
+%	for i = 1, truncated_pages do
+%	tex.sprint([[\thispagestyle{fancy}]])
+%	if i <= tex.count.abspage then
+%	tex.sprint([[\copy\textsf{]]) -- Copy the existing page
+%		tex.sprint(i)
+%		tex.sprint([[}]])
+%	else
+%	tex.sprint([[\null]]) -- Add a blank page if needed
+%	end
+%	if i < truncated_pages then
+%	tex.sprint([[\clearpage]])
+%	end
+%	end
+%}
+
+% Generate the index here, after truncating the pages
+%\printindex
+\end{document}
