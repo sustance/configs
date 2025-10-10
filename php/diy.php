@@ -37,6 +37,34 @@ Box in in Kitchen ceiling right hand  of outer wall side
  - One more PRINTER SCRAPPED need to look in box to identiy... 3rd down
 
 
+Plastic welding
+
+The melting point for high-density polyethylene (HDPE) typically ranges from 
+120°C to 135°C (248°F to 275°F), with some sources reporting the typical 
+melting point as approximately 135°C. 
+The exact melting point depends on the specific molecular structure and can be 
+affected by factors like branching, crystallinity, and the presence of additives.
+
+HDPE Rod is an excellent engineering plastic that has many unique and useful properties 
+to offer users who need a varied and combined range of beneficial features. 
+
+HDPE is short for High Density Polyethylene and HDPE Rod is commercially available 
+in either white (natural) or black.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 # Refilling your HP LaserJet Pro M15w printer's 48A cartridge 
