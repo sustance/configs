@@ -79,58 +79,27 @@ $servers = [
     'thunix.net',
     'tilde.institute',
     'projectsegfau.lt',
-    'p.projectsegfau.lt',
     'tilde.pink',
     'tilde.team',
     'vern.cc',
     'rawtext.club',
-    'github.io',
-    'sustance.github.io',
-    'sufbo.tplinkdns.com',
-    '127.0.0.1'
+    'sufbo.tplinkdns.com'
 ];
 
-echo "\nStart parallel pings...\n";
+echo "___Start_parallel_pings___\n";
 $start = microtime(true);
 $results = simpleParallelPing($servers, 2); // 2 ping packets per host
 $end = microtime(true);
 
 foreach ($results as $server => $result) {
-    $status = $result['success'] ? '✓ ONLINE' : '✗ OFFLINE';
+    $status = $result['success'] ? ' ✓' : ' ✗';
     $time = $result['response_time'];
     echo "{$status} ({$time}ms) {$server}\n";
     
     if (!$result['success']) {
-        echo "  Error: Exit code {$result['exitcode']}\n";
+        echo "                Exit code: {$result['exitcode']}\n";
     }
 }
-
-echo "\n\nPAST SAMPLE FROM SHA
-		✓ ONLINE (1105.08ms) 127.0.0.1
-		✓ ONLINE (1208.19ms) github.io
-		✓ ONLINE (1207.43ms) sustance.github.io
-		✓ ONLINE (1206.59ms) sufbo.tplinkdns.com
-		✓ ONLINE (1318.58ms) envs.net
-		✓ ONLINE (1315.74ms) tilde.institute
-		✓ ONLINE (1420.48ms) bsd.tilde.team
-		✓ ONLINE (1420.15ms) ctrl-c.club
-		✓ ONLINE (1419.77ms) dimension.sh
-		✓ ONLINE (1418.66ms) freeshell.de
-		✓ ONLINE (1418.23ms) tilde.guru
-		✓ ONLINE (1417.17ms) thunix.net
-		✓ ONLINE (1413.86ms) tilde.pink
-		✓ ONLINE (1413.15ms) tilde.team
-		✓ ONLINE (1410.96ms) rawtext.club
-		✗ OFFLINE (11259.68ms) core.envs.net
-		  Error: Exit code 1
-		✗ OFFLINE (11255.24ms) projectsegfau.lt
-		  Error: Exit code 1
-		✗ OFFLINE (11254.78ms) p.projectsegfau.lt
-		  Error: Exit code 1
-		✗ OFFLINE (11253.03ms) vern.cc
-		  Error: Exit code 1
-"
-
-
-
+echo " ✓ b,c,d,e,g,h,i,p,t,x,4,7  ? o,j  ✗ v,s-down f,policy
+ ssh -D 9999 -p 2007 aaa@sufbo.tplinkdns.com"
 ?>
