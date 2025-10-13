@@ -48,7 +48,8 @@ DE.
 DE. 
 <a href="https://freeshell.de/"><b>f</b>reeshell.de</a> 
 <a href="https://freeshell.de/~identity">/~i4y</a> 
-    <a href="http://f.identity2.com">f.i.c</a> 
+<a href="http://f.identity2.com">f.i.c</a> 
+<a href="https://freeshell.de/shell/">Shell</a> 
   <span class="sml">116.202.128.144</span> 
 <br>
 CA.  
@@ -112,12 +113,12 @@ no web
 HK. 
 Hu<b>4</b> 64b 
 <a href="https://sufbo.tplinkdns.com:8004">sufbo.tplinkdns.com:8004</a>
-<a href="http://4.identity2.com">4.i.c</a>
+<a href="http://4.identity2.com">4.i.c</a> SSH/8080 8443
 <br>
 HK. 
 Mi<b>7</b> 32b
 <a href="https://sufbo.tplinkdns.com:8007">sufbo.tplinkdns.com:8007</a>
-<a href="http://7.identity2.com">7.i.c</a>
+<a href="http://7.identity2.com">7.i.c</a> SSH/9443 8888 8081
 
 </p> 
 </div>
