@@ -17,6 +17,9 @@ echo $head;
   
 <div class="bsd">
 <p>
+HK. 
+  Router<b>1</b> smb://tp-share/g/
+<br>  
 US.
 <a href="https://bsd.tilde.team/"> <b>b</b>sd.tilde.team </a> 
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
@@ -27,10 +30,10 @@ US.
 <a href="https://ctrl-c.club/"><b>c</b>trl-c.club</a>
 <a href="https://ctrl-c.club/~identity2">/~i52</a>
 <a href="https://ctrl-c.club/~identity2/lineage/">/lin</a> 
-<a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
 <a href="http://c.identity2.com">c.i.c~</a>
-  
-  <span class="sml">165.227.127.54</span> 
+<span class="sml">165.227.127.54</span> 
+<br>
+. . . <a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
 <br>
 CA.
 <a href="https://dimension.sh/"><b>d</b>imension.sh </a> 
@@ -41,8 +44,8 @@ CA.
 DE.  
 <a href="https://envs.net/"><b>e</b>nvs.net</a>  
 <a href="https://envs.net/~identity2">/~i52</a>  
-  <a href="https://e.identity2.com">e.i.c</a> 
-  <span class="sml">89.163.145.170</span>
+<a href="https://e.identity2.com">e.i.c</a> 
+<span class="sml">89.163.145.170</span>
 <i>remi</i> 
 <br>
 DE. 
