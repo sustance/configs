@@ -158,6 +158,27 @@ Quick setup for basic SIP testing<br>
 Use username: test, password: test1234<br>
 Server: sip.zoiper.com (port 5060)</p>
 </div
+
+
+<script>
+function loadServerStatus(url, targetId) {
+    const target = document.getElementById(targetId);
+    target.innerHTML = '<em>Loading...</em>';
+    
+    // Simple fetch approach
+    fetch(url)
+        .then(response => response.text())
+        .then(html => {
+            target.innerHTML = html;
+        })
+        .catch(error => {
+            target.innerHTML = 'Error loading status';
+        });
+        
+    return false; // Prevent default link behavior
+}
+</script>
+
   
 <?php
 $tail = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/tail-land.html');
