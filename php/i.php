@@ -99,9 +99,9 @@ CA.
   <a href="https://tilde.team/">tilde.<b>t</b>eam</a> 
 <a href="https://tilde.team/~identity2">/~i52</a> 
 <a href="http://t.identity2.com">t.i.c</a> 
-  <span class="sml">198.50.210.248</span> 
+<span class="sml">198.50.210.248</span> 
 <a href="https://tilde.team/~identity2/status_slave.php" target="_blank">Detail</a>
-  <br>
+<br>
 <a href="https://tilde.team/~identity2/lineage">/Lineage</a> 
 <br>
 US 
