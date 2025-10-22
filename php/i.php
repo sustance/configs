@@ -33,13 +33,14 @@ US.
 <a href="https://ctrl-c.club/~identity2/lineage/">/lin</a> 
 <a href="http://c.identity2.com">c.i.c~</a>
 <span class="sml">165.227.127.54</span> 
-<a href="https://ctrl-c.club/~identity2//status_slave.php" target="_blank">Detail</a>
+<a href="https://ctrl-c.club/~identity2/status_slave.php" target="_blank">Detail</a>
 <br>
 . . . <a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
 </p>
-  <iframe src="https://ctrl-c.club/~identity2/MATURrem.php" class="compact-iframe" width="600" height="100" title="Data">
-    
+<div class="iframe-container">
+  <iframe src="https://ctrl-c.club/~identity2/status_slave.php" class="compact-iframe" width="600" height="100" title="Data">
   </iframe>
+</div>
 <p>
 CA.
 <a href="https://dimension.sh/"><b>d</b>imension.sh </a> 
@@ -104,10 +105,12 @@ CA.
 <a href="https://tilde.team/~identity2">/~i52</a> 
 <a href="http://t.identity2.com">t.i.c</a> 
 <span class="sml">198.50.210.248</span> 
-<a href="https://tilde.team/~identity2/status_slave.php" target="_blank">Detail</a>
+<a href="https://tilde.team/~identity2/status_slave.php">Detail</a>
 <br>
 <a href="https://tilde.team/~identity2/lineage">/Lineage</a> 
-  <iframe src="https://tilde.team/~identity2/status_slave.php" width="600" height="150" title="Detail"></iframe>
+  <iframe src="https://tilde.team/~identity2/status_slave.php"
+    width="800" height="150" title="Detail">
+  </iframe>
 <br>
 US 
 <a href="https://sustance.github.io">sustance.gith<b>u</b>b.io</a>
