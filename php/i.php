@@ -105,7 +105,10 @@ CA.
   onclick="loadServerStatus('https://tilde.team/~identity2/status_slave.php', 
   'status-ca')">Detail</a>
 
-<div id="status-ca" style="border: 1px solid #ccc; padding: 10px; margin: 5px 0; min-height: 20px;"></div>
+<div id="status-ca" 
+  style="border: 1px solid #ccc; padding: 10px; margin: 5px 0; min-height: 20px;">
+  
+  </div>
 
   
 <br>
