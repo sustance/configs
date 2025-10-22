@@ -95,9 +95,11 @@ CA.
 CA. 
   <a href="https://tilde.team/">tilde.<b>t</b>eam</a> 
 <a href="https://tilde.team/~identity2">/~i52</a> 
-<a href="https://tilde.team/~identity2/lineage">/lin</a> 
 <a href="http://t.identity2.com">t.i.c</a> 
   <span class="sml">198.50.210.248</span> 
+  <br>
+<a href="https://tilde.team/~identity2/lineage">/Lineage</a> 
+<a href="https://tilde.team/~identity2/status_slave.php">Detail</a> 
 <br>
 US 
 <a href="https://sustance.github.io">sustance.gith<b>u</b>b.io</a>
