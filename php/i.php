@@ -36,7 +36,11 @@ US.
 <a href="https://ctrl-c.club/~identity2//status_slave.php" target="_blank">Detail</a>
 <br>
 . . . <a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
-<br>
+</p>
+  <iframe src="https://ctrl-c.club/~identity2/MATURrem.php" class="compact-iframe" width="600" height="100" title="Data">
+    
+  </iframe>
+<p>
 CA.
 <a href="https://dimension.sh/"><b>d</b>imension.sh </a> 
 <a href="https://dimension.sh/~identity2">/~i42</a> 
@@ -103,6 +107,7 @@ CA.
 <a href="https://tilde.team/~identity2/status_slave.php" target="_blank">Detail</a>
 <br>
 <a href="https://tilde.team/~identity2/lineage">/Lineage</a> 
+  <iframe src="https://tilde.team/~identity2/status_slave.php" width="600" height="150" title="Detail"></iframe>
 <br>
 US 
 <a href="https://sustance.github.io">sustance.gith<b>u</b>b.io</a>
