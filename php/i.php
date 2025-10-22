@@ -25,6 +25,7 @@ US.
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
 <a href="http://b.identity2.com">b.i.c</a>
   <span class="sml">157.90.196.52</span> 
+  <a href="https://bsd.tilde.team/~identity2/status_slave.php" target="_blank">Detail</a>
 <br>
 US. 
 <a href="https://ctrl-c.club/"><b>c</b>trl-c.club</a>
@@ -32,6 +33,7 @@ US.
 <a href="https://ctrl-c.club/~identity2/lineage/">/lin</a> 
 <a href="http://c.identity2.com">c.i.c~</a>
 <span class="sml">165.227.127.54</span> 
+<a href="https://ctrl-c.club/~identity2//status_slave.php" target="_blank">Detail</a>
 <br>
 . . . <a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
 <br>
@@ -40,6 +42,7 @@ CA.
 <a href="https://dimension.sh/~identity2">/~i42</a> 
 <a href="http://d.identity2.com">d.i.c</a>
   <span class="sml">51.79.51.59</span> 
+  <a href="https://dimension.sh/~identity2/status_slave.php" target="_blank">Detail</a>
 <br> 
 DE.  
 <a href="https://envs.net/"><b>e</b>nvs.net</a>  
@@ -97,14 +100,9 @@ CA.
 <a href="https://tilde.team/~identity2">/~i52</a> 
 <a href="http://t.identity2.com">t.i.c</a> 
   <span class="sml">198.50.210.248</span> 
+<a href="https://tilde.team/~identity2/status_slave.php" target="_blank">Detail</a>
   <br>
 <a href="https://tilde.team/~identity2/lineage">/Lineage</a> 
-  <br>
-<a href="https://tilde.team/~identity2/status_slave.php">Detail</a> 
-
-<a href="#" onclick="loadServerStatus('https://tilde.team/~identity2/status_slave.php', 'status-ca')">Detail</a>
-<div id="status-ca" style="border: 1px solid #ccc; padding: 10px; margin: 5px 0; min-height: 20px;"></div>
-  
 <br>
 US 
 <a href="https://sustance.github.io">sustance.gith<b>u</b>b.io</a>
