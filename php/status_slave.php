@@ -71,19 +71,19 @@ $software['Curl'] = getVersion('curl', '--version');
 $software['W3m'] = getVersion('w3m', '--version');
 $software['Lynx'] = getVersion('lynx', '--version');
 $software['Newsboat'] = getVersion('newsboat', '-v');
-$software['Weechat'] = getVersion('weechat', '-v');
-$software['Tldr'] = getVersion('tldr', '-v');
-$software['Rtorrent'] = getVersion('rtorrent', '-v');
-$software['Nim'] = getVersion('nim', '-v');
-$software['Tgpt'] = getVersion('tgpt', '-v');
-$software['Mutt'] = getVersion('mutt', '-v');
+//$software['Weechat'] = getVersion('weechat', '-v');
+//$software['Tldr'] = getVersion('tldr', '-v');
+//$software['Rtorrent'] = getVersion('rtorrent', '-v');
+//$software['Nim'] = getVersion('nim', '-v');
+//$software['Tgpt'] = getVersion('tgpt', '-v');
+//$software['Mutt'] = getVersion('mutt', '-v');
 
 // Additional system info
 //$software['OS/Shell'] = uname;
 //$software['Hostname'] = cat /proc/sys/kernel/hostname;
 //$software['Username'] = uname;
 $software['SvrTime'] = date('Y-m-d H:i:s T');
-$software['HK.Time'] = "TZ=UTC-8 date('Y-m-d H:i:s T')";
+$software['HK.Time'] = TZ=UTC-8 date('Y-m-d H:i:s T');
 $software['Uptime'] = @trim(@shell_exec('uptime -p 2>/dev/null') ?: 'Unknown');
 
 // Generate HTML output
