@@ -52,8 +52,11 @@ DE.
 <a href="https://envs.net/"><b>e</b>nvs.net</a>  
 <a href="https://envs.net/~identity2">/~i52</a>  
 <a href="https://e.identity2.com">e.i.c</a> 
-<span class="sml">89.163.145.170</span><br>
-<i>remi</i> 
+<span class="sml">89.163.145.170</span
+<br>
+<i>remi</i>  <a href="https://envs.net/~identity2/iata25.php">iata25</a>  
+  <a href="https://envs.net/~identity2/points25.php">points25</a>  
+  <i>Jekyll</i>
   
 <a href="https://tilde.team/~identity2/status_slave.php" id="loadEContent">More</a>
 <div id="contentEContainer"></div>
