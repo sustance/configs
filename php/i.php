@@ -36,12 +36,10 @@ US.
 <a href="https://ctrl-c.club/~identity2/status_slave.php" target="_blank">Detail</a>
 <br>
 . . . <a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
-</p>
-<div class="iframe-container">
-  <iframe src="https://ctrl-c.club/~identity2/status_slave.php" class="compact-iframe" width="600" height="100" title="Data">
-  </iframe>
-</div>
-<p>
+<a href="https://tilde.team/~identity2/status_slave.php" id="loadCContent">More</a>
+<div id="contentCContainer"></div>
+
+<br>
 CA.
 <a href="https://dimension.sh/"><b>d</b>imension.sh </a> 
 <a href="https://dimension.sh/~identity2">/~i42</a> 
@@ -53,8 +51,12 @@ DE.
 <a href="https://envs.net/"><b>e</b>nvs.net</a>  
 <a href="https://envs.net/~identity2">/~i52</a>  
 <a href="https://e.identity2.com">e.i.c</a> 
-<span class="sml">89.163.145.170</span>
+<span class="sml">89.163.145.170</span><br>
 <i>remi</i> 
+  
+<a href="https://tilde.team/~identity2/status_slave.php" id="loadEContent">More</a>
+<div id="contentEContainer"></div>
+  
 <br>
 DE. 
 <a href="https://freeshell.de/"><b>f</b>reeshell.de</a> 
@@ -109,8 +111,8 @@ CA.
   
 <a href="https://tilde.team/~identity2/lineage">/Lineage</a> 
 
-<a href="https://tilde.team/~identity2/status_slave.php" id="loadContent">More</a>
-<div id="contentContainer"></div>
+<a href="https://tilde.team/~identity2/status_slave.php" id="loadTContent">More</a>
+<div id="contentTContainer"></div>
 
   
 <br>
@@ -163,27 +165,6 @@ Quick setup for basic SIP testing<br>
 Use username: test, password: test1234<br>
 Server: sip.zoiper.com (port 5060)</p>
 </div
-
-
-<script>
-function loadServerStatus(url, targetId) {
-    const target = document.getElementById(targetId);
-    target.innerHTML = '<em>Loading...</em>';
-    
-    // Simple fetch approach
-    fetch(url)
-        .then(response => response.text())
-        .then(html => {
-            target.innerHTML = html;
-        })
-        .catch(error => {
-            target.innerHTML = 'Error loading status';
-        });
-        
-    return false; // Prevent default link behavior
-}
-</script>
-
   
 <?php
 $tail = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/tail-land.html');
