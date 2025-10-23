@@ -115,7 +115,7 @@ CA.
 <a href="https://tilde.team/~identity2">/~i52</a> 
 <a href="http://t.identity2.com">t.i.c</a> 
 <span class="sml">198.50.210.248</span> 
-<br>
+<br><i>Ancestor</i>
 <a href="https://tilde.team/~identity2/lineage">/Lineage</a>   
 <a href="https://tilde.team/~identity2/diy">/diy</a> 
 <a href="https://tilde.team/~identity2/points25">/points25</a> 
