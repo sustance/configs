@@ -90,9 +90,12 @@ $software['HK.Time'] = TZ=UTC-8 date('Y-m-d H:i:s T');
 
 // Generate HTML output
 echo '<div class="software-status">';
-echo '<h4>Software Status for ' . htmlspecialchars(gethostname()) . '</h4>';
+//echo '<h4>Software Status for ' . htmlspecialchars(gethostname()) . '</h4>';
 echo '<table style="width: 100%; border-collapse: collapse;">';
-echo '<tr style="background: #e9e9e9;"><th style="text-align: left; padding: 8px;">Software</th><th style="text-align: left; padding: 8px;">Status</th></tr>';
+echo '<tr style="background: #e9e9e9;">
+<th style="text-align: left; padding: 8px;">Software ' . htmlspecialchars(gethostname()) . '</th>
+<th style="text-align: left; padding: 8px;">Status</th>
+</tr>';
 
 $row = 0;
 foreach ($software as $name => $status) {
