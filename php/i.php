@@ -105,12 +105,14 @@ CA.
 <a href="https://tilde.team/~identity2">/~i52</a> 
 <a href="http://t.identity2.com">t.i.c</a> 
 <span class="sml">198.50.210.248</span> 
-<a href="https://tilde.team/~identity2/status_slave.php">Detail</a>
 <br>
+  
 <a href="https://tilde.team/~identity2/lineage">/Lineage</a> 
-  <iframe src="https://tilde.team/~identity2/status_slave.php"
-    width="800" height="150" title="Detail">
-  </iframe>
+
+<a href="https://tilde.team/~identity2/status_slave.php" id="loadContent">More</a>
+<div id="contentContainer"></div>
+
+  
 <br>
 US 
 <a href="https://sustance.github.io">sustance.gith<b>u</b>b.io</a>
