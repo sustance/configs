@@ -81,6 +81,10 @@ CA.
 <a href="https://tilde.tel">t.tel</a>  
 <a href="http://h.identity2.com">h.i.c</a> 
   <span class="sml">142.44.150.185</span>
+  <br>
+  <a href="https://thunix.net/~id/diy.php">DIY</a> 
+  <a href="https://thunix.net/~id/iata25.php">iata25</a> 
+  <a href="https://thunix.net/~id/points25.php">points25</a>
 <br>
 DE. 
 <a href="https://tilde.institute">tilde.<b>i</b>nstitute</a>  
@@ -112,9 +116,10 @@ CA.
 <a href="http://t.identity2.com">t.i.c</a> 
 <span class="sml">198.50.210.248</span> 
 <br>
-  
-<a href="https://tilde.team/~identity2/lineage">/Lineage</a> 
-
+<a href="https://tilde.team/~identity2/lineage">/Lineage</a>   
+<a href="https://tilde.team/~identity2/diy">/diy</a> 
+<a href="https://tilde.team/~identity2/points25">/points25</a> 
+<a href="https://tilde.team/~identity2/iata25">/iata25</a>  
 <a href="https://tilde.team/~identity2/status_slave.php" id="loadTContent">More</a>
 <div id="contentTContainer"></div>
 
