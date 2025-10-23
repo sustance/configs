@@ -46,6 +46,7 @@ CA.
 <a href="http://d.identity2.com">d.i.c</a>
   <span class="sml">51.79.51.59</span> 
   <a href="https://dimension.sh/~identity2/status_slave.php" target="_blank">Detail</a>
+DOWN, not clean cron
 <br> 
 DE.  
 <a href="https://envs.net/"><b>e</b>nvs.net</a>  
