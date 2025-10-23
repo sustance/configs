@@ -35,8 +35,10 @@ US.
 <span class="sml">165.227.127.54</span> 
 <a href="https://ctrl-c.club/~identity2/status_slave.php" target="_blank">Detail</a>
 <br>
+  
 . . . <a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
-<a href="https://tilde.team/~identity2/status_slave.php" id="loadCContent">More</a>
+  
+<a href="https://ctrl-c.club/~identity2/status_slave.php" id="loadCContent">More</a>
 <div id="contentCContainer"></div>
 
 <br>
@@ -58,7 +60,7 @@ DE.
   <a href="https://envs.net/~identity2/points25.php">points25</a>  
   <i>Jekyll</i>
   
-<a href="https://tilde.team/~identity2/status_slave.php" id="loadEContent">More</a>
+<a href="https://envs.net/~identity2/status_slave.php" id="loadEContent">More</a>
 <div id="contentEContainer"></div>
   
 <br>
@@ -120,6 +122,7 @@ CA.
 <a href="https://tilde.team/~identity2/diy">/diy</a> 
 <a href="https://tilde.team/~identity2/points25">/points25</a> 
 <a href="https://tilde.team/~identity2/iata25">/iata25</a>  
+  
 <a href="https://tilde.team/~identity2/status_slave.php" id="loadTContent">More</a>
 <div id="contentTContainer"></div>
 
