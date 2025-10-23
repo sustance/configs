@@ -60,16 +60,30 @@ $software['PHP'] = getVersion('php', '--version');
 $software['Lua'] = getVersion('lua', '-v');
 $software['Ruby'] = getVersion('ruby', '--version');
 $software['Shell'] = getVersion('bash', '--version');
+$software['Gem'] = getVersion('gem', '-v');
 
 // Web Servers
-$software['nginx'] = getVersion('nginx', '-v');
+$software['Nginx'] = getVersion('nginx', '-v');
 $software['Apache'] = getVersion('apache2', '-v');
 
 // Utilities
-$software['curl'] = getVersion('curl', '--version');
+$software['Curl'] = getVersion('curl', '--version');
+$software['W3m'] = getVersion('w3m', '--version');
+$software['Lynx'] = getVersion('lynx', '--version');
+$software['Newsboat'] = getVersion('newsboat', '-v');
+$software['Weechat'] = getVersion('weechat', '-v');
+$software['Tldr'] = getVersion('tldr', '-v');
+$software['Rtorrent'] = getVersion('rtorrent', '-v');
+$software['Nim'] = getVersion('nim', '-v');
+$software['Tgpt'] = getVersion('tgpt', '-v');
+$software['Mutt'] = getVersion('mutt', '-v');
 
 // Additional system info
-$software['Server Time'] = date('Y-m-d H:i:s T');
+//$software['OS/Shell'] = uname;
+//$software['Hostname'] = cat /proc/sys/kernel/hostname;
+//$software['Username'] = uname;
+$software['SvrTime'] = date('Y-m-d H:i:s T');
+$software['HK.Time'] = "TZ=UTC-8 date('Y-m-d H:i:s T')";
 $software['Uptime'] = @trim(@shell_exec('uptime -p 2>/dev/null') ?: 'Unknown');
 
 // Generate HTML output
