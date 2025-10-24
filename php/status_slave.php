@@ -58,7 +58,10 @@ $software = [];
 // Programming Languages
 $software['PHP'] = getVersion('php', '--version');
 $software['Lua'] = getVersion('lua', '-v');
+//$software['Ruby'] = getVersion('ruby', '--version');
+//$software['Gem'] = getVersion('gem', '-v');
 $software['Shell'] = getVersion('bash', '--version');
+
 
 // Web Servers
 $software['Nginx'] = getVersion('nginx', '-v');
