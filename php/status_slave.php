@@ -86,6 +86,8 @@ $software['Hostname'] = trim(shell_exec('cat /proc/sys/kernel/hostname'));
 $software['Username'] = trim(exec('whoami'));
 $software['SvrTime'] = date('Y-m-d H:i:s T');
 //$software['HK.Time'] = TZ=UTC-8 date('Y-m-d H:i:s T');
+$date = new DateTime('now', new DateTimeZone('HKT'));
+$software['HK.Time'] = $date->format('Y-m-d H:i:s T');
 //$software['Uptime'] = @trim(@shell_exec('uptime -p 2>/dev/null') ?: 'Unknown');
 
 // Generate HTML output
