@@ -1,0 +1,132 @@
+{
+  "servers": [
+    {
+      "name": "b",
+      "country": "US",
+      "url": "bsd.tilde.team",
+      "account_name": "identity2",
+      "ip_address": "157.90.196.52",
+      "apps_running": ""
+    },
+    {
+      "name": "c",
+      "country": "US",
+      "url": "ctrl-c.club",
+      "account_name": "identity2",
+      "ip_address": "165.227.127.54",
+      "apps_running": "MATURrem"
+    },
+    {
+      "name": "v",
+      "country": "US",
+      "url": "vern.cc",
+      "account_name": "id",
+      "ip_address": "5.161.108.85",
+      "apps_running": ""
+    },
+    {
+      "name": "x",
+      "country": "US",
+      "url": "rawtext.club",
+      "account_name": "identity2",
+      "ip_address": "45.33.66.185",
+      "apps_running": "no web"
+    },
+    {
+      "name": "p",
+      "country": "CA",
+      "url": "tilde.pink",
+      "account_name": "id2",
+      "ip_address": "198.50.210.248",
+      "apps_running": ""
+    },
+    {
+      "name": "t",
+      "country": "CA",
+      "url": "tilde.team",
+      "account_name": "identity2",
+      "ip_address": "198.50.210.248",
+      "apps_running": "lineage diy points25 iata25"
+    },
+    {
+      "name": "d",
+      "country": "CA",
+      "url": "dimension.sh",
+      "account_name": "identity2",
+      "ip_address": "51.79.51.59",
+      "apps_running": ""
+    },
+    {
+      "name": "g",
+      "country": "CA",
+      "url": "tilde.guru",
+      "account_name": "edi",
+      "ip_address": "95.179.178.246",
+      "apps_running": ""
+    },
+    {
+      "name": "h",
+      "country": "CA",
+      "url": "thunix.net",
+      "account_name": "id",
+      "ip_address": "142.44.150.185",
+      "apps_running": ""
+    },
+    {
+      "name": "e",
+      "country": "DE",
+      "url": "envs.net",
+      "account_name": "identity2",
+      "ip_address": "89.163.145.170",
+      "apps_running": "Jekyll iata25 points25 Jekyll"
+    },
+    {
+      "name": "f",
+      "country": "DE",
+      "url": "freeshell.de",
+      "account_name": "identity",
+      "ip_address": "116.202.128.144",
+      "apps_running": "webShell Cloud"
+    },
+    {
+      "name": "i",
+      "country": "DE",
+      "url": "tilde.institute",
+      "account_name": "id2",
+      "ip_address": "159.69.146.152",
+      "apps_running": ""
+    },
+    {
+      "name": "j",
+      "country": "DE",
+      "url": "p.projectsegfau.lt",
+      "account_name": "id",
+      "ip_address": "45.145.41.226",
+      "apps_running": ""
+    },
+    {
+      "name": "o",
+      "country": "DE",
+      "url": "p.projectsegfau.lt",
+      "account_name": "identity2",
+      "ip_address": "45.145.41.226",
+      "apps_running": ""
+    },
+    {
+      "name": "4",
+      "country": "HK",
+      "url": "sufbo.tplinkdns.com:8004",
+      "account_name": "aaa",
+      "ip_address": "dynamic",
+      "apps_running": ""
+    },
+    {
+      "name": "7",
+      "country": "HK",
+      "url": "sufbo.tplinkdns.com:8007",
+      "account_name": "aaa",
+      "ip_address": "dynamic",
+      "apps_running": ""
+    }
+  ]
+}
