@@ -11,20 +11,22 @@ def get_today_date():
     return datetime.now().strftime("%Y%m%d")
 
 def load_server_config():
-    """Load server configuration from GitHub"""
+    """Load server configuration from GitHub - tells us WHERE to fetch data"""
     config_url = "https://raw.githubusercontent.com/sustance/configs/refs/heads/main/status_servers.json"
     response = requests.get(config_url)
     return response.json()['servers']
 
 def fetch_individual_server_data(server_config):
-    """Fetch data from individual server status_slave.json"""
+    """Fetch data from individual server status_slave.php?format=json"""
     results = {}
     
     for server in server_config:
         server_name = server['name']
-        status_url = f"https://{server['url']}/~{server['account_name']}/status_slave.json"
+        # CORRECTED: Fetch from status_slave.php with format=json parameter
+        status_url = f"https://{server['url']}/~{server['account_name']}/status_slave.php?format=json"
         
         print(f"Fetching data from {server_name} ({server['country']})...")
+        print(f"  URL: {status_url}")
         
         try:
             start_time = time.time()
@@ -42,6 +44,7 @@ def fetch_individual_server_data(server_config):
                     'status': 'success',
                     'data': server_data
                 }
+                print(f"  ✅ Success - fetched {len(server_data.get('software', {}))} software items")
             else:
                 results[server_name] = {
                     'country': server['country'],
@@ -52,6 +55,7 @@ def fetch_individual_server_data(server_config):
                     'status': f'http_error_{response.status_code}',
                     'data': {}
                 }
+                print(f"  ❌ HTTP Error {response.status_code}")
                 
         except requests.Timeout:
             results[server_name] = {
@@ -63,6 +67,7 @@ def fetch_individual_server_data(server_config):
                 'status': 'timeout',
                 'data': {}
             }
+            print(f"  ⏰ Timeout")
         except Exception as e:
             results[server_name] = {
                 'country': server['country'],
@@ -73,6 +78,7 @@ def fetch_individual_server_data(server_config):
                 'status': f'error_{str(e)}',
                 'data': {}
             }
+            print(f"  💥 Error: {str(e)}")
     
     return results
 
@@ -117,18 +123,21 @@ def save_master_file(master_data, public_html_path="~/public_html"):
 
 def main():
     print("Starting server data collection...")
+    print("=" * 60)
     
-    # Step 1: Load server configuration
+    # Step 1: Load server configuration (WHERE to fetch from)
     server_config = load_server_config()
     print(f"Loaded configuration for {len(server_config)} servers")
+    print("=" * 60)
     
-    # Step 2: Fetch data from all servers
+    # Step 2: Fetch data from all servers (THE ACTUAL SOFTWARE DATA)
     server_data = fetch_individual_server_data(server_config)
     
     # Step 3: Create master data structure
     master_data = create_master_data(server_data)
     
     # Step 4: Save master file with backup
+    print("=" * 60)
     master_file_path = save_master_file(master_data)
     
     # Summary
