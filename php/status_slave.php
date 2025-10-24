@@ -85,6 +85,7 @@ $software['Username'] = trim(exec('whoami'));
 $software['SvrTime'] = date('Y-m-d H:i:s T');
 $date = new DateTime('now', new DateTimeZone('HKT'));
 $software['HK.Time'] = $date->format('Y-m-d H:i:s T');
+$software['Uptime'] = @trim(@shell_exec('uptime -p 2>/dev/null') ?: 'Unknown');
 
 // Prepare data for both formats
 $hostname = htmlspecialchars(gethostname());
