@@ -1,20 +1,20 @@
-b, US, bsd.tilde.team, 157.90.196.52 
-c, US, ctrl-c.club,    165.227.127.54 
-v, US, vern.cc,        5.161.108.85 
-x, US, rawtext.club,   45.33.66.185
+b, US, bsd.tilde.team, identity2, 157.90.196.52 ,
+c, US, ctrl-c.club,    identity2, 165.227.127.54 ,MATURrem
+v, US, vern.cc,               id, 5.161.108.85 ,
+x, US, rawtext.club,   identity2, 45.33.66.185 ,no web
 
-p, CA, tilde.pink,     198.50.210.248  
-t, CA, tilde.team,     198.50.210.248
+p, CA, tilde.pink,           id2, 198.50.210.248 ,
+t, CA, tilde.team,     identity2, 198.50.210.248 , lineage diy points25 iata25
 
-d, CA, dimension.sh,   51.79.51.59
-g, CA, tilde.guru,     95.179.178.246  
-h, CA, thunix.net,     142.44.150.185
+d, CA, dimension.sh,   identity2, 51.79.51.59 ,
+g, CA, tilde.guru,           edi, 95.179.178.246 , 
+h, CA, thunix.net,            id, 142.44.150.185 ,
 
-e, DE, envs.net,       89.163.145.170 
-f, DE, freeshell.de,   116.202.128.144  
-i, DE, tilde.institute, 159.69.146.152  
-j, DE, id2.projectsegfau.lt,  45.145.41.226  
-o, DE, identity2projectsegfau.lt, 45.145.41.226
+e, DE, envs.net,       identity2, 89.163.145.170 , Jekyll iata25 points25 Jekyll
+f, DE, freeshell.de,    identity, 116.202.128.144, webShell Cloud  
+i, DE, tilde.institute,      id2, 159.69.146.152  ,
+j, DE, p.projectsegfau.lt,    id, 45.145.41.226  ,
+o, DE, p,projectsegfau.lt,identity2, 45.145.41.226 ,
 
-4, HK, sufbo.tplinkdns.com:8004, 
-7, HK, sufbo.tplinkdns.com:8007, 
+4, HK, sufbo.tplinkdns.com:8004, aaa,   dynamic ,
+7, HK, sufbo.tplinkdns.com:8007, aaa,   dynamic ,
