@@ -80,12 +80,12 @@ $software['Newsboat'] = getVersion('newsboat', '-v');
 //$software['Mutt'] = getVersion('mutt', '-v');
 
 // Additional system info
-$software['Hostname'] = trim(shell_exec('cat /proc/sys/kernel/hostname'));
-$software['Username'] = trim(exec('whoami'));
-$software['SvrTime'] = date('Y-m-d H:i:s T');
+$software['Ⓝ Host'] = trim(shell_exec('cat /proc/sys/kernel/hostname'));
+$software['Ⓝ User'] = trim(exec('whoami'));
+$software['⏱️ Srvr'] = date('Y-m-d H:i:s T');
 $date = new DateTime('now', new DateTimeZone('HKT'));
-$software['HK.Time'] = $date->format('Y-m-d H:i:s T');
-$software['Uptime'] = @trim(@shell_exec('uptime -p 2>/dev/null') ?: 'Unknown');
+$software['⏱️ HKT'] = $date->format('Y-m-d H:i:s T');
+$software['⏱️ Up'] = @trim(@shell_exec('uptime -p 2>/dev/null') ?: 'Unknown');
 
 // Prepare data for both formats
 $hostname = htmlspecialchars(gethostname());
