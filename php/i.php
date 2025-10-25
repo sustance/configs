@@ -25,7 +25,7 @@ US.
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
 <a href="http://b.identity2.com">b.i.c</a>
   <span class="sml">157.90.196.52</span> 
-  <a href="https://bsd.tilde.team/~identity2/status_slave.php" target="_blank">more...</a>
+  <a href="https://bsd.tilde.team/~identity2/status_slave.php" target="_blank">more...</a> PHP NOT INSTALLED
 <br>
 US. 
 <a href="https://ctrl-c.club/"><b>c</b>trl-c.club</a>
