@@ -17,22 +17,6 @@
       "apps_running": "MATURrem"
     },
     {
-      "name": "v",
-      "country": "US",
-      "url": "vern.cc",
-      "account_name": "id",
-      "ip_address": "5.161.108.85",
-      "apps_running": ""
-    },
-    {
-      "name": "x",
-      "country": "US",
-      "url": "rawtext.club",
-      "account_name": "identity2",
-      "ip_address": "45.33.66.185",
-      "apps_running": "no web"
-    },
-    {
       "name": "p",
       "country": "CA",
       "url": "tilde.pink",
@@ -110,22 +94,6 @@
       "url": "p.projectsegfau.lt",
       "account_name": "identity2",
       "ip_address": "45.145.41.226",
-      "apps_running": ""
-    },
-    {
-      "name": "4",
-      "country": "HK",
-      "url": "sufbo.tplinkdns.com:8004",
-      "account_name": "aaa",
-      "ip_address": "dynamic",
-      "apps_running": ""
-    },
-    {
-      "name": "7",
-      "country": "HK",
-      "url": "sufbo.tplinkdns.com:8007",
-      "account_name": "aaa",
-      "ip_address": "dynamic",
       "apps_running": ""
     }
   ]
