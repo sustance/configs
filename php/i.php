@@ -25,6 +25,7 @@ US.
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
 <a href="http://b.identity2.com">b.i.c</a>
   <span class="sml">157.90.196.52</span> 
+  <br>
   <a href="https://bsd.tilde.team/~identity2/status_slave.php" target="_blank">more...</a> PHP NOT INSTALLED
 <br>
 US. 
@@ -78,7 +79,7 @@ CA.
 <a href="http://h.identity2.com">h.i.c</a> 
   <span class="sml">142.44.150.185</span><br>
   <a href="https://thunix.net/~id/status_slave.php">more...</a>
-  <a href="https://thunix.net/~id/status_server_table.php">ALL Servers</a>
+  <a href="https://thunix.net/~id/status_server_table.php">ALL SERVERS</a>
   <br>
   <a href="https://thunix.net/~id/diy.php">DIY</a> 
   <a href="https://thunix.net/~id/iata25.php">iata25</a> 
@@ -132,11 +133,11 @@ US
   <span class="sml">45.33.66.185</span>
 <br>
 US. <b>v</b>ern.cc 
-<a href="https://vern.cc/">v.c</a> <span class="sml">5.161.108.85</span><br>
+<a href="https://vern.cc/">v.c</a> <span class="sml">5.161.108.85</span>
 no web
 <br>
 US. rawte<b>x</b>t.club 
-<a href="https://rawtext.club/">r.c</a>  <span class="sml">45.33.66.185</span><br>
+<a href="https://rawtext.club/">r.c</a>  <span class="sml">45.33.66.185</span>
 no web
 <br>
 HK. 
