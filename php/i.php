@@ -112,6 +112,9 @@ CA.
   <a href="https://p.identity2.com">p.i.c</a>
   <span class="sml">198.50.210.248 </span><br>
   <a href="https://tilde.pink/~id2/status_slave.php">more...</a> 
+  <br>
+  <i>PHP NOT WEB</i>
+
 <br>
 CA. 
   <a href="https://tilde.team/">tilde.<b>t</b>eam</a> 
