@@ -133,12 +133,10 @@ US
 <br>
 US. <b>v</b>ern.cc 
 <a href="https://vern.cc/">v.c</a> <span class="sml">5.161.108.85</span><br>
-<a href="https://vern.cc/~id2/status_slave.php">more...ALT</a>
 no web
 <br>
 US. rawte<b>x</b>t.club 
 <a href="https://rawtext.club/">r.c</a>  <span class="sml">45.33.66.185</span><br>
-  <a href="https://rawtext.club/~identity2/status_slave.php">more...ALT</a>
 no web
 <br>
 HK. 
