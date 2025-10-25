@@ -49,7 +49,7 @@ DE.
 <a href="https://envs.net/"><b>e</b>nvs.net</a>  
 <a href="https://envs.net/~identity2">/~i52</a>  
 <a href="https://e.identity2.com">e.i.c</a> 
-<span class="sml">89.163.145.170</span
+<span class="sml">89.163.145.170</span>
 <br>
 <a href="https://envs.net/~identity2/status_slave.php">more...<a>
 <i>remi</i>  <a href="https://envs.net/~identity2/iata25.php">iata25</a>  
@@ -69,7 +69,7 @@ CA.
 <a href="https://tilde.guru/~edi">/~edi</a>
 <a href="http://g.identity2.com">g.i.c</a> 
   <span class="sml">95.179.178.246</span><br>
-  <a href="https://tilde.guru/~edi/status_slave.php">more...</a>
+  <a href="https://tilde.guru/~edi/status_slave.php">more...</a> <i>NO PHP INSTALLED</i>
 <br>
 CA.  
 <a href="https://thunix.net">t<b>h</b>unix.net</a>  
@@ -96,14 +96,14 @@ DE.
 <a href="https://identity2.p.projectsegfau.lt/">i.p.p.l/~i52</a> 
 <a href="http://j.identity2.com">j.i.c</a> 
   <span class="sml">45.145.41.226</span><br>
-  <a href="https://identity2.p.projectsegfau.lt/status_slave.php">more...</a>
+  <a href="https://identity2.p.projectsegfau.lt/status_slave.html">more...</a> PHP INSTALLED, NOT FOR WEB
 <br>
 DE. 
 <a href="https://projectsegfau.lt/">i.7.pr<b>o</b>jectsegfau.lt</a> 
 <a href="https://id.p.projectsegfau.lt/">i.p.p.l/~id</a>
 <a href="http://o.identity2.com">o.i.c</a> 
   <span class="sml">45.145.41.226</span> <br>
-  <a href="https://id.p.projectsegfau.lt/status_slave.php">more...</a>                                             
+  <a href="https://id.p.projectsegfau.lt/status_slave.html">more...</a> PHP INSTALLED, NOT FOR WEB                                            
 <br>
 CA. 
 <a href="https://tilde.pink/">tilde.<b>p</b>ink</a>  
