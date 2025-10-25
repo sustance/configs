@@ -33,9 +33,9 @@ US.
 <a href="https://ctrl-c.club/~identity2/lineage/">/lin</a> 
 <a href="http://c.identity2.com">c.i.c~</a>
 <span class="sml">165.227.127.54</span> 
+  <br>
 <a href="https://ctrl-c.club/~identity2/status_slave.php">more...</a>
-<br>
-. . . <a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
+<a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
 <br>
 CA.
 <a href="https://dimension.sh/"><b>d</b>imension.sh </a> 
@@ -55,7 +55,6 @@ DE.
 <i>remi</i>  <a href="https://envs.net/~identity2/iata25.php">iata25</a>  
   <a href="https://envs.net/~identity2/points25.php">points25</a>  
   <i>Jekyll</i> 
-
 <br>
 DE. 
 <a href="https://freeshell.de/"><b>f</b>reeshell.de</a> 
@@ -118,17 +117,13 @@ CA.
   <a href="https://tilde.team/">tilde.<b>t</b>eam</a> 
 <a href="https://tilde.team/~identity2">/~i52</a> 
 <a href="http://t.identity2.com">t.i.c</a> 
-<span class="sml">198.50.210.248</span> 
-<br><i>Ancestor</i>
+<span class="sml">198.50.210.248</span> <br>
+  <a href="https://tilde.team/~identity2/status_slave.php" target="_blank">more...</a> 
+  <i>Ancestor</i>
 <a href="https://tilde.team/~identity2/lineage">/Lineage</a>   
 <a href="https://tilde.team/~identity2/diy">/diy</a> 
 <a href="https://tilde.team/~identity2/points25">/points25</a> 
-<a href="https://tilde.team/~identity2/iata25">/iata25</a>  <br>
-  <a href="https://tilde.team/~identity2/status_slave.php" target="_blank">more...</a>
-  
-
-
-  
+<a href="https://tilde.team/~identity2/iata25">/iata25</a>  
 <br>
 US 
 <a href="https://sustance.github.io">sustance.gith<b>u</b>b.io</a>
