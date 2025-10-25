@@ -68,7 +68,9 @@ $software['Nginx'] = getVersion('nginx', '-v');
 $software['Apache'] = getVersion('apache2', '-v');
 
 // Utilities
-$software['Curl'] = getVersion('curl', '--version');
+$fullOutput = getVersion('curl1', '--version');
+$software['Curl'] = substr($fullOutput, 0, 50);
+$software['Curl'] = getVersion('curl2', '--version', ' |', ' head', ' -c', ' 50');
 $software['W3m'] = getVersion('w3m', '--version');
 $software['Lynx'] = getVersion('lynx', '--version');
 $software['Newsboat'] = getVersion('newsboat', '-v');
