@@ -58,8 +58,8 @@ $software = [];
 // Programming Languages
 $software['PHP'] = getVersion('php', '--version');
 $software['Lua'] = getVersion('lua', '-v');
-//$software['Ruby'] = getVersion('ruby', '--version');
-//$software['Gem'] = getVersion('gem', '-v');
+$software['Ruby'] = getVersion('ruby', '--version');
+$software['Gem'] = getVersion('gem', '-v');
 $software['Shell'] = getVersion('bash', '--version');
 
 
@@ -74,12 +74,12 @@ $software['Curl'] = getVersion('curl2', '--version', ' |', ' head', ' -c', ' 50'
 $software['W3m'] = getVersion('w3m', '--version');
 $software['Lynx'] = getVersion('lynx', '--version');
 $software['Newsboat'] = getVersion('newsboat', '-v');
-//$software['Weechat'] = getVersion('weechat', '-v');
-//$software['Tldr'] = getVersion('tldr', '-v');
-//$software['Rtorrent'] = getVersion('rtorrent', '-v');
-//$software['Nim'] = getVersion('nim', '-v');
-//$software['Tgpt'] = getVersion('tgpt', '-v');
-//$software['Mutt'] = getVersion('mutt', '-v');
+$software['Weechat'] = getVersion('weechat', '-v');
+$software['Tldr'] = getVersion('tldr', '-v');
+$software['Rtorrent'] = getVersion('rtorrent', '-v');
+$software['Nim'] = getVersion('nim', '-v');
+$software['Tgpt'] = getVersion('tgpt', '-v');
+$software['Mutt'] = getVersion('mutt', '-v');
 
 // Additional system info
 $software['Ⓝ Host'] = trim(shell_exec('cat /proc/sys/kernel/hostname'));
