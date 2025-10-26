@@ -69,8 +69,8 @@ CA.
 <a href="https://tilde.guru">tilde.<b>g</b>uru </a>  
 <a href="https://tilde.guru/~edi">/~edi</a>
 <a href="http://g.identity2.com">g.i.c</a> 
-  <span class="sml">95.179.178.246</span><br>
-  <a href="https://tilde.guru/~edi/status_slave.php">more...</a> <i>NO PHP INSTALLED</i>
+<span class="sml">95.179.178.246</span><br>
+<a href="https://tilde.guru/~edi/status_data.html"><span class="pr">more...py</span></a> 
 <br>
 CA.  
 <a href="https://thunix.net">t<b>h</b>unix.net</a>  
