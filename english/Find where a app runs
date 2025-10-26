@@ -1,0 +1,221 @@
+create one or more php files to
+
+Read in https://thunix.net/~id/status_server_master.json server list
+
+find all the options for "country" and "data": key  listed for all servers and presect as links a multi- choice list.
+
+"DE "PHP"  "Lua" "u23f1\ufe0f HKT" etc.
+
+Choose one from the list. 
+
+for the selected item present a list of all the servers with valid responses with output like:
+<tr><td>e</td><td>DE</td><td>Lua</td><td>Lua 5.2.4  Copyright (C) 1994-2015 Lua.org, PUC-Rio</td></tr>
+     "servers": "software:" key and value
+    as a html table
+
+
+Sample of Json file follows:
+
+{
+  "metadata": {
+    "created_date": "20251026",
+    "created_timestamp": "2025-10-26T04:09:12.145886",
+    "total_servers": 12,
+    "successful_fetches": 5,
+    "failed_fetches": 7
+  },
+  "servers": {
+
+    "c": {
+      "country": "US",
+      "url": "ctrl-c.club",
+      "account_name": "identity2",
+      "fetch_date": "20251026",
+      "fetch_time": 1.47,
+      "status": "success",
+      "data": {
+        "server": "ctrl-c.club",
+        "timestamp": null,
+        "software": {
+          "PHP": "PHP 8.1.2-1ubuntu2.22 (cli) (built: Jul 15 2025 12:11:22) (NTS)",
+          "Lua": "Lua 5.3.6  Copyright (C) 1994-2020 Lua.org, PUC-Rio",
+          "Ruby": "ruby 3.0.2p107 (2021-07-07 revision 0db68f0233) [x86_64-linux-gnu]",
+          "Gem": "3.3.5",
+          "Shell": "GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)",
+          "Nginx": "nginx version: nginx/1.18.0 (Ubuntu)",
+          "Apache": "Server version: Apache/2.4.52 (Ubuntu)",
+          "Curl": "Not found or not accessible",
+          "W3m": "Not found or not accessible",
+          "Lynx": "Lynx Version 2.9.0dev.10 (11 Aug 2021)",
+          "Newsboat": "newsboat 2.21.0 - https://newsboat.org/",
+          "Weechat": "3.5",
+          "Tldr": "Not found or not accessible",
+          "Rtorrent": "Not found or not accessible",
+          "Nim": "Nim Compiler Version 1.4.2 [Linux: amd64]",
+          "Tgpt": "Not found or not accessible",
+          "Mutt": "Mutt 2.1.4 (2021-12-11)",
+          "\u24c3 Host": "ctrl-c.club",
+          "\u24c3 User": "www-data",
+          "\u23f1\ufe0f Srvr": "2025-10-26 05:09:04 CDT",
+          "\u23f1\ufe0f HKT": "2025-10-26 18:09:04 HKT",
+          "\u23f1\ufe0f Up": "up 27 weeks, 3 days, 13 hours, 11 minutes"
+        }
+      }
+    },
+
+    "t": {
+      "country": "CA",
+      "url": "tilde.team",
+      "account_name": "identity2",
+      "fetch_date": "20251026",
+      "fetch_time": 0.44,
+      "status": "success",
+      "data": {
+        "server": "tilde",
+        "timestamp": null,
+        "software": {
+          "PHP": "PHP 8.1.2-1ubuntu2.22 (cli) (built: Jul 15 2025 12:11:22) (NTS)",
+          "Lua": "Lua 5.3.6  Copyright (C) 1994-2020 Lua.org, PUC-Rio",
+          "Ruby": "ruby 3.0.2p107 (2021-07-07 revision 0db68f0233) [x86_64-linux-gnu]",
+          "Gem": "3.3.5",
+          "Shell": "GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)",
+          "Nginx": "nginx version: nginx/1.18.0 (Ubuntu)",
+          "Apache": "Not found or not accessible",
+          "Curl": "Not found or not accessible",
+          "W3m": "Not found or not accessible",
+          "Lynx": "Lynx Version 2.9.0dev.10 (11 Aug 2021)",
+          "Newsboat": "newsboat 2.21.0 - https://newsboat.org/",
+          "Weechat": "4.7.1",
+          "Tldr": "Not found or not accessible",
+          "Rtorrent": "Not found or not accessible",
+          "Nim": "Nim Compiler Version 1.6.12 [Linux: amd64]",
+          "Tgpt": "Not found or not accessible",
+          "Mutt": "Mutt 2.1.4 (2021-12-11)",
+          "\u24c3 Host": "tilde",
+          "\u24c3 User": "php-fpm",
+          "\u23f1\ufe0f Srvr": "2025-10-26 10:09:04 UTC",
+          "\u23f1\ufe0f HKT": "2025-10-26 18:09:04 HKT",
+          "\u23f1\ufe0f Up": "up 20 weeks, 2 days, 15 hours, 2 minutes"
+        }
+      }
+    },
+
+    "h": {
+      "country": "CA",
+      "url": "thunix.net",
+      "account_name": "id",
+      "fetch_date": "20251026",
+      "fetch_time": 0.47,
+      "status": "success",
+      "data": {
+        "server": "thunix",
+        "timestamp": null,
+        "software": {
+          "PHP": "PHP 8.2.29 (cli) (built: Jul  3 2025 16:16:05) (NTS)",
+          "Lua": "Lua 5.3.6  Copyright (C) 1994-2020 Lua.org, PUC-Rio",
+          "Ruby": "ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-linux-gnu]",
+          "Gem": "3.3.15",
+          "Shell": "GNU bash, version 5.2.15(1)-release (x86_64-pc-linux-gnu)",
+          "Nginx": "Not found or not accessible",
+          "Apache": "Server version: Apache/2.4.65 (Debian)",
+          "Curl": "Not found or not accessible",
+          "W3m": "Not found or not accessible",
+          "Lynx": "Lynx Version 2.9.0dev.12 (02 Jan 2023)",
+          "Newsboat": "newsboat 2.21.0 - https://newsboat.org/",
+          "Weechat": "4.7.1",
+          "Tldr": "Not found or not accessible",
+          "Rtorrent": "Not found or not accessible",
+          "Nim": "Not found or not accessible",
+          "Tgpt": "Not found or not accessible",
+          "Mutt": "Mutt 2.2.12 (2023-09-09)",
+          "\u24c3 Host": "thunix",
+          "\u24c3 User": "www-data",
+          "\u23f1\ufe0f Srvr": "2025-10-26 10:09:06 UTC",
+          "\u23f1\ufe0f HKT": "2025-10-26 18:09:06 HKT",
+          "\u23f1\ufe0f Up": "up 10 weeks, 2 days, 1 hour, 43 minutes"
+        }
+      }
+    },
+    "e": {
+      "country": "DE",
+      "url": "envs.net",
+      "account_name": "identity2",
+      "fetch_date": "20251026",
+      "fetch_time": 0.83,
+      "status": "success",
+      "data": {
+        "server": "core.envs.net",
+        "timestamp": null,
+        "software": {
+          "PHP": "PHP 7.4.33 (cli) (built: Jul 27 2025 11:10:22) ( NTS )",
+          "Lua": "Lua 5.2.4  Copyright (C) 1994-2015 Lua.org, PUC-Rio",
+          "Ruby": "ruby 2.7.4p191 (2021-07-07 revision a21a3b7d23) [x86_64-linux-gnu]",
+          "Gem": "3.2.5",
+          "Shell": "GNU bash, version 5.1.4(1)-release (x86_64-pc-linux-gnu)",
+          "Nginx": "nginx version: nginx/1.18.0",
+          "Apache": "Not found or not accessible",
+          "Curl": "Not found or not accessible",
+          "W3m": "Not found or not accessible",
+          "Lynx": "Lynx Version 2.9.0dev.6 (05 Sep 2020)",
+          "Newsboat": "newsboat 2.21.0 - https://newsboat.org/",
+          "Weechat": "3.7.1",
+          "Tldr": "0.6.4",
+          "Rtorrent": "Not found or not accessible",
+          "Nim": "Nim Compiler Version 1.4.2 [Linux: amd64]",
+          "Tgpt": "Not found or not accessible",
+          "Mutt": "Mutt 2.0.5 (2021-01-21)",
+          "\u24c3 Host": "core.envs.net",
+          "\u24c3 User": "www-data",
+          "\u23f1\ufe0f Srvr": "2025-10-26 10:09:06 UTC",
+          "\u23f1\ufe0f HKT": "2025-10-26 18:09:06 HKT",
+          "\u23f1\ufe0f Up": "up 1 week, 1 day, 10 hours, 29 minutes"
+        }
+      }
+    },
+    "f": {
+      "country": "DE",
+      "url": "freeshell.de",
+      "account_name": "identity",
+      "fetch_date": "20251026",
+      "fetch_time": 1.06,
+      "status": "success",
+      "data": {
+        "server": "freeshell.de",
+        "timestamp": null,
+        "software": {
+          "PHP": "PHP 8.4.13 (cli) (built: Oct  1 2025 20:34:15) (NTS)",
+          "Lua": "Not found or not accessible",
+          "Ruby": "ruby 3.2.3 (2024-01-18 revision 52bb2ac0a6) [x86_64-linux-gnu]",
+          "Gem": "3.4.20",
+          "Shell": "GNU bash, version 5.2.21(1)-release (x86_64-pc-linux-gnu)",
+          "Nginx": "Not found or not accessible",
+          "Apache": "Not found or not accessible",
+          "Curl": "Not found or not accessible",
+          "W3m": "Not found or not accessible",
+          "Lynx": "Lynx Version 2.9.0 (15 Jan 2024)",
+          "Newsboat": "Not found or not accessible",
+          "Weechat": "4.1.1",
+          "Tldr": "Not found or not accessible",
+          "Rtorrent": "Not found or not accessible",
+          "Nim": "Not found or not accessible",
+          "Tgpt": "Not found or not accessible",
+          "Mutt": "Mutt 2.2.12 (2023-09-09)",
+          "\u24c3 Host": "freeshell.de",
+          "\u24c3 User": "identity",
+          "\u23f1\ufe0f Srvr": "2025-10-26 11:09:07 CET",
+          "\u23f1\ufe0f HKT": "2025-10-26 18:09:07 HKT",
+          "\u23f1\ufe0f Up": "up 8 weeks, 3 days, 1 hour, 13 minutes"
+        }
+      }
+    },
+    "i": {
+      "country": "DE",
+      "url": "tilde.institute",
+      "account_name": "id2",
+      "fetch_date": "20251026",
+      "fetch_time": 0.41,
+      "status": "http_error_403",
+      "data": {}
+    }
+  }
+}
