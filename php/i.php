@@ -1,24 +1,7 @@
-LE<?php 
+<?php 
 $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
 echo $head;
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!--<div class="box">
   <p> Inline in 
@@ -193,34 +176,6 @@ Quick setup for basic SIP testing<br>
 Use username: test, password: test1234<br>
 Server: sip.zoiper.com (port 5060)</p>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
