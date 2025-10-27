@@ -1,9 +1,6 @@
 ```
 Matur, Bookd, $Mil,Cur, C,Detail 
 _________________________________
-50925, 50825, 0.50.hkd, h,hsbc
-50925, 00000, 0.41,hkd, h,Pay+MB 
-51025, 00000, 0.41,hkd, h,Pay+MB  
 51028, 50728, 1.44,hkd, c,hangs  ￪
 51028, 50728, 0.34,usd, c,hangs  ￪
 51125, 00000, 0.41,hkd, h,Pay+MB  
@@ -13,7 +10,7 @@ _________________________________
 _________________________________
 60106, 00000, 1.42,hkd, h,TaxPay2
 60109, 50109, 0.55,usd, l,2135658┃
-60126, 51024, 1.82,usdn l.
+60126, 51024, 1.82,usdn l.6071691║
 60206, 50806, 0.05,usd, c,hangs  ￪
 60217, 50214, 1.64,usd, l,2168917┃
 60220, 50818, 0.03,aud, l,hsbc122║
@@ -25,7 +22,7 @@ _________________________________
 ```
 - Check moneyback on "Pay" day 
 - √ checked on bank site
-- ║ checked Oct 4
+- ║ checked Oct 4, 27
 - ┃ checked on lgt app 50819
 - ┊ not yet recorded on App
 - ￪ check from message, not bank site
