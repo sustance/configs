@@ -1,17 +1,44 @@
-create one or more php files to
+I want to cteate an new php file i_servers.php Read in https://thunix.net/~id/i_servers.php at "CREATE A NEW PHP MENU HERE"
+
+<?php 
+$head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
+echo $head;
+?>
+<?php 
+CREATE A NEW PHP MENU HERE
+$head = file_get_contents('https://thunix.net/~id/i_servers.php');
+echo $head;
+?>
+<!-- A BLOCK OF HTML HERE-->
+<?php
+$tail = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/tail-land.html');
+echo $tail;
+?>
+
+
+
+
+
+i_servers.php
 
 Read in https://thunix.net/~id/status_server_master.json server list
 
-find all the options for "country" and "data": key  listed for all servers and presect as links a multi- choice list.
+find all the options for "servers" "country" and '"data": key.'  
+present a clickable menu as simple links a of the "software:key" ( "DE "PHP"  "Lua" "u23f1\ufe0f HKT" etc.}
 
-"DE "PHP"  "Lua" "u23f1\ufe0f HKT" etc.
+On selection of one item from the menu. 
 
-Choose one from the list. 
-
-for the selected item present a list of all the servers with valid responses with output like:
+Open a previously concealed <div> at this point in thepage 
+and write into into it
+A list of all the servers with valid responses with output like:
 <tr><td>e</td><td>DE</td><td>Lua</td><td>Lua 5.2.4  Copyright (C) 1994-2015 Lua.org, PUC-Rio</td></tr>
      "servers": "software:" key and value
     as a html table
+
+Enable new selections from this menu and write the results over the same <div> contents
+
+If css is required provide snippit to include in my .css file
+
 
 
 Sample of Json file follows:
