@@ -96,7 +96,6 @@ CA.
 <a href="http://h.identity2.com">h.i.c</a> 
   <span class="sml">142.44.150.185</span><br>
   <a href="https://thunix.net/~id/status_slave.php">more...</a>
-  <a href="https://thunix.net/~id/status_server_table.php">ALL SERVERS</a>
   <a href="https://thunix.net/~id/diy.php">DIY</a> 
   <a href="https://thunix.net/~id/iata25.php">iata25</a> 
   <a href="https://thunix.net/~id/points25.php">points25</a>
