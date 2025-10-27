@@ -1,4 +1,4 @@
-<?php 
+LE<?php 
 $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
 echo $head;
 ?>
@@ -300,9 +300,9 @@ ksort($software_keys);
 <pre></pre>
 status_slave.php fetched from git to all servers. run: web/cron/py
 ... out to status_data.json plus screen
-status_server_table.php from git on one (thunix) collates NOT ON GIT YET
-... reads in status_server.master.json
-... run from link on i.php 
+status_server_table.php SCRAPPED/DELETED
+i.php now reads in status_server.master.json
+... lookup table
 </pre>
 
   
