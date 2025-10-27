@@ -297,6 +297,17 @@ ksort($software_keys);
     </div>
 </div>
 
+
+<pre></pre>
+status_slave.php fetched from git to all servers. run: web/cron/py
+... out to status_data.json plus screen
+status_server_table.php from git on one (thunix) collates NOT ON GIT YET
+... reads in status_server.master.json
+... run from link on i.php 
+</pre>
+
+  
+
 <script>
 // Store the JSON data in JavaScript
 const serverData = <?php echo json_encode($data); ?>;
