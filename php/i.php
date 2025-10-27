@@ -285,9 +285,9 @@ ksort($software_keys);
         <table id="results-table">
             <thead>
                 <tr>
-                    <th>Server ID</th>
-                    <th>Country</th>
-                    <th>Software Key</th>
+                    <th></th>
+                    <th>Ctry</th>
+                    <th></th>
                     <th>Value</th>
                 </tr>
             </thead>
@@ -351,7 +351,7 @@ function filterServers(filterType, filterValue) {
     }
     
     // Update title and show results
-    resultsTitle.textContent = `Results for ${filterType}: ${filterValue} (${rowCount} entries)`;
+    resultsTitle.textContent = `Result: ${filterType}: ${filterValue} (${rowCount})`;
     resultsDiv.style.display = 'block';
     
     // Scroll to results
