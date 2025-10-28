@@ -26,7 +26,7 @@ US.
 <a href="http://b.identity2.com">b.i.c</a>
 <span class="sml">157.90.196.52</span> 
 <br>
-<a href="https://bsd.tilde.team/~identity2/status_data.html"><span class="pr">more...py</span></a> 
+<a href="https://bsd.tilde.team/~identity2/status_data.html"><span class="pr"> &nbsp; . . . more.py</span></a> 
 <br>
 US. 
 <a href="https://ctrl-c.club/"><b>c</b>trl-c.club</a>
@@ -35,7 +35,7 @@ US.
 <a href="http://c.identity2.com">c.i.c~</a>
 <span class="sml">165.227.127.54</span> 
   <br>
-<a href="https://ctrl-c.club/~identity2/status_slave.php">more...</a>
+<a href="https://ctrl-c.club/~identity2/status_slave.php"> &nbsp; . . . more</a>
 <a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
 <br>
 CA.
@@ -43,7 +43,7 @@ CA.
 <a href="https://dimension.sh/~identity2">/~i42</a> 
 <a href="http://d.identity2.com">d.i.c</a>
 <span class="sml">51.79.51.59</span> <br>
-<a href="https://dimension.sh/~identity2/status_slave.php">more...</a>
+<a href="https://dimension.sh/~identity2/status_slave.php"> &nbsp; . . . more</a>
 DOWN, not clean cron
 <br> 
 DE.  
@@ -52,7 +52,7 @@ DE.
 <a href="https://e.identity2.com">e.i.c</a> 
 <span class="sml">89.163.145.170</span>
 <br>
-<a href="https://envs.net/~identity2/status_slave.php">more...<a>
+<a href="https://envs.net/~identity2/status_slave.php"> &nbsp; . . . more<a>
 <i>remi</i>  <a href="https://envs.net/~identity2/iata25.php">iata25</a>  
   <a href="https://envs.net/~identity2/points25.php">points25</a>  
   <i>Jekyll</i> 
@@ -63,22 +63,24 @@ DE.
 <a href="http://f.identity2.com">f.i.c</a> 
 <a href="https://freeshell.de/shell/">Shell</a> 
   <span class="sml">116.202.128.144</span> <br>
-  <a href="https://freeshell.de/~identity/status_slave.php">more...</a>
+  <a href="https://freeshell.de/~identity/status_slave.php"> &nbsp; . . . more</a>
 <br>
 CA.  
 <a href="https://tilde.guru">tilde.<b>g</b>uru </a>  
 <a href="https://tilde.guru/~edi">/~edi</a>
 <a href="http://g.identity2.com">g.i.c</a> 
-<span class="sml">95.179.178.246</span><br>
-<a href="https://tilde.guru/~edi/status_data.html"><span class="pr">more...py</span></a> 
+<span class="sml">95.179.178.246</span>
+  <br>
+<a href="https://tilde.guru/~edi/status_data.html"><span class="pr"> &nbsp; . . . more.py</span></a> 
 <br>
 CA.  
 <a href="https://thunix.net">t<b>h</b>unix.net</a>  
 <a href="https://thunix.net/~id">/~id</a> 
 <a href="https://tilde.tel">t.tel</a>  
 <a href="http://h.identity2.com">h.i.c</a> 
-  <span class="sml">142.44.150.185</span><br>
-  <a href="https://thunix.net/~id/status_slave.php">more...</a>
+  <span class="sml">142.44.150.185</span>
+  <br>
+  <a href="https://thunix.net/~id/status_slave.php"> &nbsp; . . . more</a>
   <a href="https://thunix.net/~id/diy.php">DIY</a> 
   <a href="https://thunix.net/~id/iata25.php">iata25</a> 
   <a href="https://thunix.net/~id/points25.php">points25</a>
@@ -88,29 +90,33 @@ DE.
 <a href="https://tilde.institute">tilde.<b>i</b>nstitute</a>  
 <a href="https://id2.tilde.institute">id2.t.i</a> 
 <a href="http://i.identity2.com">i.i.c</a>
-  <span class="sml">159.69.146.152</span><br>
-  <a href="https://id2.tilde.institute/status_slave.php">more...</a>  
+  <span class="sml">159.69.146.152</span>
+  <br>
+  <a href="https://id2.tilde.institute/status_slave.php"> &nbsp; . . . more</a>  
 <br>
 DE. 
 <a href="https://projectsegfau.lt/">i72.pro<b>j</b>ectsegfau.lt </a> 
 <a href="https://identity2.p.projectsegfau.lt/">i.p.p.l/~i52</a> 
 <a href="http://j.identity2.com">j.i.c</a> 
-  <span class="sml">45.145.41.226</span><br>
-  <a href="https://identity2.p.projectsegfau.lt/status_slave.html">more...</a> PHP INSTALLED, NOT FOR WEB
+  <span class="sml">45.145.41.226</span>
+  <br>
+  <a href="https://identity2.p.projectsegfau.lt/status_slave.html"> &nbsp; . . . more</a> PHP INSTALLED, NOT FOR WEB
 <br>
 DE. 
 <a href="https://projectsegfau.lt/">i.7.pr<b>o</b>jectsegfau.lt</a> 
 <a href="https://id.p.projectsegfau.lt/">i.p.p.l/~id</a>
 <a href="http://o.identity2.com">o.i.c</a> 
-  <span class="sml">45.145.41.226</span> <br>
-  <a href="https://id.p.projectsegfau.lt/status_slave.html">more...</a> PHP INSTALLED, NOT FOR WEB                                            
+  <span class="sml">45.145.41.226</span> 
+  <br>
+  <a href="https://id.p.projectsegfau.lt/status_slave.html"> &nbsp; . . . more</a> PHP INSTALLED, NOT FOR WEB                                            
 <br>
 CA. 
 <a href="https://tilde.pink/">tilde.<b>p</b>ink</a>  
 <a href="https://tilde.pink/~id2">t.p/~id2</a> 
   <a href="https://p.identity2.com">p.i.c</a>
-  <span class="sml">198.50.210.248 </span><br>
-  <a href="https://tilde.pink/~id2/status_slave.php">more...</a> 
+  <span class="sml">198.50.210.248 </span>
+  <br>
+  <a href="https://tilde.pink/~id2/status_slave.php"> &nbsp; . . . more</a> 
   <br>
   <i>PHP NOT WEB</i>
 
@@ -119,8 +125,9 @@ CA.
   <a href="https://tilde.team/">tilde.<b>t</b>eam</a> 
 <a href="https://tilde.team/~identity2">/~i52</a> 
 <a href="http://t.identity2.com">t.i.c</a> 
-<span class="sml">198.50.210.248</span> <br>
-  <a href="https://tilde.team/~identity2/status_slave.php" target="_blank">more...</a> 
+<span class="sml">198.50.210.248</span> 
+  <br>
+  <a href="https://tilde.team/~identity2/status_slave.php" target="_blank"> &nbsp; . . . more</a> 
   <i>Ancestor</i>
 <a href="https://tilde.team/~identity2/lineage">/Lineage</a>   
 <a href="https://tilde.team/~identity2/diy">/diy</a> 
