@@ -25,7 +25,7 @@ US.
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
 <a href="http://b.identity2.com">b.i.c</a>
 <span class="sml">157.90.196.52</span> 
-  <?php 
+  <  ?php 
 echo <span><br>HKT</span>
 ?>
 <br>
@@ -35,7 +35,7 @@ US.
 <a href="https://ctrl-c.club/~identity2/lineage/">/lin</a> 
 <a href="http://c.identity2.com">c.i.c~</a>
 <span class="sml">165.227.127.54</span> 
-  <?php 
+  <  ?php 
 echo <div><br>HKT</div
 ?>
 <a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
@@ -45,7 +45,7 @@ CA.
 <a href="https://dimension.sh/~identity2">/~i42</a> 
 <a href="http://d.identity2.com">d.i.c</a>
 <span class="sml">51.79.51.59</span> 
-<?php 
+<  ?php 
 echo <div><br>HKT</div
 ?>
 
@@ -56,7 +56,7 @@ DE.
 <a href="https://envs.net/~identity2">/~i52</a>  
 <a href="https://e.identity2.com">e.i.c</a> 
 <span class="sml">89.163.145.170</span>
-  <?php 
+  <  ?php 
 echo <div><br>HKT</div
 ?>
 <i>remi</i>  <a href="https://envs.net/~identity2/iata25.php">iata25</a>  
@@ -69,7 +69,7 @@ DE.
 <a href="http://f.identity2.com">f.i.c</a> 
 <a href="https://freeshell.de/shell/">Shell</a> 
   <span class="sml">116.202.128.144</span> <br>
-  <?php 
+  <  ?php 
 echo <div><br>HKT</div
 ?> more</a>
 <br>
@@ -88,7 +88,7 @@ CA.
 <a href="https://tilde.tel">t.tel</a>  
 <a href="http://h.identity2.com">h.i.c</a> 
   <span class="sml">142.44.150.185</span>
-    <?php 
+    <  ?php 
 echo <div><br>HKT</div
 ?>
   <a href="https://thunix.net/~id/diy.php">DIY</a> 
@@ -101,7 +101,7 @@ DE.
 <a href="https://id2.tilde.institute">id2.t.i</a> 
 <a href="http://i.identity2.com">i.i.c</a>
   <span class="sml">159.69.146.152</span>
-  <?php 
+  <  ?php 
 echo <div><br>HKT</div
 ?>bsp; . . . more</a>  
 <br>
@@ -110,7 +110,7 @@ DE.
 <a href="https://identity2.p.projectsegfau.lt/">i.p.p.l/~i52</a> 
 <a href="http://j.identity2.com">j.i.c</a> 
   <span class="sml">45.145.41.226</span>
-   <?php 
+   <  ?php 
 echo <div><br>HKT</div
 ?>more</a> PHP INSTALLED, NOT FOR WEB
 <br>
@@ -119,7 +119,7 @@ DE.
 <a href="https://id.p.projectsegfau.lt/">i.p.p.l/~id</a>
 <a href="http://o.identity2.com">o.i.c</a> 
   <span class="sml">45.145.41.226</span> 
-  <?php 
+  <  ?php 
 echo <div><br>HKT</div
 ?>PHP INSTALLED, NOT FOR WEB                                            
 <br>
@@ -130,7 +130,7 @@ CA.
   <span class="sml">198.50.210.248 </span>
   <br>
   <a href="https://tilde.pink/~id2/status_slave.php"> &nbsp; . . . more</a> 
-  <?php 
+  <  ?php 
 echo <div><br>HKT</div
 ?>
   <i>PHP NOT WEB</i>
@@ -141,7 +141,7 @@ CA.
 <a href="https://tilde.team/~identity2">/~i52</a> 
 <a href="http://t.identity2.com">t.i.c</a> 
 <span class="sml">198.50.210.248</span> 
-  <?php 
+  <  ?php 
 echo <div><br>HKT</div
 ?>
   <i>Ancestor</i>
