@@ -1,7 +1,7 @@
 <?php
 $env_vars = parse_ini_file('/home/identity2/.env');
 $BOT_TOKEN = $env_vars['BOT_TOKEN'];
-$PIDK = $env_vars['PIDK'];
+$PID = $env_vars['PIDM'];
 $SERVER = $env_vars['SERVER'];
  
 // Use your token
@@ -100,5 +100,5 @@ function sendTelegramMessage($chatId, $message, $token) {
 }
 
 // Send the holidays list to Telegram PID
-sendTelegramMessage($PIDK, $messageText, $BOT_TOKEN);
+sendTelegramMessage($PID, $messageText, $BOT_TOKEN);
 ?>
