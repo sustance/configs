@@ -25,8 +25,8 @@ function getVersion($command, $versionArg = '--version') {
         return htmlspecialchars($output[0]);
     }
     
-    //return '☹';
-    return 'NoFind';
+    return '☹';
+    //return 'NoFind';
 }
 
 /**
@@ -50,8 +50,8 @@ function isServiceRunning($serviceName) {
         }
     }
     
-    //return '⛔';
-    return 'NotRun';
+    return '⛔';
+    //return 'NotRun';
 }
 
 // Collect software information
