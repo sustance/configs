@@ -215,7 +215,6 @@ ksort($software_keys);
     <h2>Server Filter Menu</h2>
     
     <div class="filter-menu">
-        <h3>Filter by Country:</h3>
         <div class="menu-items">
             <?php foreach (array_keys($countries) as $country): ?>
                 <a href="#" class="filter-link" data-type="country" data-value="<?php echo htmlspecialchars($country); ?>">
@@ -224,7 +223,7 @@ ksort($software_keys);
             <?php endforeach; ?>
         </div>
         
-        <h3>Filter by Software:</h3>
+        <h4>'f' by cron only:</h4>
         <div class="menu-items">
             <?php foreach (array_keys($software_keys) as $software): ?>
                 <a href="#" class="filter-link" data-type="software" data-value="<?php echo htmlspecialchars($software); ?>">
