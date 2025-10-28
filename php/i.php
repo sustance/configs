@@ -212,7 +212,7 @@ ksort($software_keys);
 ?>
 
 <div class="server-filter-container">
-    <h2>Server Filter Menu</h2>
+    <h4>'f,?,?' by cron only:</h4>
     
     <div class="filter-menu">
         <div class="menu-items">
@@ -223,7 +223,7 @@ ksort($software_keys);
             <?php endforeach; ?>
         </div>
         
-        <h4>'f' by cron only:</h4>
+        
         <div class="menu-items">
             <?php foreach (array_keys($software_keys) as $software): ?>
                 <a href="#" class="filter-link" data-type="software" data-value="<?php echo htmlspecialchars($software); ?>">
