@@ -253,6 +253,7 @@ ksort($software_keys);
 
 
 <pre></pre>
+  status_server_master.json REMAINS ON THUNIX
 status_slave.php fetched from git to all servers. run: web/cron/py
 ... out to status_data.json plus screen
 status_server_table.php SCRAPPED/DELETED
