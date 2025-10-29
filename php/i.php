@@ -29,7 +29,7 @@ US.
 <?php 
 $b = file_get_contents('status_data.json');
 $data = json_decode($b, true);
-echo $data['⏱️ HKT'];
+echo $data['HKT'];
 ?>
 
 <br>
