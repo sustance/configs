@@ -23,12 +23,9 @@ US.
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
 <a href="http://b.identity2.com">b.i.c</a>
 <span class="sml">157.90.196.52</span> 
+<span style="margin-left:9px;" class="sml"></span> 
 <br>
-<?php 
-$b = file_get_contents('status_data.json');
-$data = json_decode($b, true);
-echo $data['software']['⏱️ HKT'];
-?>
+
 
 <br>
 US. 
@@ -36,14 +33,8 @@ US.
 <a href="https://ctrl-c.club/~identity2">/~i52</a>
 <a href="https://ctrl-c.club/~identity2/lineage/">/lin</a> 
 <a href="http://c.identity2.com">c.i.c~</a>
-<span class="sml">165.227.127.54
-  <br>
-<?php 
-$b = file_get_contents('status_data.json');
-$data = json_decode($b, true);
-echo $data['software']['⏱️ HKT'];
-?></span> 
-
+<span class="sml">165.227.127.54</span> 
+ <br>
 
 <a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
 <br>
@@ -52,15 +43,16 @@ CA.
 <a href="https://dimension.sh/~identity2">/~i42</a> 
 <a href="http://d.identity2.com">d.i.c</a>
 <span class="sml">51.79.51.59</span> 
+  <br> 
+<span class="sml">DOWN, not clean cron</span> 
 
-DOWN, not clean cron
 <br> 
 DE.  
 <a href="https://envs.net/"><b>e</b>nvs.net</a>  
 <a href="https://envs.net/~identity2">/~i52</a>  
 <a href="https://e.identity2.com">e.i.c</a> 
 <span class="sml">89.163.145.170</span>
-
+<br> 
 <i>remi</i>  <a href="https://envs.net/~identity2/iata25.php">iata25</a>  
   <a href="https://envs.net/~identity2/points25.php">points25</a>  
   <i>Jekyll</i> 
@@ -110,16 +102,14 @@ DE.
 <a href="https://id.p.projectsegfau.lt/">i.p.p.l/~id</a>
 <a href="http://o.identity2.com">o.i.c</a> 
   <span class="sml">45.145.41.226</span> 
-PHP INSTALLED, NOT FOR WEB                                            
++PHP -WEB                                            
 <br>
 CA. 
 <a href="https://tilde.pink/">tilde.<b>p</b>ink</a>  
 <a href="https://tilde.pink/~id2">t.p/~id2</a> 
   <a href="https://p.identity2.com">p.i.c</a>
   <span class="sml">198.50.210.248 </span>
-  <br>
-  <a href="https://tilde.pink/~id2/status_slave.php"> &nbsp; . . . more</a> 
-  <i>PHP NOT WEB</i>
++PHP -WEB  
 
 <br>
 CA. 
