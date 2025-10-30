@@ -14,7 +14,8 @@ echo $head;
   alt="Home" height="64" width="64" />
 </div>
 -->
-  
+
+
 <div class="bsd">
 <p>
 US.
@@ -27,6 +28,7 @@ US.
 $b = file_get_contents('status_data.json');
 $data = json_decode($b, true);
 echo $data['HKT'];
+echo "This ia a test!";
 ?>
 
 <br>
