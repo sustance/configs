@@ -17,9 +17,6 @@ echo $head;
   
 <div class="bsd">
 <p>
-HK. 
-Router<b>1</b> smb://tp-share/g/
-<br>  
 US.
 <a href="https://bsd.tilde.team/"> <b>b</b>sd.tilde.team </a> 
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
@@ -143,6 +140,9 @@ US. rawte<b>x</b>t.club
 <a href="https://rawtext.club/">r.c</a>  <span class="sml">45.33.66.185</span>
 no web
 <br>
+HK. 
+Router<b>1</b> smb://tp-share/g/
+<br>  
 HK. 
 Hu<b>4</b> 64b 
 <a href="https://sufbo.tplinkdns.com:8004">sufbo.tplinkdns.com:8004</a>
