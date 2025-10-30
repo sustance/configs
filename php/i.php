@@ -23,13 +23,7 @@ US.
 <a href="https://bsd.tilde.team/~identity2">/~i52</a> 
 <a href="http://b.identity2.com">b.i.c</a>
 <span class="sml">157.90.196.52</span> 
- 1.
-<?php 
-$b = file_get_contents('status_data.json');
-$data = json_decode($b, true);
-echo $data['software']['HKT'];
-?>
-2.
+<br>
 <?php 
 $b = file_get_contents('status_data.json');
 $data = json_decode($b, true);
@@ -42,7 +36,14 @@ US.
 <a href="https://ctrl-c.club/~identity2">/~i52</a>
 <a href="https://ctrl-c.club/~identity2/lineage/">/lin</a> 
 <a href="http://c.identity2.com">c.i.c~</a>
-<span class="sml">165.227.127.54</span> 
+<span class="sml">165.227.127.54
+  <br>
+<?php 
+$b = file_get_contents('status_data.json');
+$data = json_decode($b, true);
+echo $data['software']['⏱️ HKT'];
+?></span> 
+
 
 <a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
 <br>
