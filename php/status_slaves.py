@@ -30,6 +30,8 @@ def get_version(command, version_arg='--version'):
 def main():
     # Collect software versions
     software = {
+        'Python3': get_version('python3', '--version'),
+        'Python': get_version('python', '--version'),
         'PHP': get_version('php'),
         'Lua': get_version('lua', '-v'),
         'Ruby': get_version('ruby'),
@@ -62,7 +64,7 @@ def main():
         software['Ⓝ User'] = '☹'
     
     software['Srvr'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S %Z')
-    software['HKT'] = datetime.now().astimezone().strftime('%Y-%m-%d %H:%M:%S %Z')
+    software['⏱️ HKT'] = datetime.now().astimezone().strftime('%Y-%m-%d %H:%M:%S %Z')
     
     try:
         uptime = subprocess.check_output(['uptime', '-p']).decode().strip()
