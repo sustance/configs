@@ -267,7 +267,7 @@ $records = [];
 
 foreach ($lines as $line) {
     // Skip empty lines and placeholder lines starting with "__"
-    if (empty($line) ) === 0) {
+    if (empty($line) === 0) {
         continue;
     }
 
