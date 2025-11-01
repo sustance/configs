@@ -255,4 +255,59 @@ function saveToCsv($output, $filename) {
 // Uncomment the next line to save the processed data to a CSV file
 saveToCsv($output, 'iata25out.csv');
 
+
+
+// ATTEMPT TO ALSO SAVE A JSON RECORD
+
+// Split into lines and clean up
+$lines = array_filter(array_map('trim', explode("\n", $data)));
+
+// Output array
+$records = [];
+
+foreach ($lines as $line) {
+    // Skip empty lines and placeholder lines starting with "__"
+    if (empty($line) ) === 0) {
+        continue;
+    }
+
+    // Split by spaces, but preserve full remainder after 5th field
+    $parts = preg_split('/\s+/', $line, 6); // Limit to 6 parts
+
+    if (count($parts) < 5) {
+        continue; // Skip malformed lines
+    }
+
+    // Extract first 5 fields
+    $traveller           = trim($parts[0]);
+    $ticket_no           = trim($parts[1]);
+    $from_to_airline     = trim($parts[2]);
+    $flight_no           = trim($parts[3]);
+    $julian_date_class    = trim($parts[4]);
+    $remainder           = isset($parts[5]) ? trim($parts[5]) : '';
+
+    // Build record
+    $records[] = [
+        'Traveller'           => $traveller,
+        'Ticket_N0'           => $ticket_no,
+        'From_To_Airline'     => $from_to_airline,
+        'Flight_No'           => $flight_no,
+        'Julian_Date_Class_Other' => $julian_date_class,
+        'Remainder_Of_Data'   => $remainder
+    ];
+}
+
+// Save to JSON file in the same directory
+$jsonFile = __DIR__ . '/iata25_Codes.json';
+$jsonData = json_encode($records, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+
+if (file_put_contents($jsonFile, $jsonData) !== false) {
+    echo "Successfully saved " . count($records) . " records to $jsonFile\n";
+} else {
+    echo "Failed to write JSON file.\n";
+}
+
+
+
+
 ?>
