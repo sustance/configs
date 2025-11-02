@@ -65,6 +65,15 @@ def main():
     
     software['Srvr'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S %Z')
     software['⏱️ HKT'] = datetime.now().astimezone().strftime('%Y-%m-%d %H:%M:%S %Z')
+
+    try:
+        cron_output = subprocess.check_output(['crontab', '-l']).decode().strip()
+        software['Cron'] = cron_output
+    except subprocess.CalledProcessError:
+        # User has no crontab
+        software['Cron'] = "No crontab for user"
+
+    
     
     try:
         uptime = subprocess.check_output(['uptime', '-p']).decode().strip()
