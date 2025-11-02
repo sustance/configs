@@ -86,6 +86,8 @@ CA.
   <a href="https://thunix.net/~id/iata25.php">iata25</a> 
   <a href="https://thunix.net/~id/points25.php">points25</a>
 <br>
+  STATUS SERVER
+<br>
   
 DE. 
 <a href="https://tilde.institute">tilde.<b>i</b>nstitute</a>  
