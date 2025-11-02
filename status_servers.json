@@ -75,8 +75,8 @@
     {
       "name": "i",
       "country": "DE",
-      "url": "tilde.institute",
-      "account_name": "id2",
+      "url": "id2.tilde.institute",
+      "account_name": "",
       "ip_address": "159.69.146.152",
       "apps_running": ""
     },
