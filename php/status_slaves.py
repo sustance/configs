@@ -63,7 +63,8 @@ def main():
     except:
         software['Ⓝ User'] = '☹'
     
-    software['Srvr'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S %Z')
+    software['⏱️ Srvr'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S %Z')
+    
     software['⏱️ HKT'] = datetime.now().astimezone().strftime('%Y-%m-%d %H:%M:%S %Z')
 
     try:
