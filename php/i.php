@@ -34,6 +34,10 @@ US.
 <a href="https://ctrl-c.club/~identity2/lineage/">/lin</a> 
 <a href="http://c.identity2.com">c.i.c~</a>
 <span class="sml">165.227.127.54</span> 
+<?php
+$crontabOutput = shell_exec('crontab -l');
+echo "<pre>" . htmlspecialchars($crontabOutput) . "</pre>";
+?>
  <br>
 
 <a href="https://ctrl-c.club/~identity2/MATURrem.php">MATURrem</a> 
