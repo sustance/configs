@@ -83,16 +83,16 @@
     {
       "name": "j",
       "country": "DE",
-      "url": "projectsegfau.lt/status_data.json",
-      "account_name": "id",
+      "url": "id.p.projectsegfau.lt/status_data.json",
+      "account_name": "",
       "ip_address": "45.145.41.226",
       "apps_running": ""
     },
     {
       "name": "o",
       "country": "DE",
-      "url": "projectsegfau.lt",
-      "account_name": "identity2",
+      "url": "identity2.p.projectsegfau.lt",
+      "account_name": "",
       "ip_address": "45.145.41.226",
       "apps_running": ""
     }
