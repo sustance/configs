@@ -94,7 +94,7 @@ DE.
 <a href="https://id2.tilde.institute">id2.t.i</a> 
 <a href="http://i.identity2.com">i.i.c</a>
   <span class="sml">159.69.146.152</span>
-
+<a href="https://id2.tilde.institute/status_data.json">json</a> 
 <br>
 DE. 
 <a href="https://projectsegfau.lt/">i72.pro<b>j</b>ectsegfau.lt </a> 
