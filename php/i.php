@@ -102,12 +102,14 @@ DE.
 <a href="http://j.identity2.com">j.i.c</a> 
   <span class="sml">45.145.41.226</span>
 PHP INSTALLED, NOT FOR WEB
+<a href="https://identity2.p.projectsegfau.lt/status_data.json">json</a>
 <br>
 DE. 
 <a href="https://projectsegfau.lt/">i.7.pr<b>o</b>jectsegfau.lt</a> 
 <a href="https://id.p.projectsegfau.lt/">i.p.p.l/~id</a>
 <a href="http://o.identity2.com">o.i.c</a> 
   <span class="sml">45.145.41.226</span> 
+<a href="https://id.p.projectsegfau.lt/status_data.json">json</a> 
 +PHP -WEB                                            
 <br>
 CA. 
