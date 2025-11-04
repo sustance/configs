@@ -3,7 +3,7 @@
     {
       "name": "b",
       "country": "US",
-      "url": "bsd.tilde.team",
+      "url": "bsd.tilde.team/~identity2",
       "account_name": "identity2",
       "ip_address": "157.90.196.52",
       "apps_running": ""
@@ -11,7 +11,7 @@
     {
       "name": "c",
       "country": "US",
-      "url": "ctrl-c.club",
+      "url": "ctrl-c.club/~identity2",
       "account_name": "identity2",
       "ip_address": "165.227.127.54",
       "apps_running": "MATURrem"
@@ -19,7 +19,7 @@
     {
       "name": "p",
       "country": "CA",
-      "url": "tilde.pink",
+      "url": "tilde.pink/~id2",
       "account_name": "id2",
       "ip_address": "198.50.210.248",
       "apps_running": ""
@@ -27,7 +27,7 @@
     {
       "name": "t",
       "country": "CA",
-      "url": "rosa.tilde.team",
+      "url": "tilde.team/~identity2",
       "account_name": "identity2",
       "ip_address": "198.50.210.248",
       "apps_running": "lineage diy points25 iata25"
@@ -35,7 +35,7 @@
     {
       "name": "d",
       "country": "CA",
-      "url": "dimension.sh",
+      "url": "dimension.sh/~identity2",
       "account_name": "identity2",
       "ip_address": "51.79.51.59",
       "apps_running": ""
@@ -43,7 +43,7 @@
     {
       "name": "g",
       "country": "CA",
-      "url": "tilde.guru",
+      "url": "tilde.guru/~edi",
       "account_name": "edi",
       "ip_address": "95.179.178.246",
       "apps_running": ""
@@ -51,7 +51,7 @@
     {
       "name": "h",
       "country": "CA",
-      "url": "thunix.net",
+      "url": "thunix.net/~id",
       "account_name": "id",
       "ip_address": "142.44.150.185",
       "apps_running": ""
@@ -59,7 +59,7 @@
     {
       "name": "e",
       "country": "DE",
-      "url": "envs.net",
+      "url": "envs.net/~identity2",
       "account_name": "identity2",
       "ip_address": "89.163.145.170",
       "apps_running": "Jekyll iata25 points25 Jekyll"
@@ -67,7 +67,7 @@
     {
       "name": "f",
       "country": "DE",
-      "url": "freeshell.de",
+      "url": "freeshell.de/~identity",
       "account_name": "identity",
       "ip_address": "116.202.128.144",
       "apps_running": "webShell Cloud"
@@ -76,15 +76,15 @@
       "name": "i",
       "country": "DE",
       "url": "id2.tilde.institute",
-      "account_name": "",
+      "account_name": "id2",
       "ip_address": "159.69.146.152",
       "apps_running": ""
     },
     {
       "name": "j",
       "country": "DE",
-      "url": "id.p.projectsegfau.lt/status_data.json",
-      "account_name": "",
+      "url": "id.p.projectsegfau.lt",
+      "account_name": "id",
       "ip_address": "45.145.41.226",
       "apps_running": ""
     },
@@ -92,7 +92,7 @@
       "name": "o",
       "country": "DE",
       "url": "identity2.p.projectsegfau.lt",
-      "account_name": "",
+      "account_name": "identity2",
       "ip_address": "45.145.41.226",
       "apps_running": ""
     }
