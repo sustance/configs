@@ -95,6 +95,14 @@
       "account_name": "identity2",
       "ip_address": "198.50.210.248",
       "apps_running": "lineage diy points25 iata25"
+    },
+    {
+      "name": "x",
+      "country": "CA",
+      "url": "tilde.team/~identity2/r.c",
+      "account_name": "identity2",
+      "ip_address": "0.0.0.0",
+      "apps_running": "no web here, collect static copy"
     }
     
   ]
