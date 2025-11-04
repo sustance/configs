@@ -23,7 +23,8 @@ def fetch_individual_server_data(server_config):
     for server in server_config:
         server_name = server['name']
         # CORRECTED: Fetch from status_slave.php with format=json parameter
-        status_url = f"http://{server['url']}/~{server['account_name']}/status_data.json?format=json"
+        # status_url = f"http://{server['url']}/~{server['account_name']}/status_data.json?format=json"
+        status_url = f"http://{server['url']}/status_data.json?format=json"
         
         print(f"Fetching data from {server_name} ({server['country']})...")
         print(f"  URL: {status_url}")
