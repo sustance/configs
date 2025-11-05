@@ -5,7 +5,44 @@ echo $head;
 
 
 
+<?php
+// Fetch JSON data
+$jsonUrl = 'https://raw.githubusercontent.com/sustance/configs/refs/heads/main/status_servers.json';
+$jsonData = file_get_contents($jsonUrl);
+$data = json_decode($jsonData, true);
 
+// Sort servers by name
+usort($data['servers'], function($a, $b) {
+    return strcmp($a['name'], $b['name']);
+});
+?>
+
+
+
+<?php
+// Output each server
+foreach ($data['servers'] as $server) {
+    $osClass = $server['os'] ?? 'Linux';
+    echo "<p class=\"$osClass\">";
+    
+    // Basic server info
+    echo "\"{$server['name']}\" \"{$server['country']}\" ";
+    echo "<a href=\"{$server['host_url']}\">{$server['host_url']}</a> ";
+    echo "<a href=\"{$server['url_own']}\">{$server['url_own']}</a> ";
+    echo "<a href=\"{$server['url']}\">{$server['account_name']}</a> ";
+    echo "\"{$server['ip_address']}\" ";
+    
+    // Links from links_http array
+    if (isset($server['links_http']) && is_array($server['links_http'])) {
+        foreach ($server['links_http'] as $link) {
+            $linkUrl = $server['url'] . '/' . $link . '.php';
+            echo "<a href=\"$linkUrl\">$link</a> ";
+        }
+    }
+    
+    echo "</p>\n";
+}
+?>
 
 
 
