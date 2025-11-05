@@ -115,7 +115,7 @@
       "acc_nm_short": "id",
       "ip_address": "45.145.41.226",
       "apps_running": "<span style='color:red;'>php no web</span>",
-      "links": [".", "."],
+      "links": [],
       "os": "Linux"
     },
     {
@@ -128,7 +128,7 @@
       "acc_nm_short": "i72",
       "ip_address": "45.145.41.226",
       "apps_running": "<span style='color:red;'>php no web</span>",
-      "links": ["test", "."],
+      "links": [],
       "os": "Linux"
     },
     {
