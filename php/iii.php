@@ -1,10 +1,3 @@
-<?php 
-$head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
-echo $head;
-?>
-
-
-
 <?php
 // Fetch JSON data
 $jsonUrl = 'https://raw.githubusercontent.com/sustance/configs/refs/heads/main/status_servers.json';
@@ -17,20 +10,30 @@ usort($data['servers'], function($a, $b) {
 });
 ?>
 
+<p class="fBSD"><a href=""></a> <a href=""></a> <a href="ctrl-c.club/~identity2"></a> 165.227.127.54 </p>
 
 
 <?php
 // Output each server
 foreach ($data['servers'] as $server) {
-    $osClass = $server['os'] ?? 'Linux';
-    echo "<p class=\"$osClass\">";
+    $osClass = $server['os']
+    //echo "<p class='$osClass'>";
     
     // Basic server info
-    echo "\"{$server['name']}\" \"{$server['country']}\" ";
+    //echo "<b><span class='fBSD'><u>
+    echo "<p> text"
+    echo "{$server['name']}";
+    //echo "</u></span> 
+    
+    echo "{$server['country']} ";
+    
     echo "<a href=\"{$server['host_url']}\">{$server['host_url']}</a> ";
+    
     echo "<a href=\"{$server['url_own']}\">{$server['url_own']}</a> ";
-    echo "<a href=\"{$server['url']}\">{$server['account_name']}</a> ";
-    echo "\"{$server['ip_address']}\" ";
+    
+    echo "<a href=\"{$server['url']}\">{$server['acc_name_s']}</a> ";
+    
+    echo "{$server['ip_address']} ";
     
     // Links from links_http array
     if (isset($server['links_http']) && is_array($server['links_http'])) {
@@ -43,7 +46,6 @@ foreach ($data['servers'] as $server) {
     echo "</p>\n";
 }
 ?>
-
 
 
 
@@ -129,84 +131,7 @@ ALL_DYNAMIC_METHODS_FAIL - Use cron fallback
 -->
 
 
-<script>
-// Store the JSON data in JavaScript
-const serverData = <?php echo json_encode($data); ?>;
 
-// Add click handlers to all filter links
-document.querySelectorAll('.filter-link').forEach(link => {
-    link.addEventListener('click', function(e) {
-        e.preventDefault();
-        
-        const filterType = this.dataset.type;
-        const filterValue = this.dataset.value;
-        
-        filterServers(filterType, filterValue);
-    });
-});
-
-function filterServers(filterType, filterValue) {
-    const resultsDiv = document.getElementById('results');
-    const resultsTitle = document.getElementById('results-title');
-    const resultsBody = document.getElementById('results-body');
-    
-    // Clear previous results
-    resultsBody.innerHTML = '';
-    
-    // Filter and display results
-    let rowCount = 0;
-    
-    if (serverData.servers) {
-        for (const [serverId, serverInfo] of Object.entries(serverData.servers)) {
-            // Skip if no valid data
-            if (serverInfo.status !== 'success' || !serverInfo.data || !serverInfo.data.software) {
-                continue;
-            }
-            
-            if (filterType === 'country') {
-                // Filter by country
-                if (serverInfo.country === filterValue) {
-                    // Add all software entries for this server
-                    for (const [softKey, softValue] of Object.entries(serverInfo.data.software)) {
-                        addResultRow(resultsBody, serverId, serverInfo.country, softKey, softValue);
-                        rowCount++;
-                    }
-                }
-            } else if (filterType === 'software') {
-                // Filter by software key
-                if (serverInfo.data.software[filterValue]) {
-                    addResultRow(resultsBody, serverId, serverInfo.country, filterValue, serverInfo.data.software[filterValue]);
-                    rowCount++;
-                }
-            }
-        }
-    }
-    
-    // Update title and show results
-    resultsTitle.textContent = `Result: ${filterType}: ${filterValue} (${rowCount})`;
-    resultsDiv.style.display = 'block';
-    
-    // Scroll to results
-    resultsDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-}
-
-function addResultRow(tbody, serverId, country, softKey, softValue) {
-    const row = document.createElement('tr');
-    row.innerHTML = `
-        <td>${escapeHtml(serverId)}</td>
-        <td>${escapeHtml(country)}</td>
-        <td>${escapeHtml(softKey)}</td>
-        <td>${escapeHtml(softValue)}</td>
-    `;
-    tbody.appendChild(row);
-}
-
-function escapeHtml(text) {
-    const div = document.createElement('div');
-    div.textContent = text;
-    return div.innerHTML;
-}
-</script>
 
 <?php
 $tail = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/tail-land.html');
