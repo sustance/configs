@@ -1,3 +1,22 @@
+
+<?php 
+$head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
+echo $head;
+?>
+
+<!--<div class="box">
+  <p> Inline in 
+<img
+  src="https://sustance.github.io/assets/globe.svg"
+  alt="Home" height="24" width="24" />
+    text</p> 
+<img
+  src="https://sustance.github.io/assets/globe.svg"
+  alt="Home" height="64" width="64" />
+</div>
+-->
+
+
 <?php
 
 // Fetch JSON data
