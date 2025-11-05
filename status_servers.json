@@ -9,7 +9,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "157.90.196.52",
-      "apps_running": "TEST",
+      "apps_running": "",
       "links": ["MATURrem", "."],
       "os": "fBSD"
       
@@ -62,7 +62,7 @@
       "account_name": "identity",
       "acc_nm_short": "i6y",
       "ip_address": "116.202.128.144",
-      "apps_running": "webShell Cloud <span style='color:red;'><s>ssh -D</s></span>",
+      "apps_running": "Cloud <span style='color:red;'><s>ssh -D</s></span>",
       "links": [".", "."],
       "os": "Linux"
     },    
@@ -102,7 +102,7 @@
       "acc_nm_short": "id2",
       "ip_address": "159.69.146.152",
       "apps_running": "",
-      "links": [".", "."],
+      "links": ["."],
       "os": "oBSD"
     },
     {
