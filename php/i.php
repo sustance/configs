@@ -33,24 +33,17 @@ usort($data['servers'], function($a, $b) {
 ?>
 
 <?php
-
 echo "<div class='box idx'>";
 // Output each server
 foreach ($data['servers'] as $server) {
     $osClass = $server['os'] ?? 'Linux';
-    echo "<p>";
-    
+    echo "<p>";    
     // Basic server info
-    echo "<b class=\"$osClass\">{$server['name']}</b>  ";
-    
-    echo "<span>{$server['country']}</span> ";
-    
-    echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a> ";
-    
-    echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a> ";
-    
-    echo "<a href=\"http://{$server['url']}\">{$server['acc_name_s']}</a> ";
-    
+    echo "<b class=\"$osClass\">{$server['name']}</b>  ";    
+    echo "<span>{$server['country']}</span> ";    
+    echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a> ";    
+    echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a> ";    
+    echo "<a href=\"http://{$server['url']}\">{$server['acc_name_s']}</a> ";    
     echo "{$server['ip_address']} ";
     
     // Links from links_http array
@@ -61,17 +54,13 @@ foreach ($data['servers'] as $server) {
         }
     }
 
-echo "<span>{$server['apps_running']}</span> ";
+    echo "<span>{$server['apps_running']}</span> ";
     
     echo "</p>\n";
 }
 
 echo "</div >";
 ?>
-
-
-
-
 
 <?php 
 // Fetch and decode the JSON data
@@ -103,10 +92,8 @@ if (isset($data['servers'])) {
 ksort($countries);
 ksort($software_keys);
 ?>
-
 <div class="server-filter-container">
-    <h4>'f,?,?' by cron only:</h4>
-    
+
     <div class="filter-menu">
         <div class="menu-items">
             <?php foreach (array_keys($countries) as $country): ?>
@@ -115,7 +102,6 @@ ksort($software_keys);
                 </a>
             <?php endforeach; ?>
         </div>
-        
         
         <div class="menu-items">
             <?php foreach (array_keys($software_keys) as $software): ?>
@@ -142,10 +128,6 @@ ksort($software_keys);
         </table>
     </div>
 </div>
-
-
-
-
 
 
 <pre>
