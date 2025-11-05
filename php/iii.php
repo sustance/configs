@@ -3,6 +3,15 @@ $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/re
 echo $head;
 ?>
 
+
+
+
+
+
+
+
+<!--
+
 <div class="bsd">
 <H1>TEST DYNO</H1>
 </div>
@@ -80,7 +89,7 @@ write_permissions        : WRITABLE
 ALL_DYNAMIC_METHODS_FAIL - Use cron fallback
 
 </pre>
-
+-->
 
 
 <script>
