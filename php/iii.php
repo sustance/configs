@@ -16,11 +16,72 @@ US.
 <span class="sml">157.90.196.52</span> 
 <span style="margin-left:9px;" class="sml"></span> 
 </div>
+<pre>
+C
+allow_url_fopen          : ENABLED
+allow_url_include        : DISABLED
+curl_extension           : AVAILABLE
+write_permissions        : WRITABLE
+ALL_DYNAMIC_METHODS_FAIL - Use cron fallback
+
+E
+allow_url_fopen          : ENABLED
+allow_url_include        : DISABLED
+curl_extension           : AVAILABLE
+write_permissions        : WRITABLE
+ALL_DYNAMIC_METHODS_FAIL - Use cron fallback
+
+F
+allow_url_fopen          : ENABLED
+allow_url_include        : DISABLED
+curl_extension           : AVAILABLE
+write_permissions        : WRITABLE
+ALL_DYNAMIC_METHODS_FAIL - Use cron fallback
+
+G
+NO PHP
+
+H
+PHP Fatal error:  Uncaught Error: Call to undefined function curl_exec() in /home/id/eval.php:114
+Stack trace:
+#0 /home/id/eval.php(42): DynamicExecutionTester->testCurlDirect()
+#1 /home/id/eval.php(34): DynamicExecutionTester->testMethod()
+#2 /home/id/eval.php(278): DynamicExecutionTester->testAllMethods()
+#3 {main}
+  thrown in /home/id/eval.php on line 114
+
+ I
+allow_url_fopen          : DISABLED
+allow_url_include        : DISABLED
+curl_extension           : MISSING
+write_permissions        : WRITABLE
+ALL_DYNAMIC_METHODS_FAIL - Use cron fallback
+
+O J
+allow_url_fopen          : ENABLED
+allow_url_include        : DISABLED
+curl_extension           : AVAILABLE
+write_permissions        : WRITABLE
+ALL_DYNAMIC_METHODS_FAIL - Use cron fallback
 
 
+P
+allow_url_fopen          : ENABLED
+allow_url_include        : DISABLED
+curl_extension           : MISSING
+write_permissions        : WRITABLE
+ALL_DYNAMIC_METHODS_FAIL - Use cron fallback
+
+T
+allow_url_fopen          : ENABLED
+allow_url_include        : DISABLED
+curl_extension           : AVAILABLE
+write_permissions        : WRITABLE
+ALL_DYNAMIC_METHODS_FAIL - Use cron fallback
+
+</pre>
 
 
-  
 
 <script>
 // Store the JSON data in JavaScript
