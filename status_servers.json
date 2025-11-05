@@ -114,7 +114,7 @@
       "account_name": "id",
       "acc_nm_short": "id",
       "ip_address": "45.145.41.226",
-      "apps_running": "<span style="color:red;">php not enabled</span>",
+      "apps_running": "<span style='color:red;'>php not enabled</span>",
       "links": ["test", "."],
       "os": "Linux"
     },
@@ -127,7 +127,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "45.145.41.226",
-      "apps_running": "<span style="color:red;">php not enabled</span>",
+      "apps_running": "<span style='color:red;'>php not enabled</span>",
       "links": ["test", "."],
       "os": "Linux"
     },
