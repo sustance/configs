@@ -3,10 +3,13 @@
     {
       "name": "b",
       "country": "US",
+      "host_url": "bsd.tilde.team",
+      "url_own": "b.identity2.com",
       "url": "bsd.tilde.team/~identity2",
       "account_name": "identity2",
       "ip_address": "157.90.196.52",
-      "apps_running": ""
+      "apps_running": "TEST",
+      "links_http": "test"
     },
     {
       "name": "c",
