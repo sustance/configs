@@ -1,6 +1,6 @@
 {
   "servers": [
-    {
+    { 
       "name": "b",
       "country": "US",
       "host_url": "bsd.tilde.team",
@@ -102,7 +102,7 @@
       "acc_nm_short": "id2",
       "ip_address": "159.69.146.152",
       "apps_running": "",
-      "links": ["test", "."],
+      "links": [".", "."],
       "os": "oBSD"
     },
     {
@@ -115,7 +115,7 @@
       "acc_nm_short": "id",
       "ip_address": "45.145.41.226",
       "apps_running": "<span style='color:red;'>php no web</span>",
-      "links": ["test", "."],
+      "links": [".", "."],
       "os": "Linux"
     },
     {
@@ -141,7 +141,7 @@
       "acc_nm_short": "id2",
       "ip_address": "198.50.210.248",
       "apps_running": "",
-      "links": ["test", "."],
+      "links": [".", "."],
       "os": "fBSD"
     },
     {
@@ -154,7 +154,7 @@
       "acc_nm_short": "i72",
       "ip_address": "198.50.210.248",
       "apps_running": "",
-      "links": ["pri/", "lineage/"],
+      "links": ["pri/index", "lineage/index"],
       "os": "Linux"
     },
     {
@@ -180,7 +180,20 @@
       "acc_nm_short": "i72",
       "ip_address": "0.0.0.0",
       "apps_running": "<span style='color:red;'>no http</span>",
-      "links": ["test", "."],
+      "links": [".", "."],
+      "os": "Linux"
+    },
+    {
+      "name": "1",
+      "country": "CA",
+      "host_url": "no web",
+      "url_own": "1.identity2.com",
+      "url": "sufbo.tplinkdns.com",
+      "account_name": "English",
+      "acc_nm_short": "eng",
+      "ip_address": "0.0.0.0",
+      "apps_running": "<span style='color:red;'>smb: crashes boot</span>",
+      "links": ["t.", "."],
       "os": "Linux"
     }
     
