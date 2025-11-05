@@ -62,7 +62,7 @@
       "account_name": "identity",
       "acc_nm_short": "i6y",
       "ip_address": "116.202.128.144",
-      "apps_running": "webShell Cloud",
+      "apps_running": "webShell Cloud <s>ssh -D</s>",
       "links": ["test", "."],
       "os": "Linux"
     },    
