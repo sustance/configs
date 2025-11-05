@@ -9,7 +9,7 @@
       "account_name": "identity2",
       "ip_address": "157.90.196.52",
       "apps_running": "TEST",
-      "links_http": "test"
+      "links": ["test", "test2", "test3"]
     },
     {
       "name": "c",
