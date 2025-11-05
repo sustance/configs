@@ -24,7 +24,7 @@
       "acc_nm_short": "i72",
       "ip_address": "165.227.127.54",
       "apps_running": "MATURrem",
-      "links": ["test", "test2"],
+      "links": ["", ""],
       "os": "Linux"
     },
     {
@@ -102,7 +102,7 @@
       "acc_nm_short": "id2",
       "ip_address": "159.69.146.152",
       "apps_running": "",
-      "links": ["."],
+      "links": [],
       "os": "oBSD"
     },
     {
@@ -115,7 +115,7 @@
       "acc_nm_short": "id",
       "ip_address": "45.145.41.226",
       "apps_running": "<span style='color:red;'>php no web</span>",
-      "links": ["."],
+      "links": [],
       "os": "Linux"
     },
     {
@@ -128,7 +128,7 @@
       "acc_nm_short": "i72",
       "ip_address": "45.145.41.226",
       "apps_running": "<span style='color:red;'>php no web</span>",
-      "links": ["."],
+      "links": [],
       "os": "Linux"
     },
     {
