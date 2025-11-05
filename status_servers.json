@@ -10,7 +10,7 @@
       "acc_nm_short": "i72",
       "ip_address": "157.90.196.52",
       "apps_running": "TEST",
-      "links": ["MATURrem"],
+      "links": ["MATURrem", "."],
       "os": "fBSD"
       
     },
@@ -37,7 +37,7 @@
       "acc_nm_short": "i72",
       "ip_address": "51.79.51.59",
       "apps_running": "",
-      "links": ["test"],
+      "links": ["test", "."],
       "os": "Linux"
     },
     {
@@ -63,7 +63,7 @@
       "acc_nm_short": "i6y",
       "ip_address": "116.202.128.144",
       "apps_running": "webShell Cloud",
-      "links": ["test"],
+      "links": ["test", "."],
       "os": "Linux"
     },    
     {
@@ -76,7 +76,7 @@
       "acc_nm_short": "edi",
       "ip_address": "95.179.178.246",
       "apps_running": "",
-      "links": ["test"],
+      "links": ["test", "."],
       "os": "fBSD"
     },
     {
@@ -102,7 +102,7 @@
       "acc_nm_short": "id2",
       "ip_address": "159.69.146.152",
       "apps_running": "",
-      "links": ["test"],
+      "links": ["test", "."],
       "os": "oBSD"
     },
     {
@@ -115,7 +115,7 @@
       "acc_nm_short": "id",
       "ip_address": "45.145.41.226",
       "apps_running": "",
-      "links": ["test"],
+      "links": ["test", "."],
       "os": "Linux"
     },
     {
@@ -128,7 +128,7 @@
       "acc_nm_short": "i72",
       "ip_address": "45.145.41.226",
       "apps_running": "",
-      "links": ["test"],
+      "links": ["test", "."],
       "os": "Linux"
     },
     {
@@ -141,7 +141,7 @@
       "acc_nm_short": "id2",
       "ip_address": "198.50.210.248",
       "apps_running": "",
-      "links": ["test"],
+      "links": ["test", "."],
       "os": "fBSD"
     },
     {
@@ -167,7 +167,7 @@
       "acc_nm_short": "i72",
       "ip_address": "0.0.0.0",
       "apps_running": "no web here, collect static copy",
-      "links": ["test"],
+      "links": ["test", "."],
       "os": "Linux"
     },
     {
@@ -180,7 +180,7 @@
       "acc_nm_short": "i72",
       "ip_address": "0.0.0.0",
       "apps_running": "no web here, collect static copy",
-      "links": ["test"],
+      "links": ["test", "."],
       "os": "Linux"
     }
     
