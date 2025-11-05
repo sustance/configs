@@ -1,4 +1,5 @@
 <?php
+
 // Fetch JSON data
 $jsonUrl = 'https://raw.githubusercontent.com/sustance/configs/refs/heads/main/status_servers.json';
 $jsonData = file_get_contents($jsonUrl);
@@ -8,25 +9,22 @@ $data = json_decode($jsonData, true);
 usort($data['servers'], function($a, $b) {
     return strcmp($a['name'], $b['name']);
 });
+
 ?>
 
-<p class="fBSD"><a href=""></a> <a href=""></a> <a href="ctrl-c.club/~identity2"></a> 165.227.127.54 </p>
+
+
 
 
 <?php
 // Output each server
 foreach ($data['servers'] as $server) {
-    $osClass = $server['os']
-    //echo "<p class='$osClass'>";
+    $osClass = $server['os'] ?? 'Linux';
+    echo "<p>";
     
     // Basic server info
-    //echo "<b><span class='fBSD'><u>
-    echo "<p> text"
-    echo "{$server['name']}";
-    //echo "</u></span> 
-    
+    echo "<b class=\"$osClass\"><u>{$server['name']}</u></b>  ";
     echo "{$server['country']} ";
-    
     echo "<a href=\"{$server['host_url']}\">{$server['host_url']}</a> ";
     
     echo "<a href=\"{$server['url_own']}\">{$server['url_own']}</a> ";
@@ -36,8 +34,8 @@ foreach ($data['servers'] as $server) {
     echo "{$server['ip_address']} ";
     
     // Links from links_http array
-    if (isset($server['links_http']) && is_array($server['links_http'])) {
-        foreach ($server['links_http'] as $link) {
+    if (isset($server['links']) && is_array($server['links'])) {
+        foreach ($server['links'] as $link) {
             $linkUrl = $server['url'] . '/' . $link . '.php';
             echo "<a href=\"$linkUrl\">$link</a> ";
         }
@@ -49,7 +47,7 @@ foreach ($data['servers'] as $server) {
 
 
 
-<!--
+
 
 <div class="bsd">
 <H1>TEST DYNO</H1>
@@ -128,7 +126,6 @@ write_permissions        : WRITABLE
 ALL_DYNAMIC_METHODS_FAIL - Use cron fallback
 
 </pre>
--->
 
 
 
