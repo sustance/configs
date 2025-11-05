@@ -1,22 +1,3 @@
-
-<?php 
-$head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
-echo $head;
-?>
-
-<!--<div class="box">
-  <p> Inline in 
-<img
-  src="https://sustance.github.io/assets/globe.svg"
-  alt="Home" height="24" width="24" />
-    text</p> 
-<img
-  src="https://sustance.github.io/assets/globe.svg"
-  alt="Home" height="64" width="64" />
-</div>
--->
-
-
 <?php
 
 // Fetch JSON data
@@ -31,24 +12,24 @@ usort($data['servers'], function($a, $b) {
 
 ?>
 
-
-
-
-
 <?php
+
+echo "<div class='box idx'>";
 // Output each server
 foreach ($data['servers'] as $server) {
     $osClass = $server['os'] ?? 'Linux';
     echo "<p>";
     
     // Basic server info
-    echo "<b class=\"$osClass\"><u>{$server['name']}</u></b>  ";
-    echo "{$server['country']} ";
-    echo "<a href=\"{$server['host_url']}\">{$server['host_url']}</a> ";
+    echo "<b class=\"$osClass\">{$server['name']}</b>  ";
     
-    echo "<a href=\"{$server['url_own']}\">{$server['url_own']}</a> ";
+    echo "<span>{$server['country']}</span> ";
     
-    echo "<a href=\"{$server['url']}\">{$server['acc_name_s']}</a> ";
+    echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a> ";
+    
+    echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a> ";
+    
+    echo "<a href=\"http://{$server['url']}\">{$server['acc_name_s']}</a> ";
     
     echo "{$server['ip_address']} ";
     
@@ -56,31 +37,20 @@ foreach ($data['servers'] as $server) {
     if (isset($server['links']) && is_array($server['links'])) {
         foreach ($server['links'] as $link) {
             $linkUrl = $server['url'] . '/' . $link . '.php';
-            echo "<a href=\"$linkUrl\">$link</a> ";
+            echo "<a href=\"http://$linkUrl\">$link</a> ";
         }
     }
+
+echo "<span>{$server['apps_running']}</span> ";
     
     echo "</p>\n";
 }
+
+echo "</div >";
 ?>
 
 
 
-
-
-<div class="bsd">
-<H1>TEST DYNO</H1>
-</div>
-
-<div class="bsd">
-<p>
-US.
-<a href="https://bsd.tilde.team/"> <b>b</b>sd.tilde.team </a> 
-<a href="https://bsd.tilde.team/~identity2">/~i52</a> 
-<a href="http://b.identity2.com">b.i.c</a>
-<span class="sml">157.90.196.52</span> 
-<span style="margin-left:9px;" class="sml"></span> 
-</div>
 <pre>
 C
 allow_url_fopen          : ENABLED
