@@ -37,7 +37,7 @@
       "acc_nm_short": "i72",
       "ip_address": "51.79.51.59",
       "apps_running": "",
-      "links": ["test", "."],
+      "links": [".", "."],
       "os": "Linux"
     },
     {
@@ -63,7 +63,7 @@
       "acc_nm_short": "i6y",
       "ip_address": "116.202.128.144",
       "apps_running": "webShell Cloud <s>ssh -D</s>",
-      "links": ["test", "."],
+      "links": [".", "."],
       "os": "Linux"
     },    
     {
@@ -76,7 +76,7 @@
       "acc_nm_short": "edi",
       "ip_address": "95.179.178.246",
       "apps_running": "",
-      "links": ["test", "."],
+      "links": [".", "."],
       "os": "fBSD"
     },
     {
@@ -114,7 +114,7 @@
       "account_name": "id",
       "acc_nm_short": "id",
       "ip_address": "45.145.41.226",
-      "apps_running": "<span style='color:red;'>php not enabled</span>",
+      "apps_running": "<span style='color:red;'>php no web</span>",
       "links": ["test", "."],
       "os": "Linux"
     },
@@ -127,7 +127,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "45.145.41.226",
-      "apps_running": "<span style='color:red;'>php not enabled</span>",
+      "apps_running": "<span style='color:red;'>php no web</span>",
       "links": ["test", "."],
       "os": "Linux"
     },
@@ -153,8 +153,8 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "198.50.210.248",
-      "apps_running": "lineage diy points25 iata25",
-      "links": ["Ancestor", "Lineage", "diy", "iata25", "points25"],
+      "apps_running": "",
+      "links": ["pri/", "lineage/"],
       "os": "Linux"
     },
     {
@@ -166,7 +166,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "0.0.0.0",
-      "apps_running": "no web here, collect static copy",
+      "apps_running": "<span style='color:red;'>no http</span>",
       "links": ["test", "."],
       "os": "Linux"
     },
@@ -179,7 +179,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "0.0.0.0",
-      "apps_running": "no web here, collect static copy",
+      "apps_running": "<span style='color:red;'>no http</span>",
       "links": ["test", "."],
       "os": "Linux"
     }
