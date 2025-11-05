@@ -24,7 +24,7 @@
       "acc_nm_short": "i72",
       "ip_address": "165.227.127.54",
       "apps_running": "MATURrem",
-      "links": ["test", "test2", "test3"],
+      "links": ["test", "test2"],
       "os": "Linux"
     },
     {
@@ -49,7 +49,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "89.163.145.170",
-      "apps_running": "Jekyll iata25 points25 Jekyll",
+      "apps_running": "Jekyll",
       "links": ["iata25", "points25"],
       "os": "Linux"
     },
@@ -89,7 +89,7 @@
       "acc_nm_short": "id",
       "ip_address": "142.44.150.185",
       "apps_running": "",
-      "links": ["iata25", "points25"]],
+      "links": ["iata25", "points25"],
       "os": "fBSD"
     },
     {
