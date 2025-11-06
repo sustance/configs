@@ -47,14 +47,14 @@ foreach ($data['servers'] as $server) {
   //popup start
     echo "<span class='tooltip' data-tooltip=\"{$server['ip_address']} OS:{$server['os']}\">❔ &nbsp;</span>";
   //popup end
-  echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a>, ";    
-    echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a>, ";    
-    echo "<a href=\"http://{$server['url']}\">{$server['acc_name_s']}</a>, ";    
+  echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a> &nbsp; ";    
+    echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a> &nbsp; ";    
+    echo "<a href=\"http://{$server['url']}\">{$server['acc_name_s']}</a> &nbsp; ";    
     // Links from links_http array
     if (isset($server['links']) && is_array($server['links'])) {
         foreach ($server['links'] as $link) {
             $linkUrl = $server['url'] . '/' . $link . '.php';
-            echo "<a href=\"http://$linkUrl\">$link</a> ";
+            echo "<a href=\"http://$linkUrl\">$link</a> &nbsp; ";
         }
     }
 
