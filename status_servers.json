@@ -154,7 +154,7 @@
       "acc_nm_short": "i72",
       "ip_address": "198.50.210.248",
       "apps_running": "Ubuntu22.04",
-      "links": ["pri/index", "lineage/index"],
+      "links": ["pri/index", "lineage/index", "server_status", "test"]
       "os": "Linux"
     },
     {
@@ -166,7 +166,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "0.0.0.0",
-      "apps_running": "<span style='color:red;'>no http</span>",
+      "apps_running": "<span style='color:red;'><s>http</s></span><span style='color:red;'>automate v</span>",
       "links": [],
       "os": "Linux"
     },
@@ -179,7 +179,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "0.0.0.0",
-      "apps_running": "Ubuntu24.04 <span style='color:red;'>no http</span>",
+      "apps_running": "Ubuntu24.04 <span style='color:red;'><s>http</s></span><span style='color:red;'>automate x</span>",
       "links": [],
       "os": "Linux"
     },
@@ -188,7 +188,7 @@
       "country": "HK",
       "host_url": "sufbo.tplinkdns.com",
       "url_own": "1.identity2.com",
-      "url": "sufbo.tplinkdns.com",
+      "url": "tilde.team/i.c.1",
       "account_name": "English",
       "acc_nm_short": "eng",
       "ip_address": "x.x.x.x",
@@ -200,11 +200,11 @@
       "country": "HK",
       "host_url": "<s>web</s>",
       "url_own": "4.identity2.com",
-      "url": "sufbo.tplinkdns.com",
+      "url": "/i.c.4",
       "account_name": "aaa",
       "acc_nm_short": "a",
       "ip_address": "x.x.x.x",
-      "apps_running": "<span style='color:red;'></span>",
+      "apps_running": "<span style='color:red;'>automate 4</span>",
       "os": "Linux"
     },
     {
@@ -212,11 +212,11 @@
       "country": "HK",
       "host_url": "<s>web</s>",
       "url_own": "7.identity2.com",
-      "url": "sufbo.tplinkdns.com",
+      "url": "/i.c.1",
       "account_name": "aaa",
       "acc_nm_short": "a",
       "ip_address": "x.x.x.x",
-      "apps_running": "<span style='color:red;'></span>",
+      "apps_running":  <span style='color:red;'>automate 7</span>",
       "os": "Linux"
     }
     
