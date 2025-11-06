@@ -154,7 +154,7 @@
       "acc_nm_short": "i72",
       "ip_address": "198.50.210.248",
       "apps_running": "Ubuntu22.04",
-      "links": ["pri/index", "lineage/index", "server_status", "test"]
+      "links": ["pri/index", "lineage/index", "server_status", "test"],
       "os": "Linux"
     },
     {
