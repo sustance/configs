@@ -42,12 +42,14 @@ foreach ($data['servers'] as $server) {
     $osClass = $server['os'] ?? 'Linux';
     echo "<p>";    
     // Basic server info
-    echo "<span class='$osClass' svrname>{$server['name']}</span>&nbsp; ";    
-    echo "<span class='sml'>{$server['country']}</span> ";
-    echo "<span class='tooltip' data-tooltip=\"IP:{$server['ip_address']} OS:{$server['os']}\">❔ </span>";
-    echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a> ";    
-    echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a> ";    
-    echo "<a href=\"http://{$server['url']}\">{$server['acc_name_s']}</a> ";    
+    echo "<span class='$osClass' svrname>{$server['name']}</span> ";    
+    echo "<span class='sml'>{$server['country']}</span>";
+  //popup start
+    echo "<span class='tooltip' data-tooltip=\"{$server['ip_address']} OS:{$server['os']}\">❔ &nbsp;</span>";
+  //popup end
+  echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a>, ";    
+    echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a>, ";    
+    echo "<a href=\"http://{$server['url']}\">{$server['acc_name_s']}</a>, ";    
     // Links from links_http array
     if (isset($server['links']) && is_array($server['links'])) {
         foreach ($server['links'] as $link) {
