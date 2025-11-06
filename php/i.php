@@ -39,7 +39,7 @@ foreach ($data['servers'] as $server) {
     $osClass = $server['os'] ?? 'Linux';
     echo "<p>";    
     // Basic server info
-    echo "<b class=\"$osClass\">{$server['name']}</b>  ";    
+    echo "<span class=\"$osClass\" svrname>{$server['name']}</span>  ";    
     echo "<span>{$server['country']}</span> ";    
     echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a> ";    
     echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a> ";    
