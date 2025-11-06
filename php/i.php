@@ -42,7 +42,7 @@ foreach ($data['servers'] as $server) {
     $osClass = $server['os'] ?? 'Linux';
     echo "<p>";    
     // Basic server info
-    echo "<span class='$osClass' svrname>{$server['name']}</span> ";    
+    echo "<span class='$osClass' svrname><tt>{$server['name']}</tt></span> ";    
     echo "<span class='sml'>{$server['country']}</span>";
   //popup start
     echo "<span class='tooltip' data-tooltip=\"{$server['ip_address']} OS:{$server['os']}\">❔ &nbsp;</span>";
