@@ -44,7 +44,7 @@ foreach ($data['servers'] as $server) {
     // Basic server info
     echo "<span class='$osClass' svrname>{$server['name']}</span> &nbsp; ";    
     echo "<span class='sml'>{$server['country']}</span> ";
-    echo "<span class='tooltip' data-tooltip='IP:{$server['ip_address']}<br>OS:{$server['os']}'>❔ </span>";
+    echo "<span class='tooltip' data-tooltip=\"IP:{$server['ip_address']} OS:{$server['os']}\">❔ </span>";
   //echo "<span class=\"$osClass\">{$server['os']}</span>  "; 
     echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a> ";    
     echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a> ";    
