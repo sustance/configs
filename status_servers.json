@@ -24,19 +24,19 @@
       "acc_nm_short": "i72",
       "ip_address": "165.227.127.54",
       "apps_running": "",
-      "links": ["MATURrem", "remind", "test", "i"],
+      "links": ["MATURrem", "remind", "test"],
       "os": "Linux"
     },
     {
       "name": "d",
       "country": "CA",
-      "host_url": "✘dimension.sh",
+      "host_url": "dimension.sh",
       "url_own": "d.identity2.com",
       "url": "dimension.sh/~identity2",
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "51.79.51.59",
-      "apps_running": "",
+      "apps_running": "down and unresponsive",
       "links": [],
       "os": "Linux"
     },
