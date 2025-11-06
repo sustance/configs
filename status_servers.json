@@ -186,36 +186,36 @@
     {
       "name": "1",
       "country": "HK",
-      "host_url": "no web",
+      "host_url": "sufbo.tplinkdns.com",
       "url_own": "1.identity2.com",
       "url": "sufbo.tplinkdns.com",
       "account_name": "English",
       "acc_nm_short": "eng",
-      "ip_address": "0.0.0.0",
+      "ip_address": "x.x.x.x",
       "apps_running": "<span style='color:red;'>smb: crashes boot</span>",
       "os": "Linux"
     },
     {
       "name": "4",
       "country": "HK",
-      "host_url": "no web",
+      "host_url": "<s>web</s>",
       "url_own": "4.identity2.com",
       "url": "sufbo.tplinkdns.com",
       "account_name": "aaa",
       "acc_nm_short": "a",
-      "ip_address": "0.0.0.0",
+      "ip_address": "x.x.x.x",
       "apps_running": "<span style='color:red;'></span>",
       "os": "Linux"
     },
     {
       "name": "7",
       "country": "HK",
-      "host_url": "no web",
+      "host_url": "<s>web</s>",
       "url_own": "7.identity2.com",
       "url": "sufbo.tplinkdns.com",
       "account_name": "aaa",
       "acc_nm_short": "a",
-      "ip_address": "0.0.0.0",
+      "ip_address": "x.x.x.x",
       "apps_running": "<span style='color:red;'></span>",
       "os": "Linux"
     }
