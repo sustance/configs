@@ -48,8 +48,7 @@ foreach ($data['servers'] as $server) {
     echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a> ";    
     echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a> ";    
     echo "<a href=\"http://{$server['url']}\">{$server['acc_name_s']}</a> ";    
-    ec//ho "<span class='sml'>{$server['ip_address']} </span> ";
-    echo "<span class='tooltip' data-tooltip='This {$server['ip_address']}!'>❔</span>";
+    echo "<span class='tooltip' data-tooltip='IP:{$server['ip_address']}'>❔</span>";
     // Links from links_http array
     if (isset($server['links']) && is_array($server['links'])) {
         foreach ($server['links'] as $link) {
@@ -62,7 +61,7 @@ foreach ($data['servers'] as $server) {
     
     echo "</p>\n";
 }
-echo "<span class='tooltip' data-tooltip="This is a tooltip!">Hover me</span>";
+
 echo "</div >";
 ?>
 
