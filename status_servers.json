@@ -24,7 +24,7 @@
       "acc_nm_short": "i72",
       "ip_address": "165.227.127.54",
       "apps_running": "",
-      "links": ["MATURrem", "MATURhols", "remind"],
+      "links": ["MATURrem", "MATURhols", "remind", "status_slave"],
       "os": "Linux"
     },
     {
@@ -50,7 +50,7 @@
       "acc_nm_short": "i72",
       "ip_address": "89.163.145.170",
       "apps_running": "Jekyll",
-      "links": ["MATURrem", "iata25", "points25"],
+      "links": ["MATURrem", "iata25", "points25", "status_slave"],
       "os": "Linux"
     },
     {
@@ -76,7 +76,7 @@
       "acc_nm_short": "edi",
       "ip_address": "95.179.178.246",
       "apps_running": "",
-      "links": [],
+      "links": ["eval", "status_slave"],
       "os": "fBSD"
     },
     {
