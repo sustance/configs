@@ -34,6 +34,9 @@ usort($data['servers'], function($a, $b) {
 
 <?php
 echo "<div class='box idx'>";
+
+<span class="tooltip" data-tooltip="This is a tooltip!">Hover me</span>
+
 // Output each server
 foreach ($data['servers'] as $server) {
     $osClass = $server['os'] ?? 'Linux';
