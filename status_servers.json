@@ -63,7 +63,7 @@
       "acc_nm_short": "i6y",
       "ip_address": "116.202.128.144",
       "apps_running": "Cloud <span style='color:red;'><s>ssh -D</s></span>",
-      "links": ["eval", "status_slave"],
+      "links": ["eval"],
       "os": "Linux"
     },    
     {
@@ -75,8 +75,8 @@
       "account_name": "edi",
       "acc_nm_short": "edi",
       "ip_address": "95.179.178.246",
-      "apps_running": "",
-      "links": ["eval", "status_slave"],
+      "apps_running": "FreeBSD14.3",
+      "links": ["eval"],
       "os": "fBSD"
     },
     {
@@ -89,7 +89,7 @@
       "acc_nm_short": "id",
       "ip_address": "142.44.150.185",
       "apps_running": "",
-      "links": ["iata25", "points25"],
+      "links": ["iata25", "points25", "IATAbp25csv", "julian", "diy", "i", "test"],
       "os": "fBSD"
     },
     {
@@ -179,7 +179,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "0.0.0.0",
-      "apps_running": "<span style='color:red;'>no http</span>",
+      "apps_running": "Ubuntu24.04 <span style='color:red;'>no http</span>",
       "links": [],
       "os": "Linux"
     },
