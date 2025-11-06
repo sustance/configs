@@ -10,7 +10,7 @@
       "acc_nm_short": "i72",
       "ip_address": "157.90.196.52",
       "apps_running": "",
-      "links": ["MATURrem"],
+      "links": ["ppping"."n", "test"],
       "os": "fBSD"
       
     },
@@ -23,8 +23,8 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "165.227.127.54",
-      "apps_running": "MATURrem",
-      "links": [],
+      "apps_running": "",
+      "links": ["MATURrem", "MATURhols", "remind"],
       "os": "Linux"
     },
     {
@@ -63,7 +63,7 @@
       "acc_nm_short": "i6y",
       "ip_address": "116.202.128.144",
       "apps_running": "Cloud <span style='color:red;'><s>ssh -D</s></span>",
-      "links": [],
+      "links": ["eval", "status_slave"],
       "os": "Linux"
     },    
     {
