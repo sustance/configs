@@ -10,7 +10,7 @@
       "acc_nm_short": "i72",
       "ip_address": "157.90.196.52",
       "apps_running": "",
-      "links": ["ppping", "n", "test"],
+      "links": ["ppping", "n", "test", "status_slave"],
       "os": "fBSD"
       
     },
@@ -24,7 +24,7 @@
       "acc_nm_short": "i72",
       "ip_address": "165.227.127.54",
       "apps_running": "",
-      "links": ["MATURrem", "MATURhols", "remind", "status_slave"],
+      "links": ["MATURrem", "MATURhols", "remind", "test", "status_slave"],
       "os": "Linux"
     },
     {
