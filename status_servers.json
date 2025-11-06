@@ -216,7 +216,7 @@
       "account_name": "aaa",
       "acc_nm_short": "a",
       "ip_address": "x.x.x.x",
-      "apps_running":  <span style='color:red;'>automate 7</span>",
+      "apps_running": "<span style='color:red;'>automate 7</span>",
       "os": "Linux"
     }
     
