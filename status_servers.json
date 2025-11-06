@@ -30,7 +30,7 @@
     {
       "name": "d",
       "country": "CA",
-      "host_url": "dimension.sh",
+      "host_url": "✘dimension.sh",
       "url_own": "d.identity2.com",
       "url": "dimension.sh/~identity2",
       "account_name": "identity2",
@@ -50,7 +50,7 @@
       "acc_nm_short": "i72",
       "ip_address": "89.163.145.170",
       "apps_running": "Jekyll",
-      "links": ["iata25", "points25"],
+      "links": ["brutal", ""],
       "os": "Linux"
     },
     {
