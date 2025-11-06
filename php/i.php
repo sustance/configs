@@ -65,7 +65,7 @@ foreach ($data['servers'] as $server) {
 
 echo "</div >";
 ?>
-
+https://www.google.com/search?q=external+keyboard+for+android+shortcut+keys&oq=external+keyboard+for+android+shortcut+keys&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyCggEEAAYgAQYogQyCggFEAAYgAQYogQyBwgGECEYjwLSAQkyNzU2MmowajmoAg6wAgHxBd1VIIJKFarH8QXdVSCCShWqxw&client=ms-android-samsung-ss&sourceid=chrome-mobile&ie=UTF-8
 <?php 
 // Fetch and decode the JSON data
 $json_url = 'https://thunix.net/~id/status_server_master.json';
