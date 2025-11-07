@@ -62,7 +62,7 @@
       "account_name": "identity",
       "acc_nm_short": "i6y",
       "ip_address": "116.202.128.144",
-      "apps_running": "Cloud <span style='color:red;'><s>ssh -D</s></span>",
+      "apps_running": "Cloud <span style='color:var(--col10-5);'><s>ssh -D</s></span>",
       "links": ["eval"],
       "os": "Linux"
     },    
