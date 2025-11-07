@@ -204,7 +204,7 @@
       "account_name": "aaa",
       "acc_nm_short": "aa",
       "ip_address": "port 443",
-      "apps_running": "<span style='color:var(--col10-6);'>automate 4</span>",
+      "apps_running": "Deb13 <span style='color:var(--col10-6);'>automate 4</span>",
       "os": "Linux"
     },
     {
@@ -216,7 +216,7 @@
       "account_name": "aaa",
       "acc_nm_short": "aa",
       "ip_address": "port 8081",
-      "apps_running": "<span style='color:var(--col10-6);'>automate 7</span>",
+      "apps_running": "FreeBSD14.3 <span style='color:var(--col10-6);'>automate 7</span>",
       "os": "Linux"
     }
     
