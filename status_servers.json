@@ -62,7 +62,7 @@
       "account_name": "identity",
       "acc_nm_short": "i6y",
       "ip_address": "116.202.128.144",
-      "apps_running": "Cloud <span style='color:var(--col10-5);'><s>ssh -D</s></span>",
+      "apps_running": "Cloud <span style='color:var(--col10-6);'><s>ssh -D</s></span>",
       "links": ["eval"],
       "os": "Linux"
     },    
@@ -114,7 +114,7 @@
       "account_name": "id",
       "acc_nm_short": "id",
       "ip_address": "45.145.41.226",
-      "apps_running": "Deb12 <span style='color:red;'>php no web</span>",
+      "apps_running": "Deb12 <span style='color:var(--col10-6);'>php no web</span>",
       "links": [],
       "os": "Linux"
     },
@@ -127,7 +127,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "45.145.41.226",
-      "apps_running": "Deb12 <span style='color:red;'>php no web</span>",
+      "apps_running": "Deb12 <span style='color:var(--col10-6);'>php no web</span>",
       "links": [],
       "os": "Linux"
     },
@@ -166,7 +166,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "0.0.0.0",
-      "apps_running": "<span style='color:red;'><s>http</s></span><span style='color:red;'>automate v</span>",
+      "apps_running": "<span style='color:var(--col10-6);'><s>http</s></span><span style='color:var(--col10-6);'>automate v</span>",
       "links": [],
       "os": "Linux"
     },
@@ -179,7 +179,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "0.0.0.0",
-      "apps_running": "Ubu24.04 <span style='color:red;'><s>http</s></span><span style='color:red;'>automate x</span>",
+      "apps_running": "Ubu24.04 <span style='color:var(--col10-6);'><s>http</s></span><span style='color:var(--col10-6);'>automate x</span>",
       "links": [],
       "os": "Linux"
     },
@@ -192,7 +192,7 @@
       "account_name": "English",
       "acc_nm_short": "eng",
       "ip_address": "port 22",
-      "apps_running": "<span style='color:red;'>smb: crashes boot</span>",
+      "apps_running": "<span style='color:var(--col10-6);'>smb: crashes boot</span>",
       "os": "Linux"
     },
     {
@@ -204,7 +204,7 @@
       "account_name": "aaa",
       "acc_nm_short": "aa",
       "ip_address": "port 443",
-      "apps_running": "<span style='color:red;'>automate 4</span>",
+      "apps_running": "<span style='color:var(--col10-6);'>automate 4</span>",
       "os": "Linux"
     },
     {
@@ -216,7 +216,7 @@
       "account_name": "aaa",
       "acc_nm_short": "aa",
       "ip_address": "port 8081",
-      "apps_running": "<span style='color:red;'>automate 7</span>",
+      "apps_running": "<span style='color:var(--col10-6);'>automate 7</span>",
       "os": "Linux"
     }
     
