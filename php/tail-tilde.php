@@ -1,0 +1,176 @@
+<svg
+   width="900"
+   height="95"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="head72.svg"
+   inkscape:version="1.4.2 (2aeb623e1d, 2025-05-12)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1""
+     showgrid="false"
+     inkscape:current-layer="svg1"
+     showguides="false" />
+  <text
+     x="-2.5"
+     y="73.109375"
+     font-family="Verdana"
+     font-size="100px"
+     fill="rgba(255, 99, 132, 0.1)"
+     stroke="#000000"
+     stroke-width="1"
+     id="text1"
+     style="font-size:96px;stroke-width:1.5;stroke-dasharray:none"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;font-family:Georgia;-inkscape-font-specification:'Georgia Bold';stroke-width:1.5;stroke-dasharray:none"
+       id="tspan1">🪶Identity2</tspan></text>
+</svg>
+ 
+<div class="box"> 
+<p> 
+ <!--<img src="https://sustance.github.io/assets/globe.svg"
+  alt="Home" height="16" width="16" />--> 
+ <span style="font-size: 1.6em;">
+
+<a href="https://mail.google.com/mail/u/0/#inbox"><span class="pr">gmail</a>
+<a href="https://www.facebook.com/"><span class="pr">fbook</span></a>
+<a href="https://web.whatsapp.com/"><span class="pr">wsapp</span></a>
+<a href="https://mymaps.google.com"><span class="pr">myMap</span></a> 
+<a href="https://calendar.google.com/calendar/u/0/r"><span class="pr">cal</span></a>
+<a href="https://creator.nightcafe.studio/my-creations"><span class="pr">niCafe</span></a>
+<br>
+<a href="https://freeshell.de/owncloud/index.php/apps/files/?dir=/&fileid=1335949">OwnCloud</a>
+<a href="https://identity2.envs.net/brutal.php">bru<span class="pr">tal</span></a> 
+<a href="https://www.newsminimalist.com/">newsmin</a> 
+<a href="https://timef.com/">timef</a> 
+<!--<a href="https://greycoder.com/a-list-of-text-only-new-sites/">greycoder</a>-->
+ </span>
+<br>
+<a href="https://www.evernote.com/client/web">evernote</a>
+<a href="https://thunix.net/~id/ii.php">DETAIL</a> 
+<a href="https:/c.identity2.com/ii.php">Dc</a> 
+<a href="https://thunix.net/~id/iii.php">TABLE</a>
+<a href="https://sustance.github.io/head-news.html">NEWS</a>
+<a href="https://sustance.github.io/trips.html">TRIPS</a>
+<a href="https://sustance.github.io/diy.php">DIY</a>
+         <br> 
+<a href="https://www.interactivebrokers.com.hk/en/home.php">ikbr</a>
+<a href="https://wttr.in/">wttr</a>
+<a href="https://tilde.chat/kiwi/?nick=sufbo">~chat</a> 
+<a href="http://nix.identity2.com/candidates.html">candidates</a>   
+<a href="https://idratherbewriting.com/documentation-theme-jekyll/mydoc_yaml_tutorial.html">yaml-tut</a>
+        <br>
+<a href="https://finurls.com/">finurls</a>
+<a href="https://sustance.github.io/bookmark.html">bMark</a>
+<a href="https://www.opc-cornwall.org/">cornwall</a> 
+<a href="https://ya.ru/">yandex.ru</a> 
+ <a href="https://www.xiaohongshu.com/explore">redNote</a> 
+        <br>
+<a href="https://en.wikipedia.org/wiki/Paper_size"><span class="pr">paper</span></a>
+<a href="https://feedly.com/i/my"><span class="pr">feedly</span></a> 
+<a href="https://grok.com/"><span class="pr">grok</span></a>
+<a href="https://www.perplexity.ai/"><span class="pr">perplexity</span></a>
+<a href="https://claude.ai"><span class="pr">claude</span></a> 
+        <br>
+<a href="https://www.deepseekimagegenerator.com/ai-images">deepsImg</a>  
+<a href="https://chat.deepseek.com/">deepseek</a> 
+<a href="https://www.kimi.com/">kimi</a> 
+<a href="https://Z.ai">Z.ai</a>
+        <br>
+<a href="https://app.simplenote.com/">simpleNote</a>  
+<a href="https://github.com/sustance/">g.c/sustance</a> 
+<a href="https://libretranslate.com/">libreTranslate</a> 
+         <br>
+ <a href=" https://nucleoapp.com/svg-flag-icons">svg-flags</a> 
+ <a href="https://hanabira.org/japanese/quick_kanji">Japanese</a> 
+<a href="https://cheatsheets.stephane.plus/networks/bluez/">Bluez</a> 
+<a href="https://unicode-explorer.com/search/">Unicode Search</a> 
+<br>
+
+ 
+<a href='#printers'> ...printers</a>
+<div id='printers'>
+<a href="https://download4.epson.biz/sec_pubs/ew-m634t_series/useg/ja/index.htm?pageid=&tab=&LGW=&CNW=&OSV=&EXE=&VER=">
+ Epson Man</a> 
+ <br>
+
+<a href="h<br>ttps://oip.manual.canon/USRMA-1354-zz-SS-enUS/">Canon Laser Man</a> 
+ <br>
+<a href="https://ij.manual.canon/ij/webmanual/Manual/All/G3000%20series/EN/CNT/Top.html">
+   Canon Pixma G3000 Man</a> <br>
+   A6 not listed as a standard size. add custom 148x105... OK
+   <br>
+   Print dialog say duplex possibe, tried A4,5,6 and not work,... check manual
+
+</div>
+ 
+<a href='#email'> ...email</a>
+<div id='email'>
+ <a href="https://mail.envs.net/webmail/#?action=listmailbox">i72@e.n</a>
+<a href="https://mail.envs.net/webmail">8+ok@envs.net</a><sub>;;env 4ms Linkedin John Smith;;li*       
+                                                                     Ggl John Smith;;gm*</sub>
+ <br>
+<a href="https://mail.tilde.team">8+ok@tilde.team</a> identity2+nc 6;nig <sub> NightCafe ;;ti* 1ms</sub>
+  <br>
+ identity2@linkedin.com aaa John Smith p;;lin identity2@envs.net<br>
+    <a href="https://mail.vern.cc">2+ok@vern.cc</a> <sub> ;;ve* 12ms</sub><br>
+<a href="https://freeshell.de/rc/">8+no@freeshell.de</a>     <sub> r-cube  ;;fr* 5ms</sub>
+    <a href="https://freeshell.de/webapp/">8+no@freeshell.de</a> <sub> kopano  ;;fr* 5ms</sub><br>
+<a href="https://live.com/">k1m.m5l@live.com</a> <sub> ;;mi? 12ms goog</sub>
+    <a href="https://outlook.com">e2c.s3o@outlook.com</a> <sub> ;;? 12ms ffox</sub>
+Pabx: <a href="https://connect.tilde.tel/ucp">connect.tilde.tel/ucp</a> <sub>2043108</sub>
+<br>
+gpsbabel  -i kml -f FavoritesJP.kml -o gpx -F FavoritesJP.gpx
+</div>
+</div>
+
+
+<svg
+   width="900"
+   height="75.390625"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="head72.svg"
+   inkscape:version="1.4.2 (2aeb623e1d, 2025-05-12)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:current-layer="svg1"
+     showguides="false" />
+  <text
+     x="-2.5"
+     y="73.109375"
+     font-family="Verdana"
+     font-size="100px"
+     fill="rgba(255, 99, 132, 0.1)"
+     stroke="#000000"
+     stroke-width="1"
+     id="text1"
+     style="font-size:96px;stroke-width:1.5;stroke-dasharray:none"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;font-family:Georgia;-inkscape-font-specification:'Georgia Bold';stroke-width:1.5;stroke-dasharray:none"
+       id="tspan1"> 🖧Servers</tspan></text>
+</svg>
