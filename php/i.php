@@ -45,10 +45,10 @@ foreach ($data['servers'] as $server) {
     echo "<span class='$osClass'><tt>{$server['name']}</tt></span> ";    
     echo "<span class='sml'>{$server['country']}</span>";
   //popup start
-    echo "<span class='tooltip' data-tooltip=\"{$server['ip_address']} OS:{$server['os']}\">❔ </span>";
+    echo "<span class='tooltip' data-tooltip=\"{$server['ip_address']} os:{$server['os']}\">❔ </span>";
   //popup end
   echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a> ";    
-    echo "<a href=\"http://{$server['url_own']}\">{$server['name']}.Ⓘ .Ⓒ</a> ";    
+    echo "<a href=\"http://{$server['url_own']}\">{$server['name']}.𝕚.𝕔</a> ";    
     echo "<a href=\"http://{$server['url']}\">{$server['acc_name_s']}</a> ";    
     // Links from links_http array
     if (isset($server['links']) && is_array($server['links'])) {
