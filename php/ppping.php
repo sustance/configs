@@ -94,10 +94,10 @@ $end = microtime(true);
 foreach ($results as $server => $result) {
     $status = $result['success'] ? ' ✓' : ' ✗';
     $time = $result['response_time'];
-    echo "{$status} ({$time}ms) {$server}\n";
+    echo "{$status} ({$time}ms) {$server}<br>\n";
     
     if (!$result['success']) {
-        echo "                Exit code: {$result['exitcode']}\n";
+        echo "                Exit code: {$result['exitcode']}<br>\n";
     }
 }
 echo " ✓ b,c,d,e,g,h,i,p,t,x,4,7  ? o,j  ✗ v,s-down f,policy
