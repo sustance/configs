@@ -100,6 +100,6 @@ foreach ($results as $server => $result) {
         echo "                Exit code: {$result['exitcode']}<br>\n";
     }
 }
-echo " ✓ b,c,d,e,g,h,i,p,t,x,4,7  ? o,j  ✗ v,s-down f,policy
+echo "<br> ✓ b,c,d,e,g,h,i,p,t,x,4,7  ? o,j  ✗ s-down f,policy<br>
  ssh -D 9999 -p 2007 aaa@sufbo.tplinkdns.com"
 ?>
