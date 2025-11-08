@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="95"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs1" />
+&quot;
+     showgrid=&quot;false&quot;
+     inkscape:current-layer=&quot;svg1&quot;
+     showguides=&quot;false&quot; /&gt;
+  <text
+   x="-2.5"
+   y="73.109375"
+   font-family="Verdana"
+   font-size="100px"
+   fill="rgba(255, 99, 132, 0.1)"
+   stroke="#000000"
+   stroke-width="1"
+   id="text1"
+   style="font-size:96px;stroke-width:1.5;stroke-dasharray:none"><tspan
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;font-family:Georgia;-inkscape-font-specification:'Georgia Bold';stroke-width:1.5;stroke-dasharray:none"
+     id="tspan1"><?php echo $data['software']['Ⓝ Host']; ?></tspan></text>
+</svg>
