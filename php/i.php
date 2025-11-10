@@ -211,7 +211,20 @@ ksort($software_keys);
 </div>
 
 
+<?php
+
+
+
+?>
+<?php 
+$img = file_get_contents('https://sustance.github.io/svg/Linux.svg');
+echo $img;
+?>
+
+
+
 <pre>
+  
 C
 allow_url_fopen          : ENABLED
 allow_url_include        : DISABLED
