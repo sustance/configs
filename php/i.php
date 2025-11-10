@@ -96,24 +96,18 @@ function escapeHtml(text) {
 </script>
 
 <?php
-
 // Fetch JSON data
 $jsonUrl = 'https://raw.githubusercontent.com/sustance/configs/refs/heads/main/status_servers.json';
 $jsonData = file_get_contents($jsonUrl);
 $data = json_decode($jsonData, true);
-
 // Sort servers by name
 usort($data['servers'], function($a, $b) {
     return strcmp($a['name'], $b['name']);
 });
-
 ?>
 
 <?php
 echo "<div class='box idx'>";
-
-
-
 // Output each server
 foreach ($data['servers'] as $server) {
     $osClass = $server['os'] ?? 'Linux';
@@ -134,15 +128,13 @@ foreach ($data['servers'] as $server) {
             echo "<a href=\"http://$linkUrl\">$link</a> ";
         }
     }
-
     echo "<span>{$server['apps_running']}</span> ";
-    
     echo "</p>\n";
 }
-
 echo "</div >";
 ?>
-https://www.google.com/search?q=external+keyboard+for+android+shortcut+keys&oq=external+keyboard+for+android+shortcut+keys&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yDQgCEAAYhgMYgAQYigUyDQgDEAAYhgMYgAQYigUyCggEEAAYgAQYogQyCggFEAAYgAQYogQyBwgGECEYjwLSAQkyNzU2MmowajmoAg6wAgHxBd1VIIJKFarH8QXdVSCCShWqxw&client=ms-android-samsung-ss&sourceid=chrome-mobile&ie=UTF-8
+
+
 <?php 
 // Fetch and decode the JSON data
 $json_url = 'https://thunix.net/~id/status_server_master.json';
@@ -210,21 +202,13 @@ ksort($software_keys);
     </div>
 </div>
 
-
-<?php
-
-
-
-?>
 <?php 
 $img = file_get_contents('https://sustance.github.io/svg/Linux.svg');
 echo $img;
 ?>
 
-
-
+<!--
 <pre>
-  
 C
 allow_url_fopen          : ENABLED
 allow_url_include        : DISABLED
@@ -272,7 +256,6 @@ curl_extension           : AVAILABLE
 write_permissions        : WRITABLE
 ALL_DYNAMIC_METHODS_FAIL - Use cron fallback
 
-
 P
 allow_url_fopen          : ENABLED
 allow_url_include        : DISABLED
@@ -286,9 +269,8 @@ allow_url_include        : DISABLED
 curl_extension           : AVAILABLE
 write_permissions        : WRITABLE
 ALL_DYNAMIC_METHODS_FAIL - Use cron fallback
-
 </pre>
-
+-->
 
 <script>
 // Store the JSON data in JavaScript
@@ -368,8 +350,6 @@ function escapeHtml(text) {
     return div.innerHTML;
 }
 </script>
-
-
 
 <?php
 $tail = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/tail-land.html');
