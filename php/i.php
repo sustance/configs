@@ -1,4 +1,7 @@
-
+<?php
+$tail = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/tail-land.html');
+echo $tail;
+?>
 <?php
 
 // Fetch JSON data
