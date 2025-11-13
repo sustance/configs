@@ -1,11 +1,11 @@
 <?php
-$head = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/head-land.html');
+$head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
 echo $head;
 ?>
 <?php
 
 // Fetch JSON data
-$jsonUrl = 'https://raw.githubusercontent.com/sustance/configs/refs/heads/main/status_servers.json';
+$jsonUrl ';
 $jsonData = file_get_contents($jsonUrl);
 $data = json_decode($jsonData, true);
 
