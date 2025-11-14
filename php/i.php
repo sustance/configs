@@ -5,8 +5,8 @@ $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/re
 echo $head;
 
 // Fetch JSON data
+//$jsonUrl ';
 
-$jsonUrl ';
 $jsonData = file_get_contents($jsonUrl);
 $data = json_decode($jsonData, true);
 
