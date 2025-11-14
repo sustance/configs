@@ -115,24 +115,16 @@ ksort($software_keys);
     </div>
 </div>
 
-<pre>    C E F O J T
-allow_url_fopen          : ENABLED
-allow_url_include        : DISABLED
-curl_extension           : AVAILABLE
-write_permissions        : WRITABLE
-ALL_DYNAMIC_METHODS_FAIL - Use cron fallback 
+<pre>                   C E F O J T    I P
+allow_url_fopen    : ENABLED      : DISABLED
+allow_url_include  : DISABLED     : DISABLED
+curl_extension     : AVAILABLE    : MISSING
+write_permissions  : WRITABLE     : WRITABLE
+ALL_DYNAMIC_METHODS_FAIL cron fallback 
     G    NO PHP
-    H    PHP Fatal error: 
-    I P
-allow_url_fopen          : DISABLED
-allow_url_include        : DISABLED
-curl_extension           : MISSING
-write_permissions        : WRITABLE
-ALL_DYNAMIC_METHODS_FAIL - Use cron fallback
-</pre>
+    H    PHP Fatal error: </pre>
 
 <?php
 $tail = file_get_contents('https://raw.githubusercontent.com/sustance/sustance.github.io/refs/heads/main/tail-land.html');
 echo $tail;
 ?>
-
