@@ -1,5 +1,4 @@
 <?php
-
 // Fetch JSON data
 $jsonUrl = 'https://raw.githubusercontent.com/sustance/configs/refs/heads/main/status_servers.json';
 $jsonData = file_get_contents($jsonUrl);
@@ -9,10 +8,7 @@ $data = json_decode($jsonData, true);
 usort($data['servers'], function($a, $b) {
     return strcmp($a['name'], $b['name']);
 });
-
-?>
-
-<?php
+//////////////////////
 echo "<div class='box idx'>";
 // Output each server
 foreach ($data['servers'] as $server) {
@@ -38,3 +34,4 @@ foreach ($data['servers'] as $server) {
     
     echo "</p>\n";
 }
+?>
