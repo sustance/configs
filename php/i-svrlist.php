@@ -32,6 +32,6 @@ foreach ($data['servers'] as $server) {
 
     echo "<span>{$server['apps_running']}</span> ";
     
-    echo "</p>\n";
+    echo "</p>\n</div>";
 }
 ?>
