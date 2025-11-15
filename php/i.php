@@ -4,6 +4,10 @@
 $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
 echo $head;
 
+// Fetch ServerList section data
+$slist = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
+echo $slist;
+
 // Fetch JSON data
 //$jsonUrl ';
 
