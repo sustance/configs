@@ -8,50 +8,6 @@ echo $head;
 $slist = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
 echo $slist;
 
-// Fetch JSON data
-//$jsonUrl ';
-
-$jsonData = file_get_contents($jsonUrl);
-$data = json_decode($jsonData, true);
-
-// Sort servers by name
-
-usort($data['servers'], function($a, $b) {
-    return strcmp($a['name'], $b['name']);
-});
-
-// Output server list
-
-echo "<div class='box idx'>";
-// Output each server
-foreach ($data['servers'] as $server) {
-    $osClass = $server['os'] ?? 'Linux';
-    echo "<p>";    
-    // Basic server info
-    echo "<span class='$osClass'><tt>{$server['name']}</tt></span> ";    
-    echo "<span class='sml'>{$server['country']}</span>";
-    echo "<span>{$server['Vim']}</span> ";
-    echo "<span>{$server['PHP']}</span> ";
-  //popup start
-    echo "<span class='tooltip' data-tooltip=\"{$server['ip_address']} os:{$server['os']}\">❔ </span>";
-  //popup end
-  echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a> ";    
-    echo "<a href=\"http://{$server['url_own']}\">{$server['name']}.𝕚.𝕔</a> ";    
-    echo "<a href=\"http://{$server['url']}\">{$server['acc_name_s']}</a> ";    
-    // Links from links_http array
-    if (isset($server['links']) && is_array($server['links'])) {
-        foreach ($server['links'] as $link) {
-            $linkUrl = $server['url'] . '/' . $link . '.php';
-            echo "<a href=\"http://$linkUrl\">$link</a> ";
-        }
-    }
-
-    echo "<span>{$server['apps_running']}</span> ";
-    
-    echo "</p>\n";
-}
-
-echo "</div >";
 
 // Fetch and decode the JSON data
 $json_url = 'https://thunix.net/~id/status_server_master.json';
