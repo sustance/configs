@@ -7,19 +7,20 @@ $data = json_decode($jsonData, true);
 usort($data['servers'], function($a, $b) {
     return strcmp($a['name'], $b['name']);
 });
+
 // Process List
-echo "<div class='box idx'>";
+echo "<div class='box idx'>\n";
 // Output each server
 foreach ($data['servers'] as $server) {
     $osClass = $server['os'] ?? 'Linux';
     echo "<p>";    
     // Basic server info
-    echo "<b class=\"$osClass\">{$server['name']}</b>  ";    
+    echo " <b class=\"$osClass\">{$server['name']}</b> ";    
     echo "<span>{$server['country']}</span> ";    
-    echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a> ";    
-    echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a> ";    
+    echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a>\n    ";    
+    echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a>\n    ";    
     echo "<a href=\"http://{$server['url']}\">{$server['acc_name_s']}</a> ";    
-    echo "{$server['ip_address']} ";   
+    echo "{$server['ip_address']}\n    ";   
     // Links from links_http array
     if (isset($server['links']) && is_array($server['links'])) {
         foreach ($server['links'] as $link) {
@@ -28,6 +29,8 @@ foreach ($data['servers'] as $server) {
         }
     }
     echo "<span>{$server['apps_running']}</span> ";
-    echo "</p>\n</div>";
+    echo "\n</p>\n\n";
 }
+echo "</div>";
 ?>
+
