@@ -1,14 +1,8 @@
 <?php
-// Fetch head section data
 $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
 echo $head;
-
-// Fetch Server List section data
-import('i-svrlist.php');
-
-// Fetch Server Search section data
-import('i-svrsrch.php');
-
+?>
+<br>
 <pre>                   C E F O J T    I P
 allow_url_fopen    : ENABLED      : DISABLED
 allow_url_include  : DISABLED     : DISABLED
