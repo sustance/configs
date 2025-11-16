@@ -5,7 +5,7 @@ $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/re
 echo $head;
 
 // Fetch ServerList section data
-$slist = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
+$slist = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/i-svrlist.php');
 echo $slist;
 
 
