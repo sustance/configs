@@ -3,8 +3,11 @@
 $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/head-land.html');
 echo $head;
 
-// Fetch ServerList section data
+// Fetch Server List section data
 import('i-svrlist.php');
+
+// Fetch Server Search section data
+import('i-svrsrch.php');
 
 <pre>                   C E F O J T    I P
 allow_url_fopen    : ENABLED      : DISABLED
