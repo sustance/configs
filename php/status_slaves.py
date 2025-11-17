@@ -36,6 +36,8 @@ def main():
         'Lua': get_version('lua', '-v'),
         'Ruby': get_version('ruby'),
         'Gem': get_version('gem', '-v'),
+        'Vim': get_version('vim', '--version'),
+        'Vi': get_version('vi', '--version'),
         'Shell': get_version('bash'),
         'Nginx': get_version('nginx', '-v'),
         'Apache': get_version('apache2', '-v'),
