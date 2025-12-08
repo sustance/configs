@@ -1,5 +1,4 @@
- {
-  "servers": [
+"servers": [
     { 
       "name": "a",
       "country": "AM",
@@ -14,8 +13,6 @@
       "os": "xxxx"
       
     },
-    {
-  "servers": [
     { 
       "name": "b",
       "country": "US",
