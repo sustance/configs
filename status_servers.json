@@ -11,7 +11,6 @@
       "apps_running": "",
       "links": ["test"],
       "os": "xxxx"
-      
     },
     { 
       "name": "b",
@@ -165,7 +164,7 @@
       "account_name": "kym.michael",
       "acc_nm_short": "kym",
       "ip_address": "xx.xx.xx.xxx",
-      "apps_running": "GoogleCloud",
+      "apps_running": ["editor", "5GB storage"],
       "links": [""],
       "os": "Google"
     },
