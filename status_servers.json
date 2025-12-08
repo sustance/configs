@@ -1,6 +1,22 @@
  {
   "servers": [
     { 
+      "name": "a",
+      "country": "AM",
+      "host_url": "freenet.am",
+      "url_own": "kymm.freenet.am",
+      "url": "freenet.am",
+      "account_name": "kymm",
+      "acc_nm_short": "kym",
+      "ip_address": "xx.xx.xx.xxx",
+      "apps_running": "",
+      "links": ["test"],
+      "os": "xxxx"
+      
+    },
+    {
+  "servers": [
+    { 
       "name": "b",
       "country": "US",
       "host_url": "bsd.tilde.team",
@@ -12,7 +28,6 @@
       "apps_running": "",
       "links": ["test"],
       "os": "fBSD"
-      
     },
     {
       "name": "c",
@@ -143,6 +158,19 @@
       "apps_running": "nBSD10.1 ",
       "links": ["test"],
       "os": "nBSD"
+    },
+    {
+      "name": "s",
+      "country": "US",
+      "host_url": "shell.cloud.google.com/?pli=1&show=terminal",
+      "url_own": "s.identity2.com",
+      "url": "shell.cloud.google.com/?pli=1&show=terminal",
+      "account_name": "kym.michael",
+      "acc_nm_short": "kym",
+      "ip_address": "xx.xx.xx.xxx",
+      "apps_running": "GoogleCloud",
+      "links": [""],
+      "os": "Google"
     },
     {
       "name": "t",
