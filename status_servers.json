@@ -1,4 +1,4 @@
-"servers": [
+{"servers": [
     { 
       "name": "a",
       "country": "AM",
@@ -161,7 +161,7 @@
       "host_url": "shell.cloud.google.com/?pli=1&show=terminal",
       "url_own": "s.identity2.com",
       "url": "shell.cloud.google.com/?pli=1&show=terminal",
-      "account_name": "kym.michael",
+      "account_name": "kym_michael",
       "acc_nm_short": "kym",
       "ip_address": "xx.xx.xx.xxx",
       "apps_running": ["editor", "5GB storage"],
