@@ -158,13 +158,13 @@
     },
     {
       "name": "s",
-      "country": "US",
+      "country": "HK",
       "host_url": "shell.cloud.google.com/?pli=1&show=terminal",
       "url_own": "s.identity2.com",
       "url": "shell.cloud.google.com/?pli=1&show=terminal",
       "account_name": "kym_michael",
       "acc_nm_short": "kym",
-      "ip_address": "xx.xx.xx.xxx",
+      "ip_address": "142.250.198.206",
       "apps_running": ["editor", "5GB storage"],
       "links": [""],
       "os": "Google"
