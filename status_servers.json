@@ -8,9 +8,9 @@
       "url": "freenet.am",
       "account_name": "kymm",
       "acc_nm_short": "kym",
-      "ip_address": "xx.xx.xx.xxx",
-      "apps_running": "",
-      "links": ["test"],
+      "ip_address": "37.26.170.60",
+      "apps_running": ["mail","http","sftp"],
+      "links": ["Armenia"],
       "os": "xxxx"
     },
     { 
