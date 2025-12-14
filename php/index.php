@@ -100,7 +100,7 @@ echo "<pre>" . htmlspecialchars($banners[$user]) . "</pre>";
 $local = file_get_contents('siteSpecific1.php');
 echo "$local";
 ?>
-
+<p><br>THIS SITE IS POWERED BY:</p>
 <?php
 $code = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/banner.php');
 //$code = file_get_contents('banner.php');
