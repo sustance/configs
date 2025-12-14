@@ -47,11 +47,34 @@
 
 
 <?php
-$user = 'identity2';
-$os = 'linux';
-$bot = 'botframe';
-$top = 'topframe';
+//$user = 'identity2';
+//$os = 'linux';
+//$bot = 'botframe';
+//$top = 'topframe';
 ?>
+
+<?php
+ $os = strtolower(trim(php_uname('s')));
+ $user = 'unknown'; // Default fallback value
+
+// Get the numeric user ID of the file owner
+ $owner_uid = fileowner(__FILE__);
+
+// Check if the required function exists and the lookup is successful
+if (function_exists('posix_getpwuid') && $owner_uid !== false) {
+    $user_info = posix_getpwuid($owner_uid);
+    if ($user_info && isset($user_info['name'])) {
+        // Get the username and convert it to lowercase
+        $user = strtolower(trim($user_info['name']));
+    }
+}
+//echo "Operating System: " . $os . "\n";
+//echo "Script Owner: " . $user . "\n";
+?>
+
+
+
+	
 
 <div style="border-radius: 255px  15px 255px  15px / 233px  22px  99px 255px;
 	background: linear-gradient(to bottom right, var(--col10-2), var(--col10-4) );
