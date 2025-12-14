@@ -42,13 +42,8 @@
 </style>
 </head>
 
-
 <body style="background-color: var(--color-10);">
-
-
 <?php
-//$user = 'identity2';
-//$os = 'linux';
 //$bot = 'botframe';
 //$top = 'topframe';
 ?>
@@ -101,33 +96,10 @@ if (!is_array($banners)) {
 echo "<pre>" . htmlspecialchars($banners[$user]) . "</pre>";
 ?>
 
-
-
-
 <?php
 $local = file_get_contents('siteSpecific1.php');
 echo "$local";
 ?>
-
-
-
-
-
-https://github.com/MarcinOrlowski/php-text-table/blob/master/docs/examples.md
-
-     <h1 id="kym-page">Demo</h1>
-
-<p>This is a W3m first web site demo. It is optimised for w3m and other command line text browsers created and displayed as text only for terminal text viewing but with an attempt to make it slightly less than ugly on modern graphical browsers</p>
-
-
-
-<?php
-$user = 'identity2';
-//$os = 'freebsd';
-
-?>
-
-
 
 <?php
 $code = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/banner.php');
@@ -147,29 +119,6 @@ if (!is_array($banners)) {
 echo "<pre>" . htmlspecialchars($banners[$os]) . "</pre>";
 ?>
 
-
-
-<?php
-$user = 'identity2Blk';
-
-
-$code = file_get_contents('https://raw.githubusercontent.com/sustance/configs/refs/heads/main/php/banner.php');
-//$code = file_get_contents('banner.php');
-
-if ($code === false) {
-    die('Cannot load banners');
-}
-
-// Execute the code in isolation and capture the returned value
-$banners = eval('?>' . $code); 
-
-if (!is_array($banners)) {
-    die('Banner file did not return an array');
-}
-
-//echo "<pre>" . htmlspecialchars(identity2) . "</pre>";
-echo "<pre>" . htmlspecialchars($banners[$user]) . "</pre>";
-?>
 <br><br>
 </div>
 </div>
