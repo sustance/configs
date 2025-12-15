@@ -22,7 +22,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "157.90.196.52",
-      "apps_running": "",
+      "apps_running": "ⓟ",
       "links": ["test"],
       "os": "fBSD"
     },
@@ -35,7 +35,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "165.227.127.54",
-      "apps_running": "",
+      "apps_running": "Ⓟ",
       "links": ["MATURrem", "remind", "test"],
       "os": "Linux"
     },
@@ -61,7 +61,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "89.163.145.170",
-      "apps_running": "Jekyll",
+      "apps_running": "Ⓟ Jekyll",
       "links": ["MATURrem", "iata25", "points25"],
       "os": "Linux"
     },
@@ -87,7 +87,7 @@
       "account_name": "edi",
       "acc_nm_short": "edi",
       "ip_address": "95.179.178.246",
-      "apps_running": "fBSD14.3",
+      "apps_running": "☹ fBSD14.3",
       "links": ["eval"],
       "os": "fBSD"
     },
@@ -191,7 +191,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "5.161.108.85",
-      "apps_running": "<span style='color:var(--col10-6);'><s>http</s></span><span style='color:var(--col10-6);'>automate v</span>",
+      "apps_running": "☹ <span style='color:var(--col10-6);'><s>http</s></span><span style='color:var(--col10-6);'>automate v</span>",
       "links": [],
       "os": "Linux"
     },
@@ -204,7 +204,7 @@
       "account_name": "identity2",
       "acc_nm_short": "i72",
       "ip_address": "45.33.66.185",
-      "apps_running": "Ubu24.04 <span style='color:var(--col10-6);'><s>http</s></span><span style='color:var(--col10-6);'>automate x</span>",
+      "apps_running": "☹ Ubu24.04 <span style='color:var(--col10-6);'><s>http</s></span><span style='color:var(--col10-6);'>automate x</span>",
       "links": [],
       "os": "Linux"
     },
