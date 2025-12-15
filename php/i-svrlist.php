@@ -17,8 +17,9 @@ foreach ($data['servers'] as $server) {
     // Basic server info
     echo " <b class=\"$osClass\">{$server['name']}</b> ";    
     echo "<span>{$server['country']}</span> ";    
-    echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a>\n    ";    
-    echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a>\n    ";    
+    echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a>\n";  
+    echo "<a href=\"http://{$server['host_url']}/~{$server['account_name']}\">/{$server['acc_nm_short']}</a>\n"; 
+    echo "<a href=\"http://{$server['url_own']}\">i.c.{$server['name']}</a>\n";    
     echo "<a href=\"http://{$server['url']}\">{$server['acc_name_s']}</a> ";    
     echo "{$server['ip_address']}\n    ";   
     // Links from links_http array
