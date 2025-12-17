@@ -95,7 +95,11 @@ if (!is_array($banners)) {
 //echo "<pre>" . htmlspecialchars(identity2) . "</pre>";
 echo "<pre>" . htmlspecialchars($banners[$user]) . "</pre>";
 ?>
-
+<?php
+// Only for Lenovo if double numberal
+$local = file_get_contents('siteSpecific11.php');
+echo "$local";
+?>
 <?php
 $local = file_get_contents('siteSpecific1.php');
 echo "$local";
