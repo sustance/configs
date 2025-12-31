@@ -1,44 +1,36 @@
 ```
 Matur, Bookd, $Mil,Cur, C,Detail 
 _________________________________
-51229, 50925, 3.00,hkd, h,hsbc124✅
-
-
-60106, 00000, 1.42,hkd, h,TaxPay2
+60106, 00000, 1.42,hkd, h,Tax_pay
 60109, 50109, 0.55,usd, l,2135658✅
-
-60115, 00000,    0,cny, c,china cc
-60115, 00000,    0,hkd, h,mortgage
-
+60115, 00000,    0,cny, c,chinacc
+60115, 00000,    0,hkd, h,mortgge
+60125, 00000, 0.41.hkd, h,Pay+MoB
 60129, 51029, 1.82,usd, l.2472858✓
 60206, 50806, 0.05,usd, c,hangs  ️✔
-
-60115, 00000,    0,cny, c,china cc
-60115, 00000,    0,hkd, h,mortgage
-
+60215, 00000,    0,cny, c,chinacc
+60215, 00000,    0,hkd, h,mortgge
 60217, 50214, 1.64,usd, l,2168917✅
 60220, 50818, 0.03,aud, l,hsbc122☑️
-
+60225, 00000, 0.41.hkd, h,Pay+MoB
 60330, 51229, 2.50,hkd, h,hsbc125☑️
-60408, 00000, 0.62,hkd, h,TaxPay
-
+60408, 00000, 0.62,hkd, h,Tax_Pay
 60428, 50728, 1.44,hkd, c,hangs  ✔️
 60428, 50728, 0.34,usd, c,hangs  ✔️
 60430, 50731, 5.26,usd, l,2355326✓
-60408, 00000, 0.62,hkd, h,TaxPay2
-
 61008, 51208, 1.41,usd, l.2520139✓
 
 -dpst, 50108, 0.71,chf, l,2135660✅
 -call, 50204, 0.51,usd, s,*8646  ✔️
--dpst, 00000, 0.40,aud, a,wpac   √
+-dpst, 00000, 0.40,aud, a,wpacOff☑️
 ```
+- ✔️ checked message not bank site
 - ☑️ online check 51231
 - ✓Online check 251208
 - ✅Online check 251103, hsbc+lgt
 - Check moneyback on Pay day 
 - ┊ not yet recorded on App
-- ✔️ check from message, not bank site
+
 - hs.41-59,61-81-85,87-88,90-96,99-100,102-106 cancel
 - li.20968,1919982,1920103 
 - last printed 2024 1002
