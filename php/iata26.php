@@ -87,7 +87,15 @@ foreach ($output as $line) {
     echo "$line\n";
 }
 
-echo "\nNote airline 'tr' is a train trip\nTotal lines processed: " . count($output) . "\n</p";
+echo "\nNote airline 'tr' is a train trip,
+Airline code/custom name used for train stn.\n
+The item 'K' = 'Kym MICHAEL,
+The item 'C' = 'JI Chun' aka 'Sarah MICHAEL'.\n
+The K and C normally travel together,\n
+The 'Home Port' is Hong Kong.\n
+Airports HKG, SZX, CAN are all used for
+Hong Kong Home Port arrival and departure.\n
+Total lines processed: " . count($output) . "</p>";
 
 // Optional: Save processed data to CSV for use with your second dataset
 function saveToCsv($output, $filename) {
