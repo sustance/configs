@@ -273,11 +273,14 @@ foreach ($output as $line) {
     echo "$line\n";
 }
 
-echo "Note airline 'tr' is a train trip\n
-The abbreviation 'K' identifies 'Kym MICHAEL', \n
-The abbreviation 'C' identifies 'JI Chun' and or alias 'Sarah MICHAEL', \n
-The K and C normally travel together, their 'Home Port' is Hong Kong, \n
-Airports HKG, SZX, CAN are all regarded as Hong Kong Home Port arrival and departure.\n
+echo "Note airline 'tr' is a train trip,\n
+Airline code/custom name used for train stn.\n
+The item 'K' = 'Kym MICHAEL,n
+The item 'C' = 'JI Chun' aka 'Sarah MICHAEL'.\n
+The K and C normally travel together,\n
+their 'Home Port' is Hong Kong.\n
+Airports HKG, SZX, CAN are all used for\n
+Hong Kong Home Port arrival and departure.\n
 Total lines processed: " . count($output) . "</p";
 
 // Optional: Save processed data to CSV for use with your second dataset
