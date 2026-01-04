@@ -24,7 +24,15 @@ This is a **simple markdown** to HTML converter.
 echo "Hello, World!";
 ?>
 
+<h2>Table of Contents</h2>
+<!-- The link to the section -->
+<a href="#kiosk">kiosk mode</a><br>
+<a href="#watch">IOT Watch</a><br>
 
+<p><a href="#top">Back to top</a></p>
+
+<h2><a href="#top">Back to top</a></h2>
+<h2 id="kiosk">Android Kiosk mode</h2>
 
 Yes, kiosk mode is possible on Android 4.0.3, but with significant limitations and workarounds. Android 4.0.3 (Ice Cream Sandwich, circa 2011) predates modern kiosk features, so you'll need creative solutions.
 
@@ -133,7 +141,7 @@ USB/BT: Often USB 2.0 only, poor power delivery
 
 
 
-
+###########################################################################
 # Toner Cartridges on hand
 Box in in Kitchen ceiling right hand  of outer wall side
 
@@ -174,7 +182,7 @@ in either white (natural) or black.
 
 
 
-
+###########################################################################
 
 
 # Refilling your HP LaserJet Pro M15w printer's 48A cartridge 
@@ -226,3 +234,81 @@ Reinstall the drum end cap and screw.
 Turn the developer roller by hand to ensure it is correctly installed. 
 
 Replace the Chip: A new chip must be installed on the cartridge every time it is refilled. 
+
+
+
+
+
+
+###########################################################################
+    
+<h2><a href="#top">Back to top</a></h2>
+<h2 id="watch">Watch</h2>
+
+Questions to ask seller BEFORE buying:
+
+"Does this include charging dock?"
+
+"Is the USB-C cable included?"
+
+"Can you confirm it has BMA423 sensor?"
+
+"Do you provide MicroPython firmware/instructions?"
+📊 Community Support Status:
+ESP32 MicroPython support matrix:
+
+Model	MicroPython	Notes
+T-Watch 2020 V1/V2	✅ Stable	    Well-supported
+T-Watch 2020 V3  	✅ Good	        Community ports
+T-Watch 2023	    ⚠️ Partial	    Early ports
+T-Watch S3	        ❌ Limited/None	Very new hardware
+    
+
+🤔 Decision Matrix:
+```
+Factor	T-Watch 2020 V3	T-Watch S3
+Your Python skills	    ✅ Immediate use	   ❌ Not yet
+Activity monitoring     ✅ BMA423 works	   ✅ BMA423 works
+Text storage	        ✅ 4MB (enough)	  ✅✅ 16MB (lots)
+Development ease	   ✅✅ Many examples	⚠️ Fewer examples
+Future-proofing	         ⚠️ Older	        ✅ Newer
+Price	               ~¥220-250	       ~¥250-280
+```
+Available Firmware Right Now:
+For T-Watch 2020 V3:
+
+MicroPython (official port)
+CircuitPython (Adafruit variant)
+Arduino (many examples)
+ESP-IDF (advanced)
+
+For T-Watch S3:
+Arduino (official support)
+ESP-IDF (official)
+MicroPython ❌ NOT AVAILABLE
+    
+ Your Development Timeline:
+With 2020 V3:
+
+Week 1: Watch arrives, flash MicroPython
+Week 2: Write basic inactivity monitor
+Week 3: Add features, test
+Week 4: Daily use, refine
+
+With S3:
+Month 1-2: Wait for MicroPython port
+Month 3: Learn Arduino as alternative
+Month 4: Maybe start your app
+
+
+
+
+S3 Variant	What It Is	Do You Need It?
+868 MHz	European LoRa frequency	     ❌ NO (unless in Europe AND doing long-range projects)
+433 MHz	Asian/Chinese LoRa frequency ❌ NO (unless in China AND doing IoT projects)
+915 MHz	American LoRa frequency	     ❌ NO (unless in USA AND need 1km+ wireless)
+920 MHz	Japanese/Australian LoRa	 ❌ NO
+Strap	Just the watch strap	     ❌ NO (you want the full watch!)
+2.4G	THIS IS WHAT YOU WANT✅	    ✅ YES - This is standard WiFi/Bluetooth
+
+    
