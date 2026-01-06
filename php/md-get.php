@@ -161,6 +161,9 @@ $html_content = markdownToHtml($markdown);
 </head>
 <body>
     <div class="header">
+        <!--Note this file lives only on Github
+        Shell script on Lenovo fetches and runs
+        Uploads resulting HTML to freeshell-->
     </div>
     
     <div class="file-info">
