@@ -40,6 +40,7 @@ The `identity2.com` project is a layered exploration of resilience:
 | February | $80 |
 | March | $420 |
 
+==Highlight Text==
 
 ```js
 console.log('Hello world');
