@@ -17,7 +17,7 @@ It’s an ongoing experiment in **digital sovereignty**—the practice of taking
 
 **Identity² is a thematic umbrella for projects that explore this intersection:** the curated identity, the protected connection, and the hand-built tool. It’s where practical documentation meets philosophical inquiry, all aimed at reclaiming a piece of the digital frontier.
 
-
+<hr>
 This is the Grand Puzzle, stress-testing the very fabric of the decentralized internet. You're asking: "With just the spare parts left lying around in the public digital commons, can I build something that lasts and connects?"
 
 <h3>REMOVE</h3>
