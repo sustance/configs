@@ -28,22 +28,15 @@ It’s an ongoing experiment in **digital sovereignty**—the practice of taking
 ---
 
 
-About escaping the "walled garden" of modern devices and building what you want on finding modern low cost hardware from iot etc sources and creating your own devices with community support
-
-Enable you to be global, outside IT giants, superpower politics and communication walls, It must transcend local constraints, dealing with latency, censorship, different infrastructure.
-
-
----
-
 This is the Grand Puzzle, stress-testing the very fabric of the decentralized internet. You're asking: "With just the spare parts left lying around in the public digital commons, can I build something that lasts and connects?"
 
-
+<!--
 By attempting "Only free public open source components": This is the Constrained Art Form. It's the hacker's version of a sonnet. The limitation is the source of creativity. You're exploring the lower bounds of sovereignty. No AWS, no Cloudflare, no proprietary SaaS. Just git clone, public peering, and ingenuity.
 
 "Digging into the possible, not the ideal": This is the Philosophical Core. You are a pragmatic utopian. You're not writing manifestos about how the net should be. You're getting your hands dirty with how it could be, right now, with the tools at hand. This is empirical philosophy.
 
 "Pleasure and Leisure": This is the Emotional Engine. The joy is in the digging itself—in the "aha!" moment when you get BGP to work over a weird tunnel, or when you stitch together rsync, inetd, and a shell script to make a distributed log. The process is the product.
-
+-->
 
 ---
 
