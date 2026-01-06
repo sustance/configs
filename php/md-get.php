@@ -104,7 +104,7 @@ $html_content = markdownToHtml($markdown);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown Viewer: <?php echo htmlspecialchars(basename($file)); ?></title>
+    <title>Identity2 <?php echo htmlspecialchars(basename($file)); ?></title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -161,14 +161,14 @@ $html_content = markdownToHtml($markdown);
 </head>
 <body>
     <div class="header">
-        <h1>📄 Markdown Viewer</h1>
-        <p><em>Resilient content served from GitHub</em></p>
     </div>
     
     <div class="file-info">
+        <!--
         Repository: <strong><?php echo htmlspecialchars($repo); ?></strong><br>
         File: <strong><?php echo htmlspecialchars($file); ?></strong><br>
         Source: <a href="https://github.com/<?php echo htmlspecialchars($repo); ?>/blob/main/<?php echo htmlspecialchars($file); ?>">View on GitHub</a>
+    -->
     </div>
     
     <article>
