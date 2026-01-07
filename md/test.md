@@ -1,3 +1,44 @@
+
+<svg
+   width="900"
+   height="95"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="head72.svg"
+   inkscape:version="1.4.2 (2aeb623e1d, 2025-05-12)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1""
+     showgrid="false"
+     inkscape:current-layer="svg1"
+     showguides="false" />
+  <text
+     x="-2.5"
+     y="73.109375"
+     font-family="Verdana"
+     font-size="100px"
+     fill="rgba(255, 99, 132, 0.1)"
+     stroke="#000000"
+     stroke-width="1"
+     id="text1"
+     style="font-size:96px;stroke-width:1.5;stroke-dasharray:none"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;font-family:Georgia;-inkscape-font-specification:'Georgia Bold';stroke-width:1.5;stroke-dasharray:none"
+       id="tspan1">🪶Identity²</tspan></text>
+</svg>
+
+
 ### **Identity²**
 **Identity²: Experiments in digital sovereignty—curating the open web, building resilient tools, and reclaiming your online self.**
 
@@ -34,13 +75,14 @@ You can structure sub-domains as thematic "channels" or "publications" under the
 
 This structure is **future-proof, thematically rich, and strategically clever.** It allows you to explore multiple interests under a unified, intelligent brand that directly reflects your core philosophy. The affiliate project becomes a live case study *within* your larger exploration of digital identity.
 
-### Integrated Proposal: The "Resilience Stack" Narrative
 
-The `identity2.com` project is a layered exploration of resilience:
-
-1.  **Layer 1: Personal Identity Resilience** (`guide.identity2.com`).
-    *   How do you, as a human, remain functional and sovereign online?
-2.  **Layer 2: Network Structural Resilience** (**`net.identity2.com`** or **`mesh.identity2.com`**).
+### The `identity2.com` project is a layered exploration of resilience:
+1. 🌡 Preheat oven to 325°F
+2. 🍪 Drop cookie dough
+3. ⏰ Bake for 15 min
+1. **Layer 1: Personal Identity Resilience** (`curate.identity2.com`).
+How do you, as a human, remain functional and sovereign online?
+2.  **Layer 2: Network Structural Resilience** (**`maker.identity2.com`**).
     *   **This is your Grand Puzzle's home.** This sub-domain documents the architecture, the scripts, the configs, the failures, and the triumphs of building your global net from scraps.
 3.  **Layer 3: Application Resilience** (`maker.identity2.com`).
     *   The devices and software that *run on* the resilient network. The LilyGO projects are the "things" your network carries. This is where the affiliate play cleanly fits.
@@ -75,28 +117,18 @@ Published Aug 7, 2021•Updated Jun 11, 2025
 Contribute to Docs
 Images are an essential part of modern digital content, helping to explain ideas, illustrate examples, and enhance visual appeal. In Markdown, images are a crucial feature for supporting and visually improving the overall con
 
-![Alt text](image-url)
+![Alt text](https://sustance.git.io/Linux.svg)
 
-Alt text: A description of the image (used for accessibility and shown if the image fails to load).
-image-url: The path or URL to the image file.
-Here is an example:
-
-![A mushroom-head robot drinking bubble tea](https://raw.githubusercontent.com/Codecademy/docs/main/media/codey.jpg)
+![Alt Text](https://sustance.git.io/text.svg)
 
 
-An optional title can be added after the URL, still in the parentheses:
+![A mushroom-head robot drinking bubble tea](https://raw.githubusercontent.com/Codecademy/docs/main/media/codey.jpg 'Codey, the Codecademy mascot, drinking bubble te')
 
-![A mushroom-head robot drinking bubble tea](https://raw.githubusercontent.com/Codecademy/docs/main/media/codey.jpg 'Codey, the Codecademy mascot, drinking bubble tea')
-
-Copy to clipboard
 
 Linked Images in Markdown
-The syntax for adding a linked image in Markdown is:
 
-[![Alt text](image-url)](target-url)
+[![Alt text](https://sustance.git.io/text.svg)](target-url)
 
-![A mushroom-head robot drinking bubble tea](https://raw.githubusercontent.com/Codecademy/docs/main/media/codey.jpg)
+![Text of linked svg](https://sustance.git.io/text.svg)
 
-1. 🌡 Preheat oven to 325°F
-2. 🍪 Drop cookie dough
-3. ⏰ Bake for 15 min
+
