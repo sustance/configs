@@ -73,6 +73,10 @@ Published Aug 7, 2021•Updated Jun 11, 2025
 Contribute to Docs
 Images are an essential part of modern digital content, helping to explain ideas, illustrate examples, and enhance visual appeal. In Markdown, images are a crucial feature for supporting and visually improving the overall con
 
+
+<img src="https://sustance.github.io/svg/Linux.svg" alt="Linux html linked">
+<img src="https://sustance.github.io/svg/text.svg" alt="Text html linked">
+
 ![Alt text](https://sustance.github.io/svg/Linux.svg)
 
 ![Alt Text](https://sustance.github.io/svg/text.svg)
