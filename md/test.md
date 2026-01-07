@@ -34,12 +34,13 @@ How do you, as a human, remain functional and sovereign online?
     *   The devices and software that *run on* the resilient network. The LilyGO projects are the "things" your network carries. This is where the affiliate play cleanly fits.
     *   
 ```
-| Item              | Up       |  |
-| :---------------- | :------: | ----: |
+**| Item              | Up       |       |**
 | Maker             |   True   |  x    | 
 | Curate            |   True   |  y    |
 | Www               |  False   |  z    |
-```
+```|
+
+:---------------- | :------: | ----: |
 
 | Month | Savings |
 | -------- | ------- |
