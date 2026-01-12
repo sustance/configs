@@ -35,10 +35,12 @@ def main():
         'PHP': get_version('php'),
         'Lua': get_version('lua', '-v'),
         'Ruby': get_version('ruby'),
+        'Rustc': get_version('rustc', '--version'),
         'Gem': get_version('gem', '-v'),
         'Vim': get_version('vim', '--version'),
         'Vi': get_version('vi', '--version'),
         'Shell': get_version('bash'),
+        'Mosh': get_version('mosh', '--version'),
         'Nginx': get_version('nginx', '-v'),
         'Apache': get_version('apache2', '-v'),
         'Curl': get_version('curl')[:50],
@@ -51,6 +53,7 @@ def main():
         'Nim': get_version('nim', '-v'),
         'Tgpt': get_version('tgpt', '-v'),
         'Mutt': get_version('mutt', '-v'),
+        'Neomutt': get_version('neomutt', '-v'),
     }
     
     # System info
