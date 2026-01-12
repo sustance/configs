@@ -1,0 +1,42 @@
+# Identity
+set from = "kym.michael@gmail.com"
+set realname = "Kym Michael"
+
+# Authentication (use your App Password here—store securely!)
+set imap_user = "kym.michael@gmail.com"
+set imap_pass = "wtcnuctwugytjbhn"   # wtcn uctw ugyt jbhn
+set smtp_pass = "$imap_pass"  # Reuse the same password
+
+# IMAP settings for Gmail
+set folder = "imaps://imap.gmail.com/"
+set spoolfile = "+INBOX"
+set postponed = "+[Gmail]/Drafts"
+set record = "+[Gmail]/Sent Mail"   # Sent emails go to Gmail's Sent folder
+set trash = "+[Gmail]/Trash"        # Deletions go to Gmail's Trash
+
+# SMTP settings for sending (use port 587 for STARTTLS or 465 for SSL)
+set smtp_url = "smtps://kym.michael@gmail.com@smtp.gmail.com:465/"
+# OR for port 587: set smtp_url = "smtp://kym.michael@gmail.com@smtp.gmail.com:587/"
+set smtp_authenticators = "login"
+
+# Security and performance
+set ssl_starttls = yes
+set ssl_force_tls = yes
+set imap_check_subscribed = yes
+set mail_check = 60  # Check for new mail every 60 seconds ?3600
+
+# Optional: Cache headers/bodies for faster loading
+set header_cache = "~/.cache/neomutt/headers"
+set message_cachedir = "~/.cache/neomutt/bodies"
+
+# Important Gmail folders (subscribe to these for easy access)
+mailboxes "=INBOX" \
+          "=[Gmail]/Sent Mail" \
+          "=[Gmail]/Drafts" \
+          "=[Gmail]/Trash" \
+          "=[Gmail]/Spam" \
+          "=[Gmail]/All Mail" \
+          "=[Gmail]/Starred"
+
+set mailcap_path = "~/.config/neomutt/mailcap"
+#macro index,pager \cB "<pipe-decode>urlscan<enter>" "Extract URLs with urlscan"
