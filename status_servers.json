@@ -1,19 +1,6 @@
 {
     "servers": [
     { 
-      "name": "a",
-      "country": "AM",
-      "host_url": "freenet.am",
-      "url_own": "freenet.am/~kymm/",
-      "url": "freenet.am",
-      "account_name": "kymm",
-      "acc_nm_short": "kym",
-      "ip_address": "37.26.170.60",
-      "apps_running": ["mail","http","sftp"],
-      "links": ["Armenia"],
-      "os": "xxxx"
-    },
-    { 
       "name": "b",
       "country": "US",
       "host_url": "bsd.tilde.team",
@@ -37,19 +24,6 @@
       "ip_address": "165.227.127.54",
       "apps_running": "Ⓟ",
       "links": ["MATURrem", "remind", "test"],
-      "os": "Linux"
-    },
-    {
-      "name": "d",
-      "country": "CA",
-      "host_url": "dimension.sh",
-      "url_own": "d.identity2.com",
-      "url": "dimension.sh/~identity2",
-      "account_name": "identity2",
-      "acc_nm_short": "i72",
-      "ip_address": "51.79.51.59",
-      "apps_running": "down and unresponsive",
-      "links": [],
       "os": "Linux"
     },
     {
