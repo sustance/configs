@@ -1,11 +1,11 @@
 <?php
 // Set the year for Julian date conversion
-$THIS_YEAR = 2025; 
+$THIS_YEAR = 2026; 
 // Convert Julian day to Gregorian date in YYMMDD format
 function julianToGregorian($julianDay, $year) {
     $date = new DateTime("$year-01-01");
     $date->add(new DateInterval('P' . ($julianDay - 1) . 'D'));
-    return $date->format('ymd');
+add:     return $date->format('ymd');
 }
 
 // Abbreviate names (CHUN -> C, KYM -> K, else first letter)
@@ -77,6 +77,7 @@ function processData($data, $year) {
 $data = ' 
 M1MICHAEL/KYM   EQHYX2S FUKHKGHX 0639 042O033C0113 147>3181OO6042BHX 29851230871941602HX HU 3519793682 1PC
 M1JI/CHUN       EQHYX2S FUKHKGHX 0639 042O033H0112 147>3181OO6042BHX 29851230871941502HX HU 3519793660 1PC
+
 M1MICHAEL/KYM   EQHYX2S HKGFUKHX 0640 036Q033C0146 147>3181OO6036BHX 29851230871941602HX HU 3519793682 1PC
 M1JI/CHUN       EQHYX2S HKGFUKHX 0640 036Q033H0147 147>3182OO6036BHX 29851230871941502HX HU 3519793660 1PC
 
@@ -101,8 +102,8 @@ foreach ($output as $line) {
 
 echo "\nNote airline 'tr' is a train trip,
 Airline code/custom name used for train stn.\n
-The item 'K' = 'Kym MICHAEL,
-The item 'C' = 'JI Chun' aka 'Sarah MICHAEL'.\n
+The item 'K' = 'K M,
+The item 'C' = 'J C' aka 'S M'.\n
 The K and C normally travel together,\n
 The 'Home Port' is Hong Kong.\n
 Airports HKG, SZX, CAN are all used for
