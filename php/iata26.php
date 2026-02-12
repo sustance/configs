@@ -94,7 +94,7 @@ M1JI/CHUNMS     EQZTEY3 HKGTPEHX 0260 005O050C0006 147>3182WW6003BHX 29851604682
 $output = processData($data, $THIS_YEAR);
 
 // Output results (unchanged from original)
-echo "<pre> Date ,Who Frm, To , By, Flgt, doy\n__________________________________";
+echo "<pre> Date ,Who,Frm, To , By, Flgt, doy\n__________________________________";
 foreach ($output as $line) {
     echo "$line\n";
 }
