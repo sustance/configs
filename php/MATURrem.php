@@ -143,7 +143,7 @@ foreach ($lines as $line) {
             $matur_formatted = $matur_units . $matur_month_str . $matur_day_str;
 
             // Create alert line
-            $alert_line = $alert_formatted . ', Alert,     , → ,  ,' . $matur_formatted . "\n";
+            $alert_line = $alert_formatted . ', Alert,     , →  ,  ,' . $matur_formatted . "\n";
 
             $entries[] = [
                 'date' => $alert_date,
@@ -165,7 +165,7 @@ usort($entries, function($a, $b) {
 
 // Output
 echo '<pre>
-Matur, Bookd,  ¤n ,  ¤ , C, Details 
+Matur, Bookd,  ¤n , ¤ , C, Details 
 _____________________________________
 ';
 foreach ($entries as $entry) {
