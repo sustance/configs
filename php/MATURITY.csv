@@ -13,16 +13,16 @@ _____________________________________
 60430, 50731, 5.26, usd, l,2355326  🮱
 60805, 60206, 0.05, usd, c,hangs    ✘
 61008, 51208, 1.41, usd, l,2520139  🮱
-70111, 60109, 0.57, usd, l,2135658  ✅
-70129, 60129, 1.83, usd, l,24728    ?
-70217, 60217, 1.71, usd, l,2168     ?
--dpst, 50108, 0.71, chf, l,2135660  🮱
+70111, 60109, 0.57, usd, l,2560950  ✅
+70129, 60129, 1.83, usd, l,2580073  ✅
+70217, 60217, 1.71, usd, l,2601335  ✅
+-dpst, 50108, 0.71, chf, l,2135660  ✅
 -call, 50204, 0.51, usd, s,*8646    ✘
 -dpst, 00000, 0.40, aud, a,wpacOff  🮱
 ```
 - ? awaiting confirmation number
 - ✘  from message not bank site
-- ✅ online audit done on 2026-01-17
+- ✅ online audit done on 2026-01-16
 - 🮱 online audit done on 2026-01-01
 - MortCNcc = Mortgage +CN-creditcard 
 - Pay only 2mths shown 
