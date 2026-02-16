@@ -164,8 +164,8 @@ usort($entries, function($a, $b) {
 // Debug: echo '<!-- Debug: Total entries: ' . count($entries) . ' -->'; // Uncomment for debug
 
 // Output
-echo '<pre>Matur, Bookd, $Mil,Cur, C, Detail 
-__________________________________
+echo '<pre>\nMatur, Bookd,  $M ,Cur , C, Details 
+_____________________________________
 ';
 foreach ($entries as $entry) {
     echo $entry['line'];
