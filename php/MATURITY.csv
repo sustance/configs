@@ -1,16 +1,16 @@
 ```
 Matur, Bookd,  ¤n ,  ¤ , C,Details 
 _____________________________________
-60220, 50818, 0.03, aud, h,hsbc122  ✔️
 60225, 00000, 0.41, hkd, h,Pay+MnyB ╻
 60315, 00000,    0, cny,  ,hMort+cCC╻ 
 60325, 00000, 0.41, hkd, h,Pay+MnyB ╻
-60330, 51229, 2.50, hkd, h,hsbc125  ✔️
+60330, 51229, 2.50, hkd, h,hsbc125  ☑️
 60408, 00000, 0.62, hkd, h,Tax_Pay  ╻
 60415, 00000,    0, cny,  ,hMort+cCC╻
 60428, 50728, 1.44, hkd, c,hangs    ✘
 60428, 50728, 0.34, usd, c,hangs    ✘
 60430, 50731, 5.26, usd, l,2355326  ✔️
+60520, 60220, 0.03, aud, h,hsbc126  ☑️
 60806, 60206, 0.05, usd, c,hangs    ✘
 61008, 51208, 1.41, usd, l,2520139  ✔️
 70111, 60109, 0.57, usd, l,2560950  √
@@ -22,7 +22,8 @@ _____________________________________
 -dpst, 00000, 0.40, aud, a,wpacOff  ✔️
 ```
 - ? awaiting confirmation number
-- ✘  from message not bank site
+- ✘ from message not bank site
+- ☑️ online audit done on 2026-02-20
 - √ online audit done on 2026-01-16
 - ✔️ online audit done on 2026-01-01
 - MortCNcc = Mortgage +CN-creditcard 
