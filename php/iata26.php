@@ -27,7 +27,7 @@ function processLine($line, $year) {
     $outputLine = $line;
     
     // Process lines starting with M1, M2, or __
-    if (preg_match('/^(M1|M2|__)([a-zA-Z\/]+)\s+([A-Za-z0-9]+)\s+([a-zA-Z]{6,8})\s+([0-9]+)\s+(\d{3}[a-zA-Z0-9]+)/', $line, $matches)) {
+    if (preg_match('/^(M1|M2|__)([a-zA-Z\/]+)\s+([A-Za-z0-9]+)\s+([a-zA-Z]{6,8})\s+([A-Za-z0-9]+)\s+(\d{3}[a-zA-Z0-9]+)/', $line, $matches)) {
         $name = $matches[2]; // e.g., MICHAEL/KYM
         $route = $matches[4]; // e.g., PVGHKGCX
         $flight = $matches[5]; // e.g., 0377
@@ -75,11 +75,11 @@ function processData($data, $year) {
 }
 
 $data = ' 
-__MICHAEL/KYM   xxxxxxx xmnhkgtr G923 069z 00
-__JI/CHUNMS     xxxxxxx xmnhkgtr G923 069z 00
+__MICHAEL/KYM   999999 xmnhkgtr G923 069TRN00000
+__JI/CHUNMS     999999 xmnhkgtr G923 069TRN00000
 
-__MICHAEL/KYM   xxxxxxx szxxmntr D668 066z 00
-__JI/CHUNMS     xxxxxxx szxxmntr D668 066z 00
+__MICHAEL/KYM   999999 szxhkgtr D668 066TRN00000
+__JI/CHUNMS     999999 szxxmntr D668 066TRN00000
 
 M1MICHAEL/KYM   EPLNVM5 SINSZXZH 0240 064T022E0120 15C>3181OO6064BZH 29479480938118102ZH LH 992000437391279  2PC*30600000K0911       
 M1JI/CHUN       EPLNVM5 SINSZXZH 0240 064T022F0117 15C>3182OO6064BZH 29479480938118002ZH LH 992004719554828  2PC*30600000K0911       
