@@ -7,8 +7,8 @@
 <body>
  <h2>
 <svg
-   width="300"
-   height="95"
+   width="360"
+   height="65"
    version="1.1"
    id="svg1"
    sodipodi:docname="head72.svg"
