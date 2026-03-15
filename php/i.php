@@ -5,8 +5,9 @@
  <link rel="stylesheet" href="https://sustance.github.io/head.css" />
 </head>
 <body>
+ <h2>
 <svg
-   width="900"
+   width="200"
    height="95"
    version="1.1"
    id="svg1"
