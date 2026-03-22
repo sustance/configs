@@ -27,6 +27,19 @@
       "os": "Linux"
     },
     {
+      "name": "d",
+      "country": "US",
+      "host_url": "tilde.club",
+      "url_own": "d.identity2.com",
+      "url": "tilde.club/~id",
+      "account_name": "id",
+      "acc_nm_short": "id",
+      "ip_address": "142.44.150.184",
+      "apps_running": "nothing here",
+      "links": ["diy", "i",],
+      "os": "Fedora"
+    },
+    {
       "name": "e",
       "country": "DE",
       "host_url": "envs.net",
