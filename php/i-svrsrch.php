@@ -64,7 +64,7 @@ let sortedCountries = [];
 let sortedSoftware = [];
 
 // Fetch the JSON data
-fetch('https://thunix.net/~id/status_server_master.json')
+fetch('https://envs.net/~identity2/status_server_master.json')
     .then(response => response.json())
     .then(data => {
         serverData = data;
