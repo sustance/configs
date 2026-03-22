@@ -87,8 +87,8 @@
       "account_name": "id",
       "acc_nm_short": "id",
       "ip_address": "142.44.150.185",
-      "apps_running": "status_server.py runs here",
-      "links": ["iata25", "points25", "IATAbp25csv", "julian", "diy", "i", "test"],
+      "apps_running": "",
+      "links": ["i", "test"],
       "os": "fBSD"
     },
     {
