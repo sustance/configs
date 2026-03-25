@@ -218,6 +218,7 @@
       "acc_nm_short": "eng",
       "ip_address": "port 22",
       "apps_running": "<span style='color:var(--col10-6);'>smb: crashes boot</span>",
+      "links": [],
       "os": "Linux"
     },
     {
@@ -230,6 +231,7 @@
       "acc_nm_short": "aa",
       "ip_address": "port 443",
       "apps_running": "Deb13 <span style='color:var(--col10-6);'>automate 4</span>",
+      "links": [],
       "os": "Linux"
     },
     {
@@ -242,6 +244,7 @@
       "acc_nm_short": "aa",
       "ip_address": "port 8081",
       "apps_running": "FreeBSD14.3 <span style='color:var(--col10-6);'>automate 7</span>",
+      "links": [],
       "os": "Linux"
     }
     
