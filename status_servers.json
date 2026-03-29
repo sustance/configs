@@ -3,7 +3,7 @@
     { 
       "name": "b",
       "country": "US",
-      "host_url": "✓ bsd.tilde.team",
+      "host_url": "bsd.tilde.team",
       "url_own": "b.identity2.com",
       "url": "bsd.tilde.team/~identity2",
       "account_name": "identity2",
@@ -16,7 +16,7 @@
     {
       "name": "c",
       "country": "US",
-      "host_url": "✓ ctrl-c.club",
+      "host_url": "ctrl-c.club",
       "url_own": "c.identity2.com",
       "url": "ctrl-c.club/~identity2",
       "account_name": "identity2",
@@ -42,7 +42,7 @@
     {
       "name": "e",
       "country": "DE",
-      "host_url": "✓ envs.net",
+      "host_url": "envs.net",
       "url_own": "e.identity2.com",
       "url": "envs.net/~identity2",
       "account_name": "identity2",
@@ -55,7 +55,7 @@
     {
       "name": "f",
       "country": "DE",
-      "host_url": "✗ freeshell.de",
+      "host_url": "freeshell.de",
       "url_own": "f.identity2.com",
       "url": "freeshell.de/~identity",
       "account_name": "identity",
@@ -68,7 +68,7 @@
     {
       "name": "g",
       "country": "CA",
-      "host_url": "✗ tilde.guru",
+      "host_url": "tilde.guru",
       "url_own": "g.identity2.com",
       "url": "tilde.guru/~edi",
       "account_name": "edi",
@@ -94,7 +94,7 @@
     {
       "name": "i",
       "country": "DE",
-      "host_url": "✗ tilde.institute",
+      "host_url": "tilde.institute",
       "url_own": "i.identity2.com",
       "url": "id2.tilde.institute",
       "account_name": "id2",
@@ -120,7 +120,7 @@
     {
       "name": "n",
       "country": "US",
-      "host_url": "✓ tilde.town",
+      "host_url": "tilde.town",
       "url_own": "n.identity2.com",
       "url": "tilde.town/~id",
       "account_name": "id",
@@ -172,7 +172,7 @@
     {
       "name": "t",
       "country": "CA",
-      "host_url": "✓ tilde.team",
+      "host_url": "tilde.team",
       "url_own": "t.identity2.com",
       "url": "tilde.team/~identity2",
       "account_name": "identity2",
