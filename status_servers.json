@@ -3,7 +3,7 @@
     { 
       "name": "b",
       "country": "US",
-      "host_url": "bsd.tilde.team",
+      "host_url": "✓ bsd.tilde.team",
       "url_own": "b.identity2.com",
       "url": "bsd.tilde.team/~identity2",
       "account_name": "identity2",
@@ -68,7 +68,7 @@
     {
       "name": "g",
       "country": "CA",
-      "host_url": "tilde.guru",
+      "host_url": "✗ tilde.guru",
       "url_own": "g.identity2.com",
       "url": "tilde.guru/~edi",
       "account_name": "edi",
