@@ -183,6 +183,20 @@
       "os": "Linux"
     },
     {
+      "name": "r",
+      "country": "CA",
+      "host_url": "tilde.green",
+      "url_own": "r.identity2.com",
+      "url": "tilde.green/~id",
+      "account_name": "iden",
+      "acc_nm_short": "id*",
+      "ip_address": "54.38.176.219",
+      "apps_running": "",
+      "links": ["test"],
+      "os": ""
+    },
+        
+    {
       "name": "v",
       "country": "US",
       "host_url": "vern.cc",
