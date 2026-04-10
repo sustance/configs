@@ -132,7 +132,7 @@ foreach ($output as $line) {
     echo "$line\n";
 }
 
-echo "\nNote airline 'tr' is a train trip,
+echo "\nNote airline 'tr' is train, 'rd' is road trip,
 Airline code/custom name used for train stn.\n
 The item 'K' = 'K M,
 The item 'C' = 'J C' aka 'S M'.\n
