@@ -1,4 +1,21 @@
 <?php
+// Shared on tilde/pubnix as they need useful script to attract more users/sponsors
+// This is PHP as that is widely available on Pubnix server = free
+// USE:
+// Paste this file to public_html folder edit $THIS_YEAR and $data 
+// - open with web browser, you have a neet trip summary
+// - Cut and past to AI chat and ask questions "Total days in the EU during these trips" "Draw map these trips and coiies"
+// PROCESS:
+// Phone Scan barcode of every airline boarding pass. Many free apps and cammera con do this.
+// Paste barcodes into "$data = ' " below in sequence when online next.
+// - IATA barcode only has "day of year" of Julian dates. I have scriot for each year and set "$THIS_YEAR"
+// - the first 5 standard IATA fields normally contain all the data i need. After that the IATA standard is not "standard"
+// - In rare occasions you need to edit the space sepateted CSV of deviant of codes  
+//  I also make entries for road/rail travel to cross borders or link air legs logically
+// TODO:
+// I could call an external csv file for data and append it from a web page etc but am rarely online at check-in.
+// Consider just leapyear/non-leapyear or just tollerate leap years being 1 day out on the gregorian calendar.
+
 // Set the year for Julian date conversion
 $THIS_YEAR = 2026; 
 // Convert Julian day to Gregorian date in YYMMDD format
