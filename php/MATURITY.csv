@@ -8,9 +8,10 @@ _____________________________________
 60430, 50731, 5.26, usd, l,2355326  •
 60515, 00000,    0, cny,  ,hMort+cCC╻·
 60520, 60220, 0.03, aud, h,hsbc126  •·
-60625, 00000, 0.41, hkd, h,Pay+MnyB ╻·
 60615, 00000,    0, cny,  ,hMort+cCC╻
+60618, 00000, .001, aud, a,PaySrovic? 
 60623, 60323, 4.90, hkd, h,hsbc127  •
+60625, 00000, 0.41, hkd, h,Pay+MnyB ╻·
 60630, 60330, 0.40, hkd, h,hsbc128  •
 60630, 60330, 1.20, hkd, h,hsbc129  •
 60806, 60206, 0.05, usd, c,hangs    ✘
@@ -23,14 +24,13 @@ _____________________________________
 -dpst, 00000, 0.40, aud, a,wpacOff  ✔️
 ```
 - ? awaiting confirmation number
-- · most recent edits
+-  · most recent edits
 - ✘ from message not bank site
 - • online audit done on 2026-04-15
-- √ online audit done on 2026-01-16
 - ✔️ online audit done on 2026-01-01
 - MortCNcc = Mortgage +CN-creditcard 
-- Pay only 2mths shown 
-- ✗ ✘  🗹 ☑️ ✓ ✔️  √ · •
+- Pay + MortCNcc only 2mths shown 
+- ✗ ✘  🗹 ☑️ ✓  √ · •
 
 ⓪ ① ② ③ ④ ⑤ ⑥ ⑦ ⑧ ⑨ 
 🔴╹╵╻╷┃╏╎┇┆┋┊║￩￫¯±¶￬￪￭￮┃°
