@@ -1,3 +1,15 @@
+from 60424, Salary
+to   60724, 60424, 0.38, usd, h,hsbc130
+
+from 60430, 50731, 5.26, usd, l,2355326  •
+to   70430, 60430, 5.41, usd, l,2673869
+
+from 60428, 50728, 1.44, hkd, c,hangs    ✘
+to   61028, 60428, 1.49, hkd, c,hangs
+
+from 60428, 50728, 0.34, usd, c,hangs    ✘
+to   61028, 60428, 0.35, usd, c,hangs
+
 to   60520, 60220, 0.03, aud, h,hsbc126
 from 60220, 50818, 0.03, aud, h,hsbc122  ✔️
 
