@@ -44,8 +44,8 @@ function processLine($line, $year) {
     $outputLine = $line;
     
     // Process lines starting with M1, M2, or __
-    //if (preg_match('/^(M1|M2|__)([a-zA-Z\/]+)\s+([A-Za-z0-9]+)\s+([A-Za-z0-9]{6,8})\s+([A-Za-z0-9]+)\s+(\d{3}[a-zA-Z0-9]+)/', $line, $matches)) {
-    if (preg_match('/^(M1|M2|__)([a-zA-Z\/]+)\s+([A-Za-z0-9]+)\s+([a-zA-Z]{6,8})\s+([A-Za-z0-9]+)\s+(\d{3}[a-zA-Z0-9]+)/', $line, $matches)) {
+    if (preg_match('/^(M1|M2|__)([a-zA-Z\/]+)\s+([A-Za-z0-9]+)\s+([A-Za-z0-9]{6,8})\s+([A-Za-z0-9]+)\s+(\d{3}[a-zA-Z0-9]+)/', $line, $matches)) {
+    //if (preg_match('/^(M1|M2|__)([a-zA-Z\/]+)\s+([A-Za-z0-9]+)\s+([a-zA-Z]{6,8})\s+([A-Za-z0-9]+)\s+(\d{3}[a-zA-Z0-9]+)/', $line, $matches)) {
         $name = $matches[2]; // e.g., MICHAEL/KYM
         $route = $matches[4]; // e.g., PVGHKGCX
         $flight = $matches[5]; // e.g., 0377
