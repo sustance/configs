@@ -167,12 +167,8 @@ foreach ($output as $line) {
 
 echo "\nNote airline 'tr' is train, 'rd' is road trip,
 Airline code/custom name used for train stn.\n
-The item 'K' = 'K M,
-The item 'C' = 'J C' aka 'S M'.\n
-The K and C normally travel together,\n
-The 'Home Port' is Hong Kong.\n
-Airports HKG, SZX, CAN are all used for
-Hong Kong Home Port arrival and departure.\n
+The item 'K' = 'K M, 'C' = 'J C' aka 'S M'.\n
+The K and C travel together, 'Home Port' is HKG.\n
 Total lines processed: " . count($output) . "</p>";
 
 // Optional: Save processed data to CSV for use with your second dataset
@@ -241,8 +237,5 @@ if (file_put_contents($jsonFile, $jsonData) !== false) {
 } else {
     echo "Failed to write JSON file.\n";
 }
-
-
-
 
 ?>
