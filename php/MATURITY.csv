@@ -1,26 +1,26 @@
 ```
 Matur, Bookd,  ¤n ,  ¤ , C,Details 
-60515, 00000,    0, cny,  ,hMort+cCC╻
-60520, 60220, 0.03, aud, h,hsbc126  •
+60515, 00000,    0, cny,  ,h⌂+cCC   ╻
+60520, 60220, 0.03, aud, h,♄s^c126  •
 60525, 00000, 0.41, hkd, h,Pay+MnyB ╻
-60615, 00000,    0, cny,  ,hMort+cCC╻
+60615, 00000,    0, cny,  ,h⌂+cCC   ╻
 60618, 00000, .001, aud, a,PaySrovic? 
-60623, 60323, 4.90, hkd, h,hsbc127  •
+60623, 60323, 4.90, hkd, h,♄s^c127  •
 60625, 00000, 0.41, hkd, h,Pay+MnyB ╻
-60630, 60330, 0.40, hkd, h,hsbc128  •
-60630, 60330, 1.20, hkd, h,hsbc129  •
-60724, 60424, 0.38, usd, h,hsbc130  √·
-60806, 60206, 0.05, usd, c,hangs    ✘
+60630, 60330, 0.40, hkd, h,♄s^c128  •
+60630, 60330, 1.20, hkd, h,♄s^c129  •
+60724, 60424, 0.38, usd, h,♄s^c130  √·
+60806, 60206, 0.05, usd, c,♄angs    ✘
 61008, 51208, 1.41, usd, l,2520139  •
-61028, 60428, 0.35, usd, c,hangs    ✘·
+61028, 60428, 0.35, usd, c,♄angs    ✘·
 70111, 60109, 0.57, usd, l,2560950  •
 70129, 60129, 1.83, usd, l,2580073  •
 70217, 60217, 1.71, usd, l,2601335  •
-70428, 60428, 1.49, hkd, c,hangs    ✘·
+70428, 60428, 1.49, hkd, c, 𓍯𓍯.hangs    ✘·
 70430, 60430, 5.41, usd, l,2673869  √·
 -dpst, 50108, 0.71, chf, l,2135660  •
 -call, 50204, 0.51, usd, s,*8646    ✘
--dpst, 00000, 0.40, aud, a,wpacOff  ✔️
+-dpst, 00000, 0.40, aud, a,₩Offset  ✔️
 ```
 - ? awaiting confirmation number
 -  · most recent edits
@@ -28,7 +28,7 @@ Matur, Bookd,  ¤n ,  ¤ , C,Details
 - √ online audit done on 2026-05-02
 - • online audit done on 2026-04-15
 - ✔️ online audit done on 2026-01-01
-- MortCNcc = Mortgage +CN-creditcard 
+- ⌂+CNcc = + ⌂+CN-creditcard 
 - Pay + MortCNcc only 2mths shown 
 
 skip
