@@ -1,6 +1,6 @@
 <?php
 // Set the year for Julian date conversion
-$THIS_YEAR = 2026; 
+$THIS_YEAR = 2025; 
 // Convert Julian day to Gregorian date in YYMMDD format
 function julianToGregorian($julianDay, $year) {
     $date = new DateTime("$year-01-01");
