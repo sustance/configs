@@ -184,8 +184,9 @@ function saveToCsv($output, $filename) {
 }
 
 // Uncomment the next line to save the processed data to a CSV file
-saveToCsv($output, 'iata', $THIS_YEAR, 'out.csv');
-
+// Use dots to join strings and variables
+$filename = 'iata_' . $THIS_YEAR . 'out.csv'; 
+saveToCsv($output, $filename); 
 
 
 // ATTEMPT TO ALSO SAVE A JSON RECORD
