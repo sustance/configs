@@ -320,7 +320,7 @@ function saveToCsv($output, $filename) {
 }
 
 // Uncomment the next line to save the processed data to a CSV file
-saveToCsv($output, 'iata25out.csv');
+saveToCsv($output, 'iata', $THIS_YEAR, 'out.csv');
 
 
 
