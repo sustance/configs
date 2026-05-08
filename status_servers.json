@@ -79,6 +79,19 @@
       "os": "fBSD"
     },
     {
+      "name": "h",
+      "country": "CA",
+      "host_url": "tilde.guru",
+      "url_own": "h.identity2.com",
+      "url": "tilde.guru/~idel",
+      "account_name": "edel",
+      "acc_nm_short": "e2l",
+      "ip_address": "95.179.178.246",
+      "apps_running": "BBS",
+      "links": ["eval"],
+      "os": "fBSD"
+    },
+    {
       "name": "i",
       "country": "DE",
       "host_url": "tilde.institute",
