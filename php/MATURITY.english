@@ -1,0 +1,71 @@
+## Instruction: Process Currency Data from CSV Block
+
+### Objective
+Process a given CSV block containing currency data, enrich it with exchange rate information, and produce a formatted summary table.
+
+### Steps to Execute
+
+1. **Read the input CSV block**  
+   The CSV contains at least the following columns (order may vary, but look for currency code and units):
+   - A column with currency codes (e.g., `cn:`, `au:`, `hk:`, `us:`, `ch:`, `eu:`)
+   - A column with numeric values representing **units of currency**
+
+2. **Add two new columns to the right**  
+   - **First new column: `Forex`**  
+     Assign a recent (not necessarily precise) exchange rate to USD for each currency based on the following mapping:
+     - `cn:` → CNY → 0.14 USD  
+     - `au:` → AUD → 0.65 USD  
+     - `hk:` → HKD → 0.128 USD  
+     - `us:` → USD → 1.00 USD  
+     - `ch:` → CHF → 1.12 USD  
+     - `eu:` → EUR → 1.08 USD  
+
+   - **Second new column: `USD equiv`**  
+     Calculate as:  
+     `units of currency × Forex`
+
+3. **Calculate from the revised table**  
+   - Total USD equivalent for each currency (sum of `USD equiv` grouped by currency type)  
+   - Total USD equivalent over all rows (grand total)
+
+4. **Output requirements**  
+   - Output the **created table as plain text**  
+   - **Pad columns with zeros** (e.g., `001.20` instead of `1.2`) to align them visually  
+   - **Round all output numbers to two decimal places** (e.g., `1.20`, `0.00`, `13.51`)
+
+### Example Exchange Rate Table for Reference
+
+| Currency Code | Currency | Rate to USD |
+|---------------|----------|-------------|
+| cn:           | CNY      | 0.14        |
+| au:           | AUD      | 0.65        |
+| hk:           | HKD      | 0.128       |
+| us:           | USD      | 1.00        |
+| ch:           | CHF      | 1.12        |
+| eu:           | EUR      | 1.08        |
+
+### Output Format Example (Plain Text, Zero-Padded, Two Decimals)
+
+```
+Matur  Bookd    ¤n   ¤    C  Details           Forex  USD equiv
+60615  00000   0.00  cn:      h⌂+中cc ╻        0.14   0.00
+60618  00000   0.00  au:  a   SroVic ?         0.65   0.00
+...
+
+Total USD by currency:
+CNY: 0.00
+AUD: 0.28
+HKD: 1.56
+USD: 10.88
+CHF: 0.80
+
+Grand total USD equivalent: 13.51
+```
+
+### Notes
+- The currency code column may contain a colon (e.g., `cn:`), leavi in, it is for obfuscation.
+- Zero-padding should be applied to numeric columns (e.g., `¤n`, `Forex`, `USD equiv`) to ensure visual alignment, typically to two decimal places.
+- Rounding to two decimals applies to all final displayed numbers (intermediate calculations can retain precision).
+
+
+
