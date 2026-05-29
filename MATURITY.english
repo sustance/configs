@@ -1,0 +1,12 @@
+
+Process the appended csv block as follows
+
+create two new columns on the right
+- first new column "Forex" get a recent not neccesarily precise exchange rate to usd
+  column4 is the currency cn:=cny, au:=aud, hk:=hkd, us:=usd, ch:=chf, eu:=euro
+- second new column is column 3 "units of currency" multiplied by "Fore" column for USD equiv
+
+Calculate from the revised table
+- Total USD equivalent for each currency 
+- Total USD equivalent over all    
+
