@@ -59,19 +59,7 @@
 	</tr>
 </table>
 </div>
-<?php
-function is_w3m() {
-    return isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], 'w3m') !== false;
-}
-    $cyan_text = "\033[0;36m";
-    $bold_text = "\033[1m";
-    $reset_style = "\033[0m";
-if (is_w3m()) {
-        echo $bold_text . $cyan_text . "IS w3m text Site" . $reset_style . "\n";
-} else {
-        echo '<h1 style="color:teal;">NOT w3m css Site</h1>';
-}
-?>   
+
 <div class="box"> 
 
 
@@ -130,7 +118,19 @@ $<a href="https://www.interactivebrokers.com.hk/en/home.php">ikbr</a><br>
 </tr>
 </table>
 
-	
+	<?php
+function is_w3m() {
+    return isset($_SERVER['HTTP_USER_AGENT']) && strpos($_SERVER['HTTP_USER_AGENT'], 'w3m') !== false;
+}
+    $cyan_text = "\033[0;36m";
+    $bold_text = "\033[1m";
+    $reset_style = "\033[0m";
+if (is_w3m()) {
+        echo $bold_text . $cyan_text . "IS w3m text Site" . $reset_style . "\n";
+} else {
+        echo '<h1 style="color:teal;">NOT w3m css Site</h1>';
+}
+?>   
 
 
 
