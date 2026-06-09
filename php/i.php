@@ -40,9 +40,9 @@
      stroke="#000000"
      stroke-width="1"
      id="text1"
-     style="font-size:96px;stroke-width:1.5;stroke-dasharray:none"><tspan
+     style="font-size:64px;stroke-width:1.5;stroke-dasharray:none"><tspan
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:96px;font-family:Georgia;-inkscape-font-specification:'Georgia Bold';stroke-width:1.5;stroke-dasharray:none"
-       id="tspan1">•Menu</tspan></text>
+       id="tspan1">Menu</tspan></text>
 </svg>
 <?php
 $head = file_get_contents('https://sustance.github.io/bookmark.html');
