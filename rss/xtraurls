@@ -1,0 +1,18 @@
+8 # only links
+https://www..com/news/rss-news-and-feeds
+
+12 # https://rss.app/rss-feed/al-jazeera-rss-feed
+ 13 # https://www.aljazeera.com/economy/ "~Al Jazera economy"
+ 14 # https://www.aljazeera.com/news/ "~Al Jazera news"
+ 15 # https://www.aljazeera.com/features/ "~Al Jazera features
+ 16 #https://www.pbs.org/newshour/about/pbs-news-rss-feeds
+  1 #query:RecentArticles:age<=1
+  2 #query:RecentArticles:"age == 0 and unread = \"yes\""
+
+  # https://www.finanznachrichten.de/service/rss.htm "~Finanznachrichte RSS list"
+  # https://www.techmeme.com/search/query?q=rss&wm=false "~Techmeme"
+
+https://feeds.feedburner.com/dubaichronicle/Finance "~ 5. Dubai Chronicle"
+
+  # √  •  ✔️  ►  ⌂  中
+u0_a399@localhost:L:bash:~/./n>
