@@ -1,0 +1,94 @@
+query:RecentArticles:age==0
+http://www.gulf-times.com/rssFeed/2 me "~1. GulfTimes Business "                            https://api.taiwantoday.tw/en/rss.php?unit=2,6,10,15,18 "~1. Taiwan Today"
+https://www.theatlantic.com/feed/all/ "~1. The Atlantic"                                    http://feeds.foxnews.com/foxnews/latest "~1. Fox News"
+https://www.rt.com/rss/ "~1. RT Daily News"
+http://feeds2.feedburner.com/businessinsider "~1. Bus Insider"
+http://fortune.com/feed/ "~1. Fortune"
+https://www.inverse.com/feed/articles/1.rss "~1. Inverse"
+https://www.technologyreview.com/stories.rss "~1. MIT Tech Review"
+http://www.sci-news.com/feed "~1. Sci News"   https://stocknewsjournal.com/feed/ "~1. Stock News Journal"                                 http://feeds.mashable.com/Mashable "~1. Mashable"                                           http://www.vindobona.org/rss "~x. Vindobona"
+                                              https://feeds.npr.org/1001/rss.xml "~2. NPR"
+https://www.theguardian.com/world/rss "~2. The Guardian World News"                         http://rss.cnn.com/rss/edition.rss "~2. CNN edition"
+https://www.pbs.org/newshour/feeds/rss/headlines "~2. PBS"
+https://feeds.content.dowjones.io/public/rss/RSSWorldNews "~2. WSJ: World News"
+https://feeds.content.dowjones.io/public/rss/RSSWSJD" ~2. WSJ: Tech"                        https://feeds.content.dowjones.io/public/rss/RSSMarketsMain "~2. WSJ: Markets"
+https://www.finanznachrichten.de/rss-nachrichten-meistgelesen "~2. Finanznachrichte most read"
+https://www.finanznachrichten.de/rss-news "~2, Finanznachrichte english"
+https://www.finanznachrichten.de/rss-nachrichten-wirtschaft-konjunktur "~2. Finanznachrichte econ + business"
+http://thehill.com/rss/syndicator/19110 "~2. The Hill"
+https://www.theguardian.com/business/economics/rss "~2. The Guardian: Econ"
+https://economictimes.indiatimes.com/markets/rssfeeds/1977021501.cms "~2. IndiaTimes Econ"
+https://www.androidauthority.com/feed/ "~2. Android Auth"
+https://feeds.feedburner.com/fastcompany/headlines "~2. Fast Company"
+http://www.scmp.com/rss/91/feed "~2. SCMP"
+
+
+http://feeds.feedburner.com/DrudgeReportFeed "~3. Drudge Report"
+https://www.chron.com/rss/feed/News-270.php "~3. chron?"
+https://www.taipeitimes.com/xml/index.rss "~3. Taipei Times -w"
+http://www.chinadaily.com.cn/rss/world_rss.xml "~3. China Daily"
+http://rss.cnn.com/rss/money_topstories.rss "~3. CNN Money Top Stories"
+http://variety.com/feed/ "~3. Variety"
+http://feeds.nbcnews.com/feeds/topstories "~3. NBC News"
+http://feeds.washingtonpost.com/rss/business "~3. Wash Post"
+http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml "~3. NY Times"
+http://www.latimes.com/rss2.0.xml "~3. LA Times"
+http://feeds.bbci.co.uk/news/rss.xml "~3. BBC i"
+http://www.dailymail.co.uk/articles.rss "~3. Daily Mail UK"
+http://www.independent.co.uk/rss "~3. The Independant"
+https://nypost.com/feed/ "~3. NY Post"
+http://feeds.feedburner.com/daily-express-personal-finance-news "~3. Daily Express"
+https://www.cbsnews.com/latest/rss/main "~3. CBS Latest"
+http://rss.dw.com/xml/rss-en-all "~3. DWelle"
+https://seekingalpha.com/market_currents.xml "3. SeekingAlpha"
+https://www.ft.com/?format=rss "3. Fin Times Inter"
+
+
+http://www.globaltimes.cn/rss/outbrain.xml "~4. GlobalTimes"
+http://rss.cnn.com/rss/cnn_topstories.rss "~4. CNN Top Stories"
+https://www.investing.com/rss/news.rss "~4. Investing"
+https://feeds.feedburner.com/NDTV-LatestNews "~4. NDTV Newsq"
+https://asia.nikkei.com/rss/feed/nar "~4. Nikkei"
+https://qz.com/feed/ "~4. Quartz"
+http://feeds.marketwatch.com/marketwatch/topstories/ "~4. MarketWatch"
+http://vancouversun.com/feed "~4. Vancouver Sun "
+
+https://www.sfgate.com/rss/feed/Business-and-Technology-News-448.php" "~5. Sfgate"
+https://www.banklesstimes.com/feed/ "~5. banklesstimes"
+
+https://gizmodo.com/rss
+http://www.telegraph.co.uk/rss.xml
+http://time.com/feed/
+https://www.forbes.com/real-time/feed2/ "~. Forbes"
+https://www.huffingtonpost.com/section/front-page/feed
+http://feeds.abcnews.com/abcnews/topstories
+https://www.arstechnica.com/arstechnica/index/ "~ ArsTech"
+https://feeds.feedburner.com/CoinDesk
+https://www.entrepreneur.com/latest.rss
+http://www.economist.com/sections/economics/rss.xml "~ Economist"
+https://news.bitcoin.com/feed/
+https://www.vanityfair.com/feed/rss
+https://cointelegraph.com/feed
+http://feeds2.feedburner.com/thenextweb
+https://www.prnewswire.com/rss/all-news-releases-from-PR-newswire-news.rss
+https://boingboing.net/feed
+https://wccftech.com/feed/
+https://99bitcoins.com/feed/
+https://www.which.co.uk/news/feed/
+https://themerkle.com/feed/
+https://www.seccountry.com/feed
+http://www.newsbtc.com/feed/
+http://business.financialpost.com/feed
+http://abc13.com/feed/
+https://bitcoinmagazine.com/feed
+http://www.valuewalk.com/feed/
+https://coincentral.com/feed/
+https://www.coinspeaker.com/feed/
+http://reneweconomy.com.au/feed/
+https://www.smartcompany.com.au/feed/
+http://www.livebitcoinnews.com/feed
+https://www.eastbayexpress.com/oakland/Rss.xml
+http://www.lowkickmma.com/comments/feed/
+http://www.binaryoptionsnow.com/feed/
+# https://store.hbr.org/rss-syndication/?srsltid=AfmBOorfCoVvbKltkR1zNbzPmkAulWOo135MW8AG3ohOFqdT_92BeQ7t
+https://www.usnews.com/rss/money "~  US News"
