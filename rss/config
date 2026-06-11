@@ -1,0 +1,23 @@
+
+browser "/data/data/com.termux/files/usr/bin/termux-open-url %u"                            #browser "/data/data/com.termux/files/usr/bin/w3m %u"
+# browser "links %u"
+# highlight articlelist "and" red default bold# highlight article "and" black red default bold
+# - underline  reverse  blink  dim  bold  protect   invis
+# - black red green yellow blue magenta cyan white default color<n> e.g. color123           
+highlight all "ubs|lgt|crestone|prince max|prince..|cs|credit suisse|spacex|deepseek|grok|openai|claude|perplexity|kiki|z.ai|notebooklm" white red bold
+highlight all "china|hong kong|korea|japan|apec|australia.|taiwan|asean" black cyan bold
+highlight all "asia pacific|east asia|middle east" black yellow bold
+highlight all "swiss|liechtenstein|austria.|europe.." black blue bold
+highlight all "android|linux|...bsd" yellow green bold
+highlight all "iqbal|ermoti" white magenta bold
+highlight all "vaduz|zurich|shanghai|bejing|peking|shenzhen|taipei|vienna" black yellow bold
+
+#highlight (parameters: <target> <regex> <fgcolor> [<bgcolor> [<attribute> ...]]; default value: n/a)                                     #  You can highlight text parts in the feed list, the article list and the article
+#  view. (example: highlight all "newsboat" red)                                            
+#highlight-article (parameters: <filterexpr> <fgcolor> <bgcolor> [<attribute> ...]; default value: n/a)
+#  You can highlight articles in the article list if they match a filter expression.
+#  (example: highlight-article "author =~ \"Andreas Krennmair\"" white red bold)
+
+#highlight-feed (parameters: <filterexpr> <fgcolor> <bgcolor> [<attribute> ...]; default value: n/a)
+#  You can highlight feeds in the feed list if they match a filter expression.
+#  (example: highlight-feed unread › 100 white red bold)
