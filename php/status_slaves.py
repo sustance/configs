@@ -54,6 +54,9 @@ def main():
         'Tgpt': get_version('tgpt', '-v'),
         'Mutt': get_version('mutt', '-v'),
         'Neomutt': get_version('neomutt', '-v'),
+        'fim': get_version('fim', '-V'),
+        'fbi': get_version('fbi', '-V'),
+        'ueberzug': get_version('ueberzug', 'version'),)
     }
     
     # System info
