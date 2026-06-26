@@ -9,16 +9,14 @@ Matur,_Bookd,__¤n_,__¤_,_C,Details__
 60815, 00000,    0, cn:,  ,h⌂+中cc  ╻
 60820, 60520, 0.03, au:, h,s^c131  ┊
 60825, 00000, 0.41, hk:, h,►+MnyB  ╻
-
-60923, 60323, 4.90, hk:, h,hs^c127  
-
+60924, 60324, 5.20, hk:, h,hs^c132 ✔️·
 61008, 51208, 1.41, us:, l,2520139 •
 61028, 60428, 0.35, us:, c,𓍯se^   ✘·
 70111, 60109, 0.57, us:, l,2560950 •
 70129, 60129, 1.83, us:, l,2580073 •
 70217, 60217, 1.71, us:, l,2601335 •
-70428, 60428, 1.49, hk:, c,𓍯se^   ✘·
-70430, 60430, 5.41, us:, l,2673869 √·
+70428, 60428, 1.49, hk:, c,𓍯se^   ✘
+70430, 60430, 5.41, us:, l,2673869 √
 70618, 00000, .001, au:, a,SroVic  
 -dpst, 50108, 0.71, ch:, l,2135660 •
 -call, 50204, 0.51, us:, s,*8646   ✘
@@ -26,12 +24,12 @@ Matur,_Bookd,__¤n_,__¤_,_C,Details__
 -dpst, 00000, 0.40, au:, a,₩Offset ✔️
 ```
 - ? awaiting confirmation number
--  · most recent edits
+- · most recent edits
 - ✘ from message not online
+- ✔️ online audit done on 2026-06-26
 - ┊ online audit done on 2026-05-23
 - √ online audit done on 2026-05-02
 - • online audit done on 2026-04-15
-- ✔️ online audit done on 2026-01-01
 - ►, ⌂中cc only 2mths shown 
 
 skip
