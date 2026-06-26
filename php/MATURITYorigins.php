@@ -1,5 +1,6 @@
 
 from 60623, 60323, 4.90, hk:, h,hs^c127 •
+plus cash on hand
 to   60924, 60324, 5.20, hk:, h,hs^c132 •
 
 from 60520, 60220, 0.03, au:, h,s^c126  •
