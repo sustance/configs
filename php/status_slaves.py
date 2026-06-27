@@ -46,17 +46,17 @@ def main():
         'Curl': get_version('curl')[:50],
         'W3m': get_version('w3m'),
         'Lynx': get_version('lynx'),
-        'Newsboat': get_version('newsboat', '-v'),
-        'Weechat': get_version('weechat', '-v'),
+        '🗞Newsboat': get_version('newsboat', '-v'),
+        🗨Weechat': get_version('weechat', '-v'),
         'Tldr': get_version('tldr', '-v'),
         'Rtorrent': get_version('rtorrent', '-v'),
         'Nim': get_version('nim', '-v'),
         'Tgpt': get_version('tgpt', '-v'),
         'Mutt': get_version('mutt', '-v'),
         'Neomutt': get_version('neomutt', '-v'),
-        'fim': get_version('fim', '-V'),
-        'fbi': get_version('fbi', '-V'),
-        'ueberzug': get_version('ueberzug', 'version'),)
+        '🖼fim': get_version('fim', '-V'),
+        '🖼fbi': get_version('fbi', '-V'),
+        '🖼ueberzug': get_version('ueberzug', 'version'),)
     }
     
     # System info
