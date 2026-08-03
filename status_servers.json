@@ -168,19 +168,19 @@
       "apps_running": ["editor", "5GB storage"],
       "links": [""],
       "os": "Google"
-    },
+    },    
     {
       "name": "r",
-      "country": "CA",
+      "country": "FR",
       "host_url": "tilde.green",
       "url_own": "r.identity2.com",
-      "url": "tilde.green/~identity2",
+      "url": "tilde.green/~iden",
       "account_name": "iden",
       "acc_nm_short": "i2n",
-      "ip_address": "198.50.210.248",
-      "apps_running": "?",
-      "links": [""],
-      "os": "Debian Linux"
+      "ip_address": "54.38.176.219",
+      "apps_running": "",
+      "links": ["test"],
+      "os": "Debian"
     },
     {
       "name": "t",
@@ -195,20 +195,6 @@
       "links": ["lineage/index", "server_status"],
       "os": "Linux"
     },
-    {
-      "name": "r",
-      "country": "FR",
-      "host_url": "tilde.green",
-      "url_own": "r.identity2.com",
-      "url": "tilde.green/~iden",
-      "account_name": "iden",
-      "acc_nm_short": "i2n",
-      "ip_address": "54.38.176.219",
-      "apps_running": "",
-      "links": ["test"],
-      "os": ""
-    },
-        
     {
       "name": "v",
       "country": "US",
