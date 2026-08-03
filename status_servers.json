@@ -79,13 +79,13 @@
       "os": "fBSD"
     },
     {
-      "name": "h",
+      "name": "u",
       "country": "CA",
       "host_url": "tilde.guru",
-      "url_own": "h.identity2.com",
+      "url_own": "u.identity2.com",
       "url": "tilde.guru/~idel",
-      "account_name": "edel",
-      "acc_nm_short": "e2l",
+      "account_name": "idel",
+      "acc_nm_short": "ide",
       "ip_address": "95.179.178.246",
       "apps_running": "BBS",
       "links": ["eval"],
@@ -170,6 +170,19 @@
       "os": "Google"
     },
     {
+      "name": "r",
+      "country": "CA",
+      "host_url": "tilde.green",
+      "url_own": "r.identity2.com",
+      "url": "tilde.green/~identity2",
+      "account_name": "iden",
+      "acc_nm_short": "i2n",
+      "ip_address": "198.50.210.248",
+      "apps_running": "?",
+      "links": [""],
+      "os": "?"
+    },
+    {
       "name": "t",
       "country": "CA",
       "host_url": "tilde.team",
@@ -236,17 +249,17 @@
       "os": "Linux"
     },
             {
-      "name": "3",
+      "name": "7",
       "country": "HK",
       "host_url": "<s>web</s>",
-      "url_own": "3.identity2.com",
+      "url_own": "7.identity2.com",
       "url": "sufbo.tplinkdns.com",
       "account_name": "aaa",
       "acc_nm_short": "aa",
-      "ip_address": "port 2003",
+      "ip_address": "port 2007",
       "apps_running": "etherwake",
       "links": [],
-      "os": "RaspiOS"
+      "os": "Debian13"
     },
     {
       "name": "4",
