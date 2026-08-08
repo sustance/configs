@@ -47,7 +47,6 @@ def main():
         'W3m': get_version('w3m'),
         'Lynx': get_version('lynx'),
         '🗞Newsboat': get_version('newsboat', '-v'),
-        🗨Weechat': get_version('weechat', '-v'),
         'Tldr': get_version('tldr', '-v'),
         'Rtorrent': get_version('rtorrent', '-v'),
         'Nim': get_version('nim', '-v'),
