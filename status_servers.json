@@ -243,7 +243,7 @@
       "account_name": "aaa",
       "acc_nm_short": "aaa",
       "ip_address": "port 2003",
-      "apps_running": "etherwake",
+      "apps_running": "opkg etherwake",
       "links": [],
       "os": "WrtMerlin"
     },
