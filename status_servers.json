@@ -1,4 +1,25 @@
 {
+
+  "regions": {
+    "na": { "name": "North America" },
+    "eu": { "name": "Europe" },
+    "ea": { "name": "East Asia" }
+  },
+
+  "relay": {
+    "na": "b",
+    "eu": "c", 
+    "ea": "i"
+  },
+
+  "sets": {
+    "blog": ["b", "h", "m"],
+    "gemini": ["b", "h", "m"],
+    "internal": ["c", "k"],
+    "archive": ["a", "g", "m"]
+  },
+
+    
     "servers": [
     { 
       "name": "b",
