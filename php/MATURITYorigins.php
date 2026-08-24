@@ -1,3 +1,11 @@
+from 60820, 60520, 0.03, au:, h,hs^c131 ✔️@
+to   NOT DONE YET CHECK/CORRECT
+     61123, 60823, 0.03, au:, h,hs^c🆕🆕?
+
+from 60806, 60206, 0.05, us:, c,𓍯se^   ✘
+to   61106, 60807, 0.05, us:, c,𓍯se^   ✘
+
+
 from 60724, 60424, 0.38, hk:, h,hs^c130 ✔️
 from pay etc
 to   61024, 60724, 0.70, hk:, h,hs^c135 ✔️
