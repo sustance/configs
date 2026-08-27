@@ -1,0 +1,120 @@
+Date ,Who,Frm, To , By, Flgt, doy, FFpts
+__________________________________
+260819, K, PVG, HKG, HX, 0247, 231, fwc
+260819, C, PVG, HKG, HX, 0247, 231, fwc
+
+260813, K, SZX, PVG, ZH, 9521, 225, 
+260813, C, SZX, PVG, ZH, 9521, 225, 
+
+260812, K, hkg, szx, dr, 0000, 224, 
+260812, C, hkg, szx, dr, 0000, 224, 
+
+
+260724, K, HEL, HKG, AY, 0099, 205, 
+260724, C, HEL, HKG, AY, 0099, 205, 
+
+260723, K, LHR, HEL, AY, 1338, 204, 
+260723, C, LHR, HEL, AY, 1338, 204, 
+
+260711, K, TFU, LHR, CA, 0423, 192, 
+260711, C, TFU, LHR, CA, 2423, 192, 
+
+260710, K, SIN, TFU, CA, 0404, 191, 
+260710, C, SIN, TFU, CA, 0404, 191, 
+
+260707, K, HKG, SIN, CX, 0711, 188, 
+260707, C, HKG, SIN, CX, 0711, 188, 
+
+260620, K, HGH, HKG, HX, 0113, 171, fwc
+260620, C, HGH, HKG, HX, 0113, 171, fwc
+
+260619, K, yix, hgh, tr, G3387, 170, 
+260619, C, yix, hgh, tr, G3387, 170, 
+
+260617, K, hgh, yix, tr, G3326, 168, 
+260617, C, hgh, yix, tr, G3326, 168, 
+
+260613, K, PEK, HGH, HU, 7677, 164, fwc
+260613, C, PEK, HGH, HU, 7677, 164, fwc
+
+260609, K, SZX, PEK, HU, 7710, 160, 
+260609, C, SZX, PEK, HU, 7710, 160, fwc
+
+260608, K, hkg, szx, rd, 7041, 159, 
+260608, C, hkg, szx, rd, 7041, 159, 
+
+
+260520, K, SHA, HKG, HX, 0249, 140, fwc
+260520, C, SHA, HKG, HX, 0249, 140, fwc
+
+260512, K, szv, sha, tr, 7041, 132, 
+260512, C, szv, sha, tr, 7041, 132, 
+
+260511, K, sha, szv, tr, 7310, 131, fwc
+260511, C, sha, szv, tr, 7310, 131, fwc
+
+260511, K, HKG, SHA, HX, 0238, 131, fwc
+260511, C, HKG, SHA, HX, 0238, 131, fwc
+
+
+260430, K, SIN, HKG, CX, 0758, 120, 
+260430, C, SIN, HKG, CX, 0758, 120, 
+
+260426, K, TFU, SIN, 3U, 3909, 116, 
+260426, C, TFU, SIN, 3U, 3909, 116, 
+
+260423, K, WUH, TFU, MU, 2651, 113, 
+260423, C, WUH, TFU, MU, 2651, 113, 
+
+260420, K, HKG, WUH, CX, 0938, 110, 
+260420, C, HKG, WUH, CX, 0938, 110, 
+
+
+260409, K, HGH, HKG, CA, 0727, 099, 
+260409, C, HGH, HKG, CA, 0727, 099, 
+
+260406, K, sha, hgh, tr, C495, 096, 
+260406, C, sha, hgh, tr, C495, 096, 
+
+260330, K, CAN, SHA, CA, 1829, 089, 
+260330, C, CAN, SHA, CA, 1829, 089, 
+
+260327, K, hkg, can, tr, 6536, 086, 
+260327, C, hkg, can, tr, 6536, 086, 
+
+
+260310, K, xmn, hkg, tr, G923, 069, 
+260310, C, xmn, hkg, tr, G923, 069, 
+
+260307, K, szx, xmn, tr, D668, 066, 
+260307, C, szx, xmn, tr, D668, 066, 
+
+260305, K, SIN, SZX, ZH, 0240, 064, 
+260305, C, SIN, SZX, ZH, 0240, 064, 
+
+260302, K, HKG, SIN, SQ, 0893, 061, 
+260302, C, HKG, SIN, SQ, 0893, 061, 
+
+
+260211, K, FUK, HKG, HX, 0639, 042, 
+260211, C, FUK, HKG, HX, 0639, 042, 
+
+260205, K, HKG, FUK, HX, 0640, 036, 
+260205, C, HKG, FUK, HX, 0640, 036, 
+
+
+260124, K, SIN, HKG, SQ, 0898, 024, 
+260124, C, SIN, HKG, SQ, 0898, 024, 
+
+260121, K, HKG, SIN, SQ, 0875, 021, 
+260121, C, HKG, SIN, SQ, 0875, 021, 
+
+
+260114, K, PVG, HKG, CX, 0377, 014, 
+260114, C, PVG, HKG, CX, 0377, 014, 
+
+260107, K, TPE, PVG, MU, 5006, 007, 
+260107, C, TPE, PVG, MU, 5006, 007, 
+
+260105, K, HKG, TPE, HX, 0260, 005, 
+260105, C, HKG, TPE, HX, 0260, 005,
