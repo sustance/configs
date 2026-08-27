@@ -213,6 +213,58 @@ M1MICHAEL/KYMMR EQZTEY3 HKGTPEHX 0260 005O050H0007 147>3181WW6003BHX 29851604682
 M1JI/CHUNMS     EQZTEY3 HKGTPEHX 0260 005O050C0006 147>3182WW6003BHX 29851604682582402HX 1PC
 ';
 
+$data_ffpoints = '
+
+260819, K, fwc
+260819, C, fwc
+
+260813, K, 
+260813, C, 
+
+260812, K, 
+260812, C, 
+
+
+260724, K, 
+260724, C, 
+
+260723, K, 
+260723, C, 
+
+260711, K, 
+260711, C, 
+
+260710, K, 
+260710, C, 
+
+260707, K, 
+260707, C, 
+
+260620, K, fwc
+260620, C, fwc
+
+260619, K, 
+260619, C, 
+
+260617, K, 
+260617, C,
+
+260613, K, fwc
+260613, C, fwc
+
+260609, K, 
+260609, C, fwc
+
+260608, K, 
+260608, C, 
+
+260520, K, fwc
+260520, C, fwc
+
+260511, K, fwc
+260511, C, fwc
+';
+
 // Process the data
 $output = processData($data, $THIS_YEAR);
 
@@ -288,7 +340,7 @@ foreach ($lines as $line) {
 }
 
 // Save to JSON file in the same directory
-$jsonFile = __DIR__ . '/iata25_Codes.json';
+$jsonFile = __DIR__ . '/iata26_Codes.json';
 $jsonData = json_encode($records, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
 
 if (file_put_contents($jsonFile, $jsonData) !== false) {
