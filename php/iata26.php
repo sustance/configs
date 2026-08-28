@@ -403,9 +403,9 @@ foreach ($lines as $line) {
  $jsonData = json_encode($records, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
 
 if (file_put_contents($jsonFile, $jsonData) !== false) {
-    echo "Successfully saved " . count($records) . " records to $jsonFile\n";
+    echo "\nSuccessfully saved " . count($records) . " records to $jsonFile\n";
 } else {
-    echo "Failed to write JSON file.\n";
+    echo "\nFailed to write JSON file.\n";
 }
 
 ?>
