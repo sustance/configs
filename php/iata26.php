@@ -342,7 +342,7 @@ echo "
 - The item 'K' = 'K M, 'C' = 'J C' aka 'S M'
 - K and C travel together, 'Home Port' is HKG
 - FFpts column: ff if credited, blank = missed
-- Total lines processed: " . count($output_with_ff)";
+- Total lines processed: " . count($output_with_ff);
 
 // === SAVE TO CSV ===
 function saveToCsv($output, $filename) {
