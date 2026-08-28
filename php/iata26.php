@@ -315,8 +315,8 @@ echo "
 # Travel
 ## China Days
 ```
-Start , Days
-------, -- 
+Start ,Days
+------, --- 
 260812,  8
 260710,  2
 260608, 13
@@ -326,17 +326,17 @@ Start , Days
 260305,  6
 260205,  7
 260107,  8
-
-TOTAL ,  75
 ```
+  **Total 75** ytd
+
 ## Trips & Points
 ```
-Date ,Who,Frm, To , By, Flgt, doy, FFpts\n__________________________________";
+Date ,Who,Frm, To , By, Flgt, doy, FFpt\n__________________________________";
 foreach ($output_with_ff as $line) {
     echo "$line\n";
 }
 
-echo "
+echo "```
 - Note airline 'tr' is train, 'rd' is road
 - Airline code/custom name used for train stn
 - The item 'K' = 'K M, 'C' = 'J C' aka 'S M'
