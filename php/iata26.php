@@ -338,7 +338,7 @@ foreach ($output_with_ff as $line) {
 
 echo "```
 **Notes**
--airline 'tr' is train, 'rd' is road
+- airline 'tr' is train, 'rd' is road
 - Airline code/custom name used for train stn
 - The item 'K' = 'K M, 'C' = 'J C' aka 'S M'
 - K and C travel together, 'Home Port' is HKG
