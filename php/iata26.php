@@ -311,17 +311,27 @@ foreach ($output as $line) {
 }
 
 // === OUTPUT RESULTS ===
-echo "<pre> Date ,Who,Frm, To , By, Flgt, doy, FFpts\n__________________________________";
+echo "
+# Travel
+## China Days
+```
+
+260511  6  000000   0  000000  0
+```
+## Trips & Points
+```
+Date ,Who,Frm, To , By, Flgt, doy, FFpts\n__________________________________";
 foreach ($output_with_ff as $line) {
     echo "$line\n";
 }
 
-echo "\nNote airline 'tr' is train, 'rd' is road trip,
-Airline code/custom name used for train stn.\n
-The item 'K' = 'K M, 'C' = 'J C' aka 'S M'.\n
-The K and C travel together, 'Home Port' is HKG.\n
-FFpts column: shows frequent flyer program when points credited, blank = missed/ineligible\n
-Total lines processed: " . count($output_with_ff) . "</p>";
+echo "
+- Note airline 'tr' is train, 'rd' is road
+- Airline code/custom name used for train stn
+- The item 'K' = 'K M, 'C' = 'J C' aka 'S M'
+- K and C travel together, 'Home Port' is HKG
+- FFpts column: ff if credited, blank = missed
+- Total lines processed: " . count($output_with_ff)"";
 
 // === SAVE TO CSV ===
 function saveToCsv($output, $filename) {
