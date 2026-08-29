@@ -312,8 +312,9 @@ foreach ($output as $line) {
 
 // === OUTPUT RESULTS ===
 echo "
-# Travel
-## China Days
+_** 2026 TRAVEL SUMMARY**_
+
+** CHINA DAYS **
 ```
 Start ,Days
 ------, --- 
@@ -328,8 +329,8 @@ Start ,Days
 260107,  8
 ```
   **Total 75** ytd
-
-## Trips & Points
+  
+**TRIPS & POINTS**
 ```
 Date ,Who,Frm, To , By, Flgt, doy, FFpt\n__________________________________";
 foreach ($output_with_ff as $line) {
@@ -337,7 +338,7 @@ foreach ($output_with_ff as $line) {
 }
 
 echo "```
-**Notes**
+_Notes_
 - airline 'tr' is train, 'rd' is road
 - Airline code/custom name used for train stn
 - The item 'K' = 'K M, 'C' = 'J C' aka 'S M'
