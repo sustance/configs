@@ -22,7 +22,7 @@
   <sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
-     bordercolor="#111111"
+     bordercolor="#cccccc"
      borderopacity="1"
      inkscape:showpageshadow="0"
      inkscape:pageopacity="0"
