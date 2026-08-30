@@ -15,7 +15,7 @@ foreach ($data['servers'] as $server) {
     $osClass = $server['os'] ?? 'Linux';
     echo "<p>";    
     // Basic server info
-    echo " <b class=\"$osClass\">{$server['name']}</b> ";    
+    echo " <tt><b class=\"$osClass\">{$server['name']}</b></tt> ";    
     echo "<span>{$server['country']}</span> ";    
     echo "<a href=\"http://{$server['host_url']}\">{$server['host_url']}</a>\n";  
     echo "<a href=\"http://{$server['host_url']}/~{$server['account_name']}\">/~{$server['acc_nm_short']}</a>\n"; 
