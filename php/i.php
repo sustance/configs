@@ -22,7 +22,7 @@
   <sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
-     bordercolor="#cccccc"
+     bordercolor="#000000"
      borderopacity="1"
      inkscape:showpageshadow="0"
      inkscape:pageopacity="0"
@@ -37,7 +37,7 @@
      font-family="Verdana"
      font-size="100px"
      fill="rgba(255, 99, 132, 0.1)"
-     stroke="#000000"
+     stroke="#555555"
      stroke-width="1"
      id="text1"
      style="font-size:64px;stroke-width:1.5;stroke-dasharray:none"><tspan
