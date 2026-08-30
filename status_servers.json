@@ -58,7 +58,7 @@
       "ip_address": "142.44.150.184",
       "apps_running": "nothing here",
       "links": ["diy", "i"],
-      "os": "Fedora"
+      "os": "Linux"
     },
     {
       "name": "e",
@@ -188,7 +188,7 @@
       "ip_address": "142.250.198.206",
       "apps_running": ["editor", "5GB storage"],
       "links": [""],
-      "os": "Google"
+      "os": "Linux"
     },    
     {
       "name": "r",
@@ -201,7 +201,7 @@
       "ip_address": "54.38.176.219",
       "apps_running": "",
       "links": ["test"],
-      "os": "Debian"
+      "os": "Linux"
     },
     {
       "name": "t",
@@ -266,7 +266,7 @@
       "ip_address": "port 8443",
       "apps_running": "opkg etherwake",
       "links": [],
-      "os": "WrtMerlin"
+      "os": "Linux"
     },
     {
       "name": "4",
