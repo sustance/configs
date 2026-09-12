@@ -101,6 +101,7 @@ M1JI/CHUNMS     ENJ4Y0H HKGTPEHX 0260 250O032H0062 147>3182OO6250BHX 29851395462
 
 __MICHAEL/KYM   xxxxxxx mfmhkgdr  0000 250z 00
 __JI/CHUN       xxxxxxx mfmhkgdr  0000 250z 00
+
 __MICHAEL/KYM   xxxxxxx hkgmfmdr  0000 248z 00
 __JI/CHUN       xxxxxxx hkgmfmdr  0000 248z 00
  
@@ -411,6 +412,8 @@ foreach ($output_with_ff as $line) {
 
 echo "```
 _Notes_
+- rd/train trips capture all border crossings
+- rd/train fill the gaps in logical sequence
 - X in points col means not relevant
 - ### in points means inferred, not checked
 - airline 'tr' is train, 'rd' is road
