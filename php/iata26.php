@@ -1,3 +1,5 @@
+260327, C, hkg, can, tr, 6536, 086, 
+
 <?php
 // Shared on tilde/pubnix as they need useful script to attract more users/sponsors
 // This is PHP as that is widely available on Pubnix server = free
@@ -99,11 +101,11 @@ M1JI/CHUNMS     ENJ4Y0H TPEHKGHX 0255 252O032C0073 147>3182OO6252BHX 29851395462
 M1MICHAEL/KYMMR ENJ4Y0H HKGTPEHX 0260 250O032C0063 147>3181OO6250BHX 29851395462163702HX HU 3519793682  1PC
 M1JI/CHUNMS     ENJ4Y0H HKGTPEHX 0260 250O032H0062 147>3182OO6250BHX 29851395462163802HX HU 3519793660 1PC
 
-__MICHAEL/KYM   xxxxxxx mfmhkgdr  0000 250z 00
-__JI/CHUN       xxxxxxx mfmhkgdr  0000 250z 00
+__MICHAEL/KYM   xxxxxxx mfmhkgdr 0000 250z 00
+__JI/CHUN       xxxxxxx mfmhkgdr 0000 250z 00
 
-__MICHAEL/KYM   xxxxxxx hkgmfmdr  0000 248z 00
-__JI/CHUN       xxxxxxx hkgmfmdr  0000 248z 00
+__MICHAEL/KYM   xxxxxxx hkgmfmdr 0000 248z 00
+__JI/CHUN       xxxxxxx hkgmfmdr 0000 248z 00
  
 M1MICHAEL/KYM   EQZL7KL PVGHKGHX 0247 231T033H0079 100     
 M1JI/CHUN       EQZL7KL PVGHKGHX 0247 231T033C0080 100                                                                    
@@ -355,7 +357,11 @@ foreach ($ff_lines as $ff_line) {
         
         $key = $date . '_' . $person;
         if (!empty($marker)) {
-            $ff_points[$key] = $marker;
+            // Initialize as an array to support multiple trips on the same day
+            if (!isset($ff_points[$key])) {
+                $ff_points[$key] = [];
+            }
+            $ff_points[$key][] = $marker;
         }
     }
 }
@@ -373,7 +379,11 @@ foreach ($output as $line) {
             $person = $parts[1];
             $key = $date . '_' . $person;
             
-            $marker = isset($ff_points[$key]) ? $ff_points[$key] : '';
+            $marker = '';
+            // Pull the next available marker for this specific day/person
+            if (isset($ff_points[$key]) && !empty($ff_points[$key])) {
+                $marker = array_shift($ff_points[$key]);
+            }
             $output_with_ff[] = $line . ', ' . $marker;
         } else {
             $output_with_ff[] = $line;
@@ -384,7 +394,8 @@ foreach ($output as $line) {
 }
 
 // === OUTPUT RESULTS ===
-echo "
+// Using Heredoc syntax to avoid markdown formatting issues with backticks and quotes
+echo <<<TRAVELSUMMARY
 _** 2026 TRAVEL SUMMARY**_
 
 ** CHINA DAYS **
@@ -405,12 +416,16 @@ Start ,Days
   
 **TRIPS & POINTS**
 ```
-Date ,Who,Frm, To , By, Flgt, doy, FFpt\n__________________________________";
+Date ,Who,Frm, To , By, Flgt, doy, FFpt
+__________________________________
+TRAVELSUMMARY;
+
 foreach ($output_with_ff as $line) {
-    echo "$line\n";
+    echo $line . "\n";
 }
 
-echo "```
+echo <<<NOTES
+```
 _Notes_
 - rd/train trips capture all border crossings
 - rd/train fill the gaps in logical sequence
@@ -421,7 +436,9 @@ _Notes_
 - The item 'K' = 'K M, 'C' = 'J C' aka 'S M'
 - K and C travel together, 'Home Port' is HKG
 - FFpt column: ff if credited, blank = missed
-- Total lines processed: " . count($output_with_ff);
+- Total lines processed: 
+NOTES;
+echo count($output_with_ff);
 
 // === SAVE TO CSV ===
 function saveToCsv($output, $filename) {
@@ -447,7 +464,7 @@ saveToCsv($output_with_ff, $filename);
 
 foreach ($lines as $line) {
     // Skip empty lines and placeholder lines starting with "__"
-    if (empty($line) === 0) {
+    if (empty($line)) {
         continue;
     }
 
