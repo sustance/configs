@@ -438,6 +438,8 @@ _Notes_
 NOTES;
 echo count($output_with_ff);
 
+echo "</pre>"
+
 // === SAVE TO CSV ===
 function saveToCsv($output, $filename) {
     $file = fopen($filename, 'w');
