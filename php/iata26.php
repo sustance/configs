@@ -231,7 +231,7 @@ M1JI/CHUNMS     EQZTEY3 HKGTPEHX 0260 005O050C0006 147>3182WW6003BHX 29851604682
 260909, C, fwc Wait
  
 260907, K, fwc 0
-260907, C, fwc 0###
+260907, C, fwc 0##
 
 260907, K, x
 260907, C, x
@@ -240,7 +240,7 @@ M1JI/CHUNMS     EQZTEY3 HKGTPEHX 0260 005O050C0006 147>3182WW6003BHX 29851604682
 260905, C, x
 
 260819, K, fwc 936
-260819, C, fwc 936####
+260819, C, fwc 936##
 
 260813, K, m&m 20
 260813, C, m&m 20
@@ -264,7 +264,7 @@ M1JI/CHUNMS     EQZTEY3 HKGTPEHX 0260 005O050C0006 147>3182WW6003BHX 29851604682
 260707, C, 
 
 260620, K, fwc 897
-260620, C, fwc 897####
+260620, C, fwc 897##
 
 260619, K, x
 260619, C, x
@@ -273,7 +273,7 @@ M1JI/CHUNMS     EQZTEY3 HKGTPEHX 0260 005O050C0006 147>3182WW6003BHX 29851604682
 260617, C, x
 
 260613, K, fwc 0
-260613, C, fwc 0###
+260613, C, fwc 0##
 
 260609, K, 
 260609, C, fwc
@@ -282,13 +282,13 @@ M1JI/CHUNMS     EQZTEY3 HKGTPEHX 0260 005O050C0006 147>3182WW6003BHX 29851604682
 260608, C, x
 
 260520, K, fwc 910
-260520, C, fwc 919###
+260520, C, fwc 919##
 
 260512, K, fwc x
 260512, C, fwc x
 
 260511, K, fwc 910
-260511, C, fwc 910###
+260511, C, fwc 910##
 
 260430, K, am 600 
 260430, C, 
@@ -315,10 +315,10 @@ M1JI/CHUNMS     EQZTEY3 HKGTPEHX 0260 005O050C0006 147>3182WW6003BHX 29851604682
 260302, C, m&m 20
 
 260211, K, fwc 0
-260211, C, fwc 0####
+260211, C, fwc 0##
 
 260205, K, fwc 1105
-260205, C, fwc 0####
+260205, C, fwc 0##
 
 260124, K, m&m 20
 260124, C, m&m 20
@@ -330,10 +330,10 @@ M1JI/CHUNMS     EQZTEY3 HKGTPEHX 0260 005O050C0006 147>3182WW6003BHX 29851604682
 260114, C, 
 
 260105, K, fwc 0
-260105, C, fwc 0####
+260105, C, fwc 0##
 
 251017, K, fwc 373.2
-251017, C, fwc 373.2####
+251017, C, fwc 373.2##
 
 250107, K, del 147 
 250107, K, 
@@ -415,7 +415,7 @@ _Notes_
 - rd/train trips capture all border crossings
 - rd/train fill the gaps in logical sequence
 - X in points col means not relevant
-- ### in points means inferred, not checked
+- ## in points means inferred, not checked
 - airline 'tr' is train, 'rd' is road
 - Airline code/custom name used for train stn
 - The item 'K' = 'K M, 'C' = 'J C' aka 'S M'
