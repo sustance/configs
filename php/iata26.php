@@ -501,7 +501,7 @@ if (file_put_contents($jsonFile, $jsonData) !== false) {
 } else {
     echo "\nFailed to write JSON file.\n";
 }
-260327, C, hkg, can, tr, 6536, 086, 
+
 
 <?php
 // Shared on tilde/pubnix as they need useful script to attract more users/sponsors
