@@ -54,6 +54,8 @@ $head = file_get_contents('https://raw.githubusercontent.com/sustance/configs/re
 echo $head;
 ?>
 
+   pdfbook2 --paper=a5paper --no-crop --inner-margin=0 --outer-margin=0 a6.pdf
+
 <pre>                   C E F O J T    I P
 allow_url_fopen    : ENABLED      : DISABLED
 allow_url_include  : DISABLED     : DISABLED
