@@ -393,6 +393,9 @@ foreach ($output as $line) {
 
 // === OUTPUT RESULTS ===
 // Using Heredoc syntax to avoid markdown formatting issues with backticks and quotes
+
+echo "<pre>";
+
 echo <<<TRAVELSUMMARY
 _** 2026 TRAVEL SUMMARY**_
 
@@ -440,7 +443,7 @@ _Notes_
 NOTES;
 echo count($output_with_ff);
 
-
+echo "</pre>";
 
 // === SAVE TO CSV ===
 function saveToCsv($output, $filename) {
