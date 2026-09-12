@@ -393,10 +393,9 @@ foreach ($output as $line) {
 
 // === OUTPUT RESULTS ===
 // Using Heredoc syntax to avoid markdown formatting issues with backticks and quotes
-echo <<< 
- <pre>TRAVELSUMMARY
+echo <<< TRAVELSUMMARY
 _** 2026 TRAVEL SUMMARY**_
-
+ <pre>
 ** CHINA DAYS **
 ```
 Start ,Days
