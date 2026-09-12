@@ -393,7 +393,8 @@ foreach ($output as $line) {
 
 // === OUTPUT RESULTS ===
 // Using Heredoc syntax to avoid markdown formatting issues with backticks and quotes
-echo <<<TRAVELSUMMARY
+echo <<< 
+ <pre>TRAVELSUMMARY
 _** 2026 TRAVEL SUMMARY**_
 
 ** CHINA DAYS **
@@ -940,7 +941,7 @@ _Notes_
 - K and C travel together, 'Home Port' is HKG
 - FFpt column: ff if credited, blank = missed
 - Total lines processed: 
-NOTES;
+NOTES; </pre>
 echo count($output_with_ff);
 
 // === SAVE TO CSV ===
