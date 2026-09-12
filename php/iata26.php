@@ -411,6 +411,8 @@ foreach ($output_with_ff as $line) {
 
 echo "```
 _Notes_
+- X in points col means not relevant
+- ### in points means inferred, not checked
 - airline 'tr' is train, 'rd' is road
 - Airline code/custom name used for train stn
 - The item 'K' = 'K M, 'C' = 'J C' aka 'S M'
