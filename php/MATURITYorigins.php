@@ -1,3 +1,12 @@
+
+from 60924, 60324, 5.20, hk:, h,hs^c132
+to   61224, 60924, 5.60, hk:, h,hs^c137
+
+from salary, 
+to   61228, 60925, 0.60, hk:, h,hs^c138
+
+
+
 from 60820, 60520, 0.03, au:, h,hs^c131 ✔️@
 to   NOT DONE YET CHECK/CORRECT
      61123, 60823, 0.03, au:, h,hs^c🆕🆕?
