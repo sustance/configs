@@ -460,14 +460,14 @@ echo "</php>";
 echo <<<NOTES
 ```
 _Notes_
-- rd/train trips capture all border crossings
+- rd/train trips for all border crossings
 - rd/train fill the gaps in logical sequence
 - X in points col means not relevant
 - ## in points means inferred, not checked
 - airline 'tr' is train, 'rd' is road
-- Airline code/custom name used for train stn
+- Airline code/custom name for train stn
 - The item 'K' = 'K M, 'C' = 'J C' aka 'S M'
-- K and C travel together, 'Home Port' is HKG
+- K and C travel together, 'Home Port' HKG
 - FFpt column: ff if credited, blank = missed
 - Total lines processed: 
 NOTES;
