@@ -93,12 +93,14 @@ function processData($data, $year) {
 
 
  $data = ' 
+__MICHAEL/KYM         0000000 zuhhkgrd 0000 319z 00
+__JI/CHUN             0000000 zuhhkgrd 0000 319z 00
 
-__MICHAEL/KYM         0000000 szxhkgrd 0000 319z 00
-__JI/CHUN             0000000 szxhkgrd 0000 319z 00
+__MICHAEL/KYM         0000000 szxzuhfe 0000 319z 00
+__JI/CHUN             0000000 szxzuhfe 0000 319z 00
 
-__MICHAEL/KYM         0000000 ooooootr G2931 318z 00
-__JI/CHUN             0000000 ooooootr G2931 318z 00
+__MICHAEL/KYM         0000000 kwlszxtr G2931 318z 00
+__JI/CHUN             0000000 kwlszxtr G2931 318z 00
 
 __MICHAEL/KYM         0000000 yaskwltr D1892 316z 00
 __JI/CHUN             0000000 yaskwltr D1892 316z 00
