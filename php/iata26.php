@@ -481,6 +481,7 @@ _** 2026 TRAVEL SUMMARY**_
 ```
 Start ,Days
 ------, --- 
+261105, 11
 261007,  9
 260812,  8
 260710,  2
@@ -492,7 +493,7 @@ Start ,Days
 260205,  7
 260107,  8
 ```
-  **Total 84** ytd
+  **Total 95** ytd
   
 **TRIPS & POINTS**
 ```
