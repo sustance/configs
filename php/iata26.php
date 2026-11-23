@@ -94,19 +94,23 @@ function processData($data, $year) {
 
  $data = ' 
 
- Kwl guilin
+__MICHAEL/KYM         0000000 szxhkgrd 0000 319z 00
+__JI/CHUN             0000000 szxhkgrd 0000 319z 00
 
-__MICHAEL/KYM         0000000 zuhy-str G3876 312z 00
-__JI/CHUN             0000000 zuhy-str G3876 312z 00
+__MICHAEL/KYM         0000000 ooooootr G2931 318z 00
+__JI/CHUN             0000000 ooooootr G2931 318z 00
 
+__MICHAEL/KYM         0000000 yaskwltr D1892 316z 00
+__JI/CHUN             0000000 yaskwltr D1892 316z 00
+
+__MICHAEL/KYM         0000000 zuhyastr G3876 312z 00
+__JI/CHUN             0000000 zuhyastr G3876 312z 00
 
 __MICHAEL/KYM         0000000 hkgzuhrd 0000 309z 00
 __JI/CHUN             0000000 hkgzuhrd 0000 309z 00
 
+-------------------
 
-
-
- 
 M1MICHAEL/KYM         E9VEO43 TPEHKGCX 0421 290Y042H0194 34B>6180 K6290BCX 2A16052868109950 CX CX 1078165297 N8AM
 M1JI/CHUN             E9VEO43 TPEHKGCX 0421 290Y042G0193 34B>6180 K6290BCX 2A16052868109940 CX CX 1022433862 N8AM
 
